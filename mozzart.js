@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-const url = 'https://www.mozzartbet.co.ke/en#/';
+const url = 'https://betting.co.zw/virtual/fast-games/';
 const username = process.env.MOZZARTUSERNAME;
 const password = process.env.MOZZARTPASSWORD;
 
@@ -8,8 +8,8 @@ const password = process.env.MOZZARTPASSWORD;
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
-    // Increase the navigation timeout to 60 seconds (60000 ms)
-    page.setDefaultNavigationTimeout(60000000);
+    // Increase the navigation timeout to 10 seconds (60000 ms)
+    page.setDefaultNavigationTimeout(10000000);
 
     await page.goto(url);
 
@@ -22,8 +22,8 @@ function sleep(ms) {
 }
 
 // Click the Aviator game link before login
-await page.waitForSelector('p.offer-link.dark.mozzart_ke a.aviator');
-await page.click('p.offer-link.dark.mozzart_ke a.aviator');
+await page.waitForSelector('p.offer-link.dark.betting_co_zw a.aviator');
+await page.click('p.offer-link.dark.betting_co_zw a.aviator');
 console.log('Clicked Aviator game link before login.');
 
 
@@ -32,15 +32,15 @@ await page.waitForSelector('input[type="text"][placeholder="Mobile number"]');
 await page.waitForSelector('input[type="password"][placeholder="Password"]');
 
 // Type username and password
-await page.type('input[type="text"][placeholder="Mobile number"]', username);
-await page.type('input[type="password"][placeholder="Password"]', password);
+await page.type('input[type="text"][placeholder="Mobile number"]', 0716962179);
+await page.type('input[type="password"][placeholder="Password"]', geezo2010);
 
 // Click the submit button and log in
 await Promise.all([
     page.click('button.login-button'),
   page.waitForNavigation({ waitUntil: 'networkidle0' }),
     
-  page.click('p.offer-link.dark.mozzart_ke a.aviator'),
+  page.click('p.offer-link.dark.betting_co_zw a.aviator'),
 
 ]);
 console.log('Submitted mobile number and password.');
@@ -49,8 +49,8 @@ console.log('Submitted mobile number and password.');
 await sleep(5000);
 
 // Click the Aviator game link again after 5 seconds
-await page.waitForSelector('p.offer-link.dark.mozzart_ke a.aviator');
-await page.click('p.offer-link.dark.mozzart_ke a.aviator');
+await page.waitForSelector('p.offer-link.dark.betting_co_zw a.aviator');
+await page.click('p.offer-link.dark.betting_co_zw a.aviator');
 console.log('Clicked Aviator game link after 5-second delay.');
 
 
