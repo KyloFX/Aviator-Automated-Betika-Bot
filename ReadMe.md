@@ -95,3 +95,9 @@ In future versions of the Aviator Betting Bot, we plan to introduce the followin
 
 ## Contributing
 Contributions are welcome! If you'd like to improve this project or add new features, feel free to fork the repository and create a pull request.
+
+GC edits:
+**Install Required Modules**
+```bash
+npm install puppeteer puppeteer-extra puppeteer-extra-plugin-stealth
+```

@@ -1,4 +1,3 @@
-const puppeteer = require('puppeteer');
 const mysql = require('mysql');
 
 // const connection = mysql.createConnection({
@@ -39,142 +38,73 @@ let previousBubbleValue = null;
 // };
 
 
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+puppeteer.use(StealthPlugin());
+
+const username = process.env.MOZZARTUSERNAME;
+const password = process.env.MOZZARTPASSWORD;
+
+const gamePageUrl = 'https://betting.co.zw/virtual/fast-games';  // Game URL (update as per your case)
+const loginUrl = 'https://betting.co.zw/authentication/login'; // Login URL
+
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+// Retry helper for unstable actions
+const retry = async (fn, retries = 3, delay = 1000) => {
+    for (let i = 0; i < retries; i++) {
+        try {
+            return await fn();
+        } catch (error) {
+            console.error(`[Retry ${i + 1}] Error:`, error.message);
+            if (i < retries - 1) await sleep(delay);
+        }
+    }
+    throw new Error('Failed after maximum retries.');
+};
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: false });
-  const page = await browser.newPage();
-
-  // Increase the default navigation timeout
   page.setDefaultNavigationTimeout(60000); // 60 seconds
+    const browser = await puppeteer.launch({ headless: false });
+    const page = await browser.newPage();
+    page.setDefaultNavigationTimeout(60000);  // 60 seconds for navigation timeout
 
-  await page.goto('https://spribe.co/welcome');
+    console.log(`[${new Date().toISOString()}] Navigating to ${gamePageUrl}`);
+    await page.goto(gamePageUrl);
 
-  await page.waitForSelector('.accordion-body.shadow');
-  await page.click('.accordion-body.shadow');
+    // Wait for the game selector to appear on the page
+    const isGameLive = await page.$(gameSelector);  // Check if the game element exists
 
-  await page.waitForSelector('.btn.btn-primary.btn-lg.px-5.btn-demo.btn-danger');
-  await page.click('.btn.btn-primary.btn-lg.px-5.btn-demo.btn-danger');
+    if (isGameLive) {
+        console.log(`[${new Date().toISOString()}] Game is already live. Proceeding with betting logic.`);
+        await startBettingLogic(page);
+    } else {
+        console.log(`[${new Date().toISOString()}] Game not found, navigating to the game page...`);
+        // Navigate to the game page if it's not already live
+        await page.goto(gamePageUrl);
+        await page.waitForSelector(gameSelector, { visible: true, timeout: 30000 });
+        console.log(`[${new Date().toISOString()}] Game found, proceeding with betting logic.`);
+        await startBettingLogic(page);
+    }
 
-  await page.waitForSelector('.btn.btn-md.btn-primary.btn-age');
-  await page.click('.btn.btn-md.btn-primary.btn-age');
+    // Retain the browser open to observe the game (you can uncomment to close after some time)
+    // await browser.close();
+})();
 
-  // Listen for the targetcreated event to detect when a new tab is opened
-  browser.on('targetcreated', async target => {
-    if (target.type() === 'page') {
-      const newPage = await target.page();
-      console.log('success');
+const startBettingLogic = async (page) => {
+    console.log(`[${new Date().toISOString()}] Starting betting logic...`);
 
-      // Log the new page's URL if newPage is not null
-      if (newPage) {
-        await newPage.waitForNavigation();
-          console.log(await newPage.url());
-
-          //TEST MODE
-          async function waitForSelectorInFrames(page, selector, timeout = 30000) {
-            const startTime = new Date().getTime();
-            let currentFrame = null;
-            let frameFound = false;
-    
-            while (new Date().getTime() - startTime < timeout) {
-                for (const frame of page.frames()) {
-                    try {
-                        await frame.waitForSelector(selector, { timeout: 1000 });
-                        currentFrame = frame;
-                        frameFound = true;
-                        break;
-                    } catch (error) {
-                        // Ignore the error and continue searching
-                    }
-                }
-    
-                if (frameFound) break;
-    
-                await new Promise(resolve => setTimeout(resolve, 1000));
-            }
-    
-            if (!frameFound) {
-                throw new Error(`Selector "${selector}" not found in any frame.`);
-            }
-    
-            return currentFrame;
-        }
-    
-    
-    
-            let previousAppBubbleValue = null;
-            let shouldBet = false;
-            
-            const logLatestAppBubbleValue = async () => {
-              try {
-                const frame = await waitForSelectorInFrames(newPage, '.payouts-wrapper .bubble-multiplier');
-            
-                const appBubbleValue = await frame.evaluate(() => {
-                    const bubbleMultipliers = document.querySelectorAll('.payouts-wrapper .bubble-multiplier');
-                    const latestBubbleMultiplier = bubbleMultipliers[0];
-                    const value = latestBubbleMultiplier ? latestBubbleMultiplier.textContent.trim() : null;
-                    return value ? parseFloat(value.slice(0, -1)) : null;
-                });
-                  
-                const myBalance = await frame.evaluate(() => {
-                    const balanceElement = document.querySelector('.balance .amount');
-                    const balanceText = balanceElement ? balanceElement.textContent.trim() : null;
-                    return balanceText ? parseFloat(balanceText) : null;
-                  });
-                  
-                  console.log('Latest data win :?', appBubbleValue);
-                  console.log('Latest Balance is :?', myBalance);
-
-                  //saveToDatabase(appBubbleValue);
-
-
-                if (appBubbleValue < 1.50 && (previousAppBubbleValue === null || appBubbleValue !== previousAppBubbleValue)) {
-                  shouldBet = true;
-                } else {
-                  shouldBet = false;
-                }
-            
-                  if (shouldBet) {
-                    
-                  console.log('sudoMode::>>isBetting.');
-            
-                  const betButtonFrame = await waitForSelectorInFrames(newPage, 'div.buttons-block > button.btn.btn-success.bet.ng-star-inserted', 60000);
-            
-                  await betButtonFrame.evaluate(() => {
-                    const betButton = document.querySelector('div.buttons-block > button.btn.btn-success.bet.ng-star-inserted');
-                    if (betButton) {
-                      const buttonText = betButton.textContent.trim().toLowerCase();
-                      console.log('Button text:', buttonText);
-            
-                      if (buttonText !== 'cancel') {
-                        betButton.click();
-                        console.log('isBetting > Clicked !');
-                      } else {
-                        console.log('Bet In');
-                      }
-                    }
-                  });
-                } else {
-                  console.log('Latest > 1.50, isWaiting.');
-                }
             
                 previousAppBubbleValue = appBubbleValue;
-            
-                await newPage.mainFrame();
-              } catch (error) {
-                console.error('Error while trying to log latest app bubble value:', error.message);
-              }
-            };
-            
-            setInterval(logLatestAppBubbleValue, 4000);     
+    // Wait for the play button to appear and click it
+    await page.waitForSelector(playButtonSelector, { visible: true });
+    await page.click(playButtonSelector);
+    console.log(`[${new Date().toISOString()}] Clicked 'Play Now' button.`);
 
-      } else {
-        console.log('newPage is null');
-      }
-    }
-  });
+    // Additional betting actions can be added here
+    // For example, wait for the game event, place a bet, etc.
 
-  // Close the browser after 24 hours
-  setTimeout(async () => {
-    await browser.close();
-  }, 24 * 60 * 60 * 1000); // 24 hours in milliseconds
-})();
+    // Example of waiting for the game to settle before placing another bet
+    await sleep(10000);  // Wait for 10 seconds before next action (you can modify timing based on the game)
+    console.log(`[${new Date().toISOString()}] Betting action completed.`);
+};

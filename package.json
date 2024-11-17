@@ -21,6 +21,9 @@
     "process": "^0.11.10",
     "puppeteer": "^19.8.5",
     "puppeteer-core": "^22.3.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "python-shell": "^5.0.0",
     "socket.io": "^4.6.1"
   }
