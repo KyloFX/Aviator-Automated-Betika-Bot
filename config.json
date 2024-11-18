@@ -1,0 +1,27 @@
+{
+    "bubbleMultiplierThreshold": 1.50,
+    "betInterval": 4000,
+    "bubbleSelector": ".payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div",
+    "balanceSelector": ".balance .amount",
+    "betButtonSelector": "button.btn.btn-success.bet.ng-star-inserted",
+    "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",
+    "logFile": "betting_log.txt",
+    "minBetAmount": 0.10,
+    "maxBetAmount": 100,
+    "betPercentage": 0.1,
+    "allInAfterWins": 5,
+    "growthFactor": 2,
+    "fibonacciSequence": [0.05, 0.05],
+    "strategyWeights": { "exponential": 1, "fibonacci": 0.7, "default": 1 },
+    "email": {
+        "host": "mail.google.com",
+        "port": 587,
+        "secure": false,
+        "auth": {
+            "user": "k2me2016@gmail.com",
+            "pass": "klick2016"
+        },
+        "from": "k2me2016@gmail.com",
+        "to": "k2me2016@gmail.com"
+    }
+}

@@ -1,8 +1,25 @@
 const puppeteer = require('puppeteer');
 
-const url = 'https://www.mozzartbet.co.ke/en#/';
+const url = 'https://betting.co.zw/virtual/fast-games';
+const loginUrl = 'https://betting.co.zw/authentication/login';
 const username = process.env.MOZZARTUSERNAME;
 const password = process.env.MOZZARTPASSWORD;
+
+// Helper to pause execution
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+// Retry helper for unstable actions
+const retry = async (fn, retries = 3, delay = 1000) => {
+    for (let i = 0; i < retries; i++) {
+        try {
+            return await fn();
+        } catch (error) {
+            console.error(`[Retry ${i + 1}] Error:`, error.message);
+            if (i < retries - 1) await sleep(delay);
+        }
+    }
+    throw new Error('Failed after maximum retries.');
+};
 
 (async () => {
     const browser = await puppeteer.launch({ headless: false });
