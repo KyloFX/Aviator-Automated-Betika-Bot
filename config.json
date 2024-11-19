@@ -2,7 +2,7 @@
     "bubbleMultiplierThreshold": 1.50,
     "betInterval": 4000,
     "bubbleSelector": ".payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div",
-    "balanceSelector": ".balance .amount",
+    "balanceSelector": ".amount.font-weight-bold",
     "betButtonSelector": "button.btn.btn-success.bet.ng-star-inserted",
     "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",
     "logFile": "betting_log.txt",
