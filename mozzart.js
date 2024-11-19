@@ -25,9 +25,10 @@ const retry = async (fn, retries = 3, delay = 1000) => {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
-    // Increase the navigation timeout to 60 seconds (60000 ms)
-    page.setDefaultNavigationTimeout(60000000);
+    // Set default timeout for navigation
+    page.setDefaultNavigationTimeout(60000);
 
+    console.log(`[${new Date().toISOString()}] Navigating to ${url}`);
     await page.goto(url);
 
 // Navigate to the site
@@ -52,136 +53,58 @@ await page.waitForSelector('input[type="password"][placeholder="Password"]');
 await page.type('input[type="text"][placeholder="Mobile number"]', username);
 await page.type('input[type="password"][placeholder="Password"]', password);
 
-// Click the submit button and log in
-await Promise.all([
-    page.click('button.login-button'),
-  page.waitForNavigation({ waitUntil: 'networkidle0' }),
-    
-  page.click('p.offer-link.dark.mozzart_ke a.aviator'),
+    // Submit login form
+    console.log(`[${new Date().toISOString()}] Submitting login form...`);
+    await page.waitForSelector('span#buttonLoginSubmitLabel', { visible: true });
+    await page.click('span#buttonLoginSubmitLabel');
+    await page.waitForNavigation({ waitUntil: 'domcontentloaded' });
 
-]);
-console.log('Submitted mobile number and password.');
+    console.log(`[${new Date().toISOString()}] Logged in successfully.`);
 
-// Wait for 5 seconds
-await sleep(5000);
+    // Navigate to Fast Games and the Aviator game
+    try {
+        console.log(`[${new Date().toISOString()}] Navigating to the Aviator game...`);
+        await page.goto(url);
 
-// Click the Aviator game link again after 5 seconds
-await page.waitForSelector('p.offer-link.dark.mozzart_ke a.aviator');
-await page.click('p.offer-link.dark.mozzart_ke a.aviator');
-console.log('Clicked Aviator game link after 5-second delay.');
+        // Wait for the Aviator game image and click
+        const gridSelector = 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img';
+        const playButtonSelector = 'button.au-m-btn.positive';
 
+        await retry(async () => {
+            await page.waitForSelector(gridSelector, { visible: true, timeout: 10000 });
+            await page.click(gridSelector);
+        });
 
+        console.log(`[${new Date().toISOString()}] Waiting for "PLAY NOW" button in the modal...`);
+        await page.waitForSelector(playButtonSelector, { visible: true, timeout: 5000 });
+        await page.click(playButtonSelector);
 
-    async function waitForSelectorInFrames(page, selector, timeout = 30000) {
-        const startTime = new Date().getTime();
-        let currentFrame = null;
-        let frameFound = false;
+        console.log(`[${new Date().toISOString()}] PLAY NOW button clicked. Waiting for 6 seconds before continuing...`);
+        // Wait for 6 seconds after clicking the Play Now button
+        await sleep(6000);  // 6 seconds
 
-        while (new Date().getTime() - startTime < timeout) {
-            for (const frame of page.frames()) {
-                try {
-                    await frame.waitForSelector(selector, { timeout: 1000 });
-                    currentFrame = frame;
-                    frameFound = true;
-                    break;
-                } catch (error) {
-                    // Ignore the error and continue searching
-                }
-            }
-
-            if (frameFound) break;
-
-            await new Promise(resolve => setTimeout(resolve, 1000));
-        }
-
-        if (!frameFound) {
-            throw new Error(`Selector "${selector}" not found in any frame.`);
-        }
-
-        return currentFrame;
+    } catch (error) {
+        console.error(`[${new Date().toISOString()}] Error navigating to Aviator game: ${error.message}`);
     }
 
+    // Wait for 6 seconds before moving forward
+    console.log(`[${new Date().toISOString()}] Waiting for 10 seconds...`);
+    await sleep(10000); // Wait for 10 seconds before handing over control to index.js
 
-    /*
-      try {
-          const betButtonFrame = await waitForSelectorInFrames(page, 'div.buttons-block > button.btn.btn-success.bet.ng-star-inserted', 60000);
-      
-          await betButtonFrame.evaluate(() => {
-            const betButton = document.querySelector('div.buttons-block > button.btn.btn-success.bet.ng-star-inserted');
-            if (betButton) {
-              betButton.click();
-            }
-          });
-      
-          console.log('Clicked the bet button.');
-        } catch (error) {
-          console.error('Error while trying to click the bet button:', error.message);
+    // Execute the index.js script for betting logic
+    console.log(`[${new Date().toISOString()}] Starting betting logic in index.js...`);
+    exec('node index.js', (error, stdout, stderr) => {
+        if (error) {
+            console.error(`[Error executing index.js]: ${error.message}`);
+            return;
         }
-  */
+        if (stderr) {
+            console.error(`stderr from index.js: ${stderr}`);
+            return;
+        }
+        console.log(`Output from index.js:\n${stdout}`);
+    });
 
-
-        let previousAppBubbleValue = null;
-        let shouldBet = false;
-        
-        const logLatestAppBubbleValue = async () => {
-          try {
-            const frame = await waitForSelectorInFrames(page, '.payouts-wrapper .bubble-multiplier');
-        
-            const appBubbleValue = await frame.evaluate(() => {
-              const bubbleMultipliers = document.querySelectorAll('.payouts-wrapper .bubble-multiplier');
-              const latestBubbleMultiplier = bubbleMultipliers[0];
-              const value = latestBubbleMultiplier ? latestBubbleMultiplier.textContent.trim() : null;
-              return value ? parseFloat(value.slice(0, -1)) : null;
-            });
-        
-            console.log('Latest data win :?', appBubbleValue);
-        
-            if (appBubbleValue < 1.22 && (previousAppBubbleValue === null || appBubbleValue !== previousAppBubbleValue)) {
-              shouldBet = true;
-            } else {
-              shouldBet = false;
-            }
-        
-              if (shouldBet) {
-                
-              console.log('sudoMode::>>isBetting.');
-        
-              const betButtonFrame = await waitForSelectorInFrames(page, 'div.buttons-block > button.btn.btn-success.bet.ng-star-inserted', 60000);
-        
-              await betButtonFrame.evaluate(() => {
-                const betButton = document.querySelector('div.buttons-block > button.btn.btn-success.bet.ng-star-inserted');
-                if (betButton) {
-                  const buttonText = betButton.textContent.trim().toLowerCase();
-                  console.log('Button text:', buttonText);
-        
-                  if (buttonText !== 'cancel') {
-                    betButton.click();
-                    console.log('isBetting > Clicked !');
-                  } else {
-                    console.log('Bet In');
-                  }
-                }
-              });
-            } else {
-              console.log('Latest > 1.23, isWaiting.');
-            }
-        
-            previousAppBubbleValue = appBubbleValue;
-        
-            await page.mainFrame();
-          } catch (error) {
-            console.error('Error while trying to log latest app bubble value:', error.message);
-          }
-        };
-        
-        setInterval(logLatestAppBubbleValue, 4000);
-
-    // Wait for 24 hours (86400000 ms)
-    await new Promise((resolve) => setTimeout(resolve, 86400000));
-
-    // Add a termination notification
-    console.log('Process terminated successfully after 24 minutes.');
-
-    // Close the browser
-    await browser.close();
+    // Keep the browser open for index.js to take over
+    console.log(`[${new Date().toISOString()}] Handed over to index.js.`);
 })();

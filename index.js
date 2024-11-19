@@ -52,6 +52,7 @@ process.on('SIGINT', () => {
     let betAmount = config.minBetAmount;
     let consecutiveWins = 0;
     let fibonacciIndex = 2;
+    let betInProgress = false; // Lock to prevent simultaneous bets
 
     try {
         // Connect to the existing browser instance
@@ -64,6 +65,9 @@ process.on('SIGINT', () => {
 
         // Function to monitor and place bets
         const monitorAndPlaceBet = async () => {
+            if (betInProgress) return; // Skip if a bet is already in progress
+            betInProgress = true;
+
             try {
                 // Wait for the bubble multiplier selector
                 await page.waitForSelector(config.bubbleSelector, { visible: true, timeout: 10000 });
@@ -148,26 +152,38 @@ process.on('SIGINT', () => {
             } catch (error) {
                 log(`[ERROR] Monitoring error: ${error.message}`);
                 await sendNotification('Monitoring Error', `An error occurred: ${error.message}`);
+            } finally {
+                betInProgress = false; // Reset lock after the bet is completed or skipped
             }
         };
 
         // Function to place simultaneous bets with different strategies
         const placeSimultaneousBets = async () => {
-            const appBubbleValue = await page.$eval(config.bubbleSelector, (el) => parseFloat(el.textContent.trim()));
-            const myBalance = await page.$eval(config.balanceSelector, (el) => parseFloat(el.textContent.trim()));
+            if (betInProgress) return; // Skip if a bet is already in progress
+            betInProgress = true;
 
-            // Use trend analysis for the first bet
-            const bettingTrend = analyzeTrends(historicalMultipliers);
-            let betAmount1 = adjustBetAmount(appBubbleValue, myBalance);
-            
-            if (bettingTrend === 'low' && appBubbleValue < 1.5) {
-                betAmount1 = Math.min(betAmount1, config.maxBetAmount);
-                await placeBet(betAmount1, 1);  // Bet 1
+            try {
+                const appBubbleValue = await page.$eval(config.bubbleSelector, (el) => parseFloat(el.textContent.trim()));
+                const myBalance = await page.$eval(config.balanceSelector, (el) => parseFloat(el.textContent.trim()));
+
+                // Use trend analysis for the first bet
+                const bettingTrend = analyzeTrends(historicalMultipliers);
+                let betAmount1 = adjustBetAmount(appBubbleValue, myBalance);
+
+                if (bettingTrend === 'low' && appBubbleValue < 1.5) {
+                    betAmount1 = Math.min(betAmount1, config.maxBetAmount);
+                    await placeBet(betAmount1, 1);  // Bet 1
+                }
+
+                // Use a different strategy for the second bet
+                let betAmount2 = Math.min(myBalance * 0.2, config.maxBetAmount); // Example: Fibonacci or growth strategy
+                await placeBet(betAmount2, 2);  // Bet 2
+            } catch (error) {
+                log(`[ERROR] Simultaneous bet error: ${error.message}`);
+                await sendNotification('Simultaneous Bet Error', `An error occurred during bet placement: ${error.message}`);
+            } finally {
+                betInProgress = false; // Reset lock after the bet is completed or skipped
             }
-
-            // Use a different strategy for the second bet, e.g., Fibonacci or growth-based betting
-            let betAmount2 = Math.min(myBalance * 0.2, config.maxBetAmount); // Example: Fibonacci or growth strategy
-            await placeBet(betAmount2, 2);  // Bet 2
         };
 
         // Function to place a bet on a specific bet control
@@ -192,7 +208,7 @@ process.on('SIGINT', () => {
 
         setInterval(monitorAndPlaceBet, config.betInterval);
         setInterval(placeSimultaneousBets, config.betInterval);
-        
+
     } catch (error) {
         log(`[ERROR] Failed to start monitoring: ${error.message}`);
         await sendNotification('Startup Error', `Failed to start monitoring: ${error.message}`);
