@@ -2,7 +2,6 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
-const nodemailer = require('nodemailer');
 const debug = require('debug')('app');
 
 // Enable Puppeteer stealth mode
@@ -19,168 +18,148 @@ const log = (message) => {
     fs.appendFileSync(config.logFile, logMessage + '\n');
 };
 
-// Send email notifications
-//const sendNotification = async (subject, message) => {
-//    try {
-//        const transporter = nodemailer.createTransport(config.email);
-//        await transporter.sendMail({
-//            from: config.email.from,
-//            to: config.email.to,
-//            subject: subject,
-//            text: message,
-//        });
-//    } catch (error) {
-//        log(`[ERROR] Failed to send email: ${error.message}`);
-//    }
-//};
-
-// Retry helper
-const retryAction = async (action, retries = 3) => {
-    for (let attempt = 0; attempt < retries; attempt++) {
-        try {
-            return await action();
-        } catch (error) {
-            log(`Retry ${attempt + 1} failed: ${error.message}`);
-            if (attempt === retries - 1) throw error;
-        }
-    }
+// Graceful shutdown
+const shutdown = async (browser) => {
+    log('Shutting down...');
+    await browser.close();
+    process.exit(0);
 };
 
-// Random delay
-const randomDelay = () => new Promise(resolve => setTimeout(resolve, Math.random() * 2000 + 1000));
-
-// Reconnect to the browser page if not found or disconnected
-const reconnectToBrowser = async (browser) => {
-    try {
-        const pages = await browser.pages();
-        const gamePage = pages.find(p => p.url().includes('aviator'));
-        if (gamePage) {
-            return gamePage;
-        }
-        throw new Error('Game page not found.');
-    } catch (error) {
-        log(`[ERROR] Reconnection failed: ${error.message}`);
-        return null;
-    }
-};
+// Capture Ctrl+C for graceful shutdown
+process.on('SIGINT', () => {
+    shutdown(browser);
+});
 
 (async () => {
     let browser;
-    let page;
     let previousBubbleValue = null;
     let betAmount = config.minBetAmount;
     let consecutiveWins = 0;
     let fibonacciIndex = 2;
-    let betInProgress = false;
+    let betInProgress = false; // Lock to prevent simultaneous bets
 
     try {
         // Connect to the existing browser instance
         const browserURL = 'http://127.0.0.1:9222';
         browser = await puppeteer.connect({ browserURL });
-        page = await reconnectToBrowser(browser); // Reconnect to the game page if it's lost
-
-        if (!page) {
-            log('[ERROR] Game page could not be found.');
-            return shutdown(browser);
-        }
+        const pages = await browser.pages();
+        const page = pages[0];
 
         log(`Connected to an existing page with URL: ${await page.url()}`);
 
-        // Ensure the browser window is in focus
-        await page.bringToFront(); // Bring the page to the front
+        // Function to make an element focusable and click it
+        const safeClick = async (selector) => {
+            const element = await page.$(selector);
+            if (element) {
+                await page.evaluate((el) => {
+                    if (!el.hasAttribute('tabindex')) {
+                        el.tabIndex = 0; // Make focusable if not already
+                    }
+                    el.focus();
+                }, element);
+                await element.click();
+                log(`Clicked element with selector: ${selector}`);
+            } else {
+                log(`Element with selector ${selector} not found.`);
+            }
+        };
 
-        // Monitor and place bets
+        // Function to safely type into an input field
+        const safeType = async (selector, text) => {
+            const element = await page.$(selector);
+            if (element) {
+                await page.evaluate((el) => (el.value = ''), element); // Clear the input
+                await page.type(selector, text); // Type the new value
+                log(`Typed '${text}' into element with selector: ${selector}`);
+            } else {
+                log(`Element with selector ${selector} not found.`);
+            }
+        };
+
+        // Function to monitor and place bets
         const monitorAndPlaceBet = async () => {
             if (betInProgress) return;
             betInProgress = true;
 
             try {
                 // Wait for the bubble multiplier selector
-                await page.waitForSelector(config.bubbleSelector, { visible: true, timeout: 20000 }); // Increased timeout
+                await page.waitForSelector(config.bubbleSelector, { visible: true, timeout: 15000 });
+
                 const appBubbleValue = await page.$eval(
                     config.bubbleSelector,
-                    element => parseFloat(element.textContent.trim().slice(0, -1))
+                    (element) => parseFloat(element.textContent.trim().slice(0, -1))
                 );
                 debug('Latest Bubble Multiplier:', appBubbleValue);
 
                 const myBalance = await page.$eval(
                     config.balanceSelector,
-                    element => parseFloat(element.textContent.trim())
+                    (element) => parseFloat(element.textContent.trim())
                 );
                 log(`Current Balance: ${myBalance}`);
 
-                if (appBubbleValue < config.bubbleMultiplierThreshold &&
-                    (previousBubbleValue === null || appBubbleValue !== previousBubbleValue)) {
-                    
+                // Strategy Evaluation and Bet Placement
+                if (appBubbleValue < config.bubbleMultiplierThreshold && (previousBubbleValue === null || appBubbleValue !== previousBubbleValue)) {
                     log('Betting condition met. Attempting to place a bet...');
 
-                    // Adjust bet amount based on strategies
+                    // Strategy logic
                     if (consecutiveWins >= config.allInAfterWins) {
-                        betAmount = myBalance * 0.3; // All-in capped at 30%
+                        betAmount = myBalance * 0.3;
+                        log(`Going All-In with ${betAmount} after ${consecutiveWins} wins`);
                     } else if (appBubbleValue < 1.5) {
                         betAmount = Math.min(Math.max(betAmount * config.growthFactor, config.minBetAmount), Math.floor(myBalance * config.betPercentage));
+                        log(`Betting with exponential growth: ${betAmount}`);
                     } else if (appBubbleValue < 2.0) {
                         betAmount = config.fibonacciSequence[fibonacciIndex];
                         config.fibonacciSequence.push(config.fibonacciSequence[fibonacciIndex] + config.fibonacciSequence[fibonacciIndex - 1]);
                         fibonacciIndex++;
+                        log(`Fibonacci Bet: ${betAmount}`);
                     } else {
                         betAmount = Math.min(Math.max(betAmount, config.minBetAmount), Math.floor(myBalance * config.betPercentage));
+                        log(`Default bet: ${betAmount}`);
                     }
 
-                    betAmount = Math.min(betAmount, config.maxBetAmount); // Cap bet amount
+                    betAmount = Math.min(betAmount, config.maxBetAmount);
 
-                    // Place the bet
-                    await retryAction(async () => {
-                        await page.waitForSelector(config.betButtonSelector, { visible: true });
-                        const betButton = await page.$(config.betButtonSelector);
-                        const isDisabled = await betButton.evaluate(btn => btn.disabled);
-                        if (!isDisabled) {
-                            await betButton.click();
-                            consecutiveWins++;
-                            log(`Bet of ${betAmount} placed successfully!`);
-                        } else {
-                            throw new Error('Bet button is disabled.');
-                        }
-                    });
-
+                    // Place bet
+                    await safeType(config.betInputSelector, betAmount.toFixed(2));
+                    await safeClick(config.betButtonSelector);
+                    consecutiveWins++;
+                    log(`Bet of ${betAmount} placed successfully!`);
                 } else {
                     log('Betting condition not met. Waiting for the next round...');
                 }
 
-                // Check for cashout
+                // Check for the cashout condition
                 const cashoutButton = await page.$(config.cashoutButtonSelector);
                 if (cashoutButton) {
-                    const cashoutMultiplier = await cashoutButton.evaluate(btn => parseFloat(btn.textContent.trim()));
-                    if (cashoutMultiplier >= config.cashoutMultiplierThreshold) {
-                        await cashoutButton.click();
+                    const cashoutMultiplier = await cashoutButton.evaluate((btn) => {
+                        const textContent = btn.textContent.trim();
+                        return parseFloat(textContent);
+                    });
+                    debug('Current Cashout Multiplier:', cashoutMultiplier);
+
+                    if (cashoutMultiplier >= config.bubbleMultiplierThreshold) {
+                        await safeClick(config.cashoutButtonSelector);
                         log(`Cashout triggered at multiplier: ${cashoutMultiplier}`);
                     }
                 }
 
                 previousBubbleValue = appBubbleValue;
-                await randomDelay();
 
+                const randomDelay = Math.floor(Math.random() * 2000) + 2000;
+                await new Promise((resolve) => setTimeout(resolve, randomDelay));
             } catch (error) {
                 log(`[ERROR] Monitoring error: ${error.message}`);
-                await sendNotification('Monitoring Error', `An error occurred: ${error.message}`);
             } finally {
                 betInProgress = false;
             }
         };
 
-        // Main betting loop
-        const bettingLoop = async () => {
-            while (true) {
-                await monitorAndPlaceBet();
-                await randomDelay(); // Wait before the next check
-            }
-        };
-
-        await bettingLoop();
-
+        setInterval(monitorAndPlaceBet, config.betInterval);
     } catch (error) {
         log(`[ERROR] Startup error: ${error.message}`);
-        await sendNotification('Startup Error', `Failed to start monitoring: ${error.message}`);
-        if (browser) shutdown(browser);
+        if (browser) {
+            await shutdown(browser);
+        }
     }
 })();
