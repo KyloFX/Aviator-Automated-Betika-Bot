@@ -1,4 +1,7 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const { exec } = require('child_process'); // Import to execute external scripts
+puppeteer.use(StealthPlugin());
 
 const url = 'https://betting.co.zw/virtual/fast-games';
 const loginUrl = 'https://betting.co.zw/authentication/login';
@@ -22,7 +25,9 @@ const retry = async (fn, retries = 3, delay = 1000) => {
 };
 
 (async () => {
-    const browser = await puppeteer.launch({ headless: false });
+    console.log(`[${new Date().toISOString()}] Launching Puppeteer...`);
+    const browser = await puppeteer.launch({ headless: false, args: ['--remote-debugging-port=9222'] });
+
     const page = await browser.newPage();
 
     // Set default timeout for navigation
@@ -31,27 +36,24 @@ const retry = async (fn, retries = 3, delay = 1000) => {
     console.log(`[${new Date().toISOString()}] Navigating to ${url}`);
     await page.goto(url);
 
-// Navigate to the site
-// ...
+    try {
+        console.log(`[${new Date().toISOString()}] Trying to click on login button...`);
+        await page.waitForSelector('#user-menu-login', { visible: true, timeout: 20000 }); // Increase timeout
+        await page.click('#user-menu-login');
+        console.log(`[${new Date().toISOString()}] Login button clicked.`);
+    } catch (error) {
+        console.log(`[${new Date().toISOString()}] Login button not found, navigating directly to login URL.`);
+        await page.goto(loginUrl);
+    }
 
-// Helper function to wait for a specified duration
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
+    // Wait for login form to appear
+    console.log(`[${new Date().toISOString()}] Waiting for login form...`);
+    await page.waitForSelector('input#phoneInput', { visible: true, timeout: 10000 });
 
-// Click the Aviator game link before login
-await page.waitForSelector('p.offer-link.dark.mozzart_ke a.aviator');
-await page.click('p.offer-link.dark.mozzart_ke a.aviator');
-console.log('Clicked Aviator game link before login.');
-
-
-// Wait for the username and password fields to appear
-await page.waitForSelector('input[type="text"][placeholder="Mobile number"]');
-await page.waitForSelector('input[type="password"][placeholder="Password"]');
-
-// Type username and password
-await page.type('input[type="text"][placeholder="Mobile number"]', username);
-await page.type('input[type="password"][placeholder="Password"]', password);
+    // Fill in login credentials
+    console.log(`[${new Date().toISOString()}] Entering username and password...`);
+    await page.type('input#phoneInput', username);
+    await page.type('input#password', password);
 
     // Submit login form
     console.log(`[${new Date().toISOString()}] Submitting login form...`);
@@ -71,7 +73,7 @@ await page.type('input[type="password"][placeholder="Password"]', password);
         const playButtonSelector = 'button.au-m-btn.positive';
 
         await retry(async () => {
-            await page.waitForSelector(gridSelector, { visible: true, timeout: 10000 });
+            await page.waitForSelector(gridSelector, { visible: true, timeout: 20000 }); // Increased timeout
             await page.click(gridSelector);
         });
 
@@ -83,6 +85,9 @@ await page.type('input[type="password"][placeholder="Password"]', password);
         // Wait for 6 seconds after clicking the Play Now button
         await sleep(6000);  // 6 seconds
 
+        // Ensure the browser window is in focus
+        await page.bringToFront();  // Bring the page to the front
+
     } catch (error) {
         console.error(`[${new Date().toISOString()}] Error navigating to Aviator game: ${error.message}`);
     }
@@ -90,6 +95,9 @@ await page.type('input[type="password"][placeholder="Password"]', password);
     // Wait for 6 seconds before moving forward
     console.log(`[${new Date().toISOString()}] Waiting for 10 seconds...`);
     await sleep(10000); // Wait for 10 seconds before handing over control to index.js
+
+    // Log current URL before handing over
+    console.log(`[${new Date().toISOString()}] Current URL before handing over: ${page.url()}`);
 
     // Execute the index.js script for betting logic
     console.log(`[${new Date().toISOString()}] Starting betting logic in index.js...`);

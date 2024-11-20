@@ -1,0 +1,10 @@
+[2024-11-19T13:46:51.231Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T13:46:51.233Z] [ERROR] Game page could not be found.
+[2024-11-19T13:46:51.234Z] [ERROR] Startup error: shutdown is not defined
+[2024-11-19T13:46:53.124Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df568easm653035866b.73 - gsmtp
+[2024-11-19T13:48:37.220Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T13:48:37.222Z] [ERROR] Game page could not be found.
+[2024-11-19T13:48:37.222Z] [ERROR] Startup error: shutdown is not defined
+[2024-11-19T13:48:39.313Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5cfac228815sm3448316a12.66 - gsmtp

@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
     "bubbleMultiplierThreshold": 1.50,
     "betInterval": 4000,
     "bubbleSelector": ".payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div",
@@ -13,15 +14,31 @@
     "growthFactor": 2,
     "fibonacciSequence": [0.05, 0.05],
     "strategyWeights": { "exponential": 1, "fibonacci": 0.7, "default": 1 },
+=======
+    "logFile": "log.txt",  
+    "minBetAmount": 0.1,    
+    "maxBetAmount": 100,   
+    "growthFactor": 1.5,    
+    "betPercentage": 0.1,   
+    "bubbleMultiplierThreshold": 1.5,  
+    "allInAfterWins": 3,    
+    "fibonacciSequence": [1, 1, 2, 3, 5, 8, 13, 21],  
+    "bubbleSelector": "div.bubble-multiplier.font-weight-bold",  
+    "balanceSelector": "span.amount.font-weight-bold",  
+    "betButtonSelector": "button.btn.btn-success.btn.ng-star-inserted",  
+    "cashoutButtonSelector": ".cashout-button", 
+    "cashoutMultiplierThreshold": 1.5,  
+>>>>>>> Stashed changes
     "email": {
-        "host": "mail.google.com",
-        "port": 587,
-        "secure": false,
-        "auth": {
-            "user": "k2me2016@gmail.com",
-            "pass": "klick2016"
-        },
-        "from": "k2me2016@gmail.com",
-        "to": "k2me2016@gmail.com"
+      "host": "smtp.gmail.com",
+      "port": 587,
+      "secure": false,
+      "auth": {
+        "user": "k2me2016@gmail.com",
+        "pass": "klick@2016#"
+      },
+      "from": "k2me2016@gmail.com",
+      "to": "k2me2016@gmail.com"
     }
-}
+  }
+  

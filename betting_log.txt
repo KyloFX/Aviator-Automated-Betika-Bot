@@ -1,6 +1,7 @@
 [2024-11-18T21:54:33.497Z] Connected to an existing page with URL: chrome://new-tab-page/
 [2024-11-18T21:54:33.500Z] Monitoring started. The script is now active.
 [2024-11-18T21:54:47.517Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-18T21:54:51.530Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
 [2024-11-18T21:54:55.535Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
 [2024-11-18T21:54:59.543Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
 [2024-11-18T21:55:03.553Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
@@ -2857,3 +2858,144 @@
 [2024-11-19T00:24:11.709Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
 [2024-11-19T00:24:32.745Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.229:587
 [2024-11-19T00:24:43.732Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T00:25:04.766Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.229:587
+[2024-11-19T00:25:15.796Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T00:25:36.844Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.229:587
+[2024-11-19T00:25:47.830Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T00:26:08.862Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.229:587
+[2024-11-19T00:26:19.861Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:43:38.900Z] Connected to an existing page with URL: chrome://new-tab-page/
+[2024-11-19T08:43:52.930Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:44:14.208Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:44:24.931Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:44:45.978Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:44:56.981Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:45:18.063Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:45:29.050Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:45:50.117Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:46:01.101Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:46:22.140Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:46:33.177Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:46:54.212Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:47:05.240Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:47:26.273Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:47:37.271Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:47:58.310Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:48:09.327Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:48:30.380Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:48:41.389Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:49:02.437Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:49:13.432Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:49:34.549Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:49:45.486Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:50:06.540Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:50:17.539Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:50:38.583Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:50:49.605Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:51:10.658Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:51:21.640Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:51:42.655Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:51:53.720Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:52:14.767Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:52:25.773Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:52:46.817Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:52:57.816Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:53:18.855Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:53:29.846Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:53:50.896Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:54:01.911Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:54:22.938Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:54:33.979Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:54:55.176Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:55:06.034Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:55:27.074Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:55:38.083Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:55:59.139Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:56:10.167Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:56:31.210Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:56:42.238Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:57:03.304Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:57:14.290Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:57:35.314Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:57:46.359Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:58:07.401Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:58:18.404Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:58:39.434Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:58:50.479Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:59:11.514Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:59:22.531Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T08:59:43.603Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T08:59:54.588Z] [ERROR] Monitoring error: Waiting for selector `.payouts-wrapper > div > app-bubble-multiplier:nth-child(3) > div` failed: Waiting failed: 10000ms exceeded
+[2024-11-19T09:28:45.239Z] [ERROR] Failed to send email: Connection timeout
+[2024-11-19T09:28:49.301Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:29:10.649Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:29:13.391Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:29:34.420Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:29:37.418Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:29:58.466Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:30:01.457Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:30:22.501Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:30:25.476Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:30:46.526Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:30:49.525Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:31:10.561Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:31:13.590Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:31:34.625Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:31:37.637Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:31:58.672Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:32:01.690Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:32:22.741Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:32:25.722Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:32:46.749Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:32:49.772Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:33:10.819Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:33:13.838Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:33:34.878Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:33:37.865Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:33:58.887Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:34:01.905Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:34:23.006Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:34:25.959Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:34:47.010Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:34:49.990Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:35:11.022Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:35:14.043Z] [ERROR] Monitoring error: Attempted to use detached Frame 'DFFEDC747281E740B82DC6C14F252456'.
+[2024-11-19T09:35:35.075Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:36:11.073Z] [ERROR] Startup error: Target game page not found.
+[2024-11-19T09:36:32.299Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T09:36:32.301Z] Shutting down...
+[2024-11-19T09:43:11.172Z] [ERROR] Startup error: Failed to fetch browser webSocket URL from http://127.0.0.1:9222/json/version: fetch failed
+[2024-11-19T09:43:32.290Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.165:587
+[2024-11-19T10:01:49.728Z] [ERROR] Startup error: Failed to fetch browser webSocket URL from http://127.0.0.1:9222/json/version: fetch failed
+[2024-11-19T10:02:10.834Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T10:02:57.484Z] [ERROR] Startup error: Target game page not found.
+[2024-11-19T10:03:18.618Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T10:03:18.620Z] Shutting down...
+[2024-11-19T10:04:13.767Z] [ERROR] Startup error: Failed to fetch browser webSocket URL from http://127.0.0.1:9222/json/version: fetch failed
+[2024-11-19T10:04:34.866Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T10:06:52.665Z] [ERROR] Startup error: Target game page not found.
+[2024-11-19T10:07:13.743Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T10:07:13.745Z] Shutting down...
+[2024-11-19T10:14:15.253Z] [ERROR] Startup error: Target game page not found.
+[2024-11-19T10:14:36.428Z] [ERROR] Failed to send email: connect ETIMEDOUT 142.251.47.69:587
+[2024-11-19T10:14:36.430Z] Shutting down...
+[2024-11-19T10:24:07.315Z] [ERROR] Startup error: Target game page not found.
+[2024-11-19T10:24:09.090Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df1c53asm630128166b.15 - gsmtp
+[2024-11-19T10:24:09.093Z] Shutting down...
+[2024-11-19T10:56:46.005Z] [ERROR] Startup error: Target game page not found.
+[2024-11-19T10:56:47.842Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e0860besm634203266b.198 - gsmtp
+[2024-11-19T10:56:47.843Z] Shutting down...
+[2024-11-19T11:28:09.099Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T11:28:09.102Z] [ERROR] Game page could not be found.
+[2024-11-19T11:28:09.103Z] Shutting down...
+[2024-11-19T11:28:29.564Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T11:28:29.566Z] [ERROR] Game page could not be found.
+[2024-11-19T11:28:29.567Z] Shutting down...
+[2024-11-19T11:32:13.338Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T11:32:13.339Z] [ERROR] Game page could not be found.
+[2024-11-19T11:32:13.340Z] Shutting down...
+[2024-11-19T11:36:44.499Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T11:36:44.500Z] [ERROR] Game page could not be found.
+[2024-11-19T11:36:44.501Z] Shutting down...
