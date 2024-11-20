@@ -25,17 +25,14 @@ const shutdown = async (browser) => {
     process.exit(0);
 };
 
+let browser; // Define browser outside the try block
+
 // Capture Ctrl+C for graceful shutdown
-process.on('SIGINT', () => {
-    shutdown(browser);
+process.on('SIGINT', async () => {
+    await shutdown(browser);
 });
 
 (async () => {
-    let browser;
-    let previousBubbleValue = null;
-    let betAmount = config.minBetAmount;
-    let consecutiveWins = 0;
-    let fibonacciIndex = 2;
     let betInProgress = false; // Lock to prevent simultaneous bets
 
     try {
@@ -47,115 +44,138 @@ process.on('SIGINT', () => {
 
         log(`Connected to an existing page with URL: ${await page.url()}`);
 
-        // Function to make an element focusable and click it
+        // Function to interact with elements, even if they are not keyboard-focusable
         const safeClick = async (selector) => {
             const element = await page.$(selector);
             if (element) {
-                await page.evaluate((el) => {
-                    if (!el.hasAttribute('tabindex')) {
-                        el.tabIndex = 0; // Make focusable if not already
-                    }
-                    el.focus();
-                }, element);
-                await element.click();
-                log(`Clicked element with selector: ${selector}`);
+                const isVisible = await page.evaluate(el => el.offsetWidth > 0 && el.offsetHeight > 0, element);
+                if (isVisible) {
+                    await page.evaluate((el) => el.click(), element);
+                    log(`Clicked element with selector: ${selector}`);
+                } else {
+                    log(`Element with selector ${selector} is not visible.`);
+                }
             } else {
                 log(`Element with selector ${selector} not found.`);
             }
         };
 
-        // Function to safely type into an input field
         const safeType = async (selector, text) => {
             const element = await page.$(selector);
             if (element) {
-                await page.evaluate((el) => (el.value = ''), element); // Clear the input
-                await page.type(selector, text); // Type the new value
+                await element.focus(); // Focus the element first
+                await page.evaluate(el => el.value = '', element); // Clear the input
+                await page.type(selector, text); // Type the text
                 log(`Typed '${text}' into element with selector: ${selector}`);
             } else {
                 log(`Element with selector ${selector} not found.`);
             }
         };
 
-        // Function to monitor and place bets
-        const monitorAndPlaceBet = async () => {
+        // Function to check visibility of an element in different contexts (iframe, Shadow DOM)
+        const getElementContent = async (selector) => {
+            // Check in the main document
+            let element = await page.$(selector);
+            if (element) {
+                const isVisible = await page.evaluate(el => el.offsetWidth > 0 && el.offsetHeight > 0, element);
+                if (isVisible) {
+                    return await page.evaluate(el => el.textContent.trim(), element);
+                }
+            }
+
+            // Check in iframe
+            const frames = page.frames();
+            for (const frame of frames) {
+                element = await frame.$(selector);
+                if (element) {
+                    const isVisible = await frame.evaluate(el => el.offsetWidth > 0 && el.offsetHeight > 0, element);
+                    if (isVisible) {
+                        return await frame.evaluate(el => el.textContent.trim(), element);
+                    }
+                }
+            }
+
+            // Check in shadow DOM
+            const shadowHosts = await page.$$('shadow-host-selector'); // Adjust the selector if necessary
+            for (const shadowHost of shadowHosts) {
+                const shadowRoot = await shadowHost.evaluateHandle(el => el.shadowRoot);
+                element = await shadowRoot.$(selector);
+                if (element) {
+                    const isVisible = await shadowRoot.evaluate(el => el.offsetWidth > 0 && el.offsetHeight > 0, element);
+                    if (isVisible) {
+                        return await shadowRoot.evaluate(el => el.textContent.trim(), element);
+                    }
+                }
+            }
+
+            throw new Error(`Element with selector ${selector} not found in the main document, iframe, or shadow DOM.`);
+        };
+
+        // Function to place random bets
+        const placeRandomBet = async () => {
             if (betInProgress) return;
             betInProgress = true;
 
             try {
-                // Wait for the bubble multiplier selector
-                await page.waitForSelector(config.bubbleSelector, { visible: true, timeout: 15000 });
+                // Wait for the balance element to appear
+                await page.waitForSelector(config.balanceSelector, { visible: true, timeout: 15000 });
 
-                const appBubbleValue = await page.$eval(
-                    config.bubbleSelector,
-                    (element) => parseFloat(element.textContent.trim().slice(0, -1))
-                );
-                debug('Latest Bubble Multiplier:', appBubbleValue);
-
-                const myBalance = await page.$eval(
-                    config.balanceSelector,
-                    (element) => parseFloat(element.textContent.trim())
-                );
+                // Read balance using dynamic methods
+                const balanceText = await getElementContent(config.balanceSelector);
+                const myBalance = parseFloat(balanceText);
                 log(`Current Balance: ${myBalance}`);
 
-                // Strategy Evaluation and Bet Placement
-                if (appBubbleValue < config.bubbleMultiplierThreshold && (previousBubbleValue === null || appBubbleValue !== previousBubbleValue)) {
-                    log('Betting condition met. Attempting to place a bet...');
+                // Random bet amount between min and max bet
+                const betAmount = (Math.random() * (config.maxBetAmount - config.minBetAmount) + config.minBetAmount).toFixed(2);
+                log(`Placing a random bet of: ${betAmount}`);
 
-                    // Strategy logic
-                    if (consecutiveWins >= config.allInAfterWins) {
-                        betAmount = myBalance * 0.3;
-                        log(`Going All-In with ${betAmount} after ${consecutiveWins} wins`);
-                    } else if (appBubbleValue < 1.5) {
-                        betAmount = Math.min(Math.max(betAmount * config.growthFactor, config.minBetAmount), Math.floor(myBalance * config.betPercentage));
-                        log(`Betting with exponential growth: ${betAmount}`);
-                    } else if (appBubbleValue < 2.0) {
-                        betAmount = config.fibonacciSequence[fibonacciIndex];
-                        config.fibonacciSequence.push(config.fibonacciSequence[fibonacciIndex] + config.fibonacciSequence[fibonacciIndex - 1]);
-                        fibonacciIndex++;
-                        log(`Fibonacci Bet: ${betAmount}`);
-                    } else {
-                        betAmount = Math.min(Math.max(betAmount, config.minBetAmount), Math.floor(myBalance * config.betPercentage));
-                        log(`Default bet: ${betAmount}`);
-                    }
+                // Check if bet input field is available
+                const betInputElement = await page.$(config.betInputSelector);
+                if (betInputElement) {
+                    await safeType(config.betInputSelector, betAmount);
+                } else {
+                    throw new Error(`Failed to find bet input field with selector ${config.betInputSelector}`);
+                }
 
-                    betAmount = Math.min(betAmount, config.maxBetAmount);
-
-                    // Place bet
-                    await safeType(config.betInputSelector, betAmount.toFixed(2));
+                // Check if bet button is clickable
+                const betButton = await page.$(config.betButtonSelector);
+                if (betButton) {
                     await safeClick(config.betButtonSelector);
-                    consecutiveWins++;
                     log(`Bet of ${betAmount} placed successfully!`);
                 } else {
-                    log('Betting condition not met. Waiting for the next round...');
+                    throw new Error(`Failed to find bet button with selector ${config.betButtonSelector}`);
                 }
 
-                // Check for the cashout condition
-                const cashoutButton = await page.$(config.cashoutButtonSelector);
-                if (cashoutButton) {
-                    const cashoutMultiplier = await cashoutButton.evaluate((btn) => {
-                        const textContent = btn.textContent.trim();
-                        return parseFloat(textContent);
-                    });
-                    debug('Current Cashout Multiplier:', cashoutMultiplier);
+                // Random delay before stopping the bet
+                const stopDelay = Math.floor(Math.random() * (5000 - 2000)) + 2000; // Between 2s to 5s
+                log(`Will stop the bet after ${stopDelay} ms`);
 
-                    if (cashoutMultiplier >= config.bubbleMultiplierThreshold) {
+                setTimeout(async () => {
+                    const cashoutButton = await page.$(config.cashoutButtonSelector);
+                    if (cashoutButton) {
                         await safeClick(config.cashoutButtonSelector);
-                        log(`Cashout triggered at multiplier: ${cashoutMultiplier}`);
+                        log(`Stopped the bet at random timing.`);
+                    } else {
+                        log(`Failed to find cashout button with selector ${config.cashoutButtonSelector}`);
                     }
-                }
+                }, stopDelay);
 
-                previousBubbleValue = appBubbleValue;
-
-                const randomDelay = Math.floor(Math.random() * 2000) + 2000;
-                await new Promise((resolve) => setTimeout(resolve, randomDelay));
             } catch (error) {
-                log(`[ERROR] Monitoring error: ${error.message}`);
+                log(`[ERROR] Random betting error: ${error.message}`);
             } finally {
                 betInProgress = false;
             }
         };
 
-        setInterval(monitorAndPlaceBet, config.betInterval);
+        // Start placing random bets at intervals
+        setInterval(async () => {
+            try {
+                await placeRandomBet();
+            } catch (error) {
+                log(`[ERROR] Error in interval: ${error.message}`);
+            }
+        }, config.betInterval);
+
     } catch (error) {
         log(`[ERROR] Startup error: ${error.message}`);
         if (browser) {
