@@ -6,6 +6,8 @@ const path = require('path');
 const { performance } = require('perf_hooks'); // For performance monitoring
 const util = require('util');
 
+console.log('Script started.');
+
 // Enable Puppeteer stealth mode to bypass detection
 puppeteer.use(StealthPlugin());
 

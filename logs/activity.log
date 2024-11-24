@@ -1812,3 +1812,291 @@
 [2024-11-24T14:57:28.154Z] Betting error: Iframe not found.
 [2024-11-24T14:57:48.166Z] Betting error: Iframe not found.
 [2024-11-24T14:58:08.177Z] Betting error: Iframe not found.
+[2024-11-24T15:02:37.049Z] Cookies loaded successfully.
+[2024-11-24T15:02:37.051Z] Navigating to the Aviator game...
+[2024-11-24T15:02:46.679Z] Memory Usage - RSS: 54.95 MB, Heap Used: 17.57 MB, Event Loop Delay: 0.00 ms
+[2024-11-24T15:02:56.678Z] Memory Usage - RSS: 57.59 MB, Heap Used: 19.46 MB, Event Loop Delay: 1.33 ms
+[2024-11-24T15:02:58.743Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:03:06.680Z] Memory Usage - RSS: 58.47 MB, Heap Used: 19.95 MB, Event Loop Delay: 0.92 ms
+[2024-11-24T15:03:16.680Z] Memory Usage - RSS: 58.41 MB, Heap Used: 19.77 MB, Event Loop Delay: 0.84 ms
+[2024-11-24T15:03:18.742Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:03:26.681Z] Memory Usage - RSS: 58.64 MB, Heap Used: 20.01 MB, Event Loop Delay: 0.72 ms
+[2024-11-24T15:03:36.681Z] Memory Usage - RSS: 58.15 MB, Heap Used: 20.29 MB, Event Loop Delay: 0.98 ms
+[2024-11-24T15:03:38.742Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:03:46.682Z] Memory Usage - RSS: 58.25 MB, Heap Used: 20.66 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T15:03:56.685Z] Memory Usage - RSS: 58.70 MB, Heap Used: 20.92 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T15:03:58.749Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:04:06.686Z] Memory Usage - RSS: 59.14 MB, Heap Used: 21.45 MB, Event Loop Delay: 1.85 ms
+[2024-11-24T15:04:16.687Z] Memory Usage - RSS: 59.54 MB, Heap Used: 21.54 MB, Event Loop Delay: 0.87 ms
+[2024-11-24T15:04:18.747Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:04:26.687Z] Memory Usage - RSS: 59.88 MB, Heap Used: 21.92 MB, Event Loop Delay: 0.80 ms
+[2024-11-24T15:04:36.688Z] Memory Usage - RSS: 59.61 MB, Heap Used: 21.54 MB, Event Loop Delay: 0.69 ms
+[2024-11-24T15:04:38.749Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:04:46.688Z] Memory Usage - RSS: 60.04 MB, Heap Used: 22.23 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T15:04:56.689Z] Memory Usage - RSS: 60.12 MB, Heap Used: 21.98 MB, Event Loop Delay: 0.85 ms
+[2024-11-24T15:04:58.752Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:05:06.690Z] Memory Usage - RSS: 60.18 MB, Heap Used: 22.60 MB, Event Loop Delay: 0.81 ms
+[2024-11-24T15:05:16.691Z] Memory Usage - RSS: 60.26 MB, Heap Used: 22.29 MB, Event Loop Delay: 0.89 ms
+[2024-11-24T15:05:18.744Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:05:26.691Z] Memory Usage - RSS: 60.64 MB, Heap Used: 22.43 MB, Event Loop Delay: 0.97 ms
+[2024-11-24T15:05:36.693Z] Memory Usage - RSS: 60.87 MB, Heap Used: 22.71 MB, Event Loop Delay: 1.09 ms
+[2024-11-24T15:05:38.754Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:05:46.693Z] Memory Usage - RSS: 60.99 MB, Heap Used: 22.89 MB, Event Loop Delay: 0.95 ms
+[2024-11-24T15:05:56.694Z] Memory Usage - RSS: 61.14 MB, Heap Used: 23.13 MB, Event Loop Delay: 0.51 ms
+[2024-11-24T15:05:58.757Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:06:06.694Z] Memory Usage - RSS: 61.28 MB, Heap Used: 23.30 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T15:06:16.696Z] Memory Usage - RSS: 61.61 MB, Heap Used: 23.35 MB, Event Loop Delay: 0.67 ms
+[2024-11-24T15:06:18.758Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:06:26.696Z] Memory Usage - RSS: 61.64 MB, Heap Used: 23.97 MB, Event Loop Delay: 0.55 ms
+[2024-11-24T15:06:36.696Z] Memory Usage - RSS: 61.86 MB, Heap Used: 23.58 MB, Event Loop Delay: 0.53 ms
+[2024-11-24T15:06:38.761Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:06:46.696Z] Memory Usage - RSS: 62.31 MB, Heap Used: 23.79 MB, Event Loop Delay: 0.51 ms
+[2024-11-24T15:06:56.696Z] Memory Usage - RSS: 62.40 MB, Heap Used: 23.94 MB, Event Loop Delay: 0.50 ms
+[2024-11-24T15:06:58.765Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:07:06.698Z] Memory Usage - RSS: 62.18 MB, Heap Used: 24.09 MB, Event Loop Delay: 0.79 ms
+[2024-11-24T15:07:16.698Z] Memory Usage - RSS: 62.73 MB, Heap Used: 24.69 MB, Event Loop Delay: 0.76 ms
+[2024-11-24T15:07:18.765Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:07:26.699Z] Memory Usage - RSS: 62.87 MB, Heap Used: 24.82 MB, Event Loop Delay: 0.55 ms
+[2024-11-24T15:07:36.702Z] Memory Usage - RSS: 62.97 MB, Heap Used: 25.01 MB, Event Loop Delay: 0.56 ms
+[2024-11-24T15:07:38.762Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:07:46.702Z] Memory Usage - RSS: 63.13 MB, Heap Used: 25.13 MB, Event Loop Delay: 0.54 ms
+[2024-11-24T15:07:56.703Z] Memory Usage - RSS: 63.04 MB, Heap Used: 25.39 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T15:07:58.773Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:08:06.704Z] Memory Usage - RSS: 63.26 MB, Heap Used: 25.39 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T15:08:16.705Z] Memory Usage - RSS: 63.53 MB, Heap Used: 25.16 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T15:08:18.774Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:08:26.706Z] Memory Usage - RSS: 63.74 MB, Heap Used: 25.35 MB, Event Loop Delay: 0.57 ms
+[2024-11-24T15:08:36.707Z] Memory Usage - RSS: 63.63 MB, Heap Used: 25.86 MB, Event Loop Delay: 0.85 ms
+[2024-11-24T15:08:38.768Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:08:46.709Z] Memory Usage - RSS: 63.75 MB, Heap Used: 25.92 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T15:08:56.708Z] Memory Usage - RSS: 64.11 MB, Heap Used: 18.55 MB, Event Loop Delay: 0.85 ms
+[2024-11-24T15:08:58.775Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:09:06.709Z] Memory Usage - RSS: 64.11 MB, Heap Used: 18.42 MB, Event Loop Delay: 0.66 ms
+[2024-11-24T15:09:16.710Z] Memory Usage - RSS: 64.23 MB, Heap Used: 19.64 MB, Event Loop Delay: 0.47 ms
+[2024-11-24T15:09:18.771Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:09:26.712Z] Memory Usage - RSS: 64.59 MB, Heap Used: 19.98 MB, Event Loop Delay: 0.49 ms
+[2024-11-24T15:09:36.714Z] Memory Usage - RSS: 64.59 MB, Heap Used: 20.22 MB, Event Loop Delay: 0.60 ms
+[2024-11-24T15:09:38.781Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:09:46.716Z] Memory Usage - RSS: 64.61 MB, Heap Used: 20.59 MB, Event Loop Delay: 0.80 ms
+[2024-11-24T15:09:56.719Z] Memory Usage - RSS: 64.61 MB, Heap Used: 20.86 MB, Event Loop Delay: 0.50 ms
+[2024-11-24T15:09:58.779Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:10:06.720Z] Memory Usage - RSS: 64.62 MB, Heap Used: 20.84 MB, Event Loop Delay: 0.84 ms
+[2024-11-24T15:10:16.721Z] Memory Usage - RSS: 64.53 MB, Heap Used: 20.80 MB, Event Loop Delay: 0.69 ms
+[2024-11-24T15:10:18.788Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:10:26.722Z] Memory Usage - RSS: 64.55 MB, Heap Used: 20.79 MB, Event Loop Delay: 0.53 ms
+[2024-11-24T15:10:36.722Z] Memory Usage - RSS: 64.55 MB, Heap Used: 21.24 MB, Event Loop Delay: 0.71 ms
+[2024-11-24T15:10:38.786Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:10:46.723Z] Memory Usage - RSS: 64.84 MB, Heap Used: 21.68 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T15:10:56.724Z] Memory Usage - RSS: 64.84 MB, Heap Used: 21.99 MB, Event Loop Delay: 0.78 ms
+[2024-11-24T15:10:58.788Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:11:06.726Z] Memory Usage - RSS: 64.84 MB, Heap Used: 22.19 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T15:11:16.726Z] Memory Usage - RSS: 64.84 MB, Heap Used: 22.22 MB, Event Loop Delay: 0.68 ms
+[2024-11-24T15:11:18.794Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:11:26.729Z] Memory Usage - RSS: 65.00 MB, Heap Used: 22.62 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T15:11:36.729Z] Memory Usage - RSS: 65.04 MB, Heap Used: 22.22 MB, Event Loop Delay: 0.55 ms
+[2024-11-24T15:11:38.795Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:11:46.730Z] Memory Usage - RSS: 64.97 MB, Heap Used: 22.68 MB, Event Loop Delay: 0.52 ms
+[2024-11-24T15:11:56.730Z] Memory Usage - RSS: 64.97 MB, Heap Used: 22.98 MB, Event Loop Delay: 0.91 ms
+[2024-11-24T15:11:58.797Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:12:06.732Z] Memory Usage - RSS: 64.97 MB, Heap Used: 22.62 MB, Event Loop Delay: 0.54 ms
+[2024-11-24T15:12:16.734Z] Memory Usage - RSS: 64.98 MB, Heap Used: 22.78 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T15:12:18.799Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:12:26.735Z] Memory Usage - RSS: 65.01 MB, Heap Used: 23.03 MB, Event Loop Delay: 0.88 ms
+[2024-11-24T15:12:36.735Z] Memory Usage - RSS: 64.55 MB, Heap Used: 23.03 MB, Event Loop Delay: 0.54 ms
+[2024-11-24T15:12:38.794Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:12:46.736Z] Memory Usage - RSS: 64.61 MB, Heap Used: 23.43 MB, Event Loop Delay: 0.59 ms
+[2024-11-24T15:12:56.737Z] Memory Usage - RSS: 64.64 MB, Heap Used: 23.44 MB, Event Loop Delay: 0.78 ms
+[2024-11-24T15:12:58.811Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:13:06.737Z] Memory Usage - RSS: 64.81 MB, Heap Used: 24.22 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T15:13:16.738Z] Memory Usage - RSS: 65.07 MB, Heap Used: 25.25 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T15:13:18.798Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:13:26.738Z] Memory Usage - RSS: 66.13 MB, Heap Used: 19.00 MB, Event Loop Delay: 1.64 ms
+[2024-11-24T15:13:36.740Z] Memory Usage - RSS: 66.15 MB, Heap Used: 20.69 MB, Event Loop Delay: 0.93 ms
+[2024-11-24T15:13:38.802Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:13:46.740Z] Memory Usage - RSS: 66.14 MB, Heap Used: 22.24 MB, Event Loop Delay: 0.53 ms
+[2024-11-24T15:13:56.741Z] Memory Usage - RSS: 65.80 MB, Heap Used: 22.19 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T15:13:58.801Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:14:06.743Z] Memory Usage - RSS: 65.80 MB, Heap Used: 22.96 MB, Event Loop Delay: 0.56 ms
+[2024-11-24T15:14:16.743Z] Memory Usage - RSS: 65.84 MB, Heap Used: 23.31 MB, Event Loop Delay: 0.82 ms
+[2024-11-24T15:14:18.803Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:14:26.744Z] Memory Usage - RSS: 65.84 MB, Heap Used: 23.52 MB, Event Loop Delay: 1.01 ms
+[2024-11-24T15:14:36.746Z] Memory Usage - RSS: 65.85 MB, Heap Used: 23.55 MB, Event Loop Delay: 0.69 ms
+[2024-11-24T15:14:38.808Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T15:14:45.398Z] Shutting down...
+[2024-11-24T15:17:13.416Z] Script error: connect ECONNREFUSED 127.0.0.1:9222
+[2024-11-24T15:17:23.308Z] Memory Usage - RSS: 56.41 MB, Heap Used: 18.73 MB, Event Loop Delay: 0.00 ms
+[2024-11-24T15:17:33.308Z] Memory Usage - RSS: 56.60 MB, Heap Used: 18.93 MB, Event Loop Delay: 3.25 ms
+[2024-11-24T15:17:43.308Z] Memory Usage - RSS: 56.81 MB, Heap Used: 19.14 MB, Event Loop Delay: 2.30 ms
+[2024-11-24T15:17:53.309Z] Memory Usage - RSS: 57.18 MB, Heap Used: 19.36 MB, Event Loop Delay: 2.63 ms
+[2024-11-24T15:18:03.310Z] Memory Usage - RSS: 57.48 MB, Heap Used: 18.84 MB, Event Loop Delay: 1.50 ms
+[2024-11-24T15:18:13.311Z] Memory Usage - RSS: 57.73 MB, Heap Used: 19.12 MB, Event Loop Delay: 2.67 ms
+[2024-11-24T15:18:23.313Z] Memory Usage - RSS: 58.07 MB, Heap Used: 19.45 MB, Event Loop Delay: 1.01 ms
+[2024-11-24T15:18:33.313Z] Memory Usage - RSS: 58.17 MB, Heap Used: 19.04 MB, Event Loop Delay: 2.76 ms
+[2024-11-24T15:18:43.313Z] Memory Usage - RSS: 58.18 MB, Heap Used: 19.43 MB, Event Loop Delay: 0.94 ms
+[2024-11-24T15:18:53.314Z] Memory Usage - RSS: 58.36 MB, Heap Used: 19.06 MB, Event Loop Delay: 1.07 ms
+[2024-11-24T15:19:03.315Z] Memory Usage - RSS: 58.37 MB, Heap Used: 19.52 MB, Event Loop Delay: 2.17 ms
+[2024-11-24T15:19:13.316Z] Memory Usage - RSS: 58.58 MB, Heap Used: 19.22 MB, Event Loop Delay: 1.45 ms
+[2024-11-24T15:19:23.317Z] Memory Usage - RSS: 58.59 MB, Heap Used: 19.00 MB, Event Loop Delay: 1.46 ms
+[2024-11-24T15:19:33.318Z] Memory Usage - RSS: 58.56 MB, Heap Used: 19.55 MB, Event Loop Delay: 1.96 ms
+[2024-11-24T15:19:43.319Z] Memory Usage - RSS: 58.56 MB, Heap Used: 19.35 MB, Event Loop Delay: 0.90 ms
+[2024-11-24T15:19:53.320Z] Memory Usage - RSS: 58.57 MB, Heap Used: 19.17 MB, Event Loop Delay: 0.80 ms
+[2024-11-24T15:20:03.321Z] Memory Usage - RSS: 58.59 MB, Heap Used: 19.03 MB, Event Loop Delay: 1.24 ms
+[2024-11-24T15:20:13.322Z] Memory Usage - RSS: 58.59 MB, Heap Used: 18.91 MB, Event Loop Delay: 1.06 ms
+[2024-11-24T15:20:23.323Z] Memory Usage - RSS: 58.59 MB, Heap Used: 18.84 MB, Event Loop Delay: 1.20 ms
+[2024-11-24T15:20:33.323Z] Memory Usage - RSS: 58.60 MB, Heap Used: 19.61 MB, Event Loop Delay: 0.90 ms
+[2024-11-24T15:20:43.323Z] Memory Usage - RSS: 58.60 MB, Heap Used: 19.60 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T15:20:53.324Z] Memory Usage - RSS: 58.60 MB, Heap Used: 19.60 MB, Event Loop Delay: 1.64 ms
+[2024-11-24T15:21:03.325Z] Memory Usage - RSS: 58.60 MB, Heap Used: 19.64 MB, Event Loop Delay: 1.36 ms
+[2024-11-24T15:21:13.325Z] Memory Usage - RSS: 58.63 MB, Heap Used: 19.05 MB, Event Loop Delay: 2.21 ms
+[2024-11-24T15:21:23.327Z] Memory Usage - RSS: 58.63 MB, Heap Used: 19.16 MB, Event Loop Delay: 1.04 ms
+[2024-11-24T15:21:33.328Z] Memory Usage - RSS: 58.63 MB, Heap Used: 19.27 MB, Event Loop Delay: 0.94 ms
+[2024-11-24T15:21:43.329Z] Memory Usage - RSS: 58.63 MB, Heap Used: 19.50 MB, Event Loop Delay: 2.16 ms
+[2024-11-24T15:21:45.687Z] Script error: connect ECONNREFUSED 127.0.0.1:9222
+[2024-11-24T15:21:53.329Z] Memory Usage - RSS: 58.69 MB, Heap Used: 18.89 MB, Event Loop Delay: 0.87 ms
+[2024-11-24T15:21:55.581Z] Memory Usage - RSS: 55.43 MB, Heap Used: 18.76 MB, Event Loop Delay: 0.00 ms
+[2024-11-24T15:22:03.330Z] Memory Usage - RSS: 58.86 MB, Heap Used: 19.15 MB, Event Loop Delay: 0.94 ms
+[2024-11-24T15:22:05.581Z] Memory Usage - RSS: 55.61 MB, Heap Used: 18.96 MB, Event Loop Delay: 3.26 ms
+[2024-11-24T15:22:13.332Z] Memory Usage - RSS: 58.64 MB, Heap Used: 19.49 MB, Event Loop Delay: 3.25 ms
+[2024-11-24T15:22:15.581Z] Memory Usage - RSS: 55.82 MB, Heap Used: 19.17 MB, Event Loop Delay: 3.59 ms
+[2024-11-24T15:22:23.333Z] Memory Usage - RSS: 58.64 MB, Heap Used: 19.03 MB, Event Loop Delay: 0.66 ms
+[2024-11-24T15:22:25.582Z] Memory Usage - RSS: 56.09 MB, Heap Used: 19.39 MB, Event Loop Delay: 0.67 ms
+[2024-11-24T15:22:33.336Z] Memory Usage - RSS: 58.64 MB, Heap Used: 19.41 MB, Event Loop Delay: 0.68 ms
+[2024-11-24T15:22:35.583Z] Memory Usage - RSS: 56.04 MB, Heap Used: 18.85 MB, Event Loop Delay: 2.35 ms
+[2024-11-24T15:22:43.337Z] Memory Usage - RSS: 58.64 MB, Heap Used: 18.92 MB, Event Loop Delay: 0.83 ms
+[2024-11-24T15:22:45.584Z] Memory Usage - RSS: 56.41 MB, Heap Used: 19.14 MB, Event Loop Delay: 1.97 ms
+[2024-11-24T15:22:53.338Z] Memory Usage - RSS: 58.64 MB, Heap Used: 19.32 MB, Event Loop Delay: 0.75 ms
+[2024-11-24T15:22:55.585Z] Memory Usage - RSS: 56.75 MB, Heap Used: 19.47 MB, Event Loop Delay: 1.16 ms
+[2024-11-24T15:23:03.340Z] Memory Usage - RSS: 58.70 MB, Heap Used: 19.23 MB, Event Loop Delay: 1.30 ms
+[2024-11-24T15:23:05.586Z] Memory Usage - RSS: 56.85 MB, Heap Used: 19.02 MB, Event Loop Delay: 2.68 ms
+[2024-11-24T15:23:13.340Z] Memory Usage - RSS: 58.89 MB, Heap Used: 18.96 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T15:23:15.588Z] Memory Usage - RSS: 56.86 MB, Heap Used: 19.40 MB, Event Loop Delay: 2.68 ms
+[2024-11-24T15:23:23.341Z] Memory Usage - RSS: 58.90 MB, Heap Used: 19.55 MB, Event Loop Delay: 1.81 ms
+[2024-11-24T15:23:25.589Z] Memory Usage - RSS: 57.05 MB, Heap Used: 19.02 MB, Event Loop Delay: 2.45 ms
+[2024-11-24T15:23:33.343Z] Memory Usage - RSS: 58.77 MB, Heap Used: 19.26 MB, Event Loop Delay: 2.10 ms
+[2024-11-24T15:23:35.591Z] Memory Usage - RSS: 57.06 MB, Heap Used: 19.47 MB, Event Loop Delay: 0.81 ms
+[2024-11-24T15:23:43.344Z] Memory Usage - RSS: 58.78 MB, Heap Used: 18.97 MB, Event Loop Delay: 0.74 ms
+[2024-11-24T15:23:45.387Z] Script error: connect ECONNREFUSED 127.0.0.1:9222
+[2024-11-24T15:23:45.592Z] Memory Usage - RSS: 57.27 MB, Heap Used: 19.14 MB, Event Loop Delay: 1.98 ms
+[2024-11-24T15:23:53.344Z] Memory Usage - RSS: 58.78 MB, Heap Used: 19.59 MB, Event Loop Delay: 0.86 ms
+[2024-11-24T15:23:55.288Z] Memory Usage - RSS: 56.37 MB, Heap Used: 18.74 MB, Event Loop Delay: 0.00 ms
+[2024-11-24T15:23:55.594Z] Memory Usage - RSS: 57.27 MB, Heap Used: 18.89 MB, Event Loop Delay: 1.08 ms
+[2024-11-24T15:24:03.346Z] Memory Usage - RSS: 58.77 MB, Heap Used: 19.46 MB, Event Loop Delay: 2.54 ms
+[2024-11-24T15:24:05.288Z] Memory Usage - RSS: 56.56 MB, Heap Used: 18.94 MB, Event Loop Delay: 2.28 ms
+[2024-11-24T15:24:05.595Z] Memory Usage - RSS: 57.25 MB, Heap Used: 19.45 MB, Event Loop Delay: 1.02 ms
+[2024-11-24T15:24:13.346Z] Memory Usage - RSS: 58.77 MB, Heap Used: 19.47 MB, Event Loop Delay: 1.64 ms
+[2024-11-24T15:24:15.289Z] Memory Usage - RSS: 56.77 MB, Heap Used: 19.15 MB, Event Loop Delay: 2.28 ms
+[2024-11-24T15:24:15.597Z] Memory Usage - RSS: 57.25 MB, Heap Used: 19.23 MB, Event Loop Delay: 1.10 ms
+[2024-11-24T15:24:23.346Z] Memory Usage - RSS: 58.92 MB, Heap Used: 19.49 MB, Event Loop Delay: 1.00 ms
+[2024-11-24T15:24:25.290Z] Memory Usage - RSS: 57.14 MB, Heap Used: 19.37 MB, Event Loop Delay: 0.86 ms
+[2024-11-24T15:24:25.598Z] Memory Usage - RSS: 57.25 MB, Heap Used: 19.01 MB, Event Loop Delay: 2.74 ms
+[2024-11-24T15:24:33.346Z] Memory Usage - RSS: 58.92 MB, Heap Used: 19.51 MB, Event Loop Delay: 2.34 ms
+[2024-11-24T15:24:35.292Z] Memory Usage - RSS: 57.44 MB, Heap Used: 18.83 MB, Event Loop Delay: 2.04 ms
+[2024-11-24T15:24:35.598Z] Memory Usage - RSS: 57.25 MB, Heap Used: 18.83 MB, Event Loop Delay: 1.42 ms
+[2024-11-24T15:24:43.348Z] Memory Usage - RSS: 59.09 MB, Heap Used: 19.57 MB, Event Loop Delay: 0.90 ms
+[2024-11-24T15:24:45.293Z] Memory Usage - RSS: 57.75 MB, Heap Used: 19.11 MB, Event Loop Delay: 1.15 ms
+[2024-11-24T15:24:45.599Z] Memory Usage - RSS: 57.28 MB, Heap Used: 19.53 MB, Event Loop Delay: 1.09 ms
+[2024-11-24T15:24:53.348Z] Memory Usage - RSS: 59.09 MB, Heap Used: 19.55 MB, Event Loop Delay: 0.99 ms
+[2024-11-24T15:24:55.293Z] Memory Usage - RSS: 58.07 MB, Heap Used: 19.44 MB, Event Loop Delay: 1.25 ms
+[2024-11-24T15:24:55.599Z] Memory Usage - RSS: 57.28 MB, Heap Used: 19.42 MB, Event Loop Delay: 0.72 ms
+[2024-11-24T15:25:03.348Z] Memory Usage - RSS: 59.10 MB, Heap Used: 19.74 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T15:25:05.294Z] Memory Usage - RSS: 58.18 MB, Heap Used: 19.01 MB, Event Loop Delay: 0.93 ms
+[2024-11-24T15:25:05.600Z] Memory Usage - RSS: 57.28 MB, Heap Used: 19.37 MB, Event Loop Delay: 1.49 ms
+[2024-11-24T15:25:13.348Z] Memory Usage - RSS: 59.10 MB, Heap Used: 19.77 MB, Event Loop Delay: 1.40 ms
+[2024-11-24T15:25:15.294Z] Memory Usage - RSS: 58.18 MB, Heap Used: 19.40 MB, Event Loop Delay: 3.64 ms
+[2024-11-24T15:25:15.602Z] Memory Usage - RSS: 57.28 MB, Heap Used: 19.35 MB, Event Loop Delay: 2.05 ms
+[2024-11-24T15:25:23.350Z] Memory Usage - RSS: 59.10 MB, Heap Used: 19.78 MB, Event Loop Delay: 0.78 ms
+[2024-11-24T15:25:25.294Z] Memory Usage - RSS: 58.38 MB, Heap Used: 19.02 MB, Event Loop Delay: 0.95 ms
+[2024-11-24T15:25:25.603Z] Memory Usage - RSS: 57.28 MB, Heap Used: 19.35 MB, Event Loop Delay: 2.62 ms
+[2024-11-24T15:25:33.349Z] Memory Usage - RSS: 58.90 MB, Heap Used: 19.03 MB, Event Loop Delay: 1.94 ms
+[2024-11-24T15:25:35.296Z] Memory Usage - RSS: 58.39 MB, Heap Used: 19.47 MB, Event Loop Delay: 1.20 ms
+[2024-11-24T15:25:35.604Z] Memory Usage - RSS: 57.29 MB, Heap Used: 19.49 MB, Event Loop Delay: 0.81 ms
+[2024-11-24T15:25:43.350Z] Memory Usage - RSS: 58.90 MB, Heap Used: 19.03 MB, Event Loop Delay: 1.26 ms
+[2024-11-24T15:25:45.296Z] Memory Usage - RSS: 58.57 MB, Heap Used: 19.21 MB, Event Loop Delay: 1.17 ms
+[2024-11-24T15:25:45.606Z] Memory Usage - RSS: 57.30 MB, Heap Used: 19.59 MB, Event Loop Delay: 2.69 ms
+[2024-11-24T15:25:53.352Z] Memory Usage - RSS: 58.90 MB, Heap Used: 19.04 MB, Event Loop Delay: 0.89 ms
+[2024-11-24T15:25:55.297Z] Memory Usage - RSS: 58.58 MB, Heap Used: 18.94 MB, Event Loop Delay: 1.16 ms
+[2024-11-24T15:25:55.608Z] Memory Usage - RSS: 57.30 MB, Heap Used: 18.86 MB, Event Loop Delay: 1.22 ms
+[2024-11-24T15:26:03.352Z] Memory Usage - RSS: 58.98 MB, Heap Used: 19.04 MB, Event Loop Delay: 1.99 ms
+[2024-11-24T15:26:05.302Z] Memory Usage - RSS: 58.56 MB, Heap Used: 19.49 MB, Event Loop Delay: 1.13 ms
+[2024-11-24T15:26:05.609Z] Memory Usage - RSS: 57.31 MB, Heap Used: 18.97 MB, Event Loop Delay: 0.91 ms
+[2024-11-24T15:26:13.354Z] Memory Usage - RSS: 58.98 MB, Heap Used: 19.05 MB, Event Loop Delay: 0.90 ms
+[2024-11-24T15:26:15.304Z] Memory Usage - RSS: 58.56 MB, Heap Used: 19.31 MB, Event Loop Delay: 0.89 ms
+[2024-11-24T15:26:15.609Z] Memory Usage - RSS: 57.31 MB, Heap Used: 19.19 MB, Event Loop Delay: 0.74 ms
+[2024-11-24T15:26:23.355Z] Memory Usage - RSS: 58.96 MB, Heap Used: 19.29 MB, Event Loop Delay: 0.77 ms
+[2024-11-24T15:26:25.304Z] Memory Usage - RSS: 58.56 MB, Heap Used: 19.13 MB, Event Loop Delay: 1.19 ms
+[2024-11-24T15:26:25.609Z] Memory Usage - RSS: 57.31 MB, Heap Used: 19.45 MB, Event Loop Delay: 0.79 ms
+[2024-11-24T15:26:33.356Z] Memory Usage - RSS: 58.96 MB, Heap Used: 19.68 MB, Event Loop Delay: 0.86 ms
+[2024-11-24T15:26:35.305Z] Memory Usage - RSS: 57.26 MB, Heap Used: 18.96 MB, Event Loop Delay: 0.74 ms
+[2024-11-24T15:26:35.610Z] Memory Usage - RSS: 55.15 MB, Heap Used: 18.92 MB, Event Loop Delay: 0.76 ms
+[2024-11-24T15:26:43.357Z] Memory Usage - RSS: 58.97 MB, Heap Used: 19.28 MB, Event Loop Delay: 1.99 ms
+[2024-11-24T15:26:45.307Z] Memory Usage - RSS: 57.27 MB, Heap Used: 18.83 MB, Event Loop Delay: 0.90 ms
+[2024-11-24T15:26:45.610Z] Memory Usage - RSS: 55.18 MB, Heap Used: 19.28 MB, Event Loop Delay: 0.69 ms
+[2024-11-24T15:26:53.359Z] Memory Usage - RSS: 59.05 MB, Heap Used: 19.07 MB, Event Loop Delay: 0.80 ms
+[2024-11-24T15:26:55.307Z] Memory Usage - RSS: 57.27 MB, Heap Used: 19.56 MB, Event Loop Delay: 1.13 ms
+[2024-11-24T15:26:55.610Z] Memory Usage - RSS: 55.18 MB, Heap Used: 19.62 MB, Event Loop Delay: 0.93 ms
+[2024-11-24T15:27:03.361Z] Memory Usage - RSS: 59.05 MB, Heap Used: 19.54 MB, Event Loop Delay: 1.42 ms
+[2024-11-24T15:27:05.308Z] Memory Usage - RSS: 57.27 MB, Heap Used: 19.53 MB, Event Loop Delay: 0.89 ms
+[2024-11-24T15:27:05.611Z] Memory Usage - RSS: 55.18 MB, Heap Used: 19.15 MB, Event Loop Delay: 2.11 ms
+[2024-11-24T15:27:13.363Z] Memory Usage - RSS: 59.24 MB, Heap Used: 19.08 MB, Event Loop Delay: 0.92 ms
+[2024-11-24T15:27:15.309Z] Memory Usage - RSS: 57.27 MB, Heap Used: 19.49 MB, Event Loop Delay: 1.00 ms
+[2024-11-24T15:27:15.611Z] Memory Usage - RSS: 55.10 MB, Heap Used: 19.56 MB, Event Loop Delay: 0.74 ms
+[2024-11-24T15:27:23.364Z] Memory Usage - RSS: 59.24 MB, Heap Used: 19.54 MB, Event Loop Delay: 1.96 ms
+[2024-11-24T15:27:25.311Z] Memory Usage - RSS: 57.27 MB, Heap Used: 19.55 MB, Event Loop Delay: 1.07 ms
+[2024-11-24T15:27:25.612Z] Memory Usage - RSS: 55.11 MB, Heap Used: 19.18 MB, Event Loop Delay: 1.10 ms
+[2024-11-24T15:27:33.366Z] Memory Usage - RSS: 59.24 MB, Heap Used: 19.09 MB, Event Loop Delay: 2.18 ms
+[2024-11-24T15:27:35.311Z] Memory Usage - RSS: 57.27 MB, Heap Used: 19.64 MB, Event Loop Delay: 0.87 ms
+[2024-11-24T15:27:35.613Z] Memory Usage - RSS: 55.15 MB, Heap Used: 18.95 MB, Event Loop Delay: 1.41 ms
+[2024-11-24T15:27:43.366Z] Memory Usage - RSS: 59.24 MB, Heap Used: 19.57 MB, Event Loop Delay: 2.03 ms
+[2024-11-24T15:27:45.312Z] Memory Usage - RSS: 57.29 MB, Heap Used: 18.96 MB, Event Loop Delay: 1.10 ms
+[2024-11-24T15:27:45.613Z] Memory Usage - RSS: 55.15 MB, Heap Used: 19.49 MB, Event Loop Delay: 0.85 ms
+[2024-11-24T15:27:53.367Z] Memory Usage - RSS: 59.25 MB, Heap Used: 19.10 MB, Event Loop Delay: 0.86 ms
+[2024-11-24T15:27:55.312Z] Memory Usage - RSS: 57.30 MB, Heap Used: 19.06 MB, Event Loop Delay: 1.26 ms
+[2024-11-24T15:27:55.613Z] Memory Usage - RSS: 55.16 MB, Heap Used: 19.22 MB, Event Loop Delay: 2.04 ms
+[2024-11-24T15:28:03.369Z] Memory Usage - RSS: 59.25 MB, Heap Used: 19.59 MB, Event Loop Delay: 2.05 ms
+[2024-11-24T15:28:05.313Z] Memory Usage - RSS: 57.31 MB, Heap Used: 19.17 MB, Event Loop Delay: 1.37 ms
+[2024-11-24T15:28:05.613Z] Memory Usage - RSS: 55.27 MB, Heap Used: 18.95 MB, Event Loop Delay: 2.01 ms
+[2024-11-24T15:28:13.369Z] Memory Usage - RSS: 59.25 MB, Heap Used: 19.16 MB, Event Loop Delay: 2.33 ms
+[2024-11-24T15:28:15.315Z] Memory Usage - RSS: 57.31 MB, Heap Used: 19.39 MB, Event Loop Delay: 1.30 ms
+[2024-11-24T15:28:15.613Z] Memory Usage - RSS: 55.28 MB, Heap Used: 19.58 MB, Event Loop Delay: 0.71 ms
+[2024-11-24T15:28:23.371Z] Memory Usage - RSS: 59.23 MB, Heap Used: 19.86 MB, Event Loop Delay: 2.13 ms
+[2024-11-24T15:28:25.315Z] Memory Usage - RSS: 57.31 MB, Heap Used: 19.63 MB, Event Loop Delay: 1.93 ms
+[2024-11-24T15:28:25.615Z] Memory Usage - RSS: 55.28 MB, Heap Used: 19.29 MB, Event Loop Delay: 1.94 ms
+[2024-11-24T15:28:33.372Z] Memory Usage - RSS: 59.24 MB, Heap Used: 19.87 MB, Event Loop Delay: 2.01 ms
+[2024-11-24T15:28:35.317Z] Memory Usage - RSS: 57.43 MB, Heap Used: 19.15 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T15:28:35.616Z] Memory Usage - RSS: 55.27 MB, Heap Used: 18.98 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T15:28:43.373Z] Memory Usage - RSS: 59.24 MB, Heap Used: 19.72 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T15:28:45.320Z] Memory Usage - RSS: 57.46 MB, Heap Used: 19.51 MB, Event Loop Delay: 0.78 ms
+[2024-11-24T15:28:45.616Z] Memory Usage - RSS: 55.27 MB, Heap Used: 19.02 MB, Event Loop Delay: 0.77 ms
+[2024-11-24T15:28:53.373Z] Memory Usage - RSS: 58.91 MB, Heap Used: 19.64 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T15:28:55.322Z] Memory Usage - RSS: 57.35 MB, Heap Used: 19.03 MB, Event Loop Delay: 0.89 ms
+[2024-11-24T15:28:55.617Z] Memory Usage - RSS: 55.18 MB, Heap Used: 19.02 MB, Event Loop Delay: 0.89 ms
+[2024-11-24T15:29:03.374Z] Memory Usage - RSS: 58.91 MB, Heap Used: 19.49 MB, Event Loop Delay: 1.80 ms
+[2024-11-24T15:29:05.322Z] Memory Usage - RSS: 57.35 MB, Heap Used: 19.41 MB, Event Loop Delay: 1.57 ms
+[2024-11-24T15:29:05.619Z] Memory Usage - RSS: 55.40 MB, Heap Used: 19.03 MB, Event Loop Delay: 1.80 ms
+[2024-11-24T15:29:13.375Z] Memory Usage - RSS: 58.97 MB, Heap Used: 19.40 MB, Event Loop Delay: 0.87 ms
+[2024-11-24T15:29:15.322Z] Memory Usage - RSS: 57.36 MB, Heap Used: 18.92 MB, Event Loop Delay: 0.89 ms
+[2024-11-24T15:29:15.620Z] Memory Usage - RSS: 55.40 MB, Heap Used: 19.18 MB, Event Loop Delay: 2.05 ms
+[2024-11-24T15:29:23.376Z] Memory Usage - RSS: 58.97 MB, Heap Used: 19.68 MB, Event Loop Delay: 1.55 ms
+[2024-11-24T15:29:25.322Z] Memory Usage - RSS: 57.36 MB, Heap Used: 19.32 MB, Event Loop Delay: 2.73 ms
+[2024-11-24T15:29:25.621Z] Memory Usage - RSS: 55.41 MB, Heap Used: 19.18 MB, Event Loop Delay: 2.09 ms
+[2024-11-24T15:29:33.377Z] Memory Usage - RSS: 58.97 MB, Heap Used: 19.14 MB, Event Loop Delay: 1.70 ms
+[2024-11-24T15:29:35.322Z] Memory Usage - RSS: 57.40 MB, Heap Used: 19.19 MB, Event Loop Delay: 0.71 ms
+[2024-11-24T15:29:35.622Z] Memory Usage - RSS: 55.41 MB, Heap Used: 19.19 MB, Event Loop Delay: 0.83 ms
+[2024-11-24T15:29:43.378Z] Memory Usage - RSS: 58.97 MB, Heap Used: 19.43 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T15:29:45.326Z] Memory Usage - RSS: 57.40 MB, Heap Used: 18.93 MB, Event Loop Delay: 1.86 ms
+[2024-11-24T15:29:45.623Z] Memory Usage - RSS: 55.50 MB, Heap Used: 19.21 MB, Event Loop Delay: 1.12 ms
+[2024-11-24T15:29:53.378Z] Memory Usage - RSS: 58.98 MB, Heap Used: 19.74 MB, Event Loop Delay: 2.03 ms
+[2024-11-24T15:29:55.328Z] Memory Usage - RSS: 57.41 MB, Heap Used: 19.54 MB, Event Loop Delay: 1.03 ms
+[2024-11-24T15:29:55.624Z] Memory Usage - RSS: 55.50 MB, Heap Used: 19.21 MB, Event Loop Delay: 1.71 ms
+[2024-11-24T15:30:03.378Z] Memory Usage - RSS: 58.98 MB, Heap Used: 19.18 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T15:30:05.330Z] Memory Usage - RSS: 57.62 MB, Heap Used: 19.28 MB, Event Loop Delay: 0.77 ms
+[2024-11-24T15:30:05.625Z] Memory Usage - RSS: 55.64 MB, Heap Used: 19.21 MB, Event Loop Delay: 0.82 ms
+[2024-11-24T15:30:13.378Z] Memory Usage - RSS: 58.98 MB, Heap Used: 19.48 MB, Event Loop Delay: 1.42 ms
+[2024-11-24T15:30:15.330Z] Memory Usage - RSS: 57.62 MB, Heap Used: 18.97 MB, Event Loop Delay: 0.77 ms
+[2024-11-24T15:30:15.625Z] Memory Usage - RSS: 55.64 MB, Heap Used: 19.22 MB, Event Loop Delay: 0.78 ms
+[2024-11-24T15:30:23.379Z] Memory Usage - RSS: 58.98 MB, Heap Used: 19.16 MB, Event Loop Delay: 0.87 ms
+[2024-11-24T15:30:25.332Z] Memory Usage - RSS: 57.66 MB, Heap Used: 19.61 MB, Event Loop Delay: 1.32 ms
+[2024-11-24T15:30:25.627Z] Memory Usage - RSS: 55.64 MB, Heap Used: 19.22 MB, Event Loop Delay: 0.85 ms
+[2024-11-24T15:30:33.379Z] Memory Usage - RSS: 58.98 MB, Heap Used: 19.46 MB, Event Loop Delay: 3.01 ms
+[2024-11-24T15:30:35.333Z] Memory Usage - RSS: 57.64 MB, Heap Used: 19.33 MB, Event Loop Delay: 1.86 ms
+[2024-11-24T15:30:35.629Z] Memory Usage - RSS: 55.64 MB, Heap Used: 19.23 MB, Event Loop Delay: 0.62 ms
