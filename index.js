@@ -3,14 +3,18 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
+const { performance } = require('perf_hooks'); // For performance monitoring
+const util = require('util');
 
 // Enable Puppeteer stealth mode to bypass detection
 puppeteer.use(StealthPlugin());
 
 // Load configuration from a JSON file
-const config = JSON.parse(fs.readFileSync(path.join(__dirname, 'config.json'), 'utf-8'));
+const configPath = path.join(__dirname, 'config.json');
+if (!fs.existsSync(configPath)) throw new Error('Configuration file missing.');
+const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
-// Log function to write to file and console
+// Utility function to log messages to console and file
 const log = (message) => {
     const timestamp = new Date().toISOString();
     const logMessage = `[${timestamp}] ${message}`;
@@ -43,7 +47,28 @@ const shutdown = async (browser) => {
     process.exit(0);
 };
 
-let browser; // Define browser globally for proper shutdown handling
+// **Performance Monitoring Setup**
+let lastEventLoopDelay = 0;
+const observeEventLoopDelay = async () => {
+    const start = performance.now();
+    await new Promise(resolve => setImmediate(resolve)); // Measure delay over the event loop
+    const delay = performance.now() - start;
+    lastEventLoopDelay = delay;
+};
+
+// Log system performance periodically
+const logSystemPerformance = async () => {
+    const memoryUsage = process.memoryUsage();
+    log(`Memory Usage - RSS: ${(memoryUsage.rss / 1024 / 1024).toFixed(2)} MB, Heap Used: ${(memoryUsage.heapUsed / 1024 / 1024).toFixed(2)} MB, Event Loop Delay: ${lastEventLoopDelay.toFixed(2)} ms`);
+};
+
+// Set interval for periodic performance logging
+setInterval(() => {
+    observeEventLoopDelay();
+    logSystemPerformance();
+}, config.performanceLogInterval || 10000); // Default to 10 seconds if not set
+
+let browser; // Global reference for proper shutdown handling
 let winCount = 0; // Track consecutive wins
 let betInProgress = false; // Prevent simultaneous bets
 
@@ -52,58 +77,68 @@ process.on('SIGINT', async () => {
     await shutdown(browser);
 });
 
+// Betting strategy calculation
+const calculateBetAmount = (currentBalance) => {
+    const strategy = Math.random() < config.strategyWeights.exponential
+        ? 'exponential'
+        : 'fibonacci';
+
+    if (strategy === 'exponential') {
+        const bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
+        log(`Exponential strategy chosen. Bet amount: ${bet}`);
+        return bet;
+    } else {
+        const fibIndex = winCount % config.fibonacciSequence.length;
+        const bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
+        log(`Fibonacci strategy chosen. Bet amount: ${bet}`);
+        return bet;
+    }
+};
+
 (async () => {
     try {
-        // Launch Puppeteer browser with necessary options
-        browser = await puppeteer.launch({
-            headless: false,
-            args: ['--no-sandbox', '--disable-setuid-sandbox'], // Handle sandboxing for certain environments
-        });
+        // Connect to existing browser instance
+        const browserWSEndpoint = fs.readFileSync('wsEndpoint.txt', 'utf-8');
+        browser = await puppeteer.connect({ browserWSEndpoint });
 
         const page = await browser.newPage();
         page.setDefaultNavigationTimeout(60000);
 
-        log('Navigating to the target website...');
-        await page.goto('https://betting.co.zw/fast-games/aviator');
-
-        // Check if already logged in
-        const isLoggedIn = await page.evaluate(() => !!document.querySelector('.user-profile'));
-        if (!isLoggedIn) {
-            log('Not logged in. Proceeding to log in...');
-            await page.goto('https://betting.co.zw/login');
-
-            // Perform login
-            await page.type(config.usernameSelector, config.username, { delay: 50 });
-            await page.type(config.passwordSelector, config.password, { delay: 50 });
-            await Promise.all([
-                page.click(config.loginButtonSelector),
-                page.waitForNavigation({ waitUntil: 'networkidle0' }),
-            ]);
-            log('Login successful!');
+        // Load cookies before navigating
+        const cookiesPath = path.join(__dirname, 'cookies.json');
+        if (fs.existsSync(cookiesPath)) {
+            const cookies = JSON.parse(fs.readFileSync(cookiesPath));
+            await page.setCookie(...cookies);
+            log('Cookies loaded successfully.');
+        } else {
+            throw new Error('Cookies file not found. Ensure `mozzart.js` runs first.');
         }
 
-        // Navigate to the Aviator game
+        log('Navigating to the Aviator game...');
         await page.goto('https://betting.co.zw/virtual/fast-games/aviator');
 
-        // Locate the game iframe dynamically
-        const locateIframe = async () => {
-            const frame = page.frames().find(frame => frame.url().includes('spribe.co'));
-            if (!frame) throw new Error('Iframe not found!');
-            return frame;
+        // Utility functions for iframe handling (including GrooveGaming iframe handling)
+        const getIframe = async () => {
+            let retries = 10;
+            while (retries > 0) {
+                const frame = page.frames().find(frame => frame.url().includes('spribe.co') || frame.url().includes('groovegaming.com'));
+                if (frame) return frame;
+                await new Promise(res => setTimeout(res, 1000));
+                retries--;
+            }
+            throw new Error('Iframe not found after multiple attempts.');
         };
 
-        let iframe = await locateIframe();
-        log('Iframe located, ready for interaction.');
-
-        // Utility functions
-        const getElementContent = async (frame, selector) => {
+        const getTextContent = async (frame, selector) => {
             try {
-                const element = await frame.$(selector);
-                if (!element) throw new Error(`Element with selector "${selector}" not found.`);
-                const content = await frame.evaluate(el => el.textContent.trim(), element);
+                const content = await frame.evaluate(selector => {
+                    const el = document.querySelector(selector);
+                    return el ? el.innerText.trim() : null;
+                }, selector);
+                if (!content) throw new Error(`No text found for selector: ${selector}`);
                 return content;
             } catch (error) {
-                log(`Error getting element content: ${error.message}`);
+                log(`Error retrieving text content: ${error.message}`);
                 throw error;
             }
         };
@@ -120,31 +155,14 @@ process.on('SIGINT', async () => {
             }
         };
 
-        const calculateBetAmount = (currentBalance) => {
-            const strategy = Math.random() < config.strategyWeights.exponential
-                ? 'exponential'
-                : 'fibonacci';
-
-            if (strategy === 'exponential') {
-                const bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
-                log(`Exponential strategy chosen. Bet amount: ${bet}`);
-                return bet;
-            } else {
-                const fibIndex = winCount % config.fibonacciSequence.length;
-                const bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-                log(`Fibonacci strategy chosen. Bet amount: ${bet}`);
-                return bet;
-            }
-        };
-
-        // Betting logic
+        // Main betting logic
         const placeBet = async () => {
-            if (betInProgress) return; // Prevent multiple bets
+            if (betInProgress) return;
             betInProgress = true;
 
             try {
-                iframe = await locateIframe(); // Refresh iframe reference
-                const balanceText = await getElementContent(iframe, config.balanceSelector);
+                const iframe = await getIframe();
+                const balanceText = await getTextContent(iframe, config.balanceSelector);
                 const balance = parseFloat(balanceText.replace(/[^0-9.]/g, ''));
                 log(`Current balance: ${balance}`);
 
@@ -155,12 +173,13 @@ process.on('SIGINT', async () => {
                 const betAmount = calculateBetAmount(balance);
 
                 // Enter bet amount
-                await iframe.focus(config.betInputSelector);
-                await iframe.evaluate(selector => {
+                await iframe.evaluate((selector, value) => {
                     const input = document.querySelector(selector);
-                    input.value = ''; // Clear input
-                }, config.betInputSelector);
-                await iframe.type(config.betInputSelector, betAmount.toString());
+                    if (input) {
+                        input.value = value;
+                        input.dispatchEvent(new Event('input', { bubbles: true }));
+                    }
+                }, config.betInputSelector, betAmount.toString());
                 log(`Entered bet amount: ${betAmount}`);
 
                 // Click bet button
@@ -168,7 +187,7 @@ process.on('SIGINT', async () => {
                 log('Bet placed successfully.');
 
                 // Wait for a random period before cashing out
-                const delay = Math.random() * (5000 - 2000) + 2000; // Between 2s and 5s
+                const delay = Math.random() * (5000 - 2000) + 2000;
                 log(`Waiting ${delay} ms before cashing out...`);
                 await new Promise(res => setTimeout(res, delay));
 
@@ -181,7 +200,6 @@ process.on('SIGINT', async () => {
                     await sendEmailNotification('All-In Strategy Triggered', `You have ${winCount} consecutive wins.`);
                     winCount = 0;
                 }
-
             } catch (error) {
                 log(`Error during betting: ${error.message}`);
                 winCount = 0;
@@ -190,7 +208,7 @@ process.on('SIGINT', async () => {
             }
         };
 
-        // Place bets at intervals
+        // Periodically place bets
         setInterval(async () => {
             try {
                 await placeBet();
@@ -201,8 +219,6 @@ process.on('SIGINT', async () => {
 
     } catch (error) {
         log(`Script error: ${error.message}`);
-        if (browser) {
-            await shutdown(browser);
-        }
+        if (browser) await shutdown(browser);
     }
 })();

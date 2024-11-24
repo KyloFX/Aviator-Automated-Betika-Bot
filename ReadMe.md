@@ -24,6 +24,10 @@ To get started, clone the repository and install the required dependencies:
     ```bash
     npm install
     ```
+3. Install more dependencies if not already installed
+```bash
+npm install puppeteer-extra puppeteer-extra-plugin-stealth nodemailer fs path dotenv winston
+```
 
 ## How to Run
 The bot can be executed in different modes depending on your use case:

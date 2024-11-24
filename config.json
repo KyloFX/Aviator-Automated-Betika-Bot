@@ -1,52 +1,36 @@
 {
-  "bubbleMultiplierThreshold": 1.50,
-  "bubbleSelector": "div.bubble-multiplier.font-weight-bold",
-  "balanceSelector": ".amount.font-weight-bold",
-  "betInputSelector": "input.bet-amount-input",
+  "username": "your-username",
+  "password": "your-password",
+  "usernameSelector": "input#phoneInput",
+  "passwordSelector": "input#password",
+  "loginButtonSelector": "span#buttonLoginSubmitLabel",
+  "balanceSelector": "span.usr-balance", 
+  "betInputSelector": "input.font-weight-bold", 
   "betButtonSelector": "button.btn.btn-success.bet.ng-star-inserted",
   "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",
-  "logFile": "betting_log.txt",
-  "minBetAmount": 0.10,
-  "maxBetAmount": 100,
-  "betPercentage": 0.1,
-  "allInAfterWins": 5,
-  "growthFactor": 2,
-  "fibonacciSequence": [0.05, 0.1, 0.15, 0.25, 0.4],
-  "strategyWeights": {
-    "exponential": 1,
-    "fibonacci": 0.7,
-    "default": 1
-  },
-  "betInterval": 15000,
+  "logFile": "./logs/activity.log",
   "email": {
-    "host": "smtp.gmail.com",
-    "port": 587,
-    "secure": false,
-    "auth": {
-      "user": "k2me2016@gmail.com",
-      "pass": "klick@2016#"
-    },
-    "from": "k2me2016@gmail.com",
-    "to": "k2me2016@gmail.com"
+      "service": "gmail",
+      "auth": {
+          "user": "k2me2016@gmail.com",
+          "pass": "klick@2016#"
+      },
+      "from": "k2me2016@gmail.com",
+      "to": "k2me2016@gmail.com"
   },
+  "minBetAmount": 0.1,
+  "betPercentage": 0.05,
+  "growthFactor": 1.5,
+  "fibonacciSequence": [0.02, 0.03, 0.05, 0.08, 0.13],
+  "strategyWeights": {
+      "exponential": 0.7,
+      "fibonacci": 0.3
+  },
+  "betInterval": 10000,
+  "allInAfterWins": 5,
+  "iframeIdentifier": "https://aviator-next.spribegaming.com/",
   "selectors": {
-    "usernameInput": "input#username",
-    "passwordInput": "input#password",
-    "loginButton": "button.login-btn"
-  },
-  //"mozzart": {
-  //  "username": "your_username",
-  //  "password": "your_password",
-  //  "usernameSelector": "#username-input",
-  //  "passwordSelector": "#password-input",
-  //  "loginButtonSelector": "#login-button",
-  //  "balanceSelector": ".balance-display",
-  //  "betInputSelector": "#bet-amount",
-  //  "betButtonSelector": "#place-bet",
-  //  "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",
-  //  "minBetAmount": 10,
-  //  "flatBetAmount": 50,
-  //  "betInterval": 15000
-  //},
-  "exponentialFactor": 0.1
+      "aviatorGameGrid": "body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img",
+      "playNowButton": "button.au-m-btn.positive"
+  }
 }
