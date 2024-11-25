@@ -7,7 +7,7 @@ const UserAgent = require('user-agents');
 
 puppeteer.use(StealthPlugin());
 
-const url = 'https://betting.co.zw/virtual/fast-games';
+const url = 'https://betting.co.zw/virtual/fast-games';  // Direct URL to Fast Games
 const loginUrl = 'https://betting.co.zw/authentication/login';
 const username = process.env.MOZZARTUSERNAME;
 const password = process.env.MOZZARTPASSWORD;
@@ -45,9 +45,30 @@ const navigateWithRetry = async (url, page, retries = 3, timeout = 120000) => {
     }
 };
 
+// Function to handle iframe switching
+const switchToIframe = async (page, iframeSelector, retries = 3, delay = 2000) => {
+    for (let i = 0; i < retries; i++) {
+        try {
+            const iframeElement = await page.$(iframeSelector);
+            if (iframeElement) {
+                const iframe = await iframeElement.contentFrame();
+                console.log('Switched to iframe.');
+                return iframe;
+            }
+            console.log('Iframe not found, retrying...');
+            await sleep(delay);
+        } catch (error) {
+            console.error(`Error while switching iframe: ${error.message}`);
+            if (i === retries - 1) throw error;
+        }
+    }
+    throw new Error('Failed to switch to iframe.');
+};
+
 // Selectors
 const gridSelector = 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img';
 const playButtonSelector = 'button.au-m-btn.positive';
+const iframeSelector = 'iframe'; // Adjust this based on the actual iframe selector
 
 (async () => {
     console.log(`[${new Date().toISOString()}] Launching Puppeteer...`);
@@ -109,6 +130,15 @@ const playButtonSelector = 'button.au-m-btn.positive';
     fs.writeFileSync('wsEndpoint.txt', browserWSEndpoint);
     fs.writeFileSync(cookiesPath, JSON.stringify(cookies));
 
+    // Directly navigate to Fast Games page
+    try {
+        console.log(`[${new Date().toISOString()}] Navigating directly to Fast Games page...`);
+        await navigateWithRetry('https://betting.co.zw/virtual/fast-games', page);
+    } catch (error) {
+        console.error(`[${new Date().toISOString()}] Error navigating to Fast Games: ${error.message}`);
+        throw new Error('Fast Games navigation failed');
+    }
+
     // Aviator Game Navigation
     try {
         console.log(`[${new Date().toISOString()}] Navigating to the Aviator game...`);
@@ -131,10 +161,27 @@ const playButtonSelector = 'button.au-m-btn.positive';
 
         await page.click(playButtonSelector);
         console.log(`[${new Date().toISOString()}] "PLAY NOW" button clicked.`);
+        
+// Switch to iframe and perform actions
+try {
+    const iframe = await switchToIframe(page, iframeSelector);
+    console.log(`[${new Date().toISOString()}] Iframe is ready for interaction.`);
+    // Additional setup if needed, like waiting for specific iframe elements
+    await iframe.waitForSelector('button.play', { visible: true, timeout: 10000 });
+    console.log('Game iframe setup complete.');
+} catch (error) {
+    console.error(`[${new Date().toISOString()}] Error during iframe interaction: ${error.message}`);
+}
+
 
         console.log(`[${new Date().toISOString()}] Waiting for 5 seconds to allow the game to load...`);
         await randomSleep(5000, 6000);
         console.log(`[${new Date().toISOString()}] Game has been launched and is loading.`);
+
+        // Switch to iframe and perform actions
+        const iframe = await switchToIframe(page, iframeSelector);
+        await iframe.waitForSelector('button.play');
+        console.log(`[${new Date().toISOString()}] Iframe is ready for interaction.`);
     } catch (error) {
         console.error(`[${new Date().toISOString()}] Error navigating to Aviator game: ${error.message}`);
     }

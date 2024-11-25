@@ -2131,3 +2131,1929 @@
 [2024-11-24T15:33:53.405Z] Memory Usage - RSS: 58.78 MB, Heap Used: 19.84 MB, Event Loop Delay: 0.72 ms
 [2024-11-24T15:33:55.355Z] Memory Usage - RSS: 57.83 MB, Heap Used: 19.57 MB, Event Loop Delay: 0.97 ms
 [2024-11-24T15:33:55.651Z] Memory Usage - RSS: 55.68 MB, Heap Used: 19.68 MB, Event Loop Delay: 2.02 ms
+[2024-11-24T16:29:09.747Z] Cookies loaded successfully.
+[2024-11-24T16:29:19.452Z] Memory Usage - RSS: 56.17 MB, Heap Used: 17.67 MB, Event Loop Delay: 0.00 ms
+[2024-11-24T16:29:29.451Z] Memory Usage - RSS: 56.21 MB, Heap Used: 17.69 MB, Event Loop Delay: 3.59 ms
+[2024-11-24T16:29:39.453Z] Memory Usage - RSS: 56.25 MB, Heap Used: 17.75 MB, Event Loop Delay: 2.31 ms
+[2024-11-24T16:29:41.043Z] Error navigating to Fast Games: Waiting for selector `span#menudesktropfastgames` failed: Waiting failed: 30000ms exceeded
+[2024-11-24T16:29:41.044Z] Script error: Waiting for selector `span#menudesktropfastgames` failed: Waiting failed: 30000ms exceeded
+[2024-11-24T16:29:41.044Z] Shutting down...
+[2024-11-24T16:36:06.600Z] Cookies loaded successfully.
+[2024-11-24T16:36:06.602Z] Navigating to the Aviator game...
+[2024-11-24T16:36:16.227Z] Memory Usage - RSS: 55.96 MB, Heap Used: 17.57 MB, Event Loop Delay: 0.00 ms
+[2024-11-24T16:36:26.227Z] Memory Usage - RSS: 56.04 MB, Heap Used: 17.64 MB, Event Loop Delay: 1.47 ms
+[2024-11-24T16:36:31.087Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:36:36.227Z] Memory Usage - RSS: 56.03 MB, Heap Used: 17.66 MB, Event Loop Delay: 0.68 ms
+[2024-11-24T16:36:46.230Z] Memory Usage - RSS: 56.04 MB, Heap Used: 17.67 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T16:36:51.085Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:36:56.231Z] Memory Usage - RSS: 56.07 MB, Heap Used: 17.70 MB, Event Loop Delay: 0.68 ms
+[2024-11-24T16:37:06.233Z] Memory Usage - RSS: 56.07 MB, Heap Used: 17.72 MB, Event Loop Delay: 0.91 ms
+[2024-11-24T16:37:11.090Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:37:16.235Z] Memory Usage - RSS: 56.08 MB, Heap Used: 17.73 MB, Event Loop Delay: 0.73 ms
+[2024-11-24T16:37:26.237Z] Memory Usage - RSS: 56.09 MB, Heap Used: 17.75 MB, Event Loop Delay: 1.41 ms
+[2024-11-24T16:37:31.094Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:37:36.238Z] Memory Usage - RSS: 56.11 MB, Heap Used: 17.76 MB, Event Loop Delay: 0.90 ms
+[2024-11-24T16:37:46.239Z] Memory Usage - RSS: 56.13 MB, Heap Used: 17.77 MB, Event Loop Delay: 1.23 ms
+[2024-11-24T16:37:51.102Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:37:56.239Z] Memory Usage - RSS: 56.15 MB, Heap Used: 17.79 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T16:38:06.239Z] Memory Usage - RSS: 56.29 MB, Heap Used: 17.93 MB, Event Loop Delay: 0.76 ms
+[2024-11-24T16:38:11.136Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:38:16.240Z] Memory Usage - RSS: 56.30 MB, Heap Used: 17.95 MB, Event Loop Delay: 0.69 ms
+[2024-11-24T16:38:26.241Z] Memory Usage - RSS: 56.31 MB, Heap Used: 17.97 MB, Event Loop Delay: 1.01 ms
+[2024-11-24T16:38:31.105Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:38:36.243Z] Memory Usage - RSS: 56.32 MB, Heap Used: 17.98 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T16:38:46.244Z] Memory Usage - RSS: 56.34 MB, Heap Used: 17.99 MB, Event Loop Delay: 0.94 ms
+[2024-11-24T16:38:51.111Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:38:56.245Z] Memory Usage - RSS: 56.36 MB, Heap Used: 18.01 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T16:39:06.247Z] Memory Usage - RSS: 56.37 MB, Heap Used: 18.03 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T16:39:11.110Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:39:16.248Z] Memory Usage - RSS: 56.39 MB, Heap Used: 18.04 MB, Event Loop Delay: 0.91 ms
+[2024-11-24T16:39:26.250Z] Memory Usage - RSS: 56.40 MB, Heap Used: 18.06 MB, Event Loop Delay: 0.68 ms
+[2024-11-24T16:39:31.106Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:39:36.250Z] Memory Usage - RSS: 56.41 MB, Heap Used: 18.07 MB, Event Loop Delay: 0.54 ms
+[2024-11-24T16:39:46.250Z] Memory Usage - RSS: 56.43 MB, Heap Used: 18.08 MB, Event Loop Delay: 0.83 ms
+[2024-11-24T16:39:51.107Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:39:56.252Z] Memory Usage - RSS: 56.44 MB, Heap Used: 18.10 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T16:40:06.253Z] Memory Usage - RSS: 56.45 MB, Heap Used: 18.11 MB, Event Loop Delay: 1.38 ms
+[2024-11-24T16:40:11.113Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:40:16.253Z] Memory Usage - RSS: 56.46 MB, Heap Used: 18.13 MB, Event Loop Delay: 0.60 ms
+[2024-11-24T16:40:26.255Z] Memory Usage - RSS: 56.48 MB, Heap Used: 18.14 MB, Event Loop Delay: 1.02 ms
+[2024-11-24T16:40:31.112Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:40:36.256Z] Memory Usage - RSS: 56.49 MB, Heap Used: 18.15 MB, Event Loop Delay: 0.84 ms
+[2024-11-24T16:40:46.257Z] Memory Usage - RSS: 56.51 MB, Heap Used: 18.17 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T16:40:51.116Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:40:56.258Z] Memory Usage - RSS: 56.52 MB, Heap Used: 18.18 MB, Event Loop Delay: 0.60 ms
+[2024-11-24T16:41:06.260Z] Memory Usage - RSS: 56.56 MB, Heap Used: 18.20 MB, Event Loop Delay: 0.68 ms
+[2024-11-24T16:41:11.111Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:41:16.260Z] Memory Usage - RSS: 53.86 MB, Heap Used: 18.21 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T16:41:26.260Z] Memory Usage - RSS: 53.87 MB, Heap Used: 18.22 MB, Event Loop Delay: 0.97 ms
+[2024-11-24T16:41:31.123Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T16:41:36.260Z] Memory Usage - RSS: 53.89 MB, Heap Used: 18.24 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T16:41:46.260Z] Memory Usage - RSS: 53.90 MB, Heap Used: 18.25 MB, Event Loop Delay: 0.54 ms
+[2024-11-24T16:41:50.561Z] Shutting down...
+[2024-11-24T17:17:21.742Z] Cookies loaded successfully.
+[2024-11-24T17:17:21.743Z] Navigating to the Aviator game...
+[2024-11-24T17:17:31.356Z] Memory Usage - RSS: 55.93 MB, Heap Used: 17.55 MB, Event Loop Delay: 0.00 ms
+[2024-11-24T17:17:41.355Z] Memory Usage - RSS: 55.99 MB, Heap Used: 17.59 MB, Event Loop Delay: 2.82 ms
+[2024-11-24T17:17:42.696Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:17:51.355Z] Memory Usage - RSS: 55.98 MB, Heap Used: 17.61 MB, Event Loop Delay: 2.07 ms
+[2024-11-24T17:18:01.358Z] Memory Usage - RSS: 56.22 MB, Heap Used: 17.86 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T17:18:02.704Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:18:11.360Z] Memory Usage - RSS: 56.24 MB, Heap Used: 17.88 MB, Event Loop Delay: 2.05 ms
+[2024-11-24T17:18:21.361Z] Memory Usage - RSS: 56.25 MB, Heap Used: 17.90 MB, Event Loop Delay: 2.16 ms
+[2024-11-24T17:18:22.703Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:18:31.363Z] Memory Usage - RSS: 56.51 MB, Heap Used: 18.16 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T17:18:41.364Z] Memory Usage - RSS: 56.53 MB, Heap Used: 18.18 MB, Event Loop Delay: 0.68 ms
+[2024-11-24T17:18:42.697Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:18:51.365Z] Memory Usage - RSS: 56.54 MB, Heap Used: 18.19 MB, Event Loop Delay: 0.86 ms
+[2024-11-24T17:19:01.367Z] Memory Usage - RSS: 56.70 MB, Heap Used: 18.35 MB, Event Loop Delay: 0.60 ms
+[2024-11-24T17:19:02.702Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:19:11.368Z] Memory Usage - RSS: 58.46 MB, Heap Used: 18.69 MB, Event Loop Delay: 4.10 ms
+[2024-11-24T17:19:21.368Z] Memory Usage - RSS: 58.47 MB, Heap Used: 18.71 MB, Event Loop Delay: 0.76 ms
+[2024-11-24T17:19:22.728Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:19:31.370Z] Memory Usage - RSS: 58.48 MB, Heap Used: 18.95 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T17:19:41.373Z] Memory Usage - RSS: 58.48 MB, Heap Used: 19.12 MB, Event Loop Delay: 2.31 ms
+[2024-11-24T17:19:42.703Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:19:51.373Z] Memory Usage - RSS: 58.48 MB, Heap Used: 19.13 MB, Event Loop Delay: 1.19 ms
+[2024-11-24T17:20:01.374Z] Memory Usage - RSS: 58.48 MB, Heap Used: 19.14 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T17:20:02.705Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:20:11.374Z] Memory Usage - RSS: 58.59 MB, Heap Used: 18.79 MB, Event Loop Delay: 1.82 ms
+[2024-11-24T17:20:21.374Z] Memory Usage - RSS: 58.59 MB, Heap Used: 18.81 MB, Event Loop Delay: 1.95 ms
+[2024-11-24T17:20:22.715Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:20:31.374Z] Memory Usage - RSS: 58.59 MB, Heap Used: 18.82 MB, Event Loop Delay: 1.88 ms
+[2024-11-24T17:20:41.376Z] Memory Usage - RSS: 58.59 MB, Heap Used: 18.98 MB, Event Loop Delay: 1.16 ms
+[2024-11-24T17:20:42.710Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:20:51.377Z] Memory Usage - RSS: 58.59 MB, Heap Used: 19.00 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T17:21:01.378Z] Memory Usage - RSS: 58.59 MB, Heap Used: 19.01 MB, Event Loop Delay: 0.83 ms
+[2024-11-24T17:21:02.715Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:21:11.380Z] Memory Usage - RSS: 58.68 MB, Heap Used: 18.70 MB, Event Loop Delay: 0.84 ms
+[2024-11-24T17:21:21.381Z] Memory Usage - RSS: 58.68 MB, Heap Used: 18.72 MB, Event Loop Delay: 0.98 ms
+[2024-11-24T17:21:22.723Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:21:31.381Z] Memory Usage - RSS: 58.68 MB, Heap Used: 18.73 MB, Event Loop Delay: 0.73 ms
+[2024-11-24T17:21:41.382Z] Memory Usage - RSS: 58.68 MB, Heap Used: 18.89 MB, Event Loop Delay: 0.95 ms
+[2024-11-24T17:21:42.714Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:21:51.383Z] Memory Usage - RSS: 58.68 MB, Heap Used: 18.90 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T17:22:01.383Z] Memory Usage - RSS: 58.68 MB, Heap Used: 18.92 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T17:22:02.719Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:22:11.383Z] Memory Usage - RSS: 58.69 MB, Heap Used: 19.18 MB, Event Loop Delay: 0.56 ms
+[2024-11-24T17:22:21.385Z] Memory Usage - RSS: 58.71 MB, Heap Used: 19.20 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T17:22:22.720Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:22:31.387Z] Memory Usage - RSS: 58.71 MB, Heap Used: 19.21 MB, Event Loop Delay: 0.66 ms
+[2024-11-24T17:22:41.389Z] Memory Usage - RSS: 58.75 MB, Heap Used: 18.65 MB, Event Loop Delay: 0.59 ms
+[2024-11-24T17:22:42.723Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:22:51.390Z] Memory Usage - RSS: 58.75 MB, Heap Used: 18.66 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T17:23:01.391Z] Memory Usage - RSS: 58.75 MB, Heap Used: 18.68 MB, Event Loop Delay: 0.69 ms
+[2024-11-24T17:23:02.719Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:23:11.391Z] Memory Usage - RSS: 58.75 MB, Heap Used: 19.07 MB, Event Loop Delay: 1.84 ms
+[2024-11-24T17:23:21.393Z] Memory Usage - RSS: 58.75 MB, Heap Used: 19.09 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T17:23:22.728Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:23:31.395Z] Memory Usage - RSS: 58.75 MB, Heap Used: 19.10 MB, Event Loop Delay: 1.70 ms
+[2024-11-24T17:23:41.396Z] Memory Usage - RSS: 58.75 MB, Heap Used: 19.26 MB, Event Loop Delay: 1.94 ms
+[2024-11-24T17:23:42.725Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:23:51.397Z] Memory Usage - RSS: 58.75 MB, Heap Used: 19.27 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T17:24:01.398Z] Memory Usage - RSS: 58.75 MB, Heap Used: 19.29 MB, Event Loop Delay: 0.76 ms
+[2024-11-24T17:24:02.723Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:24:11.400Z] Memory Usage - RSS: 58.77 MB, Heap Used: 18.84 MB, Event Loop Delay: 1.55 ms
+[2024-11-24T17:24:21.401Z] Memory Usage - RSS: 58.77 MB, Heap Used: 18.86 MB, Event Loop Delay: 0.71 ms
+[2024-11-24T17:24:22.720Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:24:31.401Z] Memory Usage - RSS: 58.77 MB, Heap Used: 18.87 MB, Event Loop Delay: 0.87 ms
+[2024-11-24T17:24:41.402Z] Memory Usage - RSS: 58.77 MB, Heap Used: 19.04 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T17:24:42.725Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:24:51.403Z] Memory Usage - RSS: 58.77 MB, Heap Used: 19.05 MB, Event Loop Delay: 0.71 ms
+[2024-11-24T17:25:01.403Z] Memory Usage - RSS: 58.77 MB, Heap Used: 19.07 MB, Event Loop Delay: 1.84 ms
+[2024-11-24T17:25:02.729Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:25:11.405Z] Memory Usage - RSS: 58.80 MB, Heap Used: 18.73 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T17:25:21.405Z] Memory Usage - RSS: 58.80 MB, Heap Used: 18.75 MB, Event Loop Delay: 0.69 ms
+[2024-11-24T17:25:22.740Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:25:31.406Z] Memory Usage - RSS: 58.80 MB, Heap Used: 18.76 MB, Event Loop Delay: 1.41 ms
+[2024-11-24T17:25:41.412Z] Memory Usage - RSS: 58.80 MB, Heap Used: 18.92 MB, Event Loop Delay: 1.53 ms
+[2024-11-24T17:25:42.811Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:25:51.424Z] Memory Usage - RSS: 58.80 MB, Heap Used: 18.93 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T17:26:01.432Z] Memory Usage - RSS: 58.80 MB, Heap Used: 18.95 MB, Event Loop Delay: 1.46 ms
+[2024-11-24T17:26:02.821Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:26:11.434Z] Memory Usage - RSS: 58.81 MB, Heap Used: 19.22 MB, Event Loop Delay: 1.47 ms
+[2024-11-24T17:26:21.444Z] Memory Usage - RSS: 58.81 MB, Heap Used: 19.24 MB, Event Loop Delay: 0.98 ms
+[2024-11-24T17:26:22.806Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:26:31.446Z] Memory Usage - RSS: 58.81 MB, Heap Used: 19.25 MB, Event Loop Delay: 1.07 ms
+[2024-11-24T17:26:41.457Z] Memory Usage - RSS: 58.86 MB, Heap Used: 19.41 MB, Event Loop Delay: 1.04 ms
+[2024-11-24T17:26:42.852Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:26:51.463Z] Memory Usage - RSS: 58.86 MB, Heap Used: 19.42 MB, Event Loop Delay: 0.87 ms
+[2024-11-24T17:27:01.469Z] Memory Usage - RSS: 58.86 MB, Heap Used: 19.44 MB, Event Loop Delay: 1.01 ms
+[2024-11-24T17:27:02.858Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:27:11.478Z] Memory Usage - RSS: 58.90 MB, Heap Used: 19.11 MB, Event Loop Delay: 0.88 ms
+[2024-11-24T17:27:21.489Z] Memory Usage - RSS: 58.92 MB, Heap Used: 19.13 MB, Event Loop Delay: 0.71 ms
+[2024-11-24T17:27:22.886Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:27:31.495Z] Memory Usage - RSS: 58.92 MB, Heap Used: 19.14 MB, Event Loop Delay: 2.13 ms
+[2024-11-24T17:27:41.506Z] Memory Usage - RSS: 58.93 MB, Heap Used: 19.30 MB, Event Loop Delay: 1.01 ms
+[2024-11-24T17:27:42.900Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:27:51.510Z] Memory Usage - RSS: 58.93 MB, Heap Used: 19.31 MB, Event Loop Delay: 1.75 ms
+[2024-11-24T17:28:01.520Z] Memory Usage - RSS: 58.93 MB, Heap Used: 19.33 MB, Event Loop Delay: 1.10 ms
+[2024-11-24T17:28:02.892Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:28:11.534Z] Memory Usage - RSS: 58.95 MB, Heap Used: 18.87 MB, Event Loop Delay: 0.78 ms
+[2024-11-24T17:28:21.542Z] Memory Usage - RSS: 58.95 MB, Heap Used: 18.89 MB, Event Loop Delay: 0.96 ms
+[2024-11-24T17:28:22.913Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:28:31.555Z] Memory Usage - RSS: 58.94 MB, Heap Used: 18.90 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T17:28:41.567Z] Memory Usage - RSS: 58.94 MB, Heap Used: 19.06 MB, Event Loop Delay: 0.66 ms
+[2024-11-24T17:28:42.899Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:28:51.570Z] Memory Usage - RSS: 58.94 MB, Heap Used: 19.07 MB, Event Loop Delay: 0.83 ms
+[2024-11-24T17:29:01.584Z] Memory Usage - RSS: 58.94 MB, Heap Used: 19.09 MB, Event Loop Delay: 0.76 ms
+[2024-11-24T17:29:02.951Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:29:11.592Z] Memory Usage - RSS: 58.94 MB, Heap Used: 19.46 MB, Event Loop Delay: 2.08 ms
+[2024-11-24T17:29:21.603Z] Memory Usage - RSS: 58.94 MB, Heap Used: 19.48 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T17:29:22.974Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:29:31.615Z] Memory Usage - RSS: 58.94 MB, Heap Used: 19.49 MB, Event Loop Delay: 0.62 ms
+[2024-11-24T17:29:41.616Z] Memory Usage - RSS: 58.97 MB, Heap Used: 18.94 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T17:29:42.978Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:29:51.627Z] Memory Usage - RSS: 58.97 MB, Heap Used: 18.95 MB, Event Loop Delay: 0.72 ms
+[2024-11-24T17:30:01.640Z] Memory Usage - RSS: 58.97 MB, Heap Used: 18.97 MB, Event Loop Delay: 1.11 ms
+[2024-11-24T17:30:03.021Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:30:11.641Z] Memory Usage - RSS: 58.99 MB, Heap Used: 19.24 MB, Event Loop Delay: 0.84 ms
+[2024-11-24T17:30:21.650Z] Memory Usage - RSS: 58.99 MB, Heap Used: 19.25 MB, Event Loop Delay: 0.86 ms
+[2024-11-24T17:30:22.997Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:30:31.659Z] Memory Usage - RSS: 58.99 MB, Heap Used: 19.26 MB, Event Loop Delay: 1.05 ms
+[2024-11-24T17:30:41.663Z] Memory Usage - RSS: 59.00 MB, Heap Used: 19.43 MB, Event Loop Delay: 1.24 ms
+[2024-11-24T17:30:43.016Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:30:51.675Z] Memory Usage - RSS: 59.00 MB, Heap Used: 19.48 MB, Event Loop Delay: 1.34 ms
+[2024-11-24T17:31:01.678Z] Memory Usage - RSS: 59.83 MB, Heap Used: 20.07 MB, Event Loop Delay: 2.18 ms
+[2024-11-24T17:31:03.039Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:31:11.683Z] Memory Usage - RSS: 60.77 MB, Heap Used: 20.82 MB, Event Loop Delay: 0.91 ms
+[2024-11-24T17:31:21.689Z] Memory Usage - RSS: 61.74 MB, Heap Used: 22.68 MB, Event Loop Delay: 1.41 ms
+[2024-11-24T17:31:23.046Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:31:31.690Z] Memory Usage - RSS: 62.64 MB, Heap Used: 23.02 MB, Event Loop Delay: 0.54 ms
+[2024-11-24T17:31:41.690Z] Memory Usage - RSS: 63.21 MB, Heap Used: 23.45 MB, Event Loop Delay: 1.13 ms
+[2024-11-24T17:31:43.017Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:31:51.690Z] Memory Usage - RSS: 62.98 MB, Heap Used: 23.76 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T17:32:01.691Z] Memory Usage - RSS: 63.47 MB, Heap Used: 24.15 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T17:32:02.991Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:32:11.703Z] Memory Usage - RSS: 63.66 MB, Heap Used: 24.47 MB, Event Loop Delay: 0.73 ms
+[2024-11-24T17:32:21.709Z] Memory Usage - RSS: 63.55 MB, Heap Used: 24.48 MB, Event Loop Delay: 1.17 ms
+[2024-11-24T17:32:23.028Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:32:31.722Z] Memory Usage - RSS: 63.68 MB, Heap Used: 24.54 MB, Event Loop Delay: 0.64 ms
+[2024-11-24T17:32:41.725Z] Memory Usage - RSS: 64.51 MB, Heap Used: 24.70 MB, Event Loop Delay: 1.00 ms
+[2024-11-24T17:32:43.062Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:32:51.737Z] Memory Usage - RSS: 64.94 MB, Heap Used: 25.64 MB, Event Loop Delay: 0.97 ms
+[2024-11-24T17:33:01.745Z] Memory Usage - RSS: 65.48 MB, Heap Used: 18.53 MB, Event Loop Delay: 0.84 ms
+[2024-11-24T17:33:03.100Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:33:11.748Z] Memory Usage - RSS: 65.49 MB, Heap Used: 19.06 MB, Event Loop Delay: 0.82 ms
+[2024-11-24T17:33:21.750Z] Memory Usage - RSS: 65.52 MB, Heap Used: 19.50 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T17:33:23.094Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:33:31.764Z] Memory Usage - RSS: 65.59 MB, Heap Used: 19.29 MB, Event Loop Delay: 1.03 ms
+[2024-11-24T17:33:41.775Z] Memory Usage - RSS: 65.59 MB, Heap Used: 20.23 MB, Event Loop Delay: 0.53 ms
+[2024-11-24T17:33:43.132Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:33:51.777Z] Memory Usage - RSS: 65.59 MB, Heap Used: 20.60 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T17:34:01.778Z] Memory Usage - RSS: 65.61 MB, Heap Used: 20.27 MB, Event Loop Delay: 0.70 ms
+[2024-11-24T17:34:03.139Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:34:11.784Z] Memory Usage - RSS: 65.44 MB, Heap Used: 20.57 MB, Event Loop Delay: 0.85 ms
+[2024-11-24T17:34:21.792Z] Memory Usage - RSS: 65.44 MB, Heap Used: 20.68 MB, Event Loop Delay: 1.14 ms
+[2024-11-24T17:34:23.176Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:34:31.800Z] Memory Usage - RSS: 65.44 MB, Heap Used: 20.99 MB, Event Loop Delay: 1.29 ms
+[2024-11-24T17:34:41.803Z] Memory Usage - RSS: 65.38 MB, Heap Used: 21.33 MB, Event Loop Delay: 3.00 ms
+[2024-11-24T17:34:43.190Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:34:51.804Z] Memory Usage - RSS: 65.38 MB, Heap Used: 21.58 MB, Event Loop Delay: 1.09 ms
+[2024-11-24T17:35:01.812Z] Memory Usage - RSS: 65.39 MB, Heap Used: 21.74 MB, Event Loop Delay: 1.77 ms
+[2024-11-24T17:35:03.216Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:35:11.823Z] Memory Usage - RSS: 65.67 MB, Heap Used: 21.74 MB, Event Loop Delay: 1.42 ms
+[2024-11-24T17:35:21.831Z] Memory Usage - RSS: 65.41 MB, Heap Used: 22.27 MB, Event Loop Delay: 0.58 ms
+[2024-11-24T17:35:23.209Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:35:31.845Z] Memory Usage - RSS: 65.41 MB, Heap Used: 22.04 MB, Event Loop Delay: 1.11 ms
+[2024-11-24T17:35:41.859Z] Memory Usage - RSS: 65.25 MB, Heap Used: 22.25 MB, Event Loop Delay: 1.76 ms
+[2024-11-24T17:35:43.213Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:35:51.868Z] Memory Usage - RSS: 65.25 MB, Heap Used: 22.20 MB, Event Loop Delay: 2.10 ms
+[2024-11-24T17:36:01.875Z] Memory Usage - RSS: 65.48 MB, Heap Used: 22.43 MB, Event Loop Delay: 1.77 ms
+[2024-11-24T17:36:03.240Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:36:11.880Z] Memory Usage - RSS: 65.43 MB, Heap Used: 22.47 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T17:36:21.889Z] Memory Usage - RSS: 65.69 MB, Heap Used: 22.66 MB, Event Loop Delay: 1.93 ms
+[2024-11-24T17:36:23.248Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:36:31.894Z] Memory Usage - RSS: 65.70 MB, Heap Used: 23.26 MB, Event Loop Delay: 1.38 ms
+[2024-11-24T17:36:41.895Z] Memory Usage - RSS: 65.72 MB, Heap Used: 23.42 MB, Event Loop Delay: 0.78 ms
+[2024-11-24T17:36:43.239Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:36:51.900Z] Memory Usage - RSS: 65.44 MB, Heap Used: 23.92 MB, Event Loop Delay: 0.60 ms
+[2024-11-24T17:37:01.914Z] Memory Usage - RSS: 65.50 MB, Heap Used: 23.74 MB, Event Loop Delay: 0.74 ms
+[2024-11-24T17:37:03.275Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:37:11.928Z] Memory Usage - RSS: 65.74 MB, Heap Used: 23.92 MB, Event Loop Delay: 1.17 ms
+[2024-11-24T17:37:21.929Z] Memory Usage - RSS: 65.74 MB, Heap Used: 24.03 MB, Event Loop Delay: 0.75 ms
+[2024-11-24T17:37:23.295Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:37:31.930Z] Memory Usage - RSS: 65.74 MB, Heap Used: 24.31 MB, Event Loop Delay: 0.67 ms
+[2024-11-24T17:37:41.940Z] Memory Usage - RSS: 65.75 MB, Heap Used: 24.60 MB, Event Loop Delay: 0.59 ms
+[2024-11-24T17:37:43.319Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:37:51.945Z] Memory Usage - RSS: 65.75 MB, Heap Used: 24.30 MB, Event Loop Delay: 0.61 ms
+[2024-11-24T17:38:01.950Z] Memory Usage - RSS: 65.75 MB, Heap Used: 24.63 MB, Event Loop Delay: 0.80 ms
+[2024-11-24T17:38:03.303Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:38:11.963Z] Memory Usage - RSS: 65.75 MB, Heap Used: 24.43 MB, Event Loop Delay: 0.63 ms
+[2024-11-24T17:38:21.974Z] Memory Usage - RSS: 65.63 MB, Heap Used: 24.72 MB, Event Loop Delay: 0.80 ms
+[2024-11-24T17:38:23.326Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:38:31.978Z] Memory Usage - RSS: 65.63 MB, Heap Used: 24.56 MB, Event Loop Delay: 2.37 ms
+[2024-11-24T17:38:41.993Z] Memory Usage - RSS: 65.64 MB, Heap Used: 24.94 MB, Event Loop Delay: 0.65 ms
+[2024-11-24T17:38:43.342Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:38:51.995Z] Memory Usage - RSS: 65.36 MB, Heap Used: 25.20 MB, Event Loop Delay: 0.98 ms
+[2024-11-24T17:39:02.007Z] Memory Usage - RSS: 65.43 MB, Heap Used: 25.31 MB, Event Loop Delay: 1.08 ms
+[2024-11-24T17:39:03.342Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:39:12.014Z] Memory Usage - RSS: 65.52 MB, Heap Used: 24.94 MB, Event Loop Delay: 1.61 ms
+[2024-11-24T17:39:22.016Z] Memory Usage - RSS: 65.52 MB, Heap Used: 25.15 MB, Event Loop Delay: 1.96 ms
+[2024-11-24T17:39:23.387Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:39:32.025Z] Memory Usage - RSS: 65.52 MB, Heap Used: 25.39 MB, Event Loop Delay: 0.57 ms
+[2024-11-24T17:39:42.029Z] Memory Usage - RSS: 65.52 MB, Heap Used: 25.50 MB, Event Loop Delay: 1.04 ms
+[2024-11-24T17:39:43.376Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:39:52.038Z] Memory Usage - RSS: 65.52 MB, Heap Used: 25.68 MB, Event Loop Delay: 1.15 ms
+[2024-11-24T17:40:02.052Z] Memory Usage - RSS: 65.52 MB, Heap Used: 25.91 MB, Event Loop Delay: 1.50 ms
+[2024-11-24T17:40:03.413Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:40:12.064Z] Memory Usage - RSS: 65.53 MB, Heap Used: 25.83 MB, Event Loop Delay: 1.23 ms
+[2024-11-24T17:40:22.071Z] Memory Usage - RSS: 65.53 MB, Heap Used: 26.04 MB, Event Loop Delay: 1.13 ms
+[2024-11-24T17:40:23.397Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:40:32.077Z] Memory Usage - RSS: 65.53 MB, Heap Used: 25.81 MB, Event Loop Delay: 2.97 ms
+[2024-11-24T17:40:42.089Z] Memory Usage - RSS: 65.81 MB, Heap Used: 26.12 MB, Event Loop Delay: 1.66 ms
+[2024-11-24T17:40:43.412Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:40:52.096Z] Memory Usage - RSS: 65.59 MB, Heap Used: 25.88 MB, Event Loop Delay: 1.12 ms
+[2024-11-24T17:41:02.103Z] Memory Usage - RSS: 65.60 MB, Heap Used: 26.31 MB, Event Loop Delay: 0.76 ms
+[2024-11-24T17:41:03.430Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:41:12.117Z] Memory Usage - RSS: 66.07 MB, Heap Used: 18.35 MB, Event Loop Delay: 1.43 ms
+[2024-11-24T17:41:22.127Z] Memory Usage - RSS: 66.09 MB, Heap Used: 18.49 MB, Event Loop Delay: 0.83 ms
+[2024-11-24T17:41:23.456Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-24T17:41:31.869Z] Shutting down...
+[2024-11-25T08:18:30.070Z] Cookies loaded successfully.
+[2024-11-25T08:18:30.073Z] Navigating to the Aviator game...
+[2024-11-25T08:18:39.315Z] Memory Usage - RSS: 55.18 MB, Heap Used: 17.57 MB, Event Loop Delay: 0.00 ms
+[2024-11-25T08:18:49.319Z] Memory Usage - RSS: 55.38 MB, Heap Used: 17.76 MB, Event Loop Delay: 2.86 ms
+[2024-11-25T08:18:51.912Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:18:59.330Z] Memory Usage - RSS: 55.37 MB, Heap Used: 17.78 MB, Event Loop Delay: 1.33 ms
+[2024-11-25T08:19:09.335Z] Memory Usage - RSS: 57.84 MB, Heap Used: 18.68 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T08:19:11.922Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:19:19.336Z] Memory Usage - RSS: 55.29 MB, Heap Used: 19.96 MB, Event Loop Delay: 1.48 ms
+[2024-11-25T08:19:29.339Z] Memory Usage - RSS: 55.87 MB, Heap Used: 19.56 MB, Event Loop Delay: 1.67 ms
+[2024-11-25T08:19:31.846Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:19:39.339Z] Memory Usage - RSS: 56.13 MB, Heap Used: 20.00 MB, Event Loop Delay: 2.37 ms
+[2024-11-25T08:19:49.340Z] Memory Usage - RSS: 56.14 MB, Heap Used: 20.21 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T08:19:51.867Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:19:59.342Z] Memory Usage - RSS: 56.15 MB, Heap Used: 19.80 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T08:20:09.355Z] Memory Usage - RSS: 56.16 MB, Heap Used: 20.24 MB, Event Loop Delay: 2.55 ms
+[2024-11-25T08:20:11.948Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:20:19.364Z] Memory Usage - RSS: 56.18 MB, Heap Used: 19.95 MB, Event Loop Delay: 3.66 ms
+[2024-11-25T08:20:31.494Z] Memory Usage - RSS: 56.39 MB, Heap Used: 20.42 MB, Event Loop Delay: 1.41 ms
+[2024-11-25T08:20:34.057Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:20:41.509Z] Memory Usage - RSS: 56.39 MB, Heap Used: 19.99 MB, Event Loop Delay: 1.19 ms
+[2024-11-25T08:20:51.511Z] Memory Usage - RSS: 56.46 MB, Heap Used: 20.34 MB, Event Loop Delay: 2.21 ms
+[2024-11-25T08:20:54.097Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:21:01.525Z] Memory Usage - RSS: 56.50 MB, Heap Used: 20.36 MB, Event Loop Delay: 1.50 ms
+[2024-11-25T08:21:11.539Z] Memory Usage - RSS: 56.61 MB, Heap Used: 20.68 MB, Event Loop Delay: 1.05 ms
+[2024-11-25T08:21:14.108Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:21:21.552Z] Memory Usage - RSS: 56.71 MB, Heap Used: 20.46 MB, Event Loop Delay: 1.26 ms
+[2024-11-25T08:21:31.555Z] Memory Usage - RSS: 56.80 MB, Heap Used: 20.69 MB, Event Loop Delay: 1.50 ms
+[2024-11-25T08:21:34.092Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:21:41.561Z] Memory Usage - RSS: 56.95 MB, Heap Used: 21.12 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T08:21:51.572Z] Memory Usage - RSS: 56.73 MB, Heap Used: 20.79 MB, Event Loop Delay: 2.57 ms
+[2024-11-25T08:21:54.135Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:22:01.572Z] Memory Usage - RSS: 56.73 MB, Heap Used: 20.97 MB, Event Loop Delay: 2.42 ms
+[2024-11-25T08:22:11.577Z] Memory Usage - RSS: 56.89 MB, Heap Used: 20.81 MB, Event Loop Delay: 2.43 ms
+[2024-11-25T08:22:14.180Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:22:21.580Z] Memory Usage - RSS: 57.10 MB, Heap Used: 21.17 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T08:22:31.587Z] Memory Usage - RSS: 57.10 MB, Heap Used: 21.44 MB, Event Loop Delay: 2.29 ms
+[2024-11-25T08:22:34.185Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:22:41.591Z] Memory Usage - RSS: 57.47 MB, Heap Used: 21.31 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T08:22:51.598Z] Memory Usage - RSS: 57.53 MB, Heap Used: 21.48 MB, Event Loop Delay: 0.81 ms
+[2024-11-25T08:22:54.162Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:23:01.613Z] Memory Usage - RSS: 57.66 MB, Heap Used: 21.21 MB, Event Loop Delay: 3.83 ms
+[2024-11-25T08:23:11.625Z] Memory Usage - RSS: 57.29 MB, Heap Used: 21.78 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T08:23:14.206Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:23:21.632Z] Memory Usage - RSS: 57.74 MB, Heap Used: 21.55 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T08:23:31.636Z] Memory Usage - RSS: 57.53 MB, Heap Used: 21.81 MB, Event Loop Delay: 1.43 ms
+[2024-11-25T08:23:34.178Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:23:41.649Z] Memory Usage - RSS: 57.93 MB, Heap Used: 21.78 MB, Event Loop Delay: 3.03 ms
+[2024-11-25T08:23:51.649Z] Memory Usage - RSS: 57.80 MB, Heap Used: 22.12 MB, Event Loop Delay: 1.36 ms
+[2024-11-25T08:23:54.224Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:24:01.663Z] Memory Usage - RSS: 57.96 MB, Heap Used: 21.97 MB, Event Loop Delay: 1.38 ms
+[2024-11-25T08:24:11.669Z] Memory Usage - RSS: 57.98 MB, Heap Used: 22.35 MB, Event Loop Delay: 4.00 ms
+[2024-11-25T08:24:14.204Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:24:21.675Z] Memory Usage - RSS: 58.11 MB, Heap Used: 22.54 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T08:24:31.676Z] Memory Usage - RSS: 58.11 MB, Heap Used: 22.64 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T08:24:34.255Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:24:41.681Z] Memory Usage - RSS: 58.29 MB, Heap Used: 22.72 MB, Event Loop Delay: 2.39 ms
+[2024-11-25T08:24:51.687Z] Memory Usage - RSS: 58.41 MB, Heap Used: 22.38 MB, Event Loop Delay: 2.52 ms
+[2024-11-25T08:24:54.278Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:25:01.701Z] Memory Usage - RSS: 58.41 MB, Heap Used: 22.61 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T08:25:11.712Z] Memory Usage - RSS: 58.55 MB, Heap Used: 22.91 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T08:25:14.258Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:25:21.715Z] Memory Usage - RSS: 58.66 MB, Heap Used: 22.75 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T08:25:31.724Z] Memory Usage - RSS: 58.66 MB, Heap Used: 23.12 MB, Event Loop Delay: 1.57 ms
+[2024-11-25T08:25:34.309Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:25:41.727Z] Memory Usage - RSS: 58.95 MB, Heap Used: 23.18 MB, Event Loop Delay: 2.20 ms
+[2024-11-25T08:25:51.739Z] Memory Usage - RSS: 58.70 MB, Heap Used: 23.24 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T08:25:54.305Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:26:01.747Z] Memory Usage - RSS: 58.80 MB, Heap Used: 22.92 MB, Event Loop Delay: 1.36 ms
+[2024-11-25T08:26:11.748Z] Memory Usage - RSS: 58.84 MB, Heap Used: 23.31 MB, Event Loop Delay: 1.74 ms
+[2024-11-25T08:26:14.320Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:26:21.751Z] Memory Usage - RSS: 59.01 MB, Heap Used: 23.30 MB, Event Loop Delay: 2.45 ms
+[2024-11-25T08:26:31.759Z] Memory Usage - RSS: 59.11 MB, Heap Used: 23.04 MB, Event Loop Delay: 1.75 ms
+[2024-11-25T08:26:34.296Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:26:41.762Z] Memory Usage - RSS: 59.25 MB, Heap Used: 23.45 MB, Event Loop Delay: 2.16 ms
+[2024-11-25T08:26:51.762Z] Memory Usage - RSS: 59.25 MB, Heap Used: 23.78 MB, Event Loop Delay: 2.58 ms
+[2024-11-25T08:26:54.291Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:27:01.770Z] Memory Usage - RSS: 59.37 MB, Heap Used: 23.92 MB, Event Loop Delay: 1.37 ms
+[2024-11-25T08:27:11.771Z] Memory Usage - RSS: 59.47 MB, Heap Used: 23.55 MB, Event Loop Delay: 1.42 ms
+[2024-11-25T08:27:14.342Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:27:21.783Z] Memory Usage - RSS: 59.47 MB, Heap Used: 23.97 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T08:27:31.787Z] Memory Usage - RSS: 59.61 MB, Heap Used: 23.96 MB, Event Loop Delay: 1.53 ms
+[2024-11-25T08:27:34.367Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:27:41.789Z] Memory Usage - RSS: 59.72 MB, Heap Used: 23.80 MB, Event Loop Delay: 1.92 ms
+[2024-11-25T08:27:51.792Z] Memory Usage - RSS: 59.84 MB, Heap Used: 23.87 MB, Event Loop Delay: 1.60 ms
+[2024-11-25T08:27:54.361Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:28:01.793Z] Memory Usage - RSS: 59.96 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.11 ms
+[2024-11-25T08:28:11.809Z] Memory Usage - RSS: 60.10 MB, Heap Used: 24.36 MB, Event Loop Delay: 1.03 ms
+[2024-11-25T08:28:14.372Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:28:21.818Z] Memory Usage - RSS: 60.11 MB, Heap Used: 24.53 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T08:28:31.822Z] Memory Usage - RSS: 60.92 MB, Heap Used: 24.67 MB, Event Loop Delay: 1.95 ms
+[2024-11-25T08:28:34.382Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:28:41.824Z] Memory Usage - RSS: 61.83 MB, Heap Used: 25.89 MB, Event Loop Delay: 2.83 ms
+[2024-11-25T08:28:51.835Z] Memory Usage - RSS: 62.02 MB, Heap Used: 18.48 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T08:28:54.436Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:29:01.835Z] Memory Usage - RSS: 62.02 MB, Heap Used: 18.49 MB, Event Loop Delay: 2.54 ms
+[2024-11-25T08:29:11.857Z] Memory Usage - RSS: 62.02 MB, Heap Used: 18.71 MB, Event Loop Delay: 3.00 ms
+[2024-11-25T08:29:14.422Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:29:21.863Z] Memory Usage - RSS: 61.92 MB, Heap Used: 19.69 MB, Event Loop Delay: 1.55 ms
+[2024-11-25T08:29:31.865Z] Memory Usage - RSS: 63.32 MB, Heap Used: 20.60 MB, Event Loop Delay: 1.38 ms
+[2024-11-25T08:29:34.391Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:29:41.867Z] Memory Usage - RSS: 63.43 MB, Heap Used: 21.21 MB, Event Loop Delay: 2.61 ms
+[2024-11-25T08:29:51.867Z] Memory Usage - RSS: 63.45 MB, Heap Used: 21.19 MB, Event Loop Delay: 1.57 ms
+[2024-11-25T08:29:54.351Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:30:01.868Z] Memory Usage - RSS: 63.46 MB, Heap Used: 21.16 MB, Event Loop Delay: 1.53 ms
+[2024-11-25T08:30:11.871Z] Memory Usage - RSS: 63.36 MB, Heap Used: 21.65 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T08:30:14.421Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:30:21.877Z] Memory Usage - RSS: 63.36 MB, Heap Used: 21.78 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T08:30:31.889Z] Memory Usage - RSS: 63.36 MB, Heap Used: 21.93 MB, Event Loop Delay: 1.13 ms
+[2024-11-25T08:30:34.457Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:30:41.895Z] Memory Usage - RSS: 63.61 MB, Heap Used: 22.62 MB, Event Loop Delay: 1.54 ms
+[2024-11-25T08:30:51.895Z] Memory Usage - RSS: 63.61 MB, Heap Used: 22.86 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T08:30:54.482Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:31:01.904Z] Memory Usage - RSS: 63.59 MB, Heap Used: 23.15 MB, Event Loop Delay: 1.54 ms
+[2024-11-25T08:31:11.905Z] Memory Usage - RSS: 63.60 MB, Heap Used: 23.20 MB, Event Loop Delay: 1.91 ms
+[2024-11-25T08:31:14.470Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:31:21.909Z] Memory Usage - RSS: 63.66 MB, Heap Used: 23.52 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T08:31:31.913Z] Memory Usage - RSS: 63.67 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.39 ms
+[2024-11-25T08:31:34.484Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:31:41.917Z] Memory Usage - RSS: 63.72 MB, Heap Used: 24.10 MB, Event Loop Delay: 2.02 ms
+[2024-11-25T08:31:51.920Z] Memory Usage - RSS: 63.72 MB, Heap Used: 24.21 MB, Event Loop Delay: 2.40 ms
+[2024-11-25T08:31:54.520Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:32:01.929Z] Memory Usage - RSS: 63.72 MB, Heap Used: 24.87 MB, Event Loop Delay: 1.03 ms
+[2024-11-25T08:32:11.935Z] Memory Usage - RSS: 63.42 MB, Heap Used: 24.75 MB, Event Loop Delay: 1.60 ms
+[2024-11-25T08:32:14.532Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:32:21.936Z] Memory Usage - RSS: 62.76 MB, Heap Used: 25.41 MB, Event Loop Delay: 2.35 ms
+[2024-11-25T08:32:31.946Z] Memory Usage - RSS: 62.58 MB, Heap Used: 25.30 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T08:32:34.530Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:32:41.953Z] Memory Usage - RSS: 62.58 MB, Heap Used: 25.55 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T08:32:51.964Z] Memory Usage - RSS: 62.58 MB, Heap Used: 25.56 MB, Event Loop Delay: 1.50 ms
+[2024-11-25T08:32:54.567Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:33:01.974Z] Memory Usage - RSS: 62.73 MB, Heap Used: 25.68 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T08:33:11.984Z] Memory Usage - RSS: 62.80 MB, Heap Used: 26.38 MB, Event Loop Delay: 1.24 ms
+[2024-11-25T08:33:14.607Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:33:21.985Z] Memory Usage - RSS: 62.91 MB, Heap Used: 26.41 MB, Event Loop Delay: 1.48 ms
+[2024-11-25T08:33:31.988Z] Memory Usage - RSS: 63.09 MB, Heap Used: 18.88 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T08:33:34.575Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:33:41.989Z] Memory Usage - RSS: 63.10 MB, Heap Used: 19.22 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T08:33:51.999Z] Memory Usage - RSS: 63.10 MB, Heap Used: 19.13 MB, Event Loop Delay: 1.71 ms
+[2024-11-25T08:33:54.585Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:34:02.007Z] Memory Usage - RSS: 62.75 MB, Heap Used: 19.57 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T08:34:12.016Z] Memory Usage - RSS: 62.84 MB, Heap Used: 19.83 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T08:34:14.601Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:34:22.028Z] Memory Usage - RSS: 62.84 MB, Heap Used: 19.50 MB, Event Loop Delay: 1.17 ms
+[2024-11-25T08:34:32.037Z] Memory Usage - RSS: 62.79 MB, Heap Used: 20.08 MB, Event Loop Delay: 1.51 ms
+[2024-11-25T08:34:34.634Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:34:42.044Z] Memory Usage - RSS: 62.96 MB, Heap Used: 20.72 MB, Event Loop Delay: 1.35 ms
+[2024-11-25T08:34:52.050Z] Memory Usage - RSS: 62.86 MB, Heap Used: 21.23 MB, Event Loop Delay: 1.44 ms
+[2024-11-25T08:34:54.666Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:35:02.052Z] Memory Usage - RSS: 62.86 MB, Heap Used: 21.54 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T08:35:12.055Z] Memory Usage - RSS: 62.93 MB, Heap Used: 21.61 MB, Event Loop Delay: 2.91 ms
+[2024-11-25T08:35:14.657Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:35:22.055Z] Memory Usage - RSS: 62.93 MB, Heap Used: 21.65 MB, Event Loop Delay: 1.12 ms
+[2024-11-25T08:35:32.065Z] Memory Usage - RSS: 62.93 MB, Heap Used: 21.84 MB, Event Loop Delay: 1.54 ms
+[2024-11-25T08:35:34.658Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:35:42.064Z] Memory Usage - RSS: 62.96 MB, Heap Used: 22.08 MB, Event Loop Delay: 1.37 ms
+[2024-11-25T08:35:52.067Z] Memory Usage - RSS: 62.96 MB, Heap Used: 22.28 MB, Event Loop Delay: 1.33 ms
+[2024-11-25T08:35:54.673Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:36:02.069Z] Memory Usage - RSS: 62.96 MB, Heap Used: 22.64 MB, Event Loop Delay: 1.24 ms
+[2024-11-25T08:36:12.077Z] Memory Usage - RSS: 62.99 MB, Heap Used: 22.91 MB, Event Loop Delay: 1.54 ms
+[2024-11-25T08:36:14.685Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:36:22.086Z] Memory Usage - RSS: 62.99 MB, Heap Used: 22.91 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T08:36:32.099Z] Memory Usage - RSS: 62.99 MB, Heap Used: 23.09 MB, Event Loop Delay: 1.37 ms
+[2024-11-25T08:36:34.700Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:36:42.113Z] Memory Usage - RSS: 62.72 MB, Heap Used: 23.12 MB, Event Loop Delay: 1.26 ms
+[2024-11-25T08:36:52.120Z] Memory Usage - RSS: 62.83 MB, Heap Used: 23.62 MB, Event Loop Delay: 1.48 ms
+[2024-11-25T08:36:54.724Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:37:02.123Z] Memory Usage - RSS: 62.83 MB, Heap Used: 23.92 MB, Event Loop Delay: 1.23 ms
+[2024-11-25T08:37:12.127Z] Memory Usage - RSS: 62.86 MB, Heap Used: 23.74 MB, Event Loop Delay: 3.11 ms
+[2024-11-25T08:37:14.727Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:37:22.134Z] Memory Usage - RSS: 62.30 MB, Heap Used: 24.39 MB, Event Loop Delay: 2.94 ms
+[2024-11-25T08:37:32.146Z] Memory Usage - RSS: 62.30 MB, Heap Used: 24.23 MB, Event Loop Delay: 1.34 ms
+[2024-11-25T08:37:34.768Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:37:42.149Z] Memory Usage - RSS: 62.55 MB, Heap Used: 24.68 MB, Event Loop Delay: 2.78 ms
+[2024-11-25T08:37:52.151Z] Memory Usage - RSS: 62.56 MB, Heap Used: 24.52 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T08:37:54.772Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:38:02.163Z] Memory Usage - RSS: 62.57 MB, Heap Used: 24.68 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T08:38:12.164Z] Memory Usage - RSS: 62.57 MB, Heap Used: 25.13 MB, Event Loop Delay: 1.17 ms
+[2024-11-25T08:38:14.801Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:38:22.177Z] Memory Usage - RSS: 62.53 MB, Heap Used: 25.47 MB, Event Loop Delay: 2.82 ms
+[2024-11-25T08:38:32.188Z] Memory Usage - RSS: 62.54 MB, Heap Used: 25.76 MB, Event Loop Delay: 1.58 ms
+[2024-11-25T08:38:34.801Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:38:42.197Z] Memory Usage - RSS: 62.55 MB, Heap Used: 25.97 MB, Event Loop Delay: 1.48 ms
+[2024-11-25T08:38:52.212Z] Memory Usage - RSS: 62.55 MB, Heap Used: 26.12 MB, Event Loop Delay: 1.64 ms
+[2024-11-25T08:38:54.772Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:39:02.226Z] Memory Usage - RSS: 62.56 MB, Heap Used: 26.27 MB, Event Loop Delay: 1.42 ms
+[2024-11-25T08:39:12.237Z] Memory Usage - RSS: 62.51 MB, Heap Used: 16.93 MB, Event Loop Delay: 1.30 ms
+[2024-11-25T08:39:14.816Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:39:22.241Z] Memory Usage - RSS: 62.51 MB, Heap Used: 16.83 MB, Event Loop Delay: 1.18 ms
+[2024-11-25T08:39:32.245Z] Memory Usage - RSS: 62.51 MB, Heap Used: 17.16 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T08:39:34.857Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:39:42.258Z] Memory Usage - RSS: 62.36 MB, Heap Used: 17.67 MB, Event Loop Delay: 1.65 ms
+[2024-11-25T08:39:52.265Z] Memory Usage - RSS: 62.36 MB, Heap Used: 17.61 MB, Event Loop Delay: 1.45 ms
+[2024-11-25T08:39:54.841Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:40:02.278Z] Memory Usage - RSS: 62.38 MB, Heap Used: 17.75 MB, Event Loop Delay: 2.38 ms
+[2024-11-25T08:40:12.283Z] Memory Usage - RSS: 62.44 MB, Heap Used: 18.20 MB, Event Loop Delay: 2.32 ms
+[2024-11-25T08:40:14.889Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:40:22.286Z] Memory Usage - RSS: 62.42 MB, Heap Used: 18.81 MB, Event Loop Delay: 1.29 ms
+[2024-11-25T08:40:32.299Z] Memory Usage - RSS: 62.45 MB, Heap Used: 18.91 MB, Event Loop Delay: 2.33 ms
+[2024-11-25T08:40:34.896Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:40:42.300Z] Memory Usage - RSS: 62.48 MB, Heap Used: 19.03 MB, Event Loop Delay: 1.13 ms
+[2024-11-25T08:40:52.305Z] Memory Usage - RSS: 62.76 MB, Heap Used: 19.66 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T08:40:54.897Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:41:02.305Z] Memory Usage - RSS: 62.76 MB, Heap Used: 20.20 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T08:41:12.316Z] Memory Usage - RSS: 62.76 MB, Heap Used: 20.46 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T08:41:14.958Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:41:22.324Z] Memory Usage - RSS: 62.76 MB, Heap Used: 21.05 MB, Event Loop Delay: 1.92 ms
+[2024-11-25T08:41:32.331Z] Memory Usage - RSS: 62.76 MB, Heap Used: 20.62 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T08:41:34.940Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:41:42.345Z] Memory Usage - RSS: 62.66 MB, Heap Used: 21.24 MB, Event Loop Delay: 3.13 ms
+[2024-11-25T08:41:52.351Z] Memory Usage - RSS: 62.67 MB, Heap Used: 21.75 MB, Event Loop Delay: 1.33 ms
+[2024-11-25T08:41:55.000Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:42:02.352Z] Memory Usage - RSS: 62.70 MB, Heap Used: 21.73 MB, Event Loop Delay: 1.84 ms
+[2024-11-25T08:42:12.361Z] Memory Usage - RSS: 62.80 MB, Heap Used: 22.11 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T08:42:14.983Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:42:22.363Z] Memory Usage - RSS: 62.64 MB, Heap Used: 22.44 MB, Event Loop Delay: 1.11 ms
+[2024-11-25T08:42:32.364Z] Memory Usage - RSS: 60.84 MB, Heap Used: 22.85 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T08:42:34.961Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:42:42.368Z] Memory Usage - RSS: 60.89 MB, Heap Used: 23.15 MB, Event Loop Delay: 0.70 ms
+[2024-11-25T08:42:52.378Z] Memory Usage - RSS: 60.89 MB, Heap Used: 23.51 MB, Event Loop Delay: 0.52 ms
+[2024-11-25T08:42:54.989Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:43:02.380Z] Memory Usage - RSS: 60.90 MB, Heap Used: 23.48 MB, Event Loop Delay: 0.75 ms
+[2024-11-25T08:43:12.388Z] Memory Usage - RSS: 60.98 MB, Heap Used: 17.38 MB, Event Loop Delay: 0.74 ms
+[2024-11-25T08:43:15.031Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:43:22.403Z] Memory Usage - RSS: 61.81 MB, Heap Used: 18.15 MB, Event Loop Delay: 1.23 ms
+[2024-11-25T08:43:32.413Z] Memory Usage - RSS: 61.81 MB, Heap Used: 18.44 MB, Event Loop Delay: 0.55 ms
+[2024-11-25T08:43:35.031Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:43:42.423Z] Memory Usage - RSS: 61.93 MB, Heap Used: 18.60 MB, Event Loop Delay: 2.19 ms
+[2024-11-25T08:43:52.428Z] Memory Usage - RSS: 61.94 MB, Heap Used: 18.53 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T08:43:55.078Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:44:02.438Z] Memory Usage - RSS: 61.96 MB, Heap Used: 19.07 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T08:44:12.444Z] Memory Usage - RSS: 61.96 MB, Heap Used: 19.33 MB, Event Loop Delay: 0.84 ms
+[2024-11-25T08:44:15.039Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:44:22.459Z] Memory Usage - RSS: 61.43 MB, Heap Used: 19.42 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T08:44:32.473Z] Memory Usage - RSS: 61.48 MB, Heap Used: 19.65 MB, Event Loop Delay: 0.94 ms
+[2024-11-25T08:44:35.028Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:44:42.476Z] Memory Usage - RSS: 61.54 MB, Heap Used: 20.15 MB, Event Loop Delay: 1.04 ms
+[2024-11-25T08:44:52.489Z] Memory Usage - RSS: 61.56 MB, Heap Used: 19.96 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T08:44:55.060Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:45:02.503Z] Memory Usage - RSS: 61.71 MB, Heap Used: 20.37 MB, Event Loop Delay: 0.91 ms
+[2024-11-25T08:45:12.503Z] Memory Usage - RSS: 61.33 MB, Heap Used: 20.31 MB, Event Loop Delay: 0.91 ms
+[2024-11-25T08:45:15.080Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:45:22.510Z] Memory Usage - RSS: 61.66 MB, Heap Used: 21.36 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T08:45:32.510Z] Memory Usage - RSS: 61.66 MB, Heap Used: 21.50 MB, Event Loop Delay: 0.61 ms
+[2024-11-25T08:45:35.105Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:45:42.511Z] Memory Usage - RSS: 61.70 MB, Heap Used: 21.39 MB, Event Loop Delay: 0.69 ms
+[2024-11-25T08:45:52.524Z] Memory Usage - RSS: 61.70 MB, Heap Used: 21.52 MB, Event Loop Delay: 1.65 ms
+[2024-11-25T08:45:55.063Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:46:02.525Z] Memory Usage - RSS: 61.80 MB, Heap Used: 21.88 MB, Event Loop Delay: 1.56 ms
+[2024-11-25T08:46:12.528Z] Memory Usage - RSS: 61.66 MB, Heap Used: 23.08 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T08:46:15.102Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:46:22.533Z] Memory Usage - RSS: 61.66 MB, Heap Used: 22.64 MB, Event Loop Delay: 1.43 ms
+[2024-11-25T08:46:32.537Z] Memory Usage - RSS: 61.68 MB, Heap Used: 23.14 MB, Event Loop Delay: 0.73 ms
+[2024-11-25T08:46:35.112Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:46:42.551Z] Memory Usage - RSS: 61.81 MB, Heap Used: 23.38 MB, Event Loop Delay: 1.42 ms
+[2024-11-25T08:46:52.566Z] Memory Usage - RSS: 61.81 MB, Heap Used: 23.93 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T08:46:55.173Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:47:02.568Z] Memory Usage - RSS: 61.81 MB, Heap Used: 23.80 MB, Event Loop Delay: 0.80 ms
+[2024-11-25T08:47:12.573Z] Memory Usage - RSS: 61.81 MB, Heap Used: 24.30 MB, Event Loop Delay: 0.88 ms
+[2024-11-25T08:47:15.162Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:47:22.573Z] Memory Usage - RSS: 61.81 MB, Heap Used: 24.24 MB, Event Loop Delay: 0.47 ms
+[2024-11-25T08:47:32.578Z] Memory Usage - RSS: 61.77 MB, Heap Used: 24.99 MB, Event Loop Delay: 1.18 ms
+[2024-11-25T08:47:35.181Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:47:42.586Z] Memory Usage - RSS: 61.73 MB, Heap Used: 16.58 MB, Event Loop Delay: 0.71 ms
+[2024-11-25T08:47:52.589Z] Memory Usage - RSS: 61.52 MB, Heap Used: 16.66 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T08:47:55.187Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:48:02.600Z] Memory Usage - RSS: 61.53 MB, Heap Used: 16.89 MB, Event Loop Delay: 0.91 ms
+[2024-11-25T08:48:12.613Z] Memory Usage - RSS: 61.53 MB, Heap Used: 17.06 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T08:48:15.224Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:48:22.624Z] Memory Usage - RSS: 61.53 MB, Heap Used: 17.08 MB, Event Loop Delay: 1.24 ms
+[2024-11-25T08:48:32.624Z] Memory Usage - RSS: 61.53 MB, Heap Used: 17.10 MB, Event Loop Delay: 1.33 ms
+[2024-11-25T08:48:35.259Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:48:42.626Z] Memory Usage - RSS: 61.53 MB, Heap Used: 17.42 MB, Event Loop Delay: 0.90 ms
+[2024-11-25T08:48:52.627Z] Memory Usage - RSS: 61.53 MB, Heap Used: 17.44 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T08:48:55.178Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:49:02.627Z] Memory Usage - RSS: 61.53 MB, Heap Used: 17.51 MB, Event Loop Delay: 2.51 ms
+[2024-11-25T08:49:12.633Z] Memory Usage - RSS: 61.54 MB, Heap Used: 17.08 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T08:49:15.233Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:49:22.634Z] Memory Usage - RSS: 61.54 MB, Heap Used: 17.09 MB, Event Loop Delay: 0.67 ms
+[2024-11-25T08:49:32.636Z] Memory Usage - RSS: 61.45 MB, Heap Used: 18.14 MB, Event Loop Delay: 0.61 ms
+[2024-11-25T08:49:35.240Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:49:42.651Z] Memory Usage - RSS: 61.45 MB, Heap Used: 18.29 MB, Event Loop Delay: 0.59 ms
+[2024-11-25T08:49:52.650Z] Memory Usage - RSS: 61.82 MB, Heap Used: 19.01 MB, Event Loop Delay: 0.58 ms
+[2024-11-25T08:49:55.243Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:50:02.665Z] Memory Usage - RSS: 61.82 MB, Heap Used: 19.17 MB, Event Loop Delay: 0.75 ms
+[2024-11-25T08:50:12.671Z] Memory Usage - RSS: 61.60 MB, Heap Used: 19.66 MB, Event Loop Delay: 0.64 ms
+[2024-11-25T08:50:15.274Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:50:22.672Z] Memory Usage - RSS: 61.60 MB, Heap Used: 19.32 MB, Event Loop Delay: 0.66 ms
+[2024-11-25T08:50:32.678Z] Memory Usage - RSS: 61.59 MB, Heap Used: 19.74 MB, Event Loop Delay: 1.26 ms
+[2024-11-25T08:50:35.304Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:50:42.691Z] Memory Usage - RSS: 61.63 MB, Heap Used: 20.10 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T08:50:52.699Z] Memory Usage - RSS: 61.63 MB, Heap Used: 20.42 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T08:50:55.278Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:51:02.714Z] Memory Usage - RSS: 61.63 MB, Heap Used: 20.14 MB, Event Loop Delay: 0.56 ms
+[2024-11-25T08:51:12.715Z] Memory Usage - RSS: 61.63 MB, Heap Used: 20.47 MB, Event Loop Delay: 0.53 ms
+[2024-11-25T08:51:15.309Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:51:22.723Z] Memory Usage - RSS: 61.63 MB, Heap Used: 20.70 MB, Event Loop Delay: 0.55 ms
+[2024-11-25T08:51:32.738Z] Memory Usage - RSS: 61.63 MB, Heap Used: 20.94 MB, Event Loop Delay: 0.58 ms
+[2024-11-25T08:51:35.317Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:51:42.742Z] Memory Usage - RSS: 61.64 MB, Heap Used: 20.91 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T08:51:52.747Z] Memory Usage - RSS: 61.63 MB, Heap Used: 21.23 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T08:51:55.365Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:52:02.748Z] Memory Usage - RSS: 61.63 MB, Heap Used: 21.45 MB, Event Loop Delay: 0.57 ms
+[2024-11-25T08:52:12.758Z] Memory Usage - RSS: 61.90 MB, Heap Used: 21.70 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T08:52:15.344Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:52:22.769Z] Memory Usage - RSS: 61.91 MB, Heap Used: 22.12 MB, Event Loop Delay: 1.17 ms
+[2024-11-25T08:52:32.771Z] Memory Usage - RSS: 61.91 MB, Heap Used: 22.32 MB, Event Loop Delay: 0.66 ms
+[2024-11-25T08:52:35.381Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:52:42.776Z] Memory Usage - RSS: 61.93 MB, Heap Used: 22.40 MB, Event Loop Delay: 0.50 ms
+[2024-11-25T08:52:52.780Z] Memory Usage - RSS: 61.93 MB, Heap Used: 22.55 MB, Event Loop Delay: 1.55 ms
+[2024-11-25T08:52:55.391Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:53:02.795Z] Memory Usage - RSS: 61.93 MB, Heap Used: 22.79 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T08:53:12.803Z] Memory Usage - RSS: 61.93 MB, Heap Used: 22.58 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T08:53:15.387Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:53:22.818Z] Memory Usage - RSS: 61.93 MB, Heap Used: 22.76 MB, Event Loop Delay: 0.72 ms
+[2024-11-25T08:53:32.833Z] Memory Usage - RSS: 61.93 MB, Heap Used: 22.74 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T08:53:35.396Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:53:42.836Z] Memory Usage - RSS: 61.93 MB, Heap Used: 22.96 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T08:53:52.836Z] Memory Usage - RSS: 61.93 MB, Heap Used: 23.43 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T08:53:55.397Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:54:02.847Z] Memory Usage - RSS: 61.93 MB, Heap Used: 23.50 MB, Event Loop Delay: 0.75 ms
+[2024-11-25T08:54:12.859Z] Memory Usage - RSS: 61.93 MB, Heap Used: 24.06 MB, Event Loop Delay: 0.62 ms
+[2024-11-25T08:54:15.405Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:54:22.870Z] Memory Usage - RSS: 61.93 MB, Heap Used: 24.08 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T08:54:32.873Z] Memory Usage - RSS: 61.67 MB, Heap Used: 16.47 MB, Event Loop Delay: 2.34 ms
+[2024-11-25T08:54:35.443Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:54:42.882Z] Memory Usage - RSS: 61.67 MB, Heap Used: 16.54 MB, Event Loop Delay: 0.72 ms
+[2024-11-25T08:54:52.887Z] Memory Usage - RSS: 61.51 MB, Heap Used: 16.91 MB, Event Loop Delay: 1.61 ms
+[2024-11-25T08:54:55.481Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:55:02.889Z] Memory Usage - RSS: 61.70 MB, Heap Used: 17.40 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T08:55:12.890Z] Memory Usage - RSS: 61.71 MB, Heap Used: 17.48 MB, Event Loop Delay: 1.08 ms
+[2024-11-25T08:55:15.515Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:55:22.903Z] Memory Usage - RSS: 61.71 MB, Heap Used: 17.59 MB, Event Loop Delay: 0.95 ms
+[2024-11-25T08:55:32.916Z] Memory Usage - RSS: 61.84 MB, Heap Used: 17.53 MB, Event Loop Delay: 0.74 ms
+[2024-11-25T08:55:35.558Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:55:42.918Z] Memory Usage - RSS: 62.16 MB, Heap Used: 17.61 MB, Event Loop Delay: 2.49 ms
+[2024-11-25T08:55:52.929Z] Memory Usage - RSS: 62.20 MB, Heap Used: 18.22 MB, Event Loop Delay: 0.95 ms
+[2024-11-25T08:55:55.525Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:56:02.941Z] Memory Usage - RSS: 61.62 MB, Heap Used: 18.07 MB, Event Loop Delay: 0.68 ms
+[2024-11-25T08:56:12.948Z] Memory Usage - RSS: 61.81 MB, Heap Used: 18.59 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T08:56:15.526Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:56:22.963Z] Memory Usage - RSS: 61.95 MB, Heap Used: 19.00 MB, Event Loop Delay: 0.84 ms
+[2024-11-25T08:56:32.975Z] Memory Usage - RSS: 61.95 MB, Heap Used: 19.00 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T08:56:35.548Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:56:42.989Z] Memory Usage - RSS: 61.95 MB, Heap Used: 18.68 MB, Event Loop Delay: 2.64 ms
+[2024-11-25T08:56:53.002Z] Memory Usage - RSS: 62.09 MB, Heap Used: 19.45 MB, Event Loop Delay: 0.71 ms
+[2024-11-25T08:56:55.559Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:57:03.009Z] Memory Usage - RSS: 62.10 MB, Heap Used: 19.38 MB, Event Loop Delay: 1.82 ms
+[2024-11-25T08:57:13.020Z] Memory Usage - RSS: 62.16 MB, Heap Used: 19.91 MB, Event Loop Delay: 0.71 ms
+[2024-11-25T08:57:15.587Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:57:23.026Z] Memory Usage - RSS: 62.16 MB, Heap Used: 20.16 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T08:57:33.033Z] Memory Usage - RSS: 62.17 MB, Heap Used: 20.30 MB, Event Loop Delay: 1.30 ms
+[2024-11-25T08:57:35.610Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:57:43.035Z] Memory Usage - RSS: 62.17 MB, Heap Used: 20.40 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T08:57:53.044Z] Memory Usage - RSS: 61.71 MB, Heap Used: 20.55 MB, Event Loop Delay: 0.90 ms
+[2024-11-25T08:57:55.588Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:58:03.052Z] Memory Usage - RSS: 61.71 MB, Heap Used: 20.84 MB, Event Loop Delay: 2.10 ms
+[2024-11-25T08:58:13.056Z] Memory Usage - RSS: 61.79 MB, Heap Used: 20.69 MB, Event Loop Delay: 1.13 ms
+[2024-11-25T08:58:15.631Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:58:23.067Z] Memory Usage - RSS: 61.79 MB, Heap Used: 20.70 MB, Event Loop Delay: 0.76 ms
+[2024-11-25T08:58:33.075Z] Memory Usage - RSS: 62.03 MB, Heap Used: 21.37 MB, Event Loop Delay: 0.79 ms
+[2024-11-25T08:58:35.652Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:58:43.077Z] Memory Usage - RSS: 62.04 MB, Heap Used: 21.50 MB, Event Loop Delay: 0.70 ms
+[2024-11-25T08:58:53.076Z] Memory Usage - RSS: 62.05 MB, Heap Used: 21.83 MB, Event Loop Delay: 6.35 ms
+[2024-11-25T08:58:55.672Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:59:03.077Z] Memory Usage - RSS: 62.05 MB, Heap Used: 22.16 MB, Event Loop Delay: 0.64 ms
+[2024-11-25T08:59:13.082Z] Memory Usage - RSS: 62.05 MB, Heap Used: 21.99 MB, Event Loop Delay: 0.80 ms
+[2024-11-25T08:59:15.655Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:59:23.091Z] Memory Usage - RSS: 62.05 MB, Heap Used: 21.73 MB, Event Loop Delay: 0.70 ms
+[2024-11-25T08:59:33.092Z] Memory Usage - RSS: 62.05 MB, Heap Used: 21.90 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T08:59:35.677Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T08:59:43.108Z] Memory Usage - RSS: 62.05 MB, Heap Used: 21.95 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T08:59:53.119Z] Memory Usage - RSS: 62.06 MB, Heap Used: 22.27 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T08:59:55.734Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:00:03.132Z] Memory Usage - RSS: 61.63 MB, Heap Used: 22.47 MB, Event Loop Delay: 2.36 ms
+[2024-11-25T09:00:13.139Z] Memory Usage - RSS: 61.64 MB, Heap Used: 22.83 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T09:00:15.787Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:00:23.149Z] Memory Usage - RSS: 61.65 MB, Heap Used: 22.73 MB, Event Loop Delay: 1.58 ms
+[2024-11-25T09:00:33.160Z] Memory Usage - RSS: 61.79 MB, Heap Used: 23.29 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T09:00:35.800Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:00:43.167Z] Memory Usage - RSS: 61.81 MB, Heap Used: 23.69 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T09:00:53.181Z] Memory Usage - RSS: 61.82 MB, Heap Used: 23.31 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T09:00:55.812Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:01:03.187Z] Memory Usage - RSS: 61.82 MB, Heap Used: 23.66 MB, Event Loop Delay: 0.59 ms
+[2024-11-25T09:01:13.192Z] Memory Usage - RSS: 61.86 MB, Heap Used: 24.32 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T09:01:15.825Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:01:23.204Z] Memory Usage - RSS: 61.86 MB, Heap Used: 23.99 MB, Event Loop Delay: 1.20 ms
+[2024-11-25T09:01:33.210Z] Memory Usage - RSS: 61.86 MB, Heap Used: 24.02 MB, Event Loop Delay: 1.19 ms
+[2024-11-25T09:01:35.856Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:01:43.224Z] Memory Usage - RSS: 61.91 MB, Heap Used: 16.10 MB, Event Loop Delay: 0.76 ms
+[2024-11-25T09:01:53.235Z] Memory Usage - RSS: 61.81 MB, Heap Used: 16.72 MB, Event Loop Delay: 1.35 ms
+[2024-11-25T09:01:55.840Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:02:03.243Z] Memory Usage - RSS: 61.81 MB, Heap Used: 16.36 MB, Event Loop Delay: 0.70 ms
+[2024-11-25T09:02:13.257Z] Memory Usage - RSS: 61.81 MB, Heap Used: 16.78 MB, Event Loop Delay: 1.03 ms
+[2024-11-25T09:02:15.924Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:02:23.268Z] Memory Usage - RSS: 61.81 MB, Heap Used: 17.00 MB, Event Loop Delay: 0.81 ms
+[2024-11-25T09:02:33.276Z] Memory Usage - RSS: 61.81 MB, Heap Used: 16.39 MB, Event Loop Delay: 0.69 ms
+[2024-11-25T09:02:35.886Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:02:43.287Z] Memory Usage - RSS: 61.99 MB, Heap Used: 17.05 MB, Event Loop Delay: 0.60 ms
+[2024-11-25T09:02:53.301Z] Memory Usage - RSS: 61.99 MB, Heap Used: 16.96 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T09:02:55.893Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:03:03.308Z] Memory Usage - RSS: 61.99 MB, Heap Used: 17.01 MB, Event Loop Delay: 0.59 ms
+[2024-11-25T09:03:13.324Z] Memory Usage - RSS: 61.99 MB, Heap Used: 17.26 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T09:03:15.915Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:03:23.335Z] Memory Usage - RSS: 61.99 MB, Heap Used: 17.52 MB, Event Loop Delay: 0.65 ms
+[2024-11-25T09:03:33.350Z] Memory Usage - RSS: 62.11 MB, Heap Used: 17.88 MB, Event Loop Delay: 0.67 ms
+[2024-11-25T09:03:35.908Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:03:43.362Z] Memory Usage - RSS: 62.11 MB, Heap Used: 17.64 MB, Event Loop Delay: 0.94 ms
+[2024-11-25T09:03:53.368Z] Memory Usage - RSS: 62.11 MB, Heap Used: 17.96 MB, Event Loop Delay: 1.44 ms
+[2024-11-25T09:03:55.932Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:04:03.379Z] Memory Usage - RSS: 62.13 MB, Heap Used: 17.71 MB, Event Loop Delay: 0.55 ms
+[2024-11-25T09:04:13.385Z] Memory Usage - RSS: 62.25 MB, Heap Used: 18.09 MB, Event Loop Delay: 1.54 ms
+[2024-11-25T09:04:15.942Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:04:23.389Z] Memory Usage - RSS: 62.28 MB, Heap Used: 19.33 MB, Event Loop Delay: 1.29 ms
+[2024-11-25T09:04:33.395Z] Memory Usage - RSS: 53.92 MB, Heap Used: 20.25 MB, Event Loop Delay: 0.88 ms
+[2024-11-25T09:04:35.973Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:04:43.402Z] Memory Usage - RSS: 54.03 MB, Heap Used: 20.37 MB, Event Loop Delay: 1.63 ms
+[2024-11-25T09:04:53.403Z] Memory Usage - RSS: 54.03 MB, Heap Used: 21.72 MB, Event Loop Delay: 0.48 ms
+[2024-11-25T09:04:55.959Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:05:03.408Z] Memory Usage - RSS: 54.21 MB, Heap Used: 22.75 MB, Event Loop Delay: 0.80 ms
+[2024-11-25T09:05:13.411Z] Memory Usage - RSS: 54.21 MB, Heap Used: 22.79 MB, Event Loop Delay: 0.72 ms
+[2024-11-25T09:05:15.976Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:05:23.419Z] Memory Usage - RSS: 54.21 MB, Heap Used: 22.65 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:05:33.424Z] Memory Usage - RSS: 54.21 MB, Heap Used: 22.84 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:05:35.984Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:05:43.428Z] Memory Usage - RSS: 54.21 MB, Heap Used: 23.06 MB, Event Loop Delay: 0.84 ms
+[2024-11-25T09:05:53.435Z] Memory Usage - RSS: 54.21 MB, Heap Used: 23.18 MB, Event Loop Delay: 0.71 ms
+[2024-11-25T09:05:55.996Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:06:03.444Z] Memory Usage - RSS: 54.23 MB, Heap Used: 23.14 MB, Event Loop Delay: 1.12 ms
+[2024-11-25T09:06:13.446Z] Memory Usage - RSS: 54.24 MB, Heap Used: 23.78 MB, Event Loop Delay: 0.88 ms
+[2024-11-25T09:06:16.070Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:06:23.447Z] Memory Usage - RSS: 54.24 MB, Heap Used: 23.67 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T09:06:33.447Z] Memory Usage - RSS: 54.30 MB, Heap Used: 16.72 MB, Event Loop Delay: 0.61 ms
+[2024-11-25T09:06:36.070Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:06:43.461Z] Memory Usage - RSS: 53.90 MB, Heap Used: 17.03 MB, Event Loop Delay: 1.17 ms
+[2024-11-25T09:06:53.461Z] Memory Usage - RSS: 54.36 MB, Heap Used: 17.57 MB, Event Loop Delay: 0.66 ms
+[2024-11-25T09:06:56.061Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:07:03.469Z] Memory Usage - RSS: 54.56 MB, Heap Used: 18.50 MB, Event Loop Delay: 0.58 ms
+[2024-11-25T09:07:13.469Z] Memory Usage - RSS: 54.56 MB, Heap Used: 18.89 MB, Event Loop Delay: 1.20 ms
+[2024-11-25T09:07:16.107Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:07:23.475Z] Memory Usage - RSS: 54.56 MB, Heap Used: 19.01 MB, Event Loop Delay: 0.53 ms
+[2024-11-25T09:07:33.482Z] Memory Usage - RSS: 54.13 MB, Heap Used: 19.57 MB, Event Loop Delay: 1.69 ms
+[2024-11-25T09:07:36.107Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:07:43.494Z] Memory Usage - RSS: 54.15 MB, Heap Used: 19.68 MB, Event Loop Delay: 0.80 ms
+[2024-11-25T09:07:53.509Z] Memory Usage - RSS: 53.73 MB, Heap Used: 19.74 MB, Event Loop Delay: 0.86 ms
+[2024-11-25T09:07:56.127Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:08:03.513Z] Memory Usage - RSS: 53.73 MB, Heap Used: 19.89 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T09:08:13.521Z] Memory Usage - RSS: 54.00 MB, Heap Used: 20.77 MB, Event Loop Delay: 1.06 ms
+[2024-11-25T09:08:16.135Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:08:23.531Z] Memory Usage - RSS: 54.00 MB, Heap Used: 20.98 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:08:33.536Z] Memory Usage - RSS: 53.94 MB, Heap Used: 21.34 MB, Event Loop Delay: 3.13 ms
+[2024-11-25T09:08:36.219Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:08:43.541Z] Memory Usage - RSS: 53.96 MB, Heap Used: 21.47 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T09:08:53.547Z] Memory Usage - RSS: 53.85 MB, Heap Used: 21.99 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T09:08:56.186Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:09:03.548Z] Memory Usage - RSS: 53.85 MB, Heap Used: 22.08 MB, Event Loop Delay: 4.16 ms
+[2024-11-25T09:09:13.551Z] Memory Usage - RSS: 53.85 MB, Heap Used: 21.85 MB, Event Loop Delay: 0.72 ms
+[2024-11-25T09:09:16.207Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:09:23.560Z] Memory Usage - RSS: 53.85 MB, Heap Used: 22.06 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:09:33.562Z] Memory Usage - RSS: 53.87 MB, Heap Used: 22.31 MB, Event Loop Delay: 1.82 ms
+[2024-11-25T09:09:36.231Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:09:43.569Z] Memory Usage - RSS: 53.88 MB, Heap Used: 22.70 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T09:09:53.572Z] Memory Usage - RSS: 53.88 MB, Heap Used: 22.80 MB, Event Loop Delay: 0.83 ms
+[2024-11-25T09:09:56.199Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:10:03.575Z] Memory Usage - RSS: 53.88 MB, Heap Used: 22.63 MB, Event Loop Delay: 0.79 ms
+[2024-11-25T09:10:13.580Z] Memory Usage - RSS: 53.88 MB, Heap Used: 22.92 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T09:10:16.230Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:10:23.580Z] Memory Usage - RSS: 53.79 MB, Heap Used: 23.27 MB, Event Loop Delay: 0.45 ms
+[2024-11-25T09:10:33.593Z] Memory Usage - RSS: 54.11 MB, Heap Used: 23.71 MB, Event Loop Delay: 3.54 ms
+[2024-11-25T09:10:36.256Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:10:43.608Z] Memory Usage - RSS: 54.77 MB, Heap Used: 23.70 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T09:10:53.621Z] Memory Usage - RSS: 54.00 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T09:10:56.250Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:11:03.625Z] Memory Usage - RSS: 54.01 MB, Heap Used: 24.24 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T09:11:13.627Z] Memory Usage - RSS: 54.56 MB, Heap Used: 16.84 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T09:11:16.287Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:11:23.630Z] Memory Usage - RSS: 54.56 MB, Heap Used: 17.05 MB, Event Loop Delay: 1.04 ms
+[2024-11-25T09:11:33.636Z] Memory Usage - RSS: 54.56 MB, Heap Used: 16.74 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T09:11:36.286Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:11:43.651Z] Memory Usage - RSS: 54.58 MB, Heap Used: 17.57 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T09:11:53.653Z] Memory Usage - RSS: 54.59 MB, Heap Used: 18.11 MB, Event Loop Delay: 0.67 ms
+[2024-11-25T09:11:56.318Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:12:03.658Z] Memory Usage - RSS: 54.59 MB, Heap Used: 18.29 MB, Event Loop Delay: 0.62 ms
+[2024-11-25T09:12:13.671Z] Memory Usage - RSS: 54.59 MB, Heap Used: 18.16 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T09:12:16.308Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:12:23.683Z] Memory Usage - RSS: 54.59 MB, Heap Used: 18.80 MB, Event Loop Delay: 0.54 ms
+[2024-11-25T09:12:33.689Z] Memory Usage - RSS: 54.53 MB, Heap Used: 18.54 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T09:12:36.349Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:12:43.692Z] Memory Usage - RSS: 54.29 MB, Heap Used: 19.23 MB, Event Loop Delay: 0.61 ms
+[2024-11-25T09:12:53.697Z] Memory Usage - RSS: 54.30 MB, Heap Used: 19.30 MB, Event Loop Delay: 0.76 ms
+[2024-11-25T09:12:56.397Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:13:03.706Z] Memory Usage - RSS: 54.32 MB, Heap Used: 19.65 MB, Event Loop Delay: 0.91 ms
+[2024-11-25T09:13:13.709Z] Memory Usage - RSS: 54.32 MB, Heap Used: 19.31 MB, Event Loop Delay: 0.61 ms
+[2024-11-25T09:13:16.361Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:13:23.711Z] Memory Usage - RSS: 54.38 MB, Heap Used: 19.59 MB, Event Loop Delay: 0.72 ms
+[2024-11-25T09:13:33.720Z] Memory Usage - RSS: 54.38 MB, Heap Used: 19.90 MB, Event Loop Delay: 0.64 ms
+[2024-11-25T09:13:36.358Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:13:43.725Z] Memory Usage - RSS: 54.38 MB, Heap Used: 20.02 MB, Event Loop Delay: 0.81 ms
+[2024-11-25T09:13:53.729Z] Memory Usage - RSS: 54.54 MB, Heap Used: 20.37 MB, Event Loop Delay: 0.67 ms
+[2024-11-25T09:13:56.392Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:14:03.744Z] Memory Usage - RSS: 54.54 MB, Heap Used: 20.86 MB, Event Loop Delay: 0.65 ms
+[2024-11-25T09:14:13.755Z] Memory Usage - RSS: 54.54 MB, Heap Used: 21.22 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T09:14:16.383Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:14:23.759Z] Memory Usage - RSS: 54.54 MB, Heap Used: 21.45 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T09:14:33.763Z] Memory Usage - RSS: 54.54 MB, Heap Used: 21.32 MB, Event Loop Delay: 0.86 ms
+[2024-11-25T09:14:36.401Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:14:43.772Z] Memory Usage - RSS: 54.54 MB, Heap Used: 21.55 MB, Event Loop Delay: 2.48 ms
+[2024-11-25T09:14:53.779Z] Memory Usage - RSS: 54.54 MB, Heap Used: 21.57 MB, Event Loop Delay: 1.17 ms
+[2024-11-25T09:14:56.450Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:15:03.791Z] Memory Usage - RSS: 54.54 MB, Heap Used: 21.06 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:15:13.803Z] Memory Usage - RSS: 54.54 MB, Heap Used: 21.08 MB, Event Loop Delay: 0.58 ms
+[2024-11-25T09:15:16.481Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:15:23.803Z] Memory Usage - RSS: 54.34 MB, Heap Used: 21.69 MB, Event Loop Delay: 2.78 ms
+[2024-11-25T09:15:33.803Z] Memory Usage - RSS: 54.49 MB, Heap Used: 22.24 MB, Event Loop Delay: 1.13 ms
+[2024-11-25T09:15:36.452Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:15:43.807Z] Memory Usage - RSS: 54.50 MB, Heap Used: 22.35 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T09:15:53.808Z] Memory Usage - RSS: 54.51 MB, Heap Used: 22.35 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T09:15:56.486Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:16:03.810Z] Memory Usage - RSS: 54.31 MB, Heap Used: 22.69 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T09:16:13.824Z] Memory Usage - RSS: 54.31 MB, Heap Used: 22.85 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T09:16:16.479Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:16:23.827Z] Memory Usage - RSS: 54.31 MB, Heap Used: 22.86 MB, Event Loop Delay: 2.07 ms
+[2024-11-25T09:16:33.831Z] Memory Usage - RSS: 54.34 MB, Heap Used: 23.20 MB, Event Loop Delay: 2.47 ms
+[2024-11-25T09:16:36.510Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:16:43.845Z] Memory Usage - RSS: 54.38 MB, Heap Used: 23.15 MB, Event Loop Delay: 0.71 ms
+[2024-11-25T09:16:53.845Z] Memory Usage - RSS: 54.38 MB, Heap Used: 23.18 MB, Event Loop Delay: 0.62 ms
+[2024-11-25T09:16:56.503Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:17:03.846Z] Memory Usage - RSS: 54.38 MB, Heap Used: 23.73 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T09:17:13.849Z] Memory Usage - RSS: 54.39 MB, Heap Used: 23.79 MB, Event Loop Delay: 0.66 ms
+[2024-11-25T09:17:16.541Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:17:23.864Z] Memory Usage - RSS: 54.39 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T09:17:33.877Z] Memory Usage - RSS: 53.61 MB, Heap Used: 24.02 MB, Event Loop Delay: 0.65 ms
+[2024-11-25T09:17:36.555Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:17:43.882Z] Memory Usage - RSS: 53.61 MB, Heap Used: 24.03 MB, Event Loop Delay: 0.64 ms
+[2024-11-25T09:17:53.898Z] Memory Usage - RSS: 53.61 MB, Heap Used: 24.05 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T09:17:56.611Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:18:03.903Z] Memory Usage - RSS: 53.75 MB, Heap Used: 17.11 MB, Event Loop Delay: 0.80 ms
+[2024-11-25T09:18:13.904Z] Memory Usage - RSS: 53.76 MB, Heap Used: 17.35 MB, Event Loop Delay: 0.66 ms
+[2024-11-25T09:18:16.604Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:18:23.906Z] Memory Usage - RSS: 53.76 MB, Heap Used: 17.36 MB, Event Loop Delay: 0.66 ms
+[2024-11-25T09:18:33.920Z] Memory Usage - RSS: 53.76 MB, Heap Used: 17.76 MB, Event Loop Delay: 0.50 ms
+[2024-11-25T09:18:36.623Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:18:43.931Z] Memory Usage - RSS: 53.76 MB, Heap Used: 17.87 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T09:18:53.940Z] Memory Usage - RSS: 53.76 MB, Heap Used: 18.04 MB, Event Loop Delay: 0.62 ms
+[2024-11-25T09:18:56.665Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:19:03.953Z] Memory Usage - RSS: 53.76 MB, Heap Used: 18.31 MB, Event Loop Delay: 0.88 ms
+[2024-11-25T09:19:13.954Z] Memory Usage - RSS: 53.76 MB, Heap Used: 18.57 MB, Event Loop Delay: 0.63 ms
+[2024-11-25T09:19:16.641Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:19:23.962Z] Memory Usage - RSS: 53.76 MB, Heap Used: 18.29 MB, Event Loop Delay: 0.65 ms
+[2024-11-25T09:19:33.977Z] Memory Usage - RSS: 53.76 MB, Heap Used: 19.18 MB, Event Loop Delay: 0.54 ms
+[2024-11-25T09:19:36.666Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:19:43.980Z] Memory Usage - RSS: 53.76 MB, Heap Used: 19.56 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T09:19:53.986Z] Memory Usage - RSS: 53.76 MB, Heap Used: 19.67 MB, Event Loop Delay: 0.79 ms
+[2024-11-25T09:19:56.692Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:20:03.986Z] Memory Usage - RSS: 53.76 MB, Heap Used: 19.55 MB, Event Loop Delay: 0.80 ms
+[2024-11-25T09:20:13.992Z] Memory Usage - RSS: 53.84 MB, Heap Used: 20.16 MB, Event Loop Delay: 0.61 ms
+[2024-11-25T09:20:16.691Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:20:23.995Z] Memory Usage - RSS: 53.84 MB, Heap Used: 20.28 MB, Event Loop Delay: 0.68 ms
+[2024-11-25T09:20:34.000Z] Memory Usage - RSS: 53.84 MB, Heap Used: 20.04 MB, Event Loop Delay: 0.86 ms
+[2024-11-25T09:20:36.690Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:20:44.003Z] Memory Usage - RSS: 53.84 MB, Heap Used: 20.84 MB, Event Loop Delay: 1.30 ms
+[2024-11-25T09:20:54.011Z] Memory Usage - RSS: 53.86 MB, Heap Used: 20.85 MB, Event Loop Delay: 0.57 ms
+[2024-11-25T09:20:56.708Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:21:04.021Z] Memory Usage - RSS: 53.86 MB, Heap Used: 21.01 MB, Event Loop Delay: 0.58 ms
+[2024-11-25T09:21:14.033Z] Memory Usage - RSS: 53.86 MB, Heap Used: 21.25 MB, Event Loop Delay: 0.91 ms
+[2024-11-25T09:21:16.726Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:21:24.037Z] Memory Usage - RSS: 53.86 MB, Heap Used: 21.61 MB, Event Loop Delay: 0.53 ms
+[2024-11-25T09:21:34.050Z] Memory Usage - RSS: 53.86 MB, Heap Used: 21.87 MB, Event Loop Delay: 0.61 ms
+[2024-11-25T09:21:36.711Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:21:44.066Z] Memory Usage - RSS: 53.86 MB, Heap Used: 21.70 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T09:21:54.077Z] Memory Usage - RSS: 53.86 MB, Heap Used: 21.87 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:21:56.750Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:22:04.079Z] Memory Usage - RSS: 53.86 MB, Heap Used: 22.04 MB, Event Loop Delay: 0.66 ms
+[2024-11-25T09:22:14.083Z] Memory Usage - RSS: 53.87 MB, Heap Used: 22.75 MB, Event Loop Delay: 0.44 ms
+[2024-11-25T09:22:16.750Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:22:24.089Z] Memory Usage - RSS: 53.87 MB, Heap Used: 22.67 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T09:22:34.090Z] Memory Usage - RSS: 53.60 MB, Heap Used: 23.03 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T09:22:36.793Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:22:44.097Z] Memory Usage - RSS: 53.60 MB, Heap Used: 23.62 MB, Event Loop Delay: 0.65 ms
+[2024-11-25T09:22:54.110Z] Memory Usage - RSS: 53.60 MB, Heap Used: 23.71 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T09:22:56.809Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:23:04.117Z] Memory Usage - RSS: 53.60 MB, Heap Used: 23.81 MB, Event Loop Delay: 0.68 ms
+[2024-11-25T09:23:14.128Z] Memory Usage - RSS: 53.60 MB, Heap Used: 23.78 MB, Event Loop Delay: 0.67 ms
+[2024-11-25T09:23:16.811Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:23:24.133Z] Memory Usage - RSS: 53.60 MB, Heap Used: 23.98 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T09:23:34.134Z] Memory Usage - RSS: 53.60 MB, Heap Used: 24.41 MB, Event Loop Delay: 0.81 ms
+[2024-11-25T09:23:36.847Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:23:44.147Z] Memory Usage - RSS: 53.48 MB, Heap Used: 17.16 MB, Event Loop Delay: 0.72 ms
+[2024-11-25T09:23:54.152Z] Memory Usage - RSS: 53.48 MB, Heap Used: 16.77 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T09:23:56.855Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:24:04.154Z] Memory Usage - RSS: 53.57 MB, Heap Used: 17.06 MB, Event Loop Delay: 1.65 ms
+[2024-11-25T09:24:14.166Z] Memory Usage - RSS: 53.57 MB, Heap Used: 17.25 MB, Event Loop Delay: 0.58 ms
+[2024-11-25T09:24:16.838Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:24:24.181Z] Memory Usage - RSS: 53.57 MB, Heap Used: 17.48 MB, Event Loop Delay: 0.58 ms
+[2024-11-25T09:24:34.181Z] Memory Usage - RSS: 53.61 MB, Heap Used: 18.16 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T09:24:36.894Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:24:44.194Z] Memory Usage - RSS: 53.67 MB, Heap Used: 18.19 MB, Event Loop Delay: 1.13 ms
+[2024-11-25T09:24:54.197Z] Memory Usage - RSS: 53.67 MB, Heap Used: 18.66 MB, Event Loop Delay: 1.11 ms
+[2024-11-25T09:24:56.881Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:25:04.204Z] Memory Usage - RSS: 53.67 MB, Heap Used: 18.91 MB, Event Loop Delay: 0.64 ms
+[2024-11-25T09:25:14.207Z] Memory Usage - RSS: 53.61 MB, Heap Used: 18.61 MB, Event Loop Delay: 0.56 ms
+[2024-11-25T09:25:16.866Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:25:24.215Z] Memory Usage - RSS: 53.72 MB, Heap Used: 19.46 MB, Event Loop Delay: 1.61 ms
+[2024-11-25T09:25:34.227Z] Memory Usage - RSS: 53.73 MB, Heap Used: 19.45 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T09:25:36.900Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:25:44.233Z] Memory Usage - RSS: 53.74 MB, Heap Used: 20.03 MB, Event Loop Delay: 1.18 ms
+[2024-11-25T09:25:54.235Z] Memory Usage - RSS: 53.77 MB, Heap Used: 19.96 MB, Event Loop Delay: 0.55 ms
+[2024-11-25T09:25:56.908Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:26:04.248Z] Memory Usage - RSS: 53.79 MB, Heap Used: 20.24 MB, Event Loop Delay: 0.60 ms
+[2024-11-25T09:26:14.258Z] Memory Usage - RSS: 53.80 MB, Heap Used: 20.34 MB, Event Loop Delay: 0.79 ms
+[2024-11-25T09:26:16.914Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:26:24.259Z] Memory Usage - RSS: 53.81 MB, Heap Used: 20.67 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T09:26:34.272Z] Memory Usage - RSS: 53.81 MB, Heap Used: 20.59 MB, Event Loop Delay: 2.27 ms
+[2024-11-25T09:26:36.945Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:26:44.284Z] Memory Usage - RSS: 53.82 MB, Heap Used: 20.97 MB, Event Loop Delay: 1.13 ms
+[2024-11-25T09:26:54.286Z] Memory Usage - RSS: 53.82 MB, Heap Used: 21.34 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T09:26:56.952Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:27:04.290Z] Memory Usage - RSS: 53.83 MB, Heap Used: 21.33 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T09:27:14.302Z] Memory Usage - RSS: 53.83 MB, Heap Used: 21.51 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:27:16.955Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:27:24.303Z] Memory Usage - RSS: 53.83 MB, Heap Used: 21.77 MB, Event Loop Delay: 0.70 ms
+[2024-11-25T09:27:34.306Z] Memory Usage - RSS: 53.72 MB, Heap Used: 22.28 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:27:36.961Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:27:44.313Z] Memory Usage - RSS: 53.72 MB, Heap Used: 21.99 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T09:27:54.319Z] Memory Usage - RSS: 53.72 MB, Heap Used: 22.12 MB, Event Loop Delay: 0.74 ms
+[2024-11-25T09:27:57.009Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:28:04.333Z] Memory Usage - RSS: 53.72 MB, Heap Used: 22.76 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T09:28:14.343Z] Memory Usage - RSS: 53.73 MB, Heap Used: 22.71 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T09:28:17.012Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:28:24.343Z] Memory Usage - RSS: 53.73 MB, Heap Used: 22.55 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:28:34.349Z] Memory Usage - RSS: 53.73 MB, Heap Used: 22.77 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T09:28:37.025Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:28:44.360Z] Memory Usage - RSS: 53.73 MB, Heap Used: 23.42 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T09:28:54.364Z] Memory Usage - RSS: 53.73 MB, Heap Used: 23.57 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T09:28:57.020Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:29:04.369Z] Memory Usage - RSS: 53.73 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.42 ms
+[2024-11-25T09:29:14.370Z] Memory Usage - RSS: 53.73 MB, Heap Used: 23.76 MB, Event Loop Delay: 2.17 ms
+[2024-11-25T09:29:17.380Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:29:24.377Z] Memory Usage - RSS: 53.73 MB, Heap Used: 24.46 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T09:29:34.384Z] Memory Usage - RSS: 53.73 MB, Heap Used: 24.48 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T09:29:37.065Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:29:44.397Z] Memory Usage - RSS: 53.80 MB, Heap Used: 16.74 MB, Event Loop Delay: 1.54 ms
+[2024-11-25T09:29:54.401Z] Memory Usage - RSS: 53.82 MB, Heap Used: 17.34 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T09:29:57.118Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:30:04.401Z] Memory Usage - RSS: 46.65 MB, Heap Used: 17.03 MB, Event Loop Delay: 1.35 ms
+[2024-11-25T09:30:14.401Z] Memory Usage - RSS: 46.09 MB, Heap Used: 17.54 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T09:30:17.067Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:30:24.404Z] Memory Usage - RSS: 46.09 MB, Heap Used: 17.60 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T09:30:34.408Z] Memory Usage - RSS: 46.18 MB, Heap Used: 18.06 MB, Event Loop Delay: 0.79 ms
+[2024-11-25T09:30:37.104Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:30:44.415Z] Memory Usage - RSS: 46.19 MB, Heap Used: 18.49 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T09:30:54.430Z] Memory Usage - RSS: 46.19 MB, Heap Used: 18.74 MB, Event Loop Delay: 2.71 ms
+[2024-11-25T09:30:57.139Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:31:04.438Z] Memory Usage - RSS: 46.19 MB, Heap Used: 18.64 MB, Event Loop Delay: 1.72 ms
+[2024-11-25T09:31:14.452Z] Memory Usage - RSS: 46.23 MB, Heap Used: 19.09 MB, Event Loop Delay: 2.35 ms
+[2024-11-25T09:31:17.131Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:31:24.457Z] Memory Usage - RSS: 46.23 MB, Heap Used: 19.12 MB, Event Loop Delay: 1.37 ms
+[2024-11-25T09:31:34.467Z] Memory Usage - RSS: 46.25 MB, Heap Used: 19.64 MB, Event Loop Delay: 1.30 ms
+[2024-11-25T09:31:37.168Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:31:44.478Z] Memory Usage - RSS: 46.25 MB, Heap Used: 19.69 MB, Event Loop Delay: 1.10 ms
+[2024-11-25T09:31:54.489Z] Memory Usage - RSS: 46.25 MB, Heap Used: 19.99 MB, Event Loop Delay: 2.17 ms
+[2024-11-25T09:31:57.187Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:32:04.491Z] Memory Usage - RSS: 46.25 MB, Heap Used: 20.29 MB, Event Loop Delay: 1.26 ms
+[2024-11-25T09:32:14.501Z] Memory Usage - RSS: 46.29 MB, Heap Used: 20.56 MB, Event Loop Delay: 1.67 ms
+[2024-11-25T09:32:17.190Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:32:24.509Z] Memory Usage - RSS: 46.29 MB, Heap Used: 20.38 MB, Event Loop Delay: 1.17 ms
+[2024-11-25T09:32:34.518Z] Memory Usage - RSS: 46.29 MB, Heap Used: 20.80 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T09:32:37.213Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:32:44.532Z] Memory Usage - RSS: 46.30 MB, Heap Used: 21.11 MB, Event Loop Delay: 1.43 ms
+[2024-11-25T09:32:54.534Z] Memory Usage - RSS: 46.30 MB, Heap Used: 21.32 MB, Event Loop Delay: 3.18 ms
+[2024-11-25T09:32:57.246Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:33:04.539Z] Memory Usage - RSS: 46.30 MB, Heap Used: 21.25 MB, Event Loop Delay: 2.31 ms
+[2024-11-25T09:33:14.540Z] Memory Usage - RSS: 46.30 MB, Heap Used: 21.69 MB, Event Loop Delay: 2.33 ms
+[2024-11-25T09:33:17.222Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:33:24.547Z] Memory Usage - RSS: 46.30 MB, Heap Used: 21.79 MB, Event Loop Delay: 2.20 ms
+[2024-11-25T09:33:34.549Z] Memory Usage - RSS: 46.30 MB, Heap Used: 21.97 MB, Event Loop Delay: 1.29 ms
+[2024-11-25T09:33:37.246Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:33:44.551Z] Memory Usage - RSS: 46.30 MB, Heap Used: 21.97 MB, Event Loop Delay: 0.94 ms
+[2024-11-25T09:33:54.551Z] Memory Usage - RSS: 46.33 MB, Heap Used: 22.53 MB, Event Loop Delay: 1.27 ms
+[2024-11-25T09:33:57.207Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:34:04.557Z] Memory Usage - RSS: 46.33 MB, Heap Used: 22.55 MB, Event Loop Delay: 0.72 ms
+[2024-11-25T09:34:14.559Z] Memory Usage - RSS: 46.37 MB, Heap Used: 22.89 MB, Event Loop Delay: 1.45 ms
+[2024-11-25T09:34:17.236Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:34:24.561Z] Memory Usage - RSS: 46.37 MB, Heap Used: 23.00 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T09:34:34.574Z] Memory Usage - RSS: 46.37 MB, Heap Used: 22.93 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T09:34:37.259Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:34:44.588Z] Memory Usage - RSS: 46.37 MB, Heap Used: 23.26 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T09:34:54.594Z] Memory Usage - RSS: 46.37 MB, Heap Used: 23.93 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T09:34:57.321Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:35:04.595Z] Memory Usage - RSS: 46.37 MB, Heap Used: 23.96 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T09:35:14.596Z] Memory Usage - RSS: 46.37 MB, Heap Used: 24.10 MB, Event Loop Delay: 1.10 ms
+[2024-11-25T09:35:17.224Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:35:24.605Z] Memory Usage - RSS: 46.37 MB, Heap Used: 24.28 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T09:35:34.609Z] Memory Usage - RSS: 46.37 MB, Heap Used: 24.25 MB, Event Loop Delay: 5.35 ms
+[2024-11-25T09:35:37.303Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:35:44.610Z] Memory Usage - RSS: 46.37 MB, Heap Used: 24.70 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T09:35:54.624Z] Memory Usage - RSS: 46.38 MB, Heap Used: 16.32 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T09:35:57.285Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:36:04.629Z] Memory Usage - RSS: 45.88 MB, Heap Used: 16.54 MB, Event Loop Delay: 2.33 ms
+[2024-11-25T09:36:14.637Z] Memory Usage - RSS: 46.05 MB, Heap Used: 17.05 MB, Event Loop Delay: 2.02 ms
+[2024-11-25T09:36:17.324Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:36:24.647Z] Memory Usage - RSS: 46.05 MB, Heap Used: 17.04 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T09:36:34.659Z] Memory Usage - RSS: 46.07 MB, Heap Used: 17.47 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T09:36:37.365Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:36:44.666Z] Memory Usage - RSS: 46.08 MB, Heap Used: 17.54 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T09:36:54.678Z] Memory Usage - RSS: 46.14 MB, Heap Used: 18.11 MB, Event Loop Delay: 1.69 ms
+[2024-11-25T09:36:57.359Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:37:04.684Z] Memory Usage - RSS: 46.14 MB, Heap Used: 18.05 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T09:37:14.697Z] Memory Usage - RSS: 46.14 MB, Heap Used: 18.18 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T09:37:17.333Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:37:24.699Z] Memory Usage - RSS: 46.14 MB, Heap Used: 18.38 MB, Event Loop Delay: 1.06 ms
+[2024-11-25T09:37:34.704Z] Memory Usage - RSS: 43.75 MB, Heap Used: 18.80 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T09:37:37.369Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:37:44.708Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.05 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T09:37:54.715Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.01 MB, Event Loop Delay: 1.82 ms
+[2024-11-25T09:37:57.382Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:38:04.717Z] Memory Usage - RSS: 43.77 MB, Heap Used: 18.78 MB, Event Loop Delay: 2.38 ms
+[2024-11-25T09:38:14.718Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.34 MB, Event Loop Delay: 1.08 ms
+[2024-11-25T09:38:17.408Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:38:24.723Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.34 MB, Event Loop Delay: 0.95 ms
+[2024-11-25T09:38:34.723Z] Memory Usage - RSS: 43.79 MB, Heap Used: 19.57 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T09:38:37.411Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:38:44.736Z] Memory Usage - RSS: 43.79 MB, Heap Used: 19.40 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T09:38:54.744Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.13 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T09:38:57.411Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:39:04.754Z] Memory Usage - RSS: 43.79 MB, Heap Used: 19.90 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T09:39:14.759Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.26 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T09:39:17.419Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:39:24.764Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.20 MB, Event Loop Delay: 2.26 ms
+[2024-11-25T09:39:34.766Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.36 MB, Event Loop Delay: 2.07 ms
+[2024-11-25T09:39:37.367Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:39:44.781Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.54 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T09:39:54.789Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.78 MB, Event Loop Delay: 1.75 ms
+[2024-11-25T09:39:57.411Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:40:04.793Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.68 MB, Event Loop Delay: 2.17 ms
+[2024-11-25T09:40:14.795Z] Memory Usage - RSS: 43.79 MB, Heap Used: 21.20 MB, Event Loop Delay: 1.65 ms
+[2024-11-25T09:40:17.429Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:40:24.800Z] Memory Usage - RSS: 43.79 MB, Heap Used: 21.63 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T09:40:34.804Z] Memory Usage - RSS: 43.79 MB, Heap Used: 21.60 MB, Event Loop Delay: 2.43 ms
+[2024-11-25T09:40:37.452Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:40:44.806Z] Memory Usage - RSS: 43.54 MB, Heap Used: 21.69 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T09:40:54.815Z] Memory Usage - RSS: 43.55 MB, Heap Used: 21.90 MB, Event Loop Delay: 2.50 ms
+[2024-11-25T09:40:57.449Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:41:04.830Z] Memory Usage - RSS: 43.56 MB, Heap Used: 22.30 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T09:41:14.842Z] Memory Usage - RSS: 43.56 MB, Heap Used: 22.41 MB, Event Loop Delay: 2.36 ms
+[2024-11-25T09:41:17.496Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:41:24.846Z] Memory Usage - RSS: 43.67 MB, Heap Used: 22.69 MB, Event Loop Delay: 1.10 ms
+[2024-11-25T09:41:34.859Z] Memory Usage - RSS: 43.67 MB, Heap Used: 23.00 MB, Event Loop Delay: 1.36 ms
+[2024-11-25T09:41:37.476Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:41:44.871Z] Memory Usage - RSS: 43.68 MB, Heap Used: 23.14 MB, Event Loop Delay: 2.15 ms
+[2024-11-25T09:41:54.876Z] Memory Usage - RSS: 43.68 MB, Heap Used: 23.11 MB, Event Loop Delay: 1.88 ms
+[2024-11-25T09:41:57.532Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:42:04.877Z] Memory Usage - RSS: 43.77 MB, Heap Used: 23.10 MB, Event Loop Delay: 1.56 ms
+[2024-11-25T09:42:14.887Z] Memory Usage - RSS: 43.77 MB, Heap Used: 23.32 MB, Event Loop Delay: 1.18 ms
+[2024-11-25T09:42:17.489Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:42:24.894Z] Memory Usage - RSS: 43.77 MB, Heap Used: 23.55 MB, Event Loop Delay: 2.10 ms
+[2024-11-25T09:42:34.896Z] Memory Usage - RSS: 43.52 MB, Heap Used: 24.11 MB, Event Loop Delay: 1.84 ms
+[2024-11-25T09:42:37.526Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:42:44.905Z] Memory Usage - RSS: 43.47 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.03 ms
+[2024-11-25T09:42:54.915Z] Memory Usage - RSS: 43.48 MB, Heap Used: 24.36 MB, Event Loop Delay: 1.10 ms
+[2024-11-25T09:42:57.555Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:43:04.921Z] Memory Usage - RSS: 43.53 MB, Heap Used: 24.64 MB, Event Loop Delay: 2.01 ms
+[2024-11-25T09:43:14.928Z] Memory Usage - RSS: 43.59 MB, Heap Used: 24.50 MB, Event Loop Delay: 3.60 ms
+[2024-11-25T09:43:17.573Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:43:24.931Z] Memory Usage - RSS: 43.61 MB, Heap Used: 24.31 MB, Event Loop Delay: 1.11 ms
+[2024-11-25T09:43:34.944Z] Memory Usage - RSS: 43.70 MB, Heap Used: 17.37 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T09:43:37.556Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:43:44.950Z] Memory Usage - RSS: 43.70 MB, Heap Used: 16.96 MB, Event Loop Delay: 1.46 ms
+[2024-11-25T09:43:54.951Z] Memory Usage - RSS: 43.70 MB, Heap Used: 17.05 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T09:43:57.586Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:44:04.954Z] Memory Usage - RSS: 43.53 MB, Heap Used: 17.45 MB, Event Loop Delay: 1.08 ms
+[2024-11-25T09:44:14.956Z] Memory Usage - RSS: 43.54 MB, Heap Used: 17.61 MB, Event Loop Delay: 1.98 ms
+[2024-11-25T09:44:17.592Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:44:24.971Z] Memory Usage - RSS: 43.54 MB, Heap Used: 18.01 MB, Event Loop Delay: 1.12 ms
+[2024-11-25T09:44:34.979Z] Memory Usage - RSS: 43.74 MB, Heap Used: 18.19 MB, Event Loop Delay: 1.45 ms
+[2024-11-25T09:44:37.620Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:44:44.993Z] Memory Usage - RSS: 43.75 MB, Heap Used: 18.52 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T09:44:54.995Z] Memory Usage - RSS: 43.75 MB, Heap Used: 18.72 MB, Event Loop Delay: 2.50 ms
+[2024-11-25T09:44:57.656Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:45:04.997Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.15 MB, Event Loop Delay: 2.01 ms
+[2024-11-25T09:45:15.005Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.30 MB, Event Loop Delay: 1.10 ms
+[2024-11-25T09:45:17.605Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:45:25.005Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.02 MB, Event Loop Delay: 2.43 ms
+[2024-11-25T09:45:35.007Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.32 MB, Event Loop Delay: 1.53 ms
+[2024-11-25T09:45:37.610Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:45:45.012Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.70 MB, Event Loop Delay: 1.92 ms
+[2024-11-25T09:45:55.018Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.43 MB, Event Loop Delay: 0.85 ms
+[2024-11-25T09:45:57.656Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:46:05.029Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.58 MB, Event Loop Delay: 2.19 ms
+[2024-11-25T09:46:15.033Z] Memory Usage - RSS: 43.77 MB, Heap Used: 19.89 MB, Event Loop Delay: 2.23 ms
+[2024-11-25T09:46:17.682Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:46:25.045Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.27 MB, Event Loop Delay: 2.17 ms
+[2024-11-25T09:46:35.047Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.21 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T09:46:37.720Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:46:45.048Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.50 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T09:46:55.053Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.77 MB, Event Loop Delay: 2.07 ms
+[2024-11-25T09:46:57.707Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:47:05.063Z] Memory Usage - RSS: 43.79 MB, Heap Used: 20.88 MB, Event Loop Delay: 2.18 ms
+[2024-11-25T09:47:15.071Z] Memory Usage - RSS: 43.79 MB, Heap Used: 21.50 MB, Event Loop Delay: 1.67 ms
+[2024-11-25T09:47:17.768Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:47:25.085Z] Memory Usage - RSS: 43.79 MB, Heap Used: 21.33 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T09:47:35.090Z] Memory Usage - RSS: 43.79 MB, Heap Used: 21.85 MB, Event Loop Delay: 2.15 ms
+[2024-11-25T09:47:37.738Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:47:45.090Z] Memory Usage - RSS: 43.79 MB, Heap Used: 21.79 MB, Event Loop Delay: 1.35 ms
+[2024-11-25T09:47:55.094Z] Memory Usage - RSS: 43.79 MB, Heap Used: 22.42 MB, Event Loop Delay: 1.67 ms
+[2024-11-25T09:47:57.787Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:48:05.102Z] Memory Usage - RSS: 43.79 MB, Heap Used: 22.18 MB, Event Loop Delay: 2.57 ms
+[2024-11-25T09:48:15.114Z] Memory Usage - RSS: 43.79 MB, Heap Used: 22.39 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T09:48:17.794Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:48:25.125Z] Memory Usage - RSS: 43.79 MB, Heap Used: 22.66 MB, Event Loop Delay: 2.07 ms
+[2024-11-25T09:48:35.127Z] Memory Usage - RSS: 43.79 MB, Heap Used: 22.89 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T09:48:37.726Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:48:45.127Z] Memory Usage - RSS: 43.57 MB, Heap Used: 23.53 MB, Event Loop Delay: 1.18 ms
+[2024-11-25T09:48:55.131Z] Memory Usage - RSS: 43.62 MB, Heap Used: 23.13 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T09:48:57.780Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:49:05.135Z] Memory Usage - RSS: 43.63 MB, Heap Used: 23.34 MB, Event Loop Delay: 2.31 ms
+[2024-11-25T09:49:15.139Z] Memory Usage - RSS: 43.63 MB, Heap Used: 23.80 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T09:49:17.829Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:49:25.142Z] Memory Usage - RSS: 44.45 MB, Heap Used: 23.95 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T09:58:58.805Z] Memory Usage - RSS: 44.45 MB, Heap Used: 23.95 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T09:59:08.813Z] Memory Usage - RSS: 44.47 MB, Heap Used: 23.97 MB, Event Loop Delay: 691.30 ms
+[2024-11-25T09:59:09.656Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:59:18.822Z] Memory Usage - RSS: 44.47 MB, Heap Used: 23.98 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T09:59:28.830Z] Memory Usage - RSS: 44.47 MB, Heap Used: 23.99 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T09:59:28.924Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:59:38.832Z] Memory Usage - RSS: 44.47 MB, Heap Used: 24.00 MB, Event Loop Delay: 1.62 ms
+[2024-11-25T09:59:48.838Z] Memory Usage - RSS: 44.47 MB, Heap Used: 24.02 MB, Event Loop Delay: 0.90 ms
+[2024-11-25T09:59:48.918Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T09:59:58.850Z] Memory Usage - RSS: 44.47 MB, Heap Used: 24.02 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T10:00:08.864Z] Memory Usage - RSS: 44.47 MB, Heap Used: 24.04 MB, Event Loop Delay: 0.84 ms
+[2024-11-25T10:00:08.911Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:00:18.867Z] Memory Usage - RSS: 44.47 MB, Heap Used: 24.05 MB, Event Loop Delay: 0.77 ms
+[2024-11-25T10:00:28.867Z] Memory Usage - RSS: 44.65 MB, Heap Used: 24.07 MB, Event Loop Delay: 0.95 ms
+[2024-11-25T10:00:28.937Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:00:38.868Z] Memory Usage - RSS: 44.65 MB, Heap Used: 24.08 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T10:00:48.870Z] Memory Usage - RSS: 44.70 MB, Heap Used: 24.09 MB, Event Loop Delay: 0.75 ms
+[2024-11-25T10:00:48.933Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:00:58.874Z] Memory Usage - RSS: 44.70 MB, Heap Used: 24.10 MB, Event Loop Delay: 0.76 ms
+[2024-11-25T10:01:08.877Z] Memory Usage - RSS: 44.41 MB, Heap Used: 24.12 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T10:01:08.971Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:01:18.883Z] Memory Usage - RSS: 44.41 MB, Heap Used: 24.13 MB, Event Loop Delay: 0.73 ms
+[2024-11-25T10:01:28.884Z] Memory Usage - RSS: 44.49 MB, Heap Used: 24.16 MB, Event Loop Delay: 0.84 ms
+[2024-11-25T10:01:28.960Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:01:38.888Z] Memory Usage - RSS: 44.49 MB, Heap Used: 24.17 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T10:01:48.897Z] Memory Usage - RSS: 44.49 MB, Heap Used: 24.18 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T10:01:48.974Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:01:58.898Z] Memory Usage - RSS: 44.49 MB, Heap Used: 24.19 MB, Event Loop Delay: 2.40 ms
+[2024-11-25T10:02:08.906Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.55 MB, Event Loop Delay: 3.58 ms
+[2024-11-25T10:02:09.000Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:02:18.921Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.56 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T10:02:28.928Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.58 MB, Event Loop Delay: 2.28 ms
+[2024-11-25T10:02:28.991Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:02:38.942Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.58 MB, Event Loop Delay: 2.24 ms
+[2024-11-25T10:02:48.955Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.60 MB, Event Loop Delay: 1.47 ms
+[2024-11-25T10:02:49.001Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:02:58.963Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.61 MB, Event Loop Delay: 2.24 ms
+[2024-11-25T10:03:08.976Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.62 MB, Event Loop Delay: 1.67 ms
+[2024-11-25T10:03:09.039Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:03:18.991Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.63 MB, Event Loop Delay: 1.29 ms
+[2024-11-25T10:03:29.004Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.65 MB, Event Loop Delay: 1.47 ms
+[2024-11-25T10:03:29.069Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:03:39.012Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.65 MB, Event Loop Delay: 2.52 ms
+[2024-11-25T10:03:49.020Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.67 MB, Event Loop Delay: 2.18 ms
+[2024-11-25T10:03:49.084Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:03:59.029Z] Memory Usage - RSS: 44.50 MB, Heap Used: 23.68 MB, Event Loop Delay: 1.41 ms
+[2024-11-25T10:04:09.030Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.70 MB, Event Loop Delay: 1.73 ms
+[2024-11-25T10:04:09.108Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:04:19.043Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.71 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T10:04:29.043Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T10:04:29.155Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:04:39.045Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.73 MB, Event Loop Delay: 0.95 ms
+[2024-11-25T10:04:49.046Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.74 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T10:04:49.109Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:04:59.047Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.75 MB, Event Loop Delay: 1.20 ms
+[2024-11-25T10:05:09.057Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.77 MB, Event Loop Delay: 1.28 ms
+[2024-11-25T10:05:09.103Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:05:19.069Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.78 MB, Event Loop Delay: 1.24 ms
+[2024-11-25T10:05:29.081Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.79 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T10:05:29.145Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:05:39.087Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.80 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T10:05:49.091Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.81 MB, Event Loop Delay: 2.16 ms
+[2024-11-25T10:05:49.138Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:05:59.092Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T10:06:09.098Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.84 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T10:06:09.162Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:06:19.100Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.85 MB, Event Loop Delay: 2.28 ms
+[2024-11-25T10:06:29.106Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.86 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T10:06:29.184Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:06:39.108Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.87 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T10:06:49.113Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.88 MB, Event Loop Delay: 2.16 ms
+[2024-11-25T10:06:49.177Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:06:59.125Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.89 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T10:07:09.152Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.91 MB, Event Loop Delay: 1.88 ms
+[2024-11-25T10:07:09.245Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:07:19.157Z] Memory Usage - RSS: 44.74 MB, Heap Used: 23.92 MB, Event Loop Delay: 18.10 ms
+[2024-11-25T10:07:29.161Z] Memory Usage - RSS: 44.77 MB, Heap Used: 23.93 MB, Event Loop Delay: 2.83 ms
+[2024-11-25T10:07:29.238Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:07:39.174Z] Memory Usage - RSS: 44.77 MB, Heap Used: 23.94 MB, Event Loop Delay: 2.09 ms
+[2024-11-25T10:07:49.176Z] Memory Usage - RSS: 44.77 MB, Heap Used: 23.96 MB, Event Loop Delay: 2.01 ms
+[2024-11-25T10:07:49.254Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:07:59.187Z] Memory Usage - RSS: 44.77 MB, Heap Used: 23.97 MB, Event Loop Delay: 3.13 ms
+[2024-11-25T10:08:09.187Z] Memory Usage - RSS: 44.77 MB, Heap Used: 23.98 MB, Event Loop Delay: 1.30 ms
+[2024-11-25T10:08:09.268Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:08:19.189Z] Memory Usage - RSS: 44.77 MB, Heap Used: 23.99 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T10:08:29.195Z] Memory Usage - RSS: 44.77 MB, Heap Used: 24.00 MB, Event Loop Delay: 1.74 ms
+[2024-11-25T10:08:29.291Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:08:39.197Z] Memory Usage - RSS: 44.78 MB, Heap Used: 24.01 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T10:08:49.204Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.03 MB, Event Loop Delay: 1.59 ms
+[2024-11-25T10:08:49.221Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:08:59.215Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.04 MB, Event Loop Delay: 2.50 ms
+[2024-11-25T10:09:09.217Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.05 MB, Event Loop Delay: 1.60 ms
+[2024-11-25T10:09:09.294Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:09:19.217Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.06 MB, Event Loop Delay: 1.71 ms
+[2024-11-25T10:09:29.217Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.08 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T10:09:29.226Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:09:39.231Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.08 MB, Event Loop Delay: 2.25 ms
+[2024-11-25T10:09:49.239Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.10 MB, Event Loop Delay: 2.24 ms
+[2024-11-25T10:09:49.300Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:09:59.253Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.11 MB, Event Loop Delay: 2.23 ms
+[2024-11-25T10:10:09.266Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.12 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T10:10:09.344Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:10:19.268Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.13 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T10:10:29.280Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.15 MB, Event Loop Delay: 1.80 ms
+[2024-11-25T10:10:29.343Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:10:39.286Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.15 MB, Event Loop Delay: 2.34 ms
+[2024-11-25T10:10:49.289Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.17 MB, Event Loop Delay: 0.88 ms
+[2024-11-25T10:10:49.383Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:10:59.296Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.18 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T10:11:09.300Z] Memory Usage - RSS: 44.80 MB, Heap Used: 24.19 MB, Event Loop Delay: 2.19 ms
+[2024-11-25T10:11:09.411Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:11:19.315Z] Memory Usage - RSS: 44.76 MB, Heap Used: 24.20 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T10:11:29.326Z] Memory Usage - RSS: 44.77 MB, Heap Used: 24.22 MB, Event Loop Delay: 1.20 ms
+[2024-11-25T10:11:29.406Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:11:39.340Z] Memory Usage - RSS: 44.77 MB, Heap Used: 24.23 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T10:11:49.342Z] Memory Usage - RSS: 44.77 MB, Heap Used: 24.24 MB, Event Loop Delay: 2.68 ms
+[2024-11-25T10:11:49.437Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:11:59.353Z] Memory Usage - RSS: 44.77 MB, Heap Used: 23.56 MB, Event Loop Delay: 1.64 ms
+[2024-11-25T10:12:09.356Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.57 MB, Event Loop Delay: 1.12 ms
+[2024-11-25T10:12:09.449Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:12:19.361Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.58 MB, Event Loop Delay: 1.12 ms
+[2024-11-25T10:12:29.363Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.60 MB, Event Loop Delay: 1.29 ms
+[2024-11-25T10:12:29.441Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:12:39.365Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.61 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T10:12:49.376Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.62 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T10:12:49.485Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:12:59.385Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.63 MB, Event Loop Delay: 1.30 ms
+[2024-11-25T10:13:09.398Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.65 MB, Event Loop Delay: 2.77 ms
+[2024-11-25T10:13:09.492Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:13:19.414Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.65 MB, Event Loop Delay: 2.07 ms
+[2024-11-25T10:13:29.418Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.67 MB, Event Loop Delay: 26.57 ms
+[2024-11-25T10:13:29.527Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:13:39.434Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.68 MB, Event Loop Delay: 1.29 ms
+[2024-11-25T10:13:49.448Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.69 MB, Event Loop Delay: 2.39 ms
+[2024-11-25T10:13:49.542Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:13:59.461Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.70 MB, Event Loop Delay: 1.96 ms
+[2024-11-25T10:14:09.470Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T10:14:09.549Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:14:19.478Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T10:14:29.488Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.74 MB, Event Loop Delay: 2.31 ms
+[2024-11-25T10:14:29.552Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:14:39.498Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.75 MB, Event Loop Delay: 2.61 ms
+[2024-11-25T10:14:49.507Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.76 MB, Event Loop Delay: 1.93 ms
+[2024-11-25T10:14:49.553Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:14:59.513Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.77 MB, Event Loop Delay: 2.36 ms
+[2024-11-25T10:15:09.525Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.79 MB, Event Loop Delay: 2.47 ms
+[2024-11-25T10:15:09.603Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:15:19.536Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.79 MB, Event Loop Delay: 1.49 ms
+[2024-11-25T10:15:29.544Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.81 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T10:15:29.621Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:15:39.558Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.08 ms
+[2024-11-25T10:15:49.570Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.83 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T10:15:49.648Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:15:59.582Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.84 MB, Event Loop Delay: 1.68 ms
+[2024-11-25T10:16:09.588Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.86 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T10:16:09.651Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:16:19.602Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.86 MB, Event Loop Delay: 1.05 ms
+[2024-11-25T10:16:29.610Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.88 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T10:16:29.673Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:16:39.623Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.89 MB, Event Loop Delay: 2.31 ms
+[2024-11-25T10:16:49.635Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.90 MB, Event Loop Delay: 2.40 ms
+[2024-11-25T10:16:49.697Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:16:59.647Z] Memory Usage - RSS: 44.51 MB, Heap Used: 23.91 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T10:17:09.653Z] Memory Usage - RSS: 44.29 MB, Heap Used: 23.93 MB, Event Loop Delay: 1.37 ms
+[2024-11-25T10:17:09.763Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:17:19.656Z] Memory Usage - RSS: 44.29 MB, Heap Used: 23.93 MB, Event Loop Delay: 1.62 ms
+[2024-11-25T10:17:29.662Z] Memory Usage - RSS: 44.29 MB, Heap Used: 23.95 MB, Event Loop Delay: 1.03 ms
+[2024-11-25T10:17:29.739Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:17:39.674Z] Memory Usage - RSS: 44.29 MB, Heap Used: 23.96 MB, Event Loop Delay: 2.69 ms
+[2024-11-25T10:17:49.677Z] Memory Usage - RSS: 44.29 MB, Heap Used: 23.97 MB, Event Loop Delay: 2.11 ms
+[2024-11-25T10:17:49.801Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:17:59.682Z] Memory Usage - RSS: 44.29 MB, Heap Used: 23.98 MB, Event Loop Delay: 10.13 ms
+[2024-11-25T10:18:09.687Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.00 MB, Event Loop Delay: 0.88 ms
+[2024-11-25T10:18:09.748Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:18:19.693Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.01 MB, Event Loop Delay: 1.57 ms
+[2024-11-25T10:18:29.702Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.02 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T10:18:29.782Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:18:39.716Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.03 MB, Event Loop Delay: 1.90 ms
+[2024-11-25T10:18:49.721Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.04 MB, Event Loop Delay: 1.75 ms
+[2024-11-25T10:18:49.816Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:18:59.735Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.05 MB, Event Loop Delay: 1.74 ms
+[2024-11-25T10:19:09.745Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.07 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T10:19:09.824Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:19:19.749Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.08 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T10:19:29.755Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.18 ms
+[2024-11-25T10:19:29.882Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:19:39.757Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.10 MB, Event Loop Delay: 1.11 ms
+[2024-11-25T10:19:49.766Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.12 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T10:19:49.877Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:19:59.777Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.12 MB, Event Loop Delay: 1.19 ms
+[2024-11-25T10:20:09.790Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.14 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T10:20:09.901Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:20:19.793Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.15 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T10:20:29.808Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.16 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T10:20:29.856Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:20:39.813Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.17 MB, Event Loop Delay: 2.49 ms
+[2024-11-25T10:20:49.827Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.19 MB, Event Loop Delay: 1.65 ms
+[2024-11-25T10:20:49.888Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:20:59.832Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.19 MB, Event Loop Delay: 1.06 ms
+[2024-11-25T10:21:09.841Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.21 MB, Event Loop Delay: 1.59 ms
+[2024-11-25T10:21:09.904Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:21:19.847Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.22 MB, Event Loop Delay: 1.23 ms
+[2024-11-25T10:21:29.849Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.23 MB, Event Loop Delay: 1.58 ms
+[2024-11-25T10:21:29.911Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:21:39.851Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.24 MB, Event Loop Delay: 1.98 ms
+[2024-11-25T10:21:49.863Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.26 MB, Event Loop Delay: 1.69 ms
+[2024-11-25T10:21:49.928Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:21:59.868Z] Memory Usage - RSS: 44.29 MB, Heap Used: 24.26 MB, Event Loop Delay: 1.23 ms
+[2024-11-25T10:22:09.878Z] Memory Usage - RSS: 44.12 MB, Heap Used: 24.28 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T10:22:09.959Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:22:19.884Z] Memory Usage - RSS: 44.12 MB, Heap Used: 24.29 MB, Event Loop Delay: 1.86 ms
+[2024-11-25T10:22:29.889Z] Memory Usage - RSS: 44.12 MB, Heap Used: 24.30 MB, Event Loop Delay: 1.73 ms
+[2024-11-25T10:22:29.954Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:22:39.898Z] Memory Usage - RSS: 44.12 MB, Heap Used: 24.31 MB, Event Loop Delay: 2.28 ms
+[2024-11-25T10:22:49.911Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.53 MB, Event Loop Delay: 1.91 ms
+[2024-11-25T10:22:49.960Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:22:59.918Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.54 MB, Event Loop Delay: 2.03 ms
+[2024-11-25T10:23:09.923Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.55 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T10:23:10.004Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:23:19.931Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.56 MB, Event Loop Delay: 2.00 ms
+[2024-11-25T10:23:29.940Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.58 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T10:23:30.019Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:23:39.943Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.58 MB, Event Loop Delay: 1.82 ms
+[2024-11-25T10:23:49.952Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.60 MB, Event Loop Delay: 1.04 ms
+[2024-11-25T10:23:50.014Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:23:59.963Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.61 MB, Event Loop Delay: 4.02 ms
+[2024-11-25T10:24:09.978Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.62 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T10:24:10.025Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:24:19.993Z] Memory Usage - RSS: 44.12 MB, Heap Used: 23.63 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T10:24:30.008Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.65 MB, Event Loop Delay: 2.32 ms
+[2024-11-25T10:24:30.073Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:24:40.022Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.66 MB, Event Loop Delay: 2.15 ms
+[2024-11-25T10:24:50.027Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.67 MB, Event Loop Delay: 1.34 ms
+[2024-11-25T10:24:50.075Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:25:00.042Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.68 MB, Event Loop Delay: 1.96 ms
+[2024-11-25T10:25:10.052Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.70 MB, Event Loop Delay: 1.55 ms
+[2024-11-25T10:25:10.101Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:25:20.054Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.70 MB, Event Loop Delay: 1.95 ms
+[2024-11-25T10:25:30.061Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T10:25:30.125Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:25:40.069Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.73 MB, Event Loop Delay: 1.62 ms
+[2024-11-25T10:25:50.073Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.74 MB, Event Loop Delay: 2.36 ms
+[2024-11-25T10:25:50.138Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:26:00.077Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.75 MB, Event Loop Delay: 2.04 ms
+[2024-11-25T10:26:10.087Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.77 MB, Event Loop Delay: 1.12 ms
+[2024-11-25T10:26:10.134Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:26:20.089Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.77 MB, Event Loop Delay: 2.35 ms
+[2024-11-25T10:26:30.092Z] Memory Usage - RSS: 44.13 MB, Heap Used: 23.79 MB, Event Loop Delay: 0.90 ms
+[2024-11-25T10:26:30.187Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:26:40.102Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.80 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T10:26:50.102Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.81 MB, Event Loop Delay: 2.31 ms
+[2024-11-25T10:26:50.166Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:27:00.106Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T10:27:10.118Z] Memory Usage - RSS: 44.14 MB, Heap Used: 23.84 MB, Event Loop Delay: 1.73 ms
+[2024-11-25T10:27:10.181Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:27:20.122Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.84 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T10:27:30.128Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.86 MB, Event Loop Delay: 2.05 ms
+[2024-11-25T10:27:30.176Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:27:40.141Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.87 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T10:27:50.152Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.88 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T10:27:50.216Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:28:00.153Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.89 MB, Event Loop Delay: 1.88 ms
+[2024-11-25T10:28:10.160Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.91 MB, Event Loop Delay: 1.67 ms
+[2024-11-25T10:28:10.225Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:28:20.171Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.91 MB, Event Loop Delay: 1.95 ms
+[2024-11-25T10:28:30.175Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.93 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T10:28:30.256Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:28:40.177Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.94 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T10:28:50.187Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.95 MB, Event Loop Delay: 2.25 ms
+[2024-11-25T10:28:50.235Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:29:00.201Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.96 MB, Event Loop Delay: 1.19 ms
+[2024-11-25T10:29:10.201Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.98 MB, Event Loop Delay: 1.28 ms
+[2024-11-25T10:29:10.249Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:29:20.204Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.98 MB, Event Loop Delay: 2.37 ms
+[2024-11-25T10:29:30.210Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.00 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T10:29:30.273Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:29:40.219Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.01 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T10:29:50.222Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.02 MB, Event Loop Delay: 1.73 ms
+[2024-11-25T10:29:50.302Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:30:00.233Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.03 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T10:30:10.237Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.05 MB, Event Loop Delay: 2.33 ms
+[2024-11-25T10:30:10.270Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:30:20.240Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.06 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T10:30:30.254Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.07 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T10:30:30.302Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:30:40.269Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.08 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T10:30:50.275Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T10:30:50.354Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:31:00.286Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.10 MB, Event Loop Delay: 1.68 ms
+[2024-11-25T10:31:10.296Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.12 MB, Event Loop Delay: 1.69 ms
+[2024-11-25T10:31:10.342Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T10:31:20.303Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.13 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T11:10:18.767Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.14 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T11:10:21.694Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:10:28.779Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.15 MB, Event Loop Delay: 1777.81 ms
+[2024-11-25T11:10:38.780Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.16 MB, Event Loop Delay: 1.42 ms
+[2024-11-25T11:10:39.046Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:10:48.785Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.17 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T11:10:58.796Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.19 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T11:10:58.860Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:11:08.801Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.20 MB, Event Loop Delay: 0.82 ms
+[2024-11-25T11:11:18.807Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.21 MB, Event Loop Delay: 0.95 ms
+[2024-11-25T11:11:18.888Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:11:28.819Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.22 MB, Event Loop Delay: 1.32 ms
+[2024-11-25T11:11:38.835Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.23 MB, Event Loop Delay: 1.30 ms
+[2024-11-25T11:11:38.900Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:11:48.849Z] Memory Usage - RSS: 43.94 MB, Heap Used: 24.24 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T11:11:58.862Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.26 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T11:11:58.957Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:12:08.873Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.27 MB, Event Loop Delay: 1.36 ms
+[2024-11-25T11:12:18.887Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.28 MB, Event Loop Delay: 2.03 ms
+[2024-11-25T11:12:18.950Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:12:28.895Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.29 MB, Event Loop Delay: 2.00 ms
+[2024-11-25T11:12:38.897Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.30 MB, Event Loop Delay: 1.32 ms
+[2024-11-25T11:12:38.992Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:12:48.909Z] Memory Usage - RSS: 43.93 MB, Heap Used: 24.31 MB, Event Loop Delay: 2.24 ms
+[2024-11-25T11:12:58.923Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.53 MB, Event Loop Delay: 1.66 ms
+[2024-11-25T11:12:59.018Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:13:08.935Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.54 MB, Event Loop Delay: 1.90 ms
+[2024-11-25T11:13:18.943Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.55 MB, Event Loop Delay: 1.86 ms
+[2024-11-25T11:13:19.006Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:13:28.946Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.56 MB, Event Loop Delay: 1.82 ms
+[2024-11-25T11:13:38.950Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.58 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T11:13:39.013Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:13:48.952Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.58 MB, Event Loop Delay: 1.01 ms
+[2024-11-25T11:13:58.961Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.60 MB, Event Loop Delay: 10.55 ms
+[2024-11-25T11:13:59.039Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:14:08.976Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.61 MB, Event Loop Delay: 2.20 ms
+[2024-11-25T11:14:18.977Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.62 MB, Event Loop Delay: 2.25 ms
+[2024-11-25T11:14:19.071Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:14:28.983Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.63 MB, Event Loop Delay: 2.10 ms
+[2024-11-25T11:14:38.991Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.65 MB, Event Loop Delay: 0.94 ms
+[2024-11-25T11:14:39.084Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:14:49.006Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.65 MB, Event Loop Delay: 2.50 ms
+[2024-11-25T11:14:59.009Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.67 MB, Event Loop Delay: 2.81 ms
+[2024-11-25T11:14:59.103Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:15:09.011Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.68 MB, Event Loop Delay: 3.10 ms
+[2024-11-25T11:15:19.023Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.69 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T11:15:19.116Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:15:29.029Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.70 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T11:15:39.032Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.72 MB, Event Loop Delay: 0.73 ms
+[2024-11-25T11:15:39.155Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:15:49.040Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.72 MB, Event Loop Delay: 2.69 ms
+[2024-11-25T11:15:59.050Z] Memory Usage - RSS: 43.93 MB, Heap Used: 23.74 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T11:15:59.161Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:16:09.062Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.75 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T11:16:19.066Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.76 MB, Event Loop Delay: 2.03 ms
+[2024-11-25T11:16:19.174Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:16:29.076Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.77 MB, Event Loop Delay: 2.62 ms
+[2024-11-25T11:16:39.084Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.79 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T11:16:39.163Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:16:49.084Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.79 MB, Event Loop Delay: 2.14 ms
+[2024-11-25T11:16:59.085Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.81 MB, Event Loop Delay: 2.56 ms
+[2024-11-25T11:16:59.211Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:17:09.096Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.86 ms
+[2024-11-25T11:17:19.111Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.83 MB, Event Loop Delay: 2.57 ms
+[2024-11-25T11:17:19.203Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:17:29.122Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.84 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T11:17:39.137Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.86 MB, Event Loop Delay: 1.08 ms
+[2024-11-25T11:17:39.230Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:17:49.149Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.87 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T11:17:59.149Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.88 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T11:17:59.258Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:18:09.158Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.89 MB, Event Loop Delay: 2.43 ms
+[2024-11-25T11:18:19.172Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.90 MB, Event Loop Delay: 2.58 ms
+[2024-11-25T11:18:19.264Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:18:29.178Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.91 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T11:18:39.189Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.93 MB, Event Loop Delay: 10.94 ms
+[2024-11-25T11:18:39.285Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:18:49.202Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.94 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T11:18:59.210Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.95 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T11:18:59.291Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:19:09.212Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.96 MB, Event Loop Delay: 1.84 ms
+[2024-11-25T11:19:19.220Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.97 MB, Event Loop Delay: 4.68 ms
+[2024-11-25T11:19:19.285Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:19:29.233Z] Memory Usage - RSS: 43.91 MB, Heap Used: 23.98 MB, Event Loop Delay: 2.50 ms
+[2024-11-25T11:19:39.249Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.00 MB, Event Loop Delay: 2.24 ms
+[2024-11-25T11:19:39.297Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:19:49.251Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.01 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T11:19:59.255Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.02 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T11:19:59.333Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:20:09.256Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.03 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T11:20:19.267Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.04 MB, Event Loop Delay: 1.96 ms
+[2024-11-25T11:20:19.348Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:20:29.272Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.05 MB, Event Loop Delay: 2.37 ms
+[2024-11-25T11:20:39.287Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.07 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T11:20:39.397Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:20:49.289Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.08 MB, Event Loop Delay: 1.26 ms
+[2024-11-25T11:20:59.292Z] Memory Usage - RSS: 43.91 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T11:20:59.372Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:21:09.292Z] Memory Usage - RSS: 37.38 MB, Heap Used: 24.10 MB, Event Loop Delay: 1.36 ms
+[2024-11-25T11:21:19.302Z] Memory Usage - RSS: 37.38 MB, Heap Used: 24.12 MB, Event Loop Delay: 1.83 ms
+[2024-11-25T11:21:19.365Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:21:29.304Z] Memory Usage - RSS: 37.38 MB, Heap Used: 24.12 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T11:21:39.315Z] Memory Usage - RSS: 37.53 MB, Heap Used: 24.15 MB, Event Loop Delay: 2.41 ms
+[2024-11-25T11:21:39.377Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:21:49.327Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.17 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T11:21:59.337Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.19 MB, Event Loop Delay: 1.66 ms
+[2024-11-25T11:21:59.417Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:22:09.342Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.19 MB, Event Loop Delay: 1.33 ms
+[2024-11-25T11:22:19.352Z] Memory Usage - RSS: 37.25 MB, Heap Used: 24.21 MB, Event Loop Delay: 2.38 ms
+[2024-11-25T11:22:19.446Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:22:29.357Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.22 MB, Event Loop Delay: 1.80 ms
+[2024-11-25T11:22:39.361Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.23 MB, Event Loop Delay: 0.78 ms
+[2024-11-25T11:22:39.425Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:22:49.368Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.24 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T11:22:59.369Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.25 MB, Event Loop Delay: 2.27 ms
+[2024-11-25T11:22:59.465Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:23:09.370Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.26 MB, Event Loop Delay: 0.96 ms
+[2024-11-25T11:23:19.382Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.28 MB, Event Loop Delay: 1.74 ms
+[2024-11-25T11:23:19.445Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:23:29.384Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.28 MB, Event Loop Delay: 2.14 ms
+[2024-11-25T11:23:39.393Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.30 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T11:23:39.455Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:23:49.395Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.31 MB, Event Loop Delay: 1.64 ms
+[2024-11-25T11:23:59.401Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.32 MB, Event Loop Delay: 1.63 ms
+[2024-11-25T11:23:59.480Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:24:09.407Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.33 MB, Event Loop Delay: 2.22 ms
+[2024-11-25T11:24:19.420Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.34 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T11:24:19.484Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:24:29.430Z] Memory Usage - RSS: 37.26 MB, Heap Used: 24.35 MB, Event Loop Delay: 2.25 ms
+[2024-11-25T11:24:39.437Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.59 MB, Event Loop Delay: 3.22 ms
+[2024-11-25T11:24:39.485Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:24:49.437Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.60 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T11:24:59.446Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.61 MB, Event Loop Delay: 2.31 ms
+[2024-11-25T11:24:59.510Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:25:09.460Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.62 MB, Event Loop Delay: 1.96 ms
+[2024-11-25T11:25:19.463Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.64 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T11:25:19.541Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:25:29.469Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.65 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T11:25:39.469Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.66 MB, Event Loop Delay: 0.87 ms
+[2024-11-25T11:25:39.597Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:25:49.471Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.67 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T11:25:59.478Z] Memory Usage - RSS: 37.26 MB, Heap Used: 23.68 MB, Event Loop Delay: 1.73 ms
+[2024-11-25T11:25:59.556Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:26:09.487Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.69 MB, Event Loop Delay: 1.91 ms
+[2024-11-25T11:26:19.497Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.70 MB, Event Loop Delay: 2.27 ms
+[2024-11-25T11:26:19.528Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:26:29.510Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.71 MB, Event Loop Delay: 1.92 ms
+[2024-11-25T11:26:39.524Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.73 MB, Event Loop Delay: 2.11 ms
+[2024-11-25T11:26:39.587Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:26:49.528Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.73 MB, Event Loop Delay: 1.70 ms
+[2024-11-25T11:26:59.528Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.75 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T11:26:59.591Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:27:09.544Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.76 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T11:27:19.546Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.77 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T11:27:19.593Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:27:29.556Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.78 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T11:27:39.562Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.79 MB, Event Loop Delay: 1.65 ms
+[2024-11-25T11:27:39.655Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:27:49.570Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.80 MB, Event Loop Delay: 1.68 ms
+[2024-11-25T11:27:59.580Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.82 MB, Event Loop Delay: 1.93 ms
+[2024-11-25T11:27:59.644Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:28:09.592Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.82 MB, Event Loop Delay: 2.02 ms
+[2024-11-25T11:28:19.599Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.84 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T11:28:19.662Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:28:29.611Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.85 MB, Event Loop Delay: 2.32 ms
+[2024-11-25T11:28:39.619Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.86 MB, Event Loop Delay: 1.84 ms
+[2024-11-25T11:28:39.667Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:28:49.633Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.87 MB, Event Loop Delay: 2.01 ms
+[2024-11-25T11:28:59.640Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.88 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T11:28:59.703Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T11:29:09.647Z] Memory Usage - RSS: 30.42 MB, Heap Used: 23.89 MB, Event Loop Delay: 1.91 ms
+[2024-11-25T12:21:35.032Z] Memory Usage - RSS: 30.42 MB, Heap Used: 23.90 MB, Event Loop Delay: 1.12 ms
+[2024-11-25T12:21:39.603Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:21:45.042Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.91 MB, Event Loop Delay: 1.58 ms
+[2024-11-25T12:21:55.047Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.93 MB, Event Loop Delay: 1.24 ms
+[2024-11-25T12:21:55.094Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:22:05.052Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.94 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T12:22:15.054Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.95 MB, Event Loop Delay: 1.19 ms
+[2024-11-25T12:22:15.133Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:22:25.069Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.96 MB, Event Loop Delay: 1.23 ms
+[2024-11-25T12:22:35.072Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.97 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T12:22:35.153Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:22:45.087Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.98 MB, Event Loop Delay: 0.91 ms
+[2024-11-25T12:22:55.101Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.00 MB, Event Loop Delay: 1.10 ms
+[2024-11-25T12:22:55.180Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:23:05.113Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.00 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T12:23:15.117Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.02 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T12:23:15.181Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:23:25.123Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.03 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T12:23:35.125Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.04 MB, Event Loop Delay: 2.03 ms
+[2024-11-25T12:23:35.172Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:23:45.136Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.05 MB, Event Loop Delay: 2.26 ms
+[2024-11-25T12:23:55.147Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.06 MB, Event Loop Delay: 1.95 ms
+[2024-11-25T12:23:55.225Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:24:05.156Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.07 MB, Event Loop Delay: 1.73 ms
+[2024-11-25T12:24:15.167Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.82 ms
+[2024-11-25T12:24:15.231Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:24:25.177Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T12:24:35.190Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.11 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T12:24:35.237Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:24:45.193Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.12 MB, Event Loop Delay: 1.84 ms
+[2024-11-25T12:24:55.194Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.13 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T12:24:55.258Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:25:05.197Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.14 MB, Event Loop Delay: 1.95 ms
+[2024-11-25T12:25:15.197Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.15 MB, Event Loop Delay: 2.21 ms
+[2024-11-25T12:25:15.245Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:25:25.205Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.16 MB, Event Loop Delay: 1.96 ms
+[2024-11-25T12:25:35.219Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.18 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T12:25:35.266Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:25:45.225Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.18 MB, Event Loop Delay: 2.05 ms
+[2024-11-25T12:25:55.230Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.20 MB, Event Loop Delay: 1.69 ms
+[2024-11-25T12:25:55.294Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:26:05.230Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.21 MB, Event Loop Delay: 2.05 ms
+[2024-11-25T12:26:15.233Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.22 MB, Event Loop Delay: 2.28 ms
+[2024-11-25T12:26:15.280Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:26:25.241Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.23 MB, Event Loop Delay: 2.23 ms
+[2024-11-25T12:26:35.256Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.24 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T12:26:35.286Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:26:45.270Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.25 MB, Event Loop Delay: 0.84 ms
+[2024-11-25T12:26:55.282Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.27 MB, Event Loop Delay: 1.28 ms
+[2024-11-25T12:26:55.314Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:27:05.283Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.27 MB, Event Loop Delay: 1.80 ms
+[2024-11-25T12:27:15.291Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.29 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T12:27:15.354Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:27:25.305Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.30 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T12:27:35.313Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.31 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T12:27:35.345Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:27:45.316Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.32 MB, Event Loop Delay: 0.79 ms
+[2024-11-25T12:27:55.324Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.33 MB, Event Loop Delay: 2.32 ms
+[2024-11-25T12:27:55.386Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:28:05.325Z] Memory Usage - RSS: 30.40 MB, Heap Used: 24.34 MB, Event Loop Delay: 1.84 ms
+[2024-11-25T12:28:15.332Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.56 MB, Event Loop Delay: 2.35 ms
+[2024-11-25T12:28:15.412Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:28:25.337Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.57 MB, Event Loop Delay: 1.84 ms
+[2024-11-25T12:28:35.345Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.58 MB, Event Loop Delay: 1.74 ms
+[2024-11-25T12:28:35.392Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:28:45.347Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.59 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T12:28:55.356Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.60 MB, Event Loop Delay: 1.73 ms
+[2024-11-25T12:28:55.435Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:29:05.357Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.61 MB, Event Loop Delay: 2.25 ms
+[2024-11-25T12:29:15.369Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.63 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T12:29:15.401Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:29:25.376Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.63 MB, Event Loop Delay: 1.69 ms
+[2024-11-25T12:29:35.384Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.65 MB, Event Loop Delay: 1.72 ms
+[2024-11-25T12:29:35.463Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:29:45.395Z] Memory Usage - RSS: 30.40 MB, Heap Used: 23.66 MB, Event Loop Delay: 2.26 ms
+[2024-11-25T12:29:55.406Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.67 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T12:29:55.453Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:30:05.409Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.68 MB, Event Loop Delay: 1.68 ms
+[2024-11-25T12:30:15.423Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.69 MB, Event Loop Delay: 1.98 ms
+[2024-11-25T12:30:15.471Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:30:25.423Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.70 MB, Event Loop Delay: 1.14 ms
+[2024-11-25T12:30:35.439Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.72 MB, Event Loop Delay: 2.04 ms
+[2024-11-25T12:30:35.470Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:30:45.453Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.74 ms
+[2024-11-25T12:30:55.468Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.74 MB, Event Loop Delay: 1.83 ms
+[2024-11-25T12:30:55.531Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:31:05.477Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.75 MB, Event Loop Delay: 1.75 ms
+[2024-11-25T12:31:15.491Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.76 MB, Event Loop Delay: 1.95 ms
+[2024-11-25T12:31:15.555Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:31:25.504Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.77 MB, Event Loop Delay: 1.80 ms
+[2024-11-25T12:31:35.511Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.78 MB, Event Loop Delay: 1.86 ms
+[2024-11-25T12:31:35.590Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:31:45.523Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.79 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T12:31:55.531Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.81 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T12:31:55.594Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:39:51.645Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.81 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T12:40:01.652Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.83 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T12:40:01.915Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:40:11.654Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.84 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T12:40:21.662Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.85 MB, Event Loop Delay: 1.62 ms
+[2024-11-25T12:40:21.726Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:40:31.681Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.86 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T12:40:41.686Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.87 MB, Event Loop Delay: 1.32 ms
+[2024-11-25T12:40:41.750Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:40:51.696Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.88 MB, Event Loop Delay: 1.49 ms
+[2024-11-25T12:41:01.698Z] Memory Usage - RSS: 30.43 MB, Heap Used: 23.90 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T12:41:01.792Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:41:11.710Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.90 MB, Event Loop Delay: 1.17 ms
+[2024-11-25T12:41:21.712Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.92 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T12:41:21.777Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:41:31.714Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.93 MB, Event Loop Delay: 2.24 ms
+[2024-11-25T12:41:41.727Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.94 MB, Event Loop Delay: 2.02 ms
+[2024-11-25T12:41:41.820Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:41:51.730Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.95 MB, Event Loop Delay: 2.44 ms
+[2024-11-25T12:42:01.739Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.96 MB, Event Loop Delay: 2.19 ms
+[2024-11-25T12:42:01.803Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:42:11.745Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.97 MB, Event Loop Delay: 2.19 ms
+[2024-11-25T12:42:21.749Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.99 MB, Event Loop Delay: 1.31 ms
+[2024-11-25T12:42:21.844Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:42:31.758Z] Memory Usage - RSS: 30.41 MB, Heap Used: 23.99 MB, Event Loop Delay: 2.04 ms
+[2024-11-25T12:42:41.760Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.01 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T12:42:41.869Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:42:51.761Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.02 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T12:43:01.774Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.03 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T12:43:01.867Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:43:11.778Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.04 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T12:43:21.779Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.05 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T12:43:21.889Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:43:31.780Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.06 MB, Event Loop Delay: 1.76 ms
+[2024-11-25T12:43:41.782Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.08 MB, Event Loop Delay: 1.35 ms
+[2024-11-25T12:43:41.892Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:43:51.790Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.08 MB, Event Loop Delay: 2.21 ms
+[2024-11-25T12:44:01.794Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.10 MB, Event Loop Delay: 1.83 ms
+[2024-11-25T12:44:01.888Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:44:11.802Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.11 MB, Event Loop Delay: 1.54 ms
+[2024-11-25T12:44:21.813Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.12 MB, Event Loop Delay: 1.83 ms
+[2024-11-25T12:44:21.891Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:44:31.826Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.13 MB, Event Loop Delay: 1.04 ms
+[2024-11-25T12:44:41.831Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.14 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T12:44:41.896Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:44:51.838Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.15 MB, Event Loop Delay: 2.20 ms
+[2024-11-25T12:45:01.842Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.17 MB, Event Loop Delay: 2.47 ms
+[2024-11-25T12:45:01.935Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:45:11.852Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.17 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T12:45:21.866Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.19 MB, Event Loop Delay: 2.44 ms
+[2024-11-25T12:45:21.929Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:45:31.877Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.20 MB, Event Loop Delay: 1.80 ms
+[2024-11-25T12:45:41.891Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.21 MB, Event Loop Delay: 1.04 ms
+[2024-11-25T12:45:41.971Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:45:51.906Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.22 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T12:46:01.921Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.23 MB, Event Loop Delay: 2.31 ms
+[2024-11-25T12:46:01.968Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:46:11.930Z] Memory Usage - RSS: 30.41 MB, Heap Used: 24.24 MB, Event Loop Delay: 2.23 ms
+[2024-11-25T12:46:21.940Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.26 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T12:46:22.003Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:46:31.951Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.26 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T12:46:41.951Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.28 MB, Event Loop Delay: 1.90 ms
+[2024-11-25T12:46:42.015Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:46:51.966Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.29 MB, Event Loop Delay: 1.71 ms
+[2024-11-25T12:47:01.975Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.30 MB, Event Loop Delay: 2.32 ms
+[2024-11-25T12:47:02.055Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:47:11.984Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.31 MB, Event Loop Delay: 2.03 ms
+[2024-11-25T12:47:21.990Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.32 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T12:47:22.055Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:47:32.000Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.33 MB, Event Loop Delay: 1.97 ms
+[2024-11-25T12:47:42.006Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.35 MB, Event Loop Delay: 2.43 ms
+[2024-11-25T12:47:42.037Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:47:52.014Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.55 MB, Event Loop Delay: 2.00 ms
+[2024-11-25T12:48:02.014Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.57 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T12:48:02.092Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:48:12.019Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.58 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T12:48:22.019Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.59 MB, Event Loop Delay: 1.83 ms
+[2024-11-25T12:48:22.114Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:48:32.029Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.60 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T12:48:42.045Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.61 MB, Event Loop Delay: 1.83 ms
+[2024-11-25T12:48:42.092Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:48:52.048Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.62 MB, Event Loop Delay: 1.88 ms
+[2024-11-25T12:49:02.055Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.64 MB, Event Loop Delay: 2.04 ms
+[2024-11-25T12:49:02.118Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:49:12.070Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.64 MB, Event Loop Delay: 1.80 ms
+[2024-11-25T12:49:22.083Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.66 MB, Event Loop Delay: 2.01 ms
+[2024-11-25T12:49:22.130Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:49:32.099Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.67 MB, Event Loop Delay: 2.09 ms
+[2024-11-25T12:49:42.110Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.68 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T12:49:42.172Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:49:52.121Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.69 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T12:50:02.123Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.70 MB, Event Loop Delay: 1.64 ms
+[2024-11-25T12:50:02.219Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:50:12.135Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.71 MB, Event Loop Delay: 1.89 ms
+[2024-11-25T12:50:22.149Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.73 MB, Event Loop Delay: 2.37 ms
+[2024-11-25T12:50:22.196Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:50:32.151Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.73 MB, Event Loop Delay: 1.45 ms
+[2024-11-25T12:50:42.161Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.75 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T12:50:42.209Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:50:52.169Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.76 MB, Event Loop Delay: 2.23 ms
+[2024-11-25T12:51:02.178Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.77 MB, Event Loop Delay: 1.23 ms
+[2024-11-25T12:51:02.273Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:51:12.179Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.78 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T12:51:22.184Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.79 MB, Event Loop Delay: 1.92 ms
+[2024-11-25T12:51:22.281Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:51:32.195Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.80 MB, Event Loop Delay: 1.77 ms
+[2024-11-25T12:51:42.208Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.82 MB, Event Loop Delay: 2.28 ms
+[2024-11-25T12:51:42.270Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:51:52.222Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.82 MB, Event Loop Delay: 2.04 ms
+[2024-11-25T12:52:02.233Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.84 MB, Event Loop Delay: 1.69 ms
+[2024-11-25T12:52:02.314Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:52:12.235Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.85 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T12:52:22.241Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.86 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T12:52:22.319Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:52:32.249Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.87 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T12:52:42.254Z] Memory Usage - RSS: 25.15 MB, Heap Used: 23.88 MB, Event Loop Delay: 1.15 ms
+[2024-11-25T12:52:42.318Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:52:52.257Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.89 MB, Event Loop Delay: 2.28 ms
+[2024-11-25T12:53:02.263Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.91 MB, Event Loop Delay: 2.09 ms
+[2024-11-25T12:53:02.326Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:53:12.265Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.91 MB, Event Loop Delay: 2.37 ms
+[2024-11-25T12:53:22.270Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.93 MB, Event Loop Delay: 2.25 ms
+[2024-11-25T12:53:22.348Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:53:32.270Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.94 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T12:53:42.284Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.95 MB, Event Loop Delay: 2.01 ms
+[2024-11-25T12:53:42.331Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:53:52.285Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.96 MB, Event Loop Delay: 2.20 ms
+[2024-11-25T12:54:02.290Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.97 MB, Event Loop Delay: 2.21 ms
+[2024-11-25T12:54:02.338Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:54:12.291Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.98 MB, Event Loop Delay: 1.03 ms
+[2024-11-25T12:54:22.294Z] Memory Usage - RSS: 25.16 MB, Heap Used: 23.99 MB, Event Loop Delay: 1.66 ms
+[2024-11-25T12:54:22.357Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:54:32.306Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.00 MB, Event Loop Delay: 2.22 ms
+[2024-11-25T12:54:42.316Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.02 MB, Event Loop Delay: 1.82 ms
+[2024-11-25T12:54:42.380Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:54:52.317Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.03 MB, Event Loop Delay: 2.20 ms
+[2024-11-25T12:55:02.327Z] Memory Usage - RSS: 25.16 MB, Heap Used: 24.04 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T12:55:02.374Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:55:12.333Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.05 MB, Event Loop Delay: 1.11 ms
+[2024-11-25T12:55:22.333Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.07 MB, Event Loop Delay: 0.80 ms
+[2024-11-25T12:55:22.444Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:55:32.340Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.07 MB, Event Loop Delay: 1.03 ms
+[2024-11-25T12:55:42.347Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.00 ms
+[2024-11-25T12:55:42.427Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:55:52.363Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.10 MB, Event Loop Delay: 0.89 ms
+[2024-11-25T12:56:02.372Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.11 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T12:56:02.481Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T12:56:12.377Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.12 MB, Event Loop Delay: 1.66 ms
+[2024-11-25T12:56:22.379Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.13 MB, Event Loop Delay: 2.36 ms
+[2024-11-25T12:56:22.442Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:04:58.343Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.14 MB, Event Loop Delay: 1.29 ms
+[2024-11-25T13:05:08.354Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.16 MB, Event Loop Delay: 382.92 ms
+[2024-11-25T13:05:08.709Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:05:18.365Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.16 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T13:05:28.379Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.18 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T13:05:28.442Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:05:38.383Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.19 MB, Event Loop Delay: 1.11 ms
+[2024-11-25T13:05:48.390Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.20 MB, Event Loop Delay: 1.04 ms
+[2024-11-25T13:05:48.453Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:05:58.397Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.21 MB, Event Loop Delay: 1.06 ms
+[2024-11-25T13:06:08.409Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.22 MB, Event Loop Delay: 1.33 ms
+[2024-11-25T13:06:08.490Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:06:18.424Z] Memory Usage - RSS: 25.47 MB, Heap Used: 24.23 MB, Event Loop Delay: 0.92 ms
+[2024-11-25T13:06:28.435Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.25 MB, Event Loop Delay: 0.97 ms
+[2024-11-25T13:06:28.497Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:06:38.435Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.25 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T13:06:48.442Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.27 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T13:06:48.553Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:06:58.444Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.28 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T13:07:08.447Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.29 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T13:07:08.558Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:07:18.458Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.30 MB, Event Loop Delay: 1.92 ms
+[2024-11-25T13:07:28.472Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.31 MB, Event Loop Delay: 1.92 ms
+[2024-11-25T13:07:28.567Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:07:38.475Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.32 MB, Event Loop Delay: 2.33 ms
+[2024-11-25T13:07:48.479Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.33 MB, Event Loop Delay: 2.20 ms
+[2024-11-25T13:07:48.527Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:07:58.489Z] Memory Usage - RSS: 25.46 MB, Heap Used: 24.34 MB, Event Loop Delay: 1.79 ms
+[2024-11-25T13:08:08.489Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.56 MB, Event Loop Delay: 1.99 ms
+[2024-11-25T13:08:08.569Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:08:18.497Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.57 MB, Event Loop Delay: 1.80 ms
+[2024-11-25T13:08:28.499Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.58 MB, Event Loop Delay: 2.49 ms
+[2024-11-25T13:08:28.592Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:08:38.508Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.59 MB, Event Loop Delay: 2.00 ms
+[2024-11-25T13:08:48.512Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.60 MB, Event Loop Delay: 1.95 ms
+[2024-11-25T13:08:48.592Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:08:58.514Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.61 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T13:09:08.517Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.63 MB, Event Loop Delay: 1.87 ms
+[2024-11-25T13:09:08.579Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:09:18.523Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.63 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T13:09:28.533Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.65 MB, Event Loop Delay: 2.13 ms
+[2024-11-25T13:09:28.581Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:09:38.534Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.66 MB, Event Loop Delay: 1.63 ms
+[2024-11-25T13:09:48.540Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.67 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T13:09:48.616Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:09:58.555Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.68 MB, Event Loop Delay: 1.21 ms
+[2024-11-25T13:10:08.568Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.69 MB, Event Loop Delay: 1.02 ms
+[2024-11-25T13:10:08.663Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:10:18.584Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.70 MB, Event Loop Delay: 0.91 ms
+[2024-11-25T13:10:28.591Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T13:10:28.701Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:10:38.593Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.72 MB, Event Loop Delay: 1.16 ms
+[2024-11-25T13:10:48.597Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.74 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T13:10:48.722Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:10:58.611Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.75 MB, Event Loop Delay: 1.04 ms
+[2024-11-25T13:11:08.621Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.76 MB, Event Loop Delay: 1.08 ms
+[2024-11-25T13:11:08.718Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:11:18.631Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.77 MB, Event Loop Delay: 2.29 ms
+[2024-11-25T13:11:28.640Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.78 MB, Event Loop Delay: 2.06 ms
+[2024-11-25T13:11:28.687Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:11:38.648Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.79 MB, Event Loop Delay: 2.19 ms
+[2024-11-25T13:11:48.663Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.81 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T13:11:48.727Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:11:58.673Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.81 MB, Event Loop Delay: 1.83 ms
+[2024-11-25T13:12:08.685Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.83 MB, Event Loop Delay: 2.18 ms
+[2024-11-25T13:12:08.763Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:12:18.694Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.84 MB, Event Loop Delay: 1.22 ms
+[2024-11-25T13:12:28.697Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.85 MB, Event Loop Delay: 1.81 ms
+[2024-11-25T13:12:28.776Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:12:38.699Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.86 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T13:12:48.700Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.87 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T13:12:48.763Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:12:58.704Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.88 MB, Event Loop Delay: 2.07 ms
+[2024-11-25T13:13:08.719Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.90 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T13:13:08.767Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:13:18.720Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.90 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T13:13:28.728Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.92 MB, Event Loop Delay: 1.53 ms
+[2024-11-25T13:13:28.792Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:13:38.738Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.93 MB, Event Loop Delay: 2.00 ms
+[2024-11-25T13:13:48.748Z] Memory Usage - RSS: 25.46 MB, Heap Used: 23.94 MB, Event Loop Delay: 2.30 ms
+[2024-11-25T13:13:48.797Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:13:58.752Z] Memory Usage - RSS: 25.52 MB, Heap Used: 23.95 MB, Event Loop Delay: 1.25 ms
+[2024-11-25T13:14:08.760Z] Memory Usage - RSS: 25.52 MB, Heap Used: 23.97 MB, Event Loop Delay: 1.68 ms
+[2024-11-25T13:14:08.823Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:14:18.761Z] Memory Usage - RSS: 25.52 MB, Heap Used: 23.97 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T13:14:28.771Z] Memory Usage - RSS: 25.52 MB, Heap Used: 23.99 MB, Event Loop Delay: 1.88 ms
+[2024-11-25T13:14:28.818Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:14:38.781Z] Memory Usage - RSS: 25.52 MB, Heap Used: 24.00 MB, Event Loop Delay: 1.85 ms
+[2024-11-25T13:14:48.795Z] Memory Usage - RSS: 25.52 MB, Heap Used: 24.01 MB, Event Loop Delay: 1.59 ms
+[2024-11-25T13:14:48.842Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:14:58.801Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.02 MB, Event Loop Delay: 1.78 ms
+[2024-11-25T13:15:08.815Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.03 MB, Event Loop Delay: 1.67 ms
+[2024-11-25T13:15:08.878Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:15:18.827Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.04 MB, Event Loop Delay: 1.66 ms
+[2024-11-25T13:15:28.838Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.06 MB, Event Loop Delay: 2.57 ms
+[2024-11-25T13:15:28.902Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:15:38.850Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.06 MB, Event Loop Delay: 1.93 ms
+[2024-11-25T13:15:48.861Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.08 MB, Event Loop Delay: 1.93 ms
+[2024-11-25T13:15:48.925Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T13:15:58.865Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.74 ms
+[2024-11-25T14:58:08.546Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.09 MB, Event Loop Delay: 1.09 ms
+[2024-11-25T14:58:18.555Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.11 MB, Event Loop Delay: 1891.21 ms
+[2024-11-25T14:58:18.847Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T14:58:28.561Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.11 MB, Event Loop Delay: 1.94 ms
+[2024-11-25T14:58:38.572Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.13 MB, Event Loop Delay: 2.07 ms
+[2024-11-25T14:58:38.665Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T14:58:48.583Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.14 MB, Event Loop Delay: 1.40 ms
+[2024-11-25T14:58:58.597Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.15 MB, Event Loop Delay: 0.93 ms
+[2024-11-25T14:58:58.659Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T14:59:08.599Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.16 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T14:59:18.606Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.17 MB, Event Loop Delay: 1.07 ms
+[2024-11-25T14:59:18.653Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T14:59:28.607Z] Memory Usage - RSS: 24.28 MB, Heap Used: 24.18 MB, Event Loop Delay: 0.98 ms
+[2024-11-25T14:59:38.618Z] Memory Usage - RSS: 24.29 MB, Heap Used: 24.20 MB, Event Loop Delay: 0.99 ms
+[2024-11-25T14:59:38.665Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T14:59:48.624Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.20 MB, Event Loop Delay: 1.19 ms
+[2024-11-25T14:59:58.635Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.22 MB, Event Loop Delay: 1.28 ms
+[2024-11-25T14:59:58.698Z] Error during betting: Iframe not found after multiple attempts.
+[2024-11-25T15:00:08.647Z] Memory Usage - RSS: 24.27 MB, Heap Used: 24.23 MB, Event Loop Delay: 2.08 ms
+[2024-11-25T15:00:10.910Z] Shutting down...
