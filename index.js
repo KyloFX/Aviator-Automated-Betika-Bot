@@ -157,6 +157,13 @@ const calculateBetAmount = (currentBalance) => {
             }
         };
 
+    
+         // Wait for the iframe to load and switch to it using the grid-100 class
+    const iframeSelector = 'iframe.grid-100';  // Updated selector using the class
+    await page.waitForSelector(iframeSelector, { visible: true });
+    const iframeElement = await page.$(iframeSelector);
+    const iframe = await iframeElement.contentFrame();
+
         // Main betting logic
         const placeBet = async () => {
             if (betInProgress) return;

@@ -68,7 +68,7 @@ const switchToIframe = async (page, iframeSelector, retries = 3, delay = 2000) =
 // Selectors
 const gridSelector = 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img';
 const playButtonSelector = 'button.au-m-btn.positive';
-const iframeSelector = 'iframe'; // Adjust this based on the actual iframe selector
+const iframeSelector = 'iframe.grid-100'; // Adjust this based on the actual iframe selector
 
 (async () => {
     console.log(`[${new Date().toISOString()}] Launching Puppeteer...`);
