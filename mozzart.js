@@ -2,207 +2,227 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
 const UserAgent = require('user-agents');
+const { performance } = require('perf_hooks');
+const nodemailer = require('nodemailer');
+const formatToUSD = (amount) => parseFloat(amount).toFixed(2);
 
 puppeteer.use(StealthPlugin());
 
-const url = 'https://betting.co.zw/virtual/fast-games'; // Direct URL to Fast Games
-const loginUrl = 'https://betting.co.zw/authentication/login';
-const username = process.env.MOZZARTUSERNAME;
-const password = process.env.MOZZARTPASSWORD;
-
-if (!username || !password) {
-    throw new Error("Environment variables MOZZARTUSERNAME or MOZZARTPASSWORD are not set.");
-}
+// Configuration
+const config = {
+    url: 'https://betting.co.zw/virtual/fast-games',
+    loginUrl: 'https://betting.co.zw/authentication/login',
+    logFile: './logs/activity.log',
+    iframeSelector: 'iframe.grid-100',
+    selectors: {
+        loginButton: '#user-menu-login',
+        usernameInput: 'input#phoneInput',
+        passwordInput: 'input#password',
+        submitButton: 'span#buttonLoginSubmitLabel',
+        aviatorGameGrid: 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img',
+        playNowButton: 'button.au-m-btn.positive',
+        balance: 'span.amount.font-weight-bold',
+        betInput: 'input.font-weight-bold',
+        betButton: 'button.btn.btn-success.bet.ng-star-inserted',
+        cashoutButton: 'button.btn.btn-warning.cashout.ng-star-inserted',
+    },
+    minBetAmount: 0.0001,
+    maxBetAmount: 0.000015, 
+    betPercentage: 0.0005,
+    growthFactor: 1.5,
+    fibonacciSequence: [0.0002, 0.0003, 0.005, 0.0008, 0.000013],
+    strategyWeights: { exponential: 0.7, fibonacci: 0.3 },
+    allInAfterWins: 4,
+};
 
 // Utilities
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-const randomSleep = (min, max) => sleep(Math.floor(Math.random() * (max - min + 1) + min));
+const log = (message) => {
+    const timestamp = new Date().toISOString();
+    const logMessage = `[${timestamp}] ${message}`;
+    console.log(logMessage);
+    fs.appendFileSync(config.logFile, logMessage + '\n');
+};
 
 const retry = async (fn, retries = 3, delay = 3000) => {
     for (let i = 0; i < retries; i++) {
         try {
             return await fn();
         } catch (error) {
-            console.error(`[Retry ${i + 1}] Error:`, error.message);
+            log(`[Retry ${i + 1}] Error: ${error.message}`);
             if (i < retries - 1) await sleep(delay);
         }
     }
     throw new Error('Failed after maximum retries.');
 };
 
-const navigateWithRetry = async (url, page, retries = 3, timeout = 120000) => {
-    for (let i = 0; i < retries; i++) {
-        try {
-            await page.goto(url, { waitUntil: 'networkidle2', timeout });
-            console.log(`[${new Date().toISOString()}] Navigated to ${url}`);
-            return;
-        } catch (error) {
-            console.error(`[Retry ${i + 1}] Navigation error: ${error.message}`);
-            if (i === retries - 1) throw error;
-        }
-    }
+// Missing navigateWithRetry function
+const navigateWithRetry = async (url, page, retries = 3) => {
+    await retry(async () => {
+        await page.goto(url, { waitUntil: 'networkidle2' });
+        log(`Navigated to ${url}`);
+    }, retries);
 };
 
-// Function to handle iframe switching
-const switchToIframe = async (page, iframeSelector, retries = 3, delay = 2000) => {
-    for (let i = 0; i < retries; i++) {
-        try {
-            const iframeElement = await page.$(iframeSelector);
-            if (iframeElement) {
-                const iframe = await iframeElement.contentFrame();
-                console.log('Switched to iframe.');
-                return iframe;
-            }
-            console.log('Iframe not found, retrying...');
-            await sleep(delay);
-        } catch (error) {
-            console.error(`Error while switching iframe: ${error.message}`);
-            if (i === retries - 1) throw error;
-        }
-    }
-    throw new Error('Failed to switch to iframe.');
+// Functions
+const switchToIframe = async (page, iframeSelector) => {
+    const iframeElement = await retry(async () => {
+        return await page.waitForSelector(iframeSelector, { visible: true });
+    });
+    const iframe = await iframeElement.contentFrame();
+    if (!iframe) throw new Error('Failed to access iframe content.');
+    return iframe;
 };
 
-// Selectors
-const gridSelector = 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img';
-const playButtonSelector = 'button.au-m-btn.positive';
-const iframeSelector = 'iframe.grid-100'; // Adjust this based on the actual iframe selector
+const calculateBetAmount = (currentBalance, winCount) => {
+    const strategy = Math.random() < config.strategyWeights.exponential
+        ? 'exponential'
+        : 'fibonacci';
+    
+    let bet;
+
+    if (strategy === 'exponential') {
+        bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
+        log(`Exponential strategy chosen. Bet amount: ${bet}`);
+        return bet;
+    } else {
+        const fibIndex = winCount % config.fibonacciSequence.length;
+        bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
+        log(`Fibonacci strategy chosen. Bet amount: ${bet}`);
+    }
+
+    // Apply the max bet limit
+    bet = Math.min(bet, config.maxBetAmount).toFixed(2);
+    log(`Final Bet Amount (after max limit applied): ${bet}`);
+ 
+    return bet;
+};
+
+const placeBet = async (iframe, winCount) => {
+    const balanceText = await retry(() =>
+        iframe.$eval(config.selectors.balance, el => el.innerText.trim())
+    );
+    const currentBalance = parseFloat(balanceText.replace(/[^0-9.]/g, ''));
+
+    if (currentBalance < config.minBetAmount) {
+        log('Insufficient balance to place a bet.');
+        return;
+    }
+
+    const betAmount = calculateBetAmount(currentBalance, winCount);
+
+    // Enter bet amount
+    await iframe.type(config.selectors.betInput, betAmount, { delay: 100 });
+    log(`Bet amount entered: ${betAmount}`);
+
+    // Place bet
+    await retry(() => iframe.click(config.selectors.betButton));
+    log('Bet placed.');
+
+    // Cashout logic
+    const cashoutDelay = Math.random() * (5000 - 2000) + 2000;
+    await sleep(cashoutDelay);
+
+    await retry(() => iframe.click(config.selectors.cashoutButton));
+    log('Cashed out successfully.');
+};
 
 (async () => {
-    console.log(`[${new Date().toISOString()}] Launching Puppeteer...`);
     const browser = await puppeteer.launch({
         headless: false,
-        args: [
-            '--remote-debugging-port=9222',
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-blink-features=AutomationControlled',
-            '--disable-webgl',
-            '--disable-accelerated-2d-canvas',
-            '--disable-extensions'
-        ]
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-blink-features=AutomationControlled'],
     });
-
     const page = await browser.newPage();
-    page.setDefaultNavigationTimeout(60000);
 
-    // Stealth configurations
+    // Set Stealth User Agent
     const userAgent = new UserAgent().toString();
     await page.setUserAgent(userAgent);
-    await page.evaluateOnNewDocument(() => {
-        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-    });
 
-    console.log(`[${new Date().toISOString()}] Navigating to ${url}`);
-    await navigateWithRetry(url, page);
-
-    // Login Process
-    try {
-        console.log(`[${new Date().toISOString()}] Trying to click on login button...`);
-        await page.waitForSelector('#user-menu-login', { visible: true, timeout: 20000 });
-        await page.click('#user-menu-login');
-        console.log(`[${new Date().toISOString()}] Login button clicked.`);
-    } catch (error) {
-        console.log(`[${new Date().toISOString()}] Login button not found, navigating directly to login URL.`);
-        await page.goto(loginUrl);
-    }
-
-    console.log(`[${new Date().toISOString()}] Waiting for login form...`);
-    await page.waitForSelector('input#phoneInput', { visible: true, timeout: 10000 });
-
-    console.log(`[${new Date().toISOString()}] Entering username and password...`);
-    await page.type('input#phoneInput', username);
-    await page.type('input#password', password);
-
-    console.log(`[${new Date().toISOString()}] Submitting login form...`);
-    await page.waitForSelector('span#buttonLoginSubmitLabel', { visible: true });
-    await page.click('span#buttonLoginSubmitLabel');
+    // Login
+    await navigateWithRetry(config.loginUrl, page);
+    await page.type(config.selectors.usernameInput, process.env.MOZZARTUSERNAME);
+    await page.type(config.selectors.passwordInput, process.env.MOZZARTPASSWORD);
+    await page.click(config.selectors.submitButton);
     await page.waitForNavigation({ waitUntil: 'domcontentloaded' });
-    console.log(`[${new Date().toISOString()}] Logged in successfully.`);
+    log('Logged in successfully.');
 
-    // Save cookies and WebSocket endpoint
-    const cookiesPath = path.join(__dirname, 'cookies.json');
-    const browserWSEndpoint = browser.wsEndpoint();
-    const cookies = await page.cookies();
-    fs.mkdirSync(path.dirname(cookiesPath), { recursive: true });
-    fs.writeFileSync('wsEndpoint.txt', browserWSEndpoint);
-    fs.writeFileSync(cookiesPath, JSON.stringify(cookies));
+    // Navigate to Aviator game
+    await navigateWithRetry(config.url, page);
+    await page.waitForSelector(config.selectors.aviatorGameGrid, { visible: true });
+    await retry(() => page.click(config.selectors.aviatorGameGrid, { clickCount: 2 }));
+    await page.waitForSelector(config.selectors.playNowButton, { visible: true });
+    await page.click(config.selectors.playNowButton);
+    log('Aviator game loaded.');
 
-    // Directly navigate to Fast Games page
-    try {
-        console.log(`[${new Date().toISOString()}] Navigating directly to Fast Games page...`);
-        await navigateWithRetry('https://betting.co.zw/virtual/fast-games', page);
-    } catch (error) {
-        console.error(`[${new Date().toISOString()}] Error navigating to Fast Games: ${error.message}`);
-        throw new Error('Fast Games navigation failed');
-    }
+    // Switch to game iframe
+    const iframe = await switchToIframe(page, config.iframeSelector);
 
-    // Aviator Game Navigation
-    try {
-        console.log(`[${new Date().toISOString()}] Navigating to the Aviator game...`);
-        await navigateWithRetry(`${url}/aviator`, page);
-
-        await page.waitForSelector('div.grid-100.idb-gam-virtual', { visible: true, timeout: 40000 });
-        await page.waitForSelector(gridSelector, { visible: true, timeout: 40000 });
-
-        await retry(async () => {
-            await page.click(gridSelector, { clickCount: 2 });
-            console.log(`[${new Date().toISOString()}] Aviator game image double-clicked.`);
-        }, 3, 2000);
-
-        await randomSleep(1500, 2000);
-
-        await retry(async () => {
-            await page.waitForSelector(playButtonSelector, { visible: true, timeout: 3000 });
-        }, 5, 1000);
-
-        await page.click(playButtonSelector);
-        console.log(`[${new Date().toISOString()}] "PLAY NOW" button clicked.`);
-
-        console.log(`[${new Date().toISOString()}] Waiting for 5 seconds to allow the game to load...`);
-        await randomSleep(5000, 6000);
-
-        // Switch to iframe and perform actions
-        try {
-            const iframe = await switchToIframe(page, iframeSelector);
-            console.log(`[${new Date().toISOString()}] Iframe switched successfully.`);
-
-            console.log(`[${new Date().toISOString()}] Adding delay to ensure iframe content is loaded...`);
-            await sleep(5000);
-
-            await retry(async () => {
-                await iframe.waitForSelector('span.amount.font-weight-bold', { visible: true, timeout: 20000 });
-            }, 3, 2000);
-            console.log(`[${new Date().toISOString()}] Balance selector located.`);
-        } catch (error) {
-            console.error(`[${new Date().toISOString()}] Error during iframe interaction: ${error.message}`);
+    //Live round tracking
+    const trackLiveRounds = async (iframe) => {
+        let roundCount = 0;
+    
+        while (true) {
+            try {
+                // Wait for the "Round Start" indicator
+                log(`Waiting for the next round to start...`);
+                await retry(async () => {
+                    const isRoundActive = await iframe.evaluate(() => {
+                        const roundElement = document.querySelector('.dom-container'); // Replace with the actual selector
+                        return roundElement && roundElement.innerText.includes('WAITING FOR NEXT ROUND');
+                    });
+                    if (!isRoundActive) throw new Error('Round not active yet.');
+                });
+    
+                // Log round start
+                roundCount++;
+                log(`Round ${roundCount} started.`);
+    
+                // Monitor round progress
+                let multiplier = 'Unknown';
+                await retry(async () => {
+                    multiplier = await iframe.evaluate(() => {
+                        const multiplierElement = document.querySelector('.multiplier'); // Replace with the actual selector
+                        return multiplierElement ? multiplierElement.innerText.trim() : 'Unknown';
+                    });
+                    if (multiplier === 'Unknown') throw new Error('Multiplier not available yet.');
+                });
+    
+                log(`Round ${roundCount} in progress. Current multiplier: ${multiplier}`);
+    
+                // Wait for the round to end
+                log(`Waiting for round ${roundCount} to end...`);
+                await retry(async () => {
+                    const isRoundOver = await iframe.evaluate(() => {
+                        const roundElement = document.querySelector('.dom-container'); // Replace with the actual selector
+                        return roundElement && roundElement.innerText.includes('Waiting for Next Round');
+                    });
+                    if (!isRoundOver) throw new Error('Round not over yet.');
+                });
+    
+                // Log round end
+                log(`Round ${roundCount} ended. Final multiplier: ${multiplier}`);
+    
+                // Track memory usage after each round
+                trackMemoryUsage();
+    
+                // Optional sleep before next round
+                await sleep(2000);
+    
+            } catch (error) {
+                log(`Error tracking live round: ${error.message}`);
+            }
         }
-    } catch (error) {
-        console.error(`[${new Date().toISOString()}] Error navigating to Aviator game: ${error.message}`);
+    };
+    
+    // Betting loop
+    let winCount = 0;
+    while (true) {
+        try {
+            await placeBet(iframe, winCount);
+            winCount++;
+        } catch (error) {
+            log(`Error during betting process: ${error.message}`);
+        }
     }
-
-    console.log(`[${new Date().toISOString()}] Current URL before handing over: ${page.url()}`);
-    console.log(`[${new Date().toISOString()}] Starting betting logic in index.js...`);
-
-    retry(async () => {
-        return new Promise((resolve, reject) => {
-            exec('node index.js', (error, stdout, stderr) => {
-                if (error) {
-                    console.error(`[Retry exec] Error executing index.js: ${error.message}`);
-                    return reject(error);
-                }
-                if (stderr) {
-                    console.error(`[Retry exec] stderr from index.js: ${stderr}`);
-                }
-                console.log(`[Retry exec] Output from index.js:\n${stdout}`);
-                resolve(stdout);
-            });
-        });
-    }, 3, 2000).catch(error => {
-        console.error(`[${new Date().toISOString()}] Failed to execute index.js after retries: ${error.message}`);
-    });
-
-    console.log(`[${new Date().toISOString()}] Handed over to index.js.`);
 })();

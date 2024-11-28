@@ -4,16 +4,19 @@ const nodemailer = require('nodemailer');
 const fs = require('fs');
 const path = require('path');
 const { performance } = require('perf_hooks');
+const util = require('util');
+
+console.log('Script started.');
 
 // Enable Puppeteer stealth mode to bypass detection
 puppeteer.use(StealthPlugin());
 
-// Configuration file setup
+// Load configuration from a JSON file
 const configPath = path.join(__dirname, 'config.json');
 if (!fs.existsSync(configPath)) throw new Error('Configuration file missing.');
 const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
-// Logging setup
+// Utility function to log messages to console and file
 const log = (message) => {
     const timestamp = new Date().toISOString();
     const logMessage = `[${timestamp}] ${message}`;
@@ -46,36 +49,40 @@ const shutdown = async (browser) => {
     process.exit(0);
 };
 
-// Performance monitoring setup
+// **Performance Monitoring Setup**
 let lastEventLoopDelay = 0;
 const observeEventLoopDelay = async () => {
     const start = performance.now();
-    await new Promise((resolve) => setImmediate(resolve));
+    await new Promise(resolve => setImmediate(resolve));
     const delay = performance.now() - start;
     lastEventLoopDelay = delay;
 };
 
-const logSystemPerformance = () => {
+// Log system performance periodically
+const logSystemPerformance = async () => {
     const memoryUsage = process.memoryUsage();
-    log(
-        `Memory Usage - RSS: ${(memoryUsage.rss / 1024 / 1024).toFixed(2)} MB, Heap Used: ${(memoryUsage.heapUsed / 1024 / 1024).toFixed(
-            2
-        )} MB, Event Loop Delay: ${lastEventLoopDelay.toFixed(2)} ms`
-    );
+    log(`Memory Usage - RSS: ${(memoryUsage.rss / 1024 / 1024).toFixed(2)} MB, Heap Used: ${(memoryUsage.heapUsed / 1024 / 1024).toFixed(2)} MB, Event Loop Delay: ${lastEventLoopDelay.toFixed(2)} ms`);
 };
 
+// Set interval for periodic performance logging
 setInterval(() => {
     observeEventLoopDelay();
     logSystemPerformance();
-}, config.performanceLogInterval || 10000);
+}, config.performanceLogInterval || 10000); // Default to 10 seconds if not set
 
 let browser;
 let winCount = 0;
 let betInProgress = false;
 
-// Strategy calculation logic
+process.on('SIGINT', async () => {
+    await shutdown(browser);
+});
+
+// Betting strategy calculation
 const calculateBetAmount = (currentBalance) => {
-    const strategy = Math.random() < config.strategyWeights.exponential ? 'exponential' : 'fibonacci';
+    const strategy = Math.random() < config.strategyWeights.exponential
+        ? 'exponential'
+        : 'fibonacci';
 
     if (strategy === 'exponential') {
         const bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
@@ -89,118 +96,100 @@ const calculateBetAmount = (currentBalance) => {
     }
 };
 
-// Improved iframe handler
-const getIframe = async (page) => {
-    let retries = 30;
-    while (retries > 0) {
-        const frame = await page.$('iframe.grid-100');
-        if (frame) {
-            const frameContent = await frame.contentFrame();
-            if (frameContent) {
-                log('Iframe found and content accessed.');
+// Improved betting logic with bypass mechanisms
+const placeBet = async (page) => {
+    if (betInProgress) return;
+    betInProgress = true;
 
-                // Ensure iframe is fully loaded
-                await frameContent.waitForSelector('button.btn.btn-success.bet.ng-star-inserted', { timeout: 15000 });
-                return frameContent;
+    try {
+        // Wait for the balance element to be present on the page
+        await page.waitForSelector('span.amount.font-weight-bold', { timeout: 10000 });
+        
+        const balanceText = await page.evaluate(selector => {
+            const el = document.querySelector(selector);
+            return el ? el.innerText.trim() : null;
+        }, 'span.amount.font-weight-bold');
+
+        if (!balanceText) {
+            throw new Error('Balance not found on the page.');
+        }
+
+        const balance = parseFloat(balanceText.replace(/[^0-9.]/g, ''));
+        log(`Current balance: ${balance}`);
+
+        if (balance < config.minBetAmount) {
+            log('Insufficient balance to place a bet. Skipping bet execution.');
+            return; // Bypass and proceed
+        } else {
+            const betAmount = calculateBetAmount(balance);
+
+            // Enter bet amount
+            await page.evaluate((selector, value) => {
+                const input = document.querySelector(selector);
+                if (input) {
+                    input.value = value;
+                    input.dispatchEvent(new Event('input', { bubbles: true }));
+                }
+            }, 'input.font-weight-bold', betAmount.toString());
+            log(`Entered bet amount: ${betAmount}`);
+
+            // Click bet button
+            await safeClick(page, 'button.btn.btn-success.bet.ng-star-inserted');
+            log('Bet placed successfully.');
+
+            // Wait for a random period before cashing out
+            const delay = Math.random() * (5000 - 2000) + 2000;
+            log(`Waiting ${delay} ms before cashing out...`);
+            await new Promise(res => setTimeout(res, delay));
+
+            // Click cashout button
+            await safeClick(page, 'button.btn.btn-warning.cashout.ng-star-inserted');
+            log('Cashed out successfully.');
+
+            winCount++;
+            if (winCount >= config.allInAfterWins) {
+                await sendEmailNotification('All-In Strategy Triggered', `You have ${winCount} consecutive wins.`);
+                winCount = 0;
             }
         }
-        log('Iframe not found, retrying...');
-        await new Promise((resolve) => setTimeout(resolve, 3000));
-        retries--;
+    } catch (error) {
+        log(`Error during betting: ${error.message}`);
+        winCount = 0; // Reset win count on error
+    } finally {
+        betInProgress = false;
     }
-    throw new Error('Iframe not found after multiple attempts.');
 };
 
-// Safe element interaction
-const safeClick = async (frame, selector) => {
+// Safely click an element within the page
+const safeClick = async (page, selector) => {
     try {
-        const element = await frame.$(selector);
-        if (!element) throw new Error(`Element "${selector}" not found.`);
-        await frame.evaluate((el) => el.click(), element);
-        log(`Clicked on: ${selector}`);
+        const element = await page.$(selector);
+        if (!element) throw new Error(`Element with selector "${selector}" not found.`);
+        await element.click();
+        log(`Clicked element with selector: ${selector}`);
     } catch (error) {
         log(`Error clicking element: ${error.message}`);
-        throw error;
+        // Continue execution even if the click fails
     }
 };
 
-// Main script logic
 (async () => {
     try {
         const browserWSEndpoint = fs.readFileSync('wsEndpoint.txt', 'utf-8');
         browser = await puppeteer.connect({ browserWSEndpoint });
+
         const page = (await browser.pages())[0];
         page.setDefaultNavigationTimeout(60000);
-
         log('Attached to existing browser session.');
 
-        // Wait for iframe and switch to it
-        const iframe = await getIframe(page);
-        log('Successfully switched to the Aviator game iframe.');
-
-        const placeBet = async () => {
-            if (betInProgress) return;
-            betInProgress = true;
-
-            try {
-                const balanceText = await iframe.evaluate((selector) => {
-                    const el = document.querySelector(selector);
-                    return el ? el.innerText.trim() : null;
-                }, 'span.amount.font-weight-bold');
-
-                const balance = parseFloat(balanceText.replace(/[^0-9.]/g, ''));
-                log(`Current balance: ${balance}`);
-
-                if (balance < config.minBetAmount) throw new Error('Insufficient balance.');
-
-                const betAmount = calculateBetAmount(balance);
-
-                // Input bet amount
-                await iframe.evaluate(
-                    (selector, value) => {
-                        const input = document.querySelector(selector);
-                        if (input) {
-                            input.value = value;
-                            input.dispatchEvent(new Event('input', { bubbles: true }));
-                        }
-                    },
-                    'input.font-weight-bold',
-                    betAmount.toString()
-                );
-                log(`Entered bet amount: ${betAmount}`);
-
-                // Click bet button
-                await safeClick(iframe, 'button.btn.btn-success.bet.ng-star-inserted');
-
-                // Wait before cashing out
-                const delay = Math.random() * (5000 - 2000) + 2000;
-                log(`Waiting ${delay.toFixed(0)} ms before cashing out...`);
-                await new Promise((resolve) => setTimeout(resolve, delay));
-
-                // Click cashout button
-                await safeClick(iframe, 'button.btn.btn-warning.cashout.ng-star-inserted');
-
-                log('Cashed out successfully.');
-                winCount++;
-
-                if (winCount >= config.allInAfterWins) {
-                    await sendEmailNotification('All-In Triggered', `You have ${winCount} consecutive wins.`);
-                    winCount = 0;
-                }
-            } catch (error) {
-                log(`Betting error: ${error.message}`);
-                winCount = 0;
-            } finally {
-                betInProgress = false;
-            }
-        };
+        // No need to look for iframe, we assume we're working directly in the correct page context
 
         // Periodically place bets
         setInterval(async () => {
             try {
-                await placeBet();
+                await placeBet(page);
             } catch (error) {
-                log(`Interval error: ${error.message}`);
+                log(`Error in betting interval: ${error.message}`);
             }
         }, config.betInterval);
 
