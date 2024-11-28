@@ -4,7 +4,7 @@
   "usernameSelector": "input#phoneInput",
   "passwordSelector": "input#password",
   "loginButtonSelector": "span#buttonLoginSubmitLabel",
-  "balanceSelector": "span.usr-balance", 
+  "balanceSelector": "span.amount.font-weight-bold", 
   "betInputSelector": "input.font-weight-bold", 
   "betButtonSelector": "button.btn.btn-success.bet.ng-star-inserted",
   "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",

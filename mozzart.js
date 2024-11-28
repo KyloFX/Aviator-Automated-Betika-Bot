@@ -7,7 +7,7 @@ const UserAgent = require('user-agents');
 
 puppeteer.use(StealthPlugin());
 
-const url = 'https://betting.co.zw/virtual/fast-games';  // Direct URL to Fast Games
+const url = 'https://betting.co.zw/virtual/fast-games'; // Direct URL to Fast Games
 const loginUrl = 'https://betting.co.zw/authentication/login';
 const username = process.env.MOZZARTUSERNAME;
 const password = process.env.MOZZARTPASSWORD;
@@ -152,7 +152,6 @@ const iframeSelector = 'iframe.grid-100'; // Adjust this based on the actual ifr
             console.log(`[${new Date().toISOString()}] Aviator game image double-clicked.`);
         }, 3, 2000);
 
-        console.log(`[${new Date().toISOString()}] Waiting for 1.5 seconds after clicking the game image...`);
         await randomSleep(1500, 2000);
 
         await retry(async () => {
@@ -161,27 +160,25 @@ const iframeSelector = 'iframe.grid-100'; // Adjust this based on the actual ifr
 
         await page.click(playButtonSelector);
         console.log(`[${new Date().toISOString()}] "PLAY NOW" button clicked.`);
-        
-// Switch to iframe and perform actions
-try {
-    const iframe = await switchToIframe(page, iframeSelector);
-    console.log(`[${new Date().toISOString()}] Iframe is ready for interaction.`);
-    // Additional setup if needed, like waiting for specific iframe elements
-    await iframe.waitForSelector('button.play', { visible: true, timeout: 10000 });
-    console.log('Game iframe setup complete.');
-} catch (error) {
-    console.error(`[${new Date().toISOString()}] Error during iframe interaction: ${error.message}`);
-}
-
 
         console.log(`[${new Date().toISOString()}] Waiting for 5 seconds to allow the game to load...`);
         await randomSleep(5000, 6000);
-        console.log(`[${new Date().toISOString()}] Game has been launched and is loading.`);
 
         // Switch to iframe and perform actions
-        const iframe = await switchToIframe(page, iframeSelector);
-        await iframe.waitForSelector('button.play');
-        console.log(`[${new Date().toISOString()}] Iframe is ready for interaction.`);
+        try {
+            const iframe = await switchToIframe(page, iframeSelector);
+            console.log(`[${new Date().toISOString()}] Iframe switched successfully.`);
+
+            console.log(`[${new Date().toISOString()}] Adding delay to ensure iframe content is loaded...`);
+            await sleep(5000);
+
+            await retry(async () => {
+                await iframe.waitForSelector('span.amount.font-weight-bold', { visible: true, timeout: 20000 });
+            }, 3, 2000);
+            console.log(`[${new Date().toISOString()}] Balance selector located.`);
+        } catch (error) {
+            console.error(`[${new Date().toISOString()}] Error during iframe interaction: ${error.message}`);
+        }
     } catch (error) {
         console.error(`[${new Date().toISOString()}] Error navigating to Aviator game: ${error.message}`);
     }
