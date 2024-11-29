@@ -5692,3 +5692,523 @@
 [2024-11-28T09:48:14.354Z] Memory Usage - RSS: 58.02 MB, Heap Used: 20.11 MB, Event Loop Delay: 1.04 ms
 [2024-11-28T09:48:14.942Z] Script error: Iframe not found after multiple attempts.
 [2024-11-28T09:48:14.943Z] Shutting down...
+[2024-11-29T09:23:22.471Z] Attached to existing browser session.
+[2024-11-29T09:23:22.519Z] Iframe found and content accessed.
+[2024-11-29T09:23:22.566Z] Successfully switched to the Aviator game iframe.
+[2024-11-29T09:23:32.182Z] Memory Usage - RSS: 54.64 MB, Heap Used: 17.53 MB, Event Loop Delay: 0.00 ms
+[2024-11-29T09:23:32.580Z] Current balance: 0.84
+[2024-11-29T09:23:32.581Z] Exponential strategy chosen. Bet amount: 0.06
+[2024-11-29T09:23:32.589Z] Entered bet amount: 0.06
+[2024-11-29T09:23:32.605Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:23:32.606Z] Waiting 4295 ms before cashing out...
+[2024-11-29T09:23:36.923Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:23:36.924Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:23:42.181Z] Memory Usage - RSS: 55.64 MB, Heap Used: 17.84 MB, Event Loop Delay: 0.70 ms
+[2024-11-29T09:23:42.569Z] Current balance: 0.84
+[2024-11-29T09:23:42.570Z] Exponential strategy chosen. Bet amount: 0.06
+[2024-11-29T09:23:42.576Z] Entered bet amount: 0.06
+[2024-11-29T09:23:42.584Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:23:42.584Z] Waiting 2394 ms before cashing out...
+[2024-11-29T09:23:44.980Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:23:44.981Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:23:52.183Z] Memory Usage - RSS: 56.17 MB, Heap Used: 18.41 MB, Event Loop Delay: 0.84 ms
+[2024-11-29T09:23:52.577Z] Current balance: 0.84
+[2024-11-29T09:23:52.578Z] Exponential strategy chosen. Bet amount: 0.06
+[2024-11-29T09:23:52.580Z] Entered bet amount: 0.06
+[2024-11-29T09:23:52.588Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:23:52.589Z] Waiting 4190 ms before cashing out...
+[2024-11-29T09:23:56.793Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:23:56.794Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:24:02.196Z] Memory Usage - RSS: 56.83 MB, Heap Used: 18.34 MB, Event Loop Delay: 1.04 ms
+[2024-11-29T09:24:02.584Z] Current balance: 0.84
+[2024-11-29T09:24:02.585Z] Exponential strategy chosen. Bet amount: 0.06
+[2024-11-29T09:24:02.594Z] Entered bet amount: 0.06
+[2024-11-29T09:24:02.596Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:24:02.597Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:24:12.203Z] Memory Usage - RSS: 57.20 MB, Heap Used: 19.04 MB, Event Loop Delay: 0.87 ms
+[2024-11-29T09:24:12.594Z] Current balance: 0.44
+[2024-11-29T09:24:12.595Z] Exponential strategy chosen. Bet amount: 0.03
+[2024-11-29T09:24:12.596Z] Entered bet amount: 0.03
+[2024-11-29T09:24:12.598Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:24:12.599Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:24:22.206Z] Memory Usage - RSS: 57.46 MB, Heap Used: 19.26 MB, Event Loop Delay: 1.21 ms
+[2024-11-29T09:24:22.602Z] Current balance: 0.93
+[2024-11-29T09:24:22.603Z] Exponential strategy chosen. Bet amount: 0.07
+[2024-11-29T09:24:22.609Z] Entered bet amount: 0.07
+[2024-11-29T09:24:22.619Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:24:22.620Z] Waiting 2957 ms before cashing out...
+[2024-11-29T09:24:25.585Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:24:25.586Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:24:32.221Z] Memory Usage - RSS: 57.61 MB, Heap Used: 19.26 MB, Event Loop Delay: 0.73 ms
+[2024-11-29T09:24:32.612Z] Current balance: 0.73
+[2024-11-29T09:24:32.612Z] Exponential strategy chosen. Bet amount: 0.05
+[2024-11-29T09:24:32.614Z] Entered bet amount: 0.05
+[2024-11-29T09:24:32.620Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:24:32.621Z] Waiting 2444 ms before cashing out...
+[2024-11-29T09:24:35.094Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:24:35.095Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:24:42.235Z] Memory Usage - RSS: 57.74 MB, Heap Used: 19.93 MB, Event Loop Delay: 1.03 ms
+[2024-11-29T09:24:42.615Z] Current balance: 0.53
+[2024-11-29T09:24:42.616Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:24:42.617Z] Entered bet amount: 0.01
+[2024-11-29T09:24:42.619Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:24:42.622Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:24:52.236Z] Memory Usage - RSS: 57.89 MB, Heap Used: 19.71 MB, Event Loop Delay: 3.12 ms
+[2024-11-29T09:24:52.631Z] Current balance: 1.08
+[2024-11-29T09:24:52.631Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:24:52.633Z] Entered bet amount: 0.08
+[2024-11-29T09:24:52.643Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:24:52.643Z] Waiting 3622 ms before cashing out...
+[2024-11-29T09:24:56.275Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:24:56.275Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:25:02.247Z] Memory Usage - RSS: 58.18 MB, Heap Used: 19.92 MB, Event Loop Delay: 1.60 ms
+[2024-11-29T09:25:02.634Z] Current balance: 1.08
+[2024-11-29T09:25:02.635Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:25:02.637Z] Entered bet amount: 0.08
+[2024-11-29T09:25:02.651Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:25:02.652Z] Waiting 4299 ms before cashing out...
+[2024-11-29T09:25:06.960Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:25:06.961Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:25:12.261Z] Memory Usage - RSS: 58.28 MB, Heap Used: 20.36 MB, Event Loop Delay: 0.64 ms
+[2024-11-29T09:25:12.634Z] Current balance: 1.08
+[2024-11-29T09:25:12.634Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:25:12.637Z] Entered bet amount: 0.08
+[2024-11-29T09:25:12.642Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:12.642Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:22.261Z] Memory Usage - RSS: 58.46 MB, Heap Used: 20.71 MB, Event Loop Delay: 0.53 ms
+[2024-11-29T09:25:22.646Z] Current balance: 1.08
+[2024-11-29T09:25:22.647Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:25:22.649Z] Entered bet amount: 0.08
+[2024-11-29T09:25:22.650Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:22.651Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:32.265Z] Memory Usage - RSS: 59.96 MB, Heap Used: 21.99 MB, Event Loop Delay: 0.64 ms
+[2024-11-29T09:25:32.652Z] Current balance: 1.08
+[2024-11-29T09:25:32.653Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:25:32.658Z] Entered bet amount: 0.08
+[2024-11-29T09:25:32.659Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:32.660Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:42.275Z] Memory Usage - RSS: 60.06 MB, Heap Used: 21.85 MB, Event Loop Delay: 0.53 ms
+[2024-11-29T09:25:42.652Z] Current balance: 0.98
+[2024-11-29T09:25:42.652Z] Exponential strategy chosen. Bet amount: 0.07
+[2024-11-29T09:25:42.654Z] Entered bet amount: 0.07
+[2024-11-29T09:25:42.656Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:42.656Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:25:52.285Z] Memory Usage - RSS: 60.21 MB, Heap Used: 21.97 MB, Event Loop Delay: 0.57 ms
+[2024-11-29T09:25:52.669Z] Current balance: 1
+[2024-11-29T09:25:52.670Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:25:52.677Z] Entered bet amount: 0.08
+[2024-11-29T09:25:52.683Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:25:52.683Z] Waiting 2626 ms before cashing out...
+[2024-11-29T09:25:55.318Z] Clicked on: button.btn.btn-warning.cashout.ng-star-inserted
+[2024-11-29T09:25:55.318Z] Cashed out successfully.
+[2024-11-29T09:26:02.289Z] Memory Usage - RSS: 60.41 MB, Heap Used: 22.02 MB, Event Loop Delay: 0.68 ms
+[2024-11-29T09:26:02.667Z] Current balance: 1.16
+[2024-11-29T09:26:02.667Z] Exponential strategy chosen. Bet amount: 0.09
+[2024-11-29T09:26:02.669Z] Entered bet amount: 0.09
+[2024-11-29T09:26:02.679Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:26:02.679Z] Waiting 4565 ms before cashing out...
+[2024-11-29T09:26:07.259Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:26:07.259Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:26:12.289Z] Memory Usage - RSS: 60.55 MB, Heap Used: 22.40 MB, Event Loop Delay: 1.11 ms
+[2024-11-29T09:26:12.666Z] Current balance: 1.16
+[2024-11-29T09:26:12.667Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:26:12.669Z] Entered bet amount: 0.02
+[2024-11-29T09:26:12.670Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:26:12.671Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:26:22.296Z] Memory Usage - RSS: 60.55 MB, Heap Used: 22.64 MB, Event Loop Delay: 0.78 ms
+[2024-11-29T09:26:22.673Z] Current balance: 1.16
+[2024-11-29T09:26:22.674Z] Exponential strategy chosen. Bet amount: 0.09
+[2024-11-29T09:26:22.676Z] Entered bet amount: 0.09
+[2024-11-29T09:26:22.679Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:26:22.679Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:26:32.297Z] Memory Usage - RSS: 60.91 MB, Heap Used: 23.02 MB, Event Loop Delay: 0.89 ms
+[2024-11-29T09:26:32.685Z] Current balance: 0.96
+[2024-11-29T09:26:32.686Z] Exponential strategy chosen. Bet amount: 0.07
+[2024-11-29T09:26:32.687Z] Entered bet amount: 0.07
+[2024-11-29T09:26:32.692Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:26:32.692Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:26:42.302Z] Memory Usage - RSS: 61.21 MB, Heap Used: 22.83 MB, Event Loop Delay: 0.52 ms
+[2024-11-29T09:26:42.694Z] Current balance: 1.12
+[2024-11-29T09:26:42.694Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:26:42.697Z] Entered bet amount: 0.08
+[2024-11-29T09:26:42.704Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:26:42.704Z] Waiting 4805 ms before cashing out...
+[2024-11-29T09:26:47.514Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:26:47.514Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:26:52.303Z] Memory Usage - RSS: 61.36 MB, Heap Used: 23.08 MB, Event Loop Delay: 1.96 ms
+[2024-11-29T09:26:52.701Z] Current balance: 1.12
+[2024-11-29T09:26:52.701Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:26:52.704Z] Entered bet amount: 0.08
+[2024-11-29T09:26:52.715Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:26:52.716Z] Waiting 4340 ms before cashing out...
+[2024-11-29T09:26:57.062Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:26:57.062Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:02.319Z] Memory Usage - RSS: 61.48 MB, Heap Used: 23.07 MB, Event Loop Delay: 0.95 ms
+[2024-11-29T09:27:02.711Z] Current balance: 1.11
+[2024-11-29T09:27:02.711Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:27:02.713Z] Entered bet amount: 0.08
+[2024-11-29T09:27:02.714Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:27:02.715Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:27:12.321Z] Memory Usage - RSS: 61.48 MB, Heap Used: 23.36 MB, Event Loop Delay: 0.69 ms
+[2024-11-29T09:27:12.716Z] Current balance: 1.11
+[2024-11-29T09:27:12.716Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:27:12.719Z] Entered bet amount: 0.02
+[2024-11-29T09:27:12.730Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:27:12.730Z] Waiting 4607 ms before cashing out...
+[2024-11-29T09:27:17.352Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:17.353Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:22.326Z] Memory Usage - RSS: 61.63 MB, Heap Used: 23.11 MB, Event Loop Delay: 0.95 ms
+[2024-11-29T09:27:22.723Z] Current balance: 1.01
+[2024-11-29T09:27:22.723Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:27:22.725Z] Entered bet amount: 0.02
+[2024-11-29T09:27:22.730Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:27:22.731Z] Waiting 3035 ms before cashing out...
+[2024-11-29T09:27:25.780Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:25.780Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:32.340Z] Memory Usage - RSS: 62.15 MB, Heap Used: 24.25 MB, Event Loop Delay: 1.94 ms
+[2024-11-29T09:27:32.736Z] Current balance: 1.01
+[2024-11-29T09:27:32.737Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:27:32.750Z] Entered bet amount: 0.08
+[2024-11-29T09:27:32.761Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:27:32.761Z] Waiting 2885 ms before cashing out...
+[2024-11-29T09:27:35.651Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:35.653Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:42.340Z] Memory Usage - RSS: 64.01 MB, Heap Used: 18.16 MB, Event Loop Delay: 1.76 ms
+[2024-11-29T09:27:42.730Z] Current balance: 1.16
+[2024-11-29T09:27:42.731Z] Exponential strategy chosen. Bet amount: 0.09
+[2024-11-29T09:27:42.734Z] Entered bet amount: 0.09
+[2024-11-29T09:27:42.746Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:27:42.746Z] Waiting 4969 ms before cashing out...
+[2024-11-29T09:27:47.724Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:47.726Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:27:52.345Z] Memory Usage - RSS: 64.75 MB, Heap Used: 20.29 MB, Event Loop Delay: 0.49 ms
+[2024-11-29T09:27:52.729Z] Current balance: 0.96
+[2024-11-29T09:27:52.730Z] Exponential strategy chosen. Bet amount: 0.07
+[2024-11-29T09:27:52.733Z] Entered bet amount: 0.07
+[2024-11-29T09:27:52.736Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:27:52.736Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:28:02.356Z] Memory Usage - RSS: 64.59 MB, Heap Used: 21.47 MB, Event Loop Delay: 4.00 ms
+[2024-11-29T09:28:02.733Z] Current balance: 0.96
+[2024-11-29T09:28:02.735Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:28:02.741Z] Entered bet amount: 0.02
+[2024-11-29T09:28:02.764Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:28:02.765Z] Waiting 4762 ms before cashing out...
+[2024-11-29T09:28:07.545Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:28:07.549Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:28:12.370Z] Memory Usage - RSS: 64.59 MB, Heap Used: 21.20 MB, Event Loop Delay: 1.36 ms
+[2024-11-29T09:28:12.752Z] Current balance: 0.96
+[2024-11-29T09:28:12.752Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:28:12.763Z] Entered bet amount: 0.02
+[2024-11-29T09:28:12.769Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:28:12.770Z] Waiting 2240 ms before cashing out...
+[2024-11-29T09:28:15.029Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:28:15.029Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:28:22.377Z] Memory Usage - RSS: 64.63 MB, Heap Used: 21.09 MB, Event Loop Delay: 0.96 ms
+[2024-11-29T09:28:22.758Z] Current balance: 0.76
+[2024-11-29T09:28:22.759Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:28:22.760Z] Entered bet amount: 0.02
+[2024-11-29T09:28:22.762Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:28:22.762Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:28:32.390Z] Memory Usage - RSS: 64.64 MB, Heap Used: 21.36 MB, Event Loop Delay: 1.36 ms
+[2024-11-29T09:28:32.770Z] Current balance: 0.76
+[2024-11-29T09:28:32.770Z] Exponential strategy chosen. Bet amount: 0.06
+[2024-11-29T09:28:32.776Z] Entered bet amount: 0.06
+[2024-11-29T09:28:32.778Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:28:32.778Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:28:42.394Z] Memory Usage - RSS: 64.79 MB, Heap Used: 22.12 MB, Event Loop Delay: 1.10 ms
+[2024-11-29T09:28:42.775Z] Current balance: 1.39
+[2024-11-29T09:28:42.776Z] Fibonacci strategy chosen. Bet amount: 0.03
+[2024-11-29T09:28:42.778Z] Entered bet amount: 0.03
+[2024-11-29T09:28:42.783Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:28:42.784Z] Waiting 2356 ms before cashing out...
+[2024-11-29T09:28:45.143Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:28:45.144Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:28:52.393Z] Memory Usage - RSS: 64.79 MB, Heap Used: 22.04 MB, Event Loop Delay: 0.69 ms
+[2024-11-29T09:28:52.781Z] Current balance: 1.39
+[2024-11-29T09:28:52.781Z] Exponential strategy chosen. Bet amount: 0.10
+[2024-11-29T09:28:52.784Z] Entered bet amount: 0.10
+[2024-11-29T09:28:52.798Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:28:52.798Z] Waiting 2851 ms before cashing out...
+[2024-11-29T09:28:55.654Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:28:55.655Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:02.400Z] Memory Usage - RSS: 64.80 MB, Heap Used: 22.44 MB, Event Loop Delay: 0.50 ms
+[2024-11-29T09:29:02.776Z] Current balance: 1.39
+[2024-11-29T09:29:02.776Z] Exponential strategy chosen. Bet amount: 0.10
+[2024-11-29T09:29:02.778Z] Entered bet amount: 0.10
+[2024-11-29T09:29:02.788Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:29:02.789Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:29:12.412Z] Memory Usage - RSS: 64.80 MB, Heap Used: 22.67 MB, Event Loop Delay: 0.74 ms
+[2024-11-29T09:29:12.783Z] Current balance: 1.39
+[2024-11-29T09:29:12.783Z] Fibonacci strategy chosen. Bet amount: 0.03
+[2024-11-29T09:29:12.786Z] Entered bet amount: 0.03
+[2024-11-29T09:29:12.788Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:29:12.789Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:29:22.423Z] Memory Usage - RSS: 64.80 MB, Heap Used: 22.52 MB, Event Loop Delay: 0.74 ms
+[2024-11-29T09:29:22.784Z] Current balance: 1.29
+[2024-11-29T09:29:22.785Z] Exponential strategy chosen. Bet amount: 0.10
+[2024-11-29T09:29:22.787Z] Entered bet amount: 0.10
+[2024-11-29T09:29:22.797Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:29:22.797Z] Waiting 4026 ms before cashing out...
+[2024-11-29T09:29:26.837Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:26.838Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:32.433Z] Memory Usage - RSS: 64.80 MB, Heap Used: 22.76 MB, Event Loop Delay: 0.85 ms
+[2024-11-29T09:29:32.790Z] Current balance: 1.09
+[2024-11-29T09:29:32.791Z] Exponential strategy chosen. Bet amount: 0.08
+[2024-11-29T09:29:32.794Z] Entered bet amount: 0.08
+[2024-11-29T09:29:32.799Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:29:32.800Z] Waiting 3606 ms before cashing out...
+[2024-11-29T09:29:36.409Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:36.410Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:42.443Z] Memory Usage - RSS: 64.80 MB, Heap Used: 23.40 MB, Event Loop Delay: 1.02 ms
+[2024-11-29T09:29:42.839Z] Current balance: 1.09
+[2024-11-29T09:29:42.841Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:29:42.845Z] Entered bet amount: 0.02
+[2024-11-29T09:29:42.850Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:29:42.851Z] Waiting 4282 ms before cashing out...
+[2024-11-29T09:29:47.135Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:47.135Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:52.442Z] Memory Usage - RSS: 64.80 MB, Heap Used: 24.20 MB, Event Loop Delay: 0.68 ms
+[2024-11-29T09:29:52.836Z] Current balance: 0.99
+[2024-11-29T09:29:52.837Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:29:52.840Z] Entered bet amount: 0.02
+[2024-11-29T09:29:52.847Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:29:52.848Z] Waiting 2790 ms before cashing out...
+[2024-11-29T09:29:55.641Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:29:55.642Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:30:02.446Z] Memory Usage - RSS: 64.81 MB, Heap Used: 24.49 MB, Event Loop Delay: 0.92 ms
+[2024-11-29T09:30:02.844Z] Current balance: 0.89
+[2024-11-29T09:30:02.845Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:30:02.847Z] Entered bet amount: 0.02
+[2024-11-29T09:30:02.850Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:30:02.850Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:30:12.448Z] Memory Usage - RSS: 64.79 MB, Heap Used: 24.74 MB, Event Loop Delay: 0.82 ms
+[2024-11-29T09:30:12.854Z] Current balance: 0.89
+[2024-11-29T09:30:12.855Z] Exponential strategy chosen. Bet amount: 0.07
+[2024-11-29T09:30:12.858Z] Entered bet amount: 0.07
+[2024-11-29T09:30:12.863Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:30:12.863Z] Waiting 3542 ms before cashing out...
+[2024-11-29T09:30:16.408Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:30:16.409Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:30:22.458Z] Memory Usage - RSS: 64.80 MB, Heap Used: 24.97 MB, Event Loop Delay: 0.57 ms
+[2024-11-29T09:30:22.869Z] Current balance: 0.79
+[2024-11-29T09:30:22.870Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:30:22.878Z] Entered bet amount: 0.02
+[2024-11-29T09:30:22.883Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:30:22.883Z] Waiting 2073 ms before cashing out...
+[2024-11-29T09:30:24.968Z] Clicked on: button.btn.btn-warning.cashout.ng-star-inserted
+[2024-11-29T09:30:24.969Z] Cashed out successfully.
+[2024-11-29T09:30:32.461Z] Memory Usage - RSS: 64.80 MB, Heap Used: 25.07 MB, Event Loop Delay: 0.90 ms
+[2024-11-29T09:30:32.868Z] Current balance: 0.93
+[2024-11-29T09:30:32.869Z] Exponential strategy chosen. Bet amount: 0.07
+[2024-11-29T09:30:32.871Z] Entered bet amount: 0.07
+[2024-11-29T09:30:32.883Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:30:32.883Z] Waiting 3337 ms before cashing out...
+[2024-11-29T09:30:36.225Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:30:36.226Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:30:42.476Z] Memory Usage - RSS: 64.87 MB, Heap Used: 24.84 MB, Event Loop Delay: 0.64 ms
+[2024-11-29T09:30:42.871Z] Current balance: 0.73
+[2024-11-29T09:30:42.872Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:30:42.874Z] Entered bet amount: 0.01
+[2024-11-29T09:30:42.876Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:30:42.877Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:30:52.479Z] Memory Usage - RSS: 64.87 MB, Heap Used: 25.10 MB, Event Loop Delay: 0.61 ms
+[2024-11-29T09:30:52.876Z] Current balance: 0.73
+[2024-11-29T09:30:52.876Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:30:52.878Z] Entered bet amount: 0.01
+[2024-11-29T09:30:52.882Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:30:52.882Z] Waiting 4983 ms before cashing out...
+[2024-11-29T09:30:57.879Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:30:57.880Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:31:02.493Z] Memory Usage - RSS: 64.94 MB, Heap Used: 25.21 MB, Event Loop Delay: 1.45 ms
+[2024-11-29T09:31:02.876Z] Current balance: 0.63
+[2024-11-29T09:31:02.877Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:31:02.878Z] Entered bet amount: 0.01
+[2024-11-29T09:31:02.883Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:31:02.883Z] Waiting 3754 ms before cashing out...
+[2024-11-29T09:31:06.649Z] Clicked on: button.btn.btn-warning.cashout.ng-star-inserted
+[2024-11-29T09:31:06.649Z] Cashed out successfully.
+[2024-11-29T09:31:12.494Z] Memory Usage - RSS: 64.75 MB, Heap Used: 24.94 MB, Event Loop Delay: 1.05 ms
+[2024-11-29T09:31:12.892Z] Current balance: 0.75
+[2024-11-29T09:31:12.892Z] Fibonacci strategy chosen. Bet amount: 0.02
+[2024-11-29T09:31:12.894Z] Entered bet amount: 0.02
+[2024-11-29T09:31:12.899Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:31:12.899Z] Waiting 2013 ms before cashing out...
+[2024-11-29T09:31:14.927Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:31:14.928Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:31:22.509Z] Memory Usage - RSS: 64.75 MB, Heap Used: 25.24 MB, Event Loop Delay: 0.66 ms
+[2024-11-29T09:31:22.898Z] Current balance: 0.75
+[2024-11-29T09:31:22.898Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:31:22.900Z] Entered bet amount: 0.01
+[2024-11-29T09:31:22.905Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:31:22.905Z] Waiting 3188 ms before cashing out...
+[2024-11-29T09:31:26.102Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:31:26.103Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:31:32.520Z] Memory Usage - RSS: 65.12 MB, Heap Used: 25.50 MB, Event Loop Delay: 0.52 ms
+[2024-11-29T09:31:32.912Z] Current balance: 0.55
+[2024-11-29T09:31:32.912Z] Exponential strategy chosen. Bet amount: 0.04
+[2024-11-29T09:31:32.914Z] Entered bet amount: 0.04
+[2024-11-29T09:31:32.916Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:31:32.916Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:31:42.523Z] Memory Usage - RSS: 65.13 MB, Heap Used: 25.21 MB, Event Loop Delay: 0.84 ms
+[2024-11-29T09:31:42.917Z] Current balance: 0.55
+[2024-11-29T09:31:42.917Z] Exponential strategy chosen. Bet amount: 0.04
+[2024-11-29T09:31:42.919Z] Entered bet amount: 0.04
+[2024-11-29T09:31:42.921Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:31:42.922Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:31:52.535Z] Memory Usage - RSS: 65.13 MB, Heap Used: 25.52 MB, Event Loop Delay: 0.62 ms
+[2024-11-29T09:31:52.928Z] Current balance: 0.55
+[2024-11-29T09:31:52.928Z] Exponential strategy chosen. Bet amount: 0.04
+[2024-11-29T09:31:52.930Z] Entered bet amount: 0.04
+[2024-11-29T09:31:52.931Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:31:52.931Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:32:02.537Z] Memory Usage - RSS: 65.27 MB, Heap Used: 26.07 MB, Event Loop Delay: 2.31 ms
+[2024-11-29T09:32:02.954Z] Current balance: 0.55
+[2024-11-29T09:32:02.955Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:32:02.960Z] Entered bet amount: 0.01
+[2024-11-29T09:32:02.965Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:32:02.965Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:32:12.545Z] Memory Usage - RSS: 65.51 MB, Heap Used: 25.82 MB, Event Loop Delay: 0.87 ms
+[2024-11-29T09:32:12.938Z] Current balance: 0.55
+[2024-11-29T09:32:12.940Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:32:12.953Z] Entered bet amount: 0.01
+[2024-11-29T09:32:12.960Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:32:12.960Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:32:22.545Z] Memory Usage - RSS: 65.52 MB, Heap Used: 25.98 MB, Event Loop Delay: 0.76 ms
+[2024-11-29T09:32:22.932Z] Current balance: 0.55
+[2024-11-29T09:32:22.932Z] Exponential strategy chosen. Bet amount: 0.04
+[2024-11-29T09:32:22.934Z] Entered bet amount: 0.04
+[2024-11-29T09:32:22.944Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:32:22.945Z] Waiting 2016 ms before cashing out...
+[2024-11-29T09:32:24.965Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:32:24.966Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:32:32.549Z] Memory Usage - RSS: 65.51 MB, Heap Used: 18.30 MB, Event Loop Delay: 0.73 ms
+[2024-11-29T09:32:32.950Z] Current balance: 0.45
+[2024-11-29T09:32:32.950Z] Exponential strategy chosen. Bet amount: 0.03
+[2024-11-29T09:32:32.952Z] Entered bet amount: 0.03
+[2024-11-29T09:32:32.960Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:32:32.961Z] Waiting 2602 ms before cashing out...
+[2024-11-29T09:32:35.583Z] Clicked on: button.btn.btn-warning.cashout.ng-star-inserted
+[2024-11-29T09:32:35.584Z] Cashed out successfully.
+[2024-11-29T09:32:42.554Z] Memory Usage - RSS: 65.51 MB, Heap Used: 18.46 MB, Event Loop Delay: 1.60 ms
+[2024-11-29T09:32:42.947Z] Current balance: 0.56
+[2024-11-29T09:32:42.948Z] Exponential strategy chosen. Bet amount: 0.04
+[2024-11-29T09:32:42.949Z] Entered bet amount: 0.04
+[2024-11-29T09:32:42.954Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:32:42.955Z] Waiting 2111 ms before cashing out...
+[2024-11-29T09:32:45.069Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:32:45.069Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:32:52.566Z] Memory Usage - RSS: 65.51 MB, Heap Used: 18.26 MB, Event Loop Delay: 1.27 ms
+[2024-11-29T09:32:52.955Z] Current balance: 0.46
+[2024-11-29T09:32:52.955Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:32:52.958Z] Entered bet amount: 0.01
+[2024-11-29T09:32:52.964Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:32:52.964Z] Waiting 2489 ms before cashing out...
+[2024-11-29T09:32:55.463Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:32:55.463Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:02.571Z] Memory Usage - RSS: 65.52 MB, Heap Used: 18.71 MB, Event Loop Delay: 0.64 ms
+[2024-11-29T09:33:02.965Z] Current balance: 0.36
+[2024-11-29T09:33:02.966Z] Exponential strategy chosen. Bet amount: 0.03
+[2024-11-29T09:33:02.968Z] Entered bet amount: 0.03
+[2024-11-29T09:33:02.970Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:33:02.970Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:33:12.577Z] Memory Usage - RSS: 65.52 MB, Heap Used: 18.85 MB, Event Loop Delay: 0.87 ms
+[2024-11-29T09:33:12.976Z] Current balance: 0.54
+[2024-11-29T09:33:12.976Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:33:12.978Z] Entered bet amount: 0.01
+[2024-11-29T09:33:12.984Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:33:12.984Z] Waiting 2042 ms before cashing out...
+[2024-11-29T09:33:15.039Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:15.039Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:22.581Z] Memory Usage - RSS: 65.54 MB, Heap Used: 19.11 MB, Event Loop Delay: 0.56 ms
+[2024-11-29T09:33:22.991Z] Current balance: 0.54
+[2024-11-29T09:33:22.992Z] Exponential strategy chosen. Bet amount: 0.04
+[2024-11-29T09:33:22.995Z] Entered bet amount: 0.04
+[2024-11-29T09:33:23.000Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:33:23.001Z] Waiting 3798 ms before cashing out...
+[2024-11-29T09:33:26.808Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:26.809Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:32.580Z] Memory Usage - RSS: 65.54 MB, Heap Used: 18.67 MB, Event Loop Delay: 0.82 ms
+[2024-11-29T09:33:33.003Z] Current balance: 0.34
+[2024-11-29T09:33:33.003Z] Exponential strategy chosen. Bet amount: 0.03
+[2024-11-29T09:33:33.005Z] Entered bet amount: 0.03
+[2024-11-29T09:33:33.012Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:33:33.012Z] Waiting 4319 ms before cashing out...
+[2024-11-29T09:33:37.337Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:37.338Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:42.580Z] Memory Usage - RSS: 65.54 MB, Heap Used: 18.95 MB, Event Loop Delay: 0.71 ms
+[2024-11-29T09:33:43.004Z] Current balance: 0.34
+[2024-11-29T09:33:43.005Z] Fibonacci strategy chosen. Bet amount: 0.01
+[2024-11-29T09:33:43.009Z] Entered bet amount: 0.01
+[2024-11-29T09:33:43.017Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:33:43.017Z] Waiting 3019 ms before cashing out...
+[2024-11-29T09:33:46.051Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:46.051Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:52.589Z] Memory Usage - RSS: 65.54 MB, Heap Used: 19.00 MB, Event Loop Delay: 0.69 ms
+[2024-11-29T09:33:53.011Z] Current balance: 0.14
+[2024-11-29T09:33:53.011Z] Fibonacci strategy chosen. Bet amount: 0.00
+[2024-11-29T09:33:53.013Z] Entered bet amount: 0.00
+[2024-11-29T09:33:53.017Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:33:53.018Z] Waiting 2286 ms before cashing out...
+[2024-11-29T09:33:55.319Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:33:55.319Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:34:02.592Z] Memory Usage - RSS: 65.55 MB, Heap Used: 19.09 MB, Event Loop Delay: 1.52 ms
+[2024-11-29T09:34:03.017Z] Current balance: 0.24
+[2024-11-29T09:34:03.018Z] Exponential strategy chosen. Bet amount: 0.02
+[2024-11-29T09:34:03.022Z] Entered bet amount: 0.02
+[2024-11-29T09:34:03.032Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:03.033Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:12.602Z] Memory Usage - RSS: 65.55 MB, Heap Used: 19.43 MB, Event Loop Delay: 1.68 ms
+[2024-11-29T09:34:13.025Z] Current balance: 0.14
+[2024-11-29T09:34:13.026Z] Exponential strategy chosen. Bet amount: 0.01
+[2024-11-29T09:34:13.027Z] Entered bet amount: 0.01
+[2024-11-29T09:34:13.029Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:13.029Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:22.602Z] Memory Usage - RSS: 65.58 MB, Heap Used: 19.10 MB, Event Loop Delay: 0.91 ms
+[2024-11-29T09:34:23.045Z] Current balance: 0.14
+[2024-11-29T09:34:23.046Z] Fibonacci strategy chosen. Bet amount: 0.00
+[2024-11-29T09:34:23.047Z] Entered bet amount: 0.00
+[2024-11-29T09:34:23.049Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:23.049Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:32.611Z] Memory Usage - RSS: 65.57 MB, Heap Used: 19.74 MB, Event Loop Delay: 0.73 ms
+[2024-11-29T09:34:33.052Z] Current balance: 0.35
+[2024-11-29T09:34:33.053Z] Exponential strategy chosen. Bet amount: 0.03
+[2024-11-29T09:34:33.055Z] Entered bet amount: 0.03
+[2024-11-29T09:34:33.066Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:34:33.066Z] Waiting 4542 ms before cashing out...
+[2024-11-29T09:34:37.609Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:34:37.610Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:34:42.618Z] Memory Usage - RSS: 65.57 MB, Heap Used: 19.53 MB, Event Loop Delay: 0.89 ms
+[2024-11-29T09:34:43.058Z] Current balance: 0.25
+[2024-11-29T09:34:43.058Z] Exponential strategy chosen. Bet amount: 0.02
+[2024-11-29T09:34:43.060Z] Entered bet amount: 0.02
+[2024-11-29T09:34:43.062Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:43.062Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:52.620Z] Memory Usage - RSS: 65.57 MB, Heap Used: 19.47 MB, Event Loop Delay: 1.09 ms
+[2024-11-29T09:34:53.062Z] Current balance: 0.25
+[2024-11-29T09:34:53.062Z] Exponential strategy chosen. Bet amount: 0.02
+[2024-11-29T09:34:53.064Z] Entered bet amount: 0.02
+[2024-11-29T09:34:53.065Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:34:53.066Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:35:02.628Z] Memory Usage - RSS: 65.57 MB, Heap Used: 19.41 MB, Event Loop Delay: 1.14 ms
+[2024-11-29T09:35:03.067Z] Current balance: 0.15
+[2024-11-29T09:35:03.068Z] Exponential strategy chosen. Bet amount: 0.01
+[2024-11-29T09:35:03.071Z] Entered bet amount: 0.01
+[2024-11-29T09:35:03.077Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:35:03.079Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:35:12.638Z] Memory Usage - RSS: 65.57 MB, Heap Used: 19.96 MB, Event Loop Delay: 0.71 ms
+[2024-11-29T09:35:13.079Z] Current balance: 0.15
+[2024-11-29T09:35:13.079Z] Fibonacci strategy chosen. Bet amount: 0.00
+[2024-11-29T09:35:13.081Z] Entered bet amount: 0.00
+[2024-11-29T09:35:13.082Z] Error clicking element: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:35:13.083Z] Betting error: Element "button.btn.btn-success.bet.ng-star-inserted" not found.
+[2024-11-29T09:35:22.649Z] Memory Usage - RSS: 65.57 MB, Heap Used: 19.91 MB, Event Loop Delay: 1.61 ms
+[2024-11-29T09:35:23.088Z] Current balance: 0.15
+[2024-11-29T09:35:23.089Z] Exponential strategy chosen. Bet amount: 0.01
+[2024-11-29T09:35:23.094Z] Entered bet amount: 0.01
+[2024-11-29T09:35:23.100Z] Clicked on: button.btn.btn-success.bet.ng-star-inserted
+[2024-11-29T09:35:23.100Z] Waiting 2359 ms before cashing out...
+[2024-11-29T09:35:25.473Z] Error clicking element: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:35:25.475Z] Betting error: Element "button.btn.btn-warning.cashout.ng-star-inserted" not found.
+[2024-11-29T09:35:32.656Z] Memory Usage - RSS: 65.57 MB, Heap Used: 20.01 MB, Event Loop Delay: 0.91 ms
+[2024-11-29T09:35:33.095Z] Current balance: 0.05
+[2024-11-29T09:35:33.098Z] Betting error: Insufficient balance.
