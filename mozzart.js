@@ -121,27 +121,29 @@ const placeBet = async (iframe, winCount) => {
     log('Bet placed.');
 
     // Cashout logic
-const tryCashout = async (iframe, retries = 15, delay = 3500) => {
-    let attempt = 0;
-    while (attempt < retries) {
-        try {
-            log(`Cashout attempt ${attempt + 1}...`);
-            await iframe.click(config.selectors.cashoutButton);
-            log('Cashed out successfully.');
-            return; // Exit loop on success
-        } catch (error) {
-            log(`Cashout attempt ${attempt + 1} failed: ${error.message}`);
-            attempt++;
-            if (attempt < retries) {
-                await sleep(delay); // Wait before retrying
+    const tryCashout = async (iframe, retries = 23, baseDelay = 5555) => {
+        let attempt = 0;
+        while (attempt < retries) {
+            try {
+                log(`Cashout attempt ${attempt + 1}...`);
+                await iframe.click(config.selectors.cashoutButton);
+                log('Cashed out successfully.');
+                return; // Exit loop on success
+            } catch (error) {
+                log(`Cashout attempt ${attempt + 1} failed: ${error.message}`);
+                attempt++;
+                if (attempt < retries) {
+                    // Add randomness to the delay between retries
+                    const randomDelay = baseDelay + Math.random() * 777; // Adjust range as needed
+                    await sleep(randomDelay); // Wait before retrying
+                }
             }
         }
-    }
-    throw new Error(`Failed to cash out after ${retries} attempts.`);
-};
+        throw new Error(`Failed to cash out after ${retries} attempts.`);
+    };
 
 // Call cashout function with retries
-const cashoutDelay = Math.random() * (3875) + 3900; // Adjust delay range if needed
+const cashoutDelay = Math.random() * (111) + 1111; // Adjust delay range if needed
 await sleep(cashoutDelay);
 
 try {
@@ -218,8 +220,8 @@ try {
                 log(`Waiting for round ${roundCount} to end...`);
                 await retry(async () => {
                     const isRoundOver = await iframe.evaluate(() => {
-                        const roundElement = document.querySelector('.dom-container'); // Replace with the actual selector
-                        return roundElement && roundElement.innerText.includes('Waiting for Next Round');
+                        const roundElement = document.querySelector('.label.amount'); // Replace with the actual selector
+                        return roundElement && roundElement.innerText.includes('');
                     });
                     if (!isRoundOver) throw new Error('Round not over yet.');
                 });
