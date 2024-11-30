@@ -8,6 +8,7 @@
   "betInputSelector": "input.font-weight-bold", 
   "betButtonSelector": "button.btn.btn-success.bet.ng-star-inserted",
   "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",
+  "cancelBetSelector": "button.btn.btn-danger.bet.ng-star-inserted",
   "logFile": "./logs/activity.log",
   "email": {
       "service": "gmail",

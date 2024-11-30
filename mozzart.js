@@ -121,11 +121,35 @@ const placeBet = async (iframe, winCount) => {
     log('Bet placed.');
 
     // Cashout logic
-    const cashoutDelay = Math.random() * (5000 - 2000) + 2000;
-    await sleep(cashoutDelay);
+const tryCashout = async (iframe, retries = 15, delay = 3500) => {
+    let attempt = 0;
+    while (attempt < retries) {
+        try {
+            log(`Cashout attempt ${attempt + 1}...`);
+            await iframe.click(config.selectors.cashoutButton);
+            log('Cashed out successfully.');
+            return; // Exit loop on success
+        } catch (error) {
+            log(`Cashout attempt ${attempt + 1} failed: ${error.message}`);
+            attempt++;
+            if (attempt < retries) {
+                await sleep(delay); // Wait before retrying
+            }
+        }
+    }
+    throw new Error(`Failed to cash out after ${retries} attempts.`);
+};
 
-    await retry(() => iframe.click(config.selectors.cashoutButton));
-    log('Cashed out successfully.');
+// Call cashout function with retries
+const cashoutDelay = Math.random() * (3875) + 3900; // Adjust delay range if needed
+await sleep(cashoutDelay);
+
+try {
+    await tryCashout(iframe);
+} catch (error) {
+    log(`Error during cashout process: ${error.message}`);
+}
+
 };
 
 (async () => {
@@ -168,7 +192,7 @@ const placeBet = async (iframe, winCount) => {
                 log(`Waiting for the next round to start...`);
                 await retry(async () => {
                     const isRoundActive = await iframe.evaluate(() => {
-                        const roundElement = document.querySelector('.dom-container'); // Replace with the actual selector
+                        const roundElement = document.querySelector('button.bt.btn-dange.bet'); // Replace with the actual selector
                         return roundElement && roundElement.innerText.includes('WAITING FOR NEXT ROUND');
                     });
                     if (!isRoundActive) throw new Error('Round not active yet.');
@@ -182,7 +206,7 @@ const placeBet = async (iframe, winCount) => {
                 let multiplier = 'Unknown';
                 await retry(async () => {
                     multiplier = await iframe.evaluate(() => {
-                        const multiplierElement = document.querySelector('.multiplier'); // Replace with the actual selector
+                        const multiplierElement = document.querySelector('label.amount'); // Replace with the actual selector
                         return multiplierElement ? multiplierElement.innerText.trim() : 'Unknown';
                     });
                     if (multiplier === 'Unknown') throw new Error('Multiplier not available yet.');
