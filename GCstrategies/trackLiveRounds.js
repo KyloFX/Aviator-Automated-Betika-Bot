@@ -2,7 +2,7 @@ const monitorMultiplier = async (iframe) => {
     let multiplier = 'Unknown';
     await retry(async () => {
         multiplier = await iframe.evaluate(() => {
-            const multiplierElement = document.querySelector('label.amount'); // Update with correct selector
+            const multiplierElement = document.querySelector('li.active'); // Update with correct selector
             return multiplierElement ? multiplierElement.innerText.trim() : 'Unknown';
         });
         if (multiplier === 'Unknown') throw new Error('Multiplier not available.');

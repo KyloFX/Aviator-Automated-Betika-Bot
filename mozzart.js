@@ -121,7 +121,7 @@ const placeBet = async (iframe, winCount) => {
     log('Bet placed.');
 
     // Cashout logic
-    const tryCashout = async (iframe, retries = 23, baseDelay = 1111) => {
+    const tryCashout = async (iframe, retries = 13, baseDelay = 3777) => {
         let attempt = 0;
         while (attempt < retries) {
             try {
@@ -134,7 +134,7 @@ const placeBet = async (iframe, winCount) => {
                 attempt++;
                 if (attempt < retries) {
                     // Add randomness to the delay between retries
-                    const randomDelay = baseDelay + Math.random() * 333; // Adjust range as needed
+                    const randomDelay = baseDelay - Math.random() * 999; // Adjust range as needed
                     await sleep(randomDelay); // Wait before retrying
                 }
             }
@@ -143,7 +143,7 @@ const placeBet = async (iframe, winCount) => {
     };
 
 // Call cashout function with retries
-const cashoutDelay = Math.random() * (111) + 111; // Adjust delay range if needed
+const cashoutDelay =  (1-Math.random() * (999)) * 1111; // Adjust delay range if needed
 await sleep(cashoutDelay);
 
 try {
@@ -208,7 +208,7 @@ try {
                 let multiplier = 'Unknown';
                 await retry(async () => {
                     multiplier = await iframe.evaluate(() => {
-                        const multiplierElement = document.querySelector('label.amount'); // Replace with the actual selector
+                        const multiplierElement = document.querySelector('li.active'); // Replace with the actual selector
                         return multiplierElement ? multiplierElement.innerText.trim() : 'Unknown';
                     });
                     if (multiplier === 'Unknown') throw new Error('Multiplier not available yet.');
@@ -220,7 +220,7 @@ try {
                 log(`Waiting for round ${roundCount} to end...`);
                 await retry(async () => {
                     const isRoundOver = await iframe.evaluate(() => {
-                        const roundElement = document.querySelector('.label.amount'); // Replace with the actual selector
+                        const roundElement = document.querySelector('grid-100'); // Replace with the actual selector
                         return roundElement && roundElement.innerText.includes('');
                     });
                     if (!isRoundOver) throw new Error('Round not over yet.');
