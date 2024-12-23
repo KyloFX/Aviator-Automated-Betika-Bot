@@ -121,7 +121,11 @@ const placeBet = async (iframe, winCount) => {
     log('Bet placed.');
 
     // Cashout logic
+<<<<<<< Updated upstream
     const tryCashout = async (iframe, retries = 13, baseDelay = 3777) => {
+=======
+    const tryCashout = async (iframe, retries = 13, baseDelay = 1799) => {
+>>>>>>> Stashed changes
         let attempt = 0;
         while (attempt < retries) {
             try {
@@ -134,7 +138,11 @@ const placeBet = async (iframe, winCount) => {
                 attempt++;
                 if (attempt < retries) {
                     // Add randomness to the delay between retries
+<<<<<<< Updated upstream
                     const randomDelay = baseDelay - Math.random() * 999; // Adjust range as needed
+=======
+                    const randomDelay = baseDelay + Math.random() * 793; // Adjust range as needed
+>>>>>>> Stashed changes
                     await sleep(randomDelay); // Wait before retrying
                 }
             }
