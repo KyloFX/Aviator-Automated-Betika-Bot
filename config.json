@@ -1,0 +1,37 @@
+{
+  "username": "your-username",
+  "password": "your-password",
+  "usernameSelector": "input#phoneInput",
+  "passwordSelector": "input#password",
+  "loginButtonSelector": "span#buttonLoginSubmitLabel",
+  "balanceSelector": "span.amount.font-weight-bold", 
+  "betInputSelector": "input.font-weight-bold", 
+  "betButtonSelector": "button.btn.btn-success.bet.ng-star-inserted",
+  "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",
+  "cancelBetSelector": "button.btn.btn-danger.bet.ng-star-inserted",
+  "logFile": "./logs/activity.log",
+  "email": {
+      "service": "gmail",
+      "auth": {
+          "user": "k2me2016@gmail.com",
+          "pass": "klick@2016#"
+      },
+      "from": "k2me2016@gmail.com",
+      "to": "k2me2016@gmail.com"
+  },
+  "minBetAmount": 0.1,
+  "betPercentage": 0.05,
+  "growthFactor": 1.5,
+  "fibonacciSequence": [0.02, 0.03, 0.05, 0.08, 0.13],
+  "strategyWeights": {
+      "exponential": 0.7,
+      "fibonacci": 0.3
+  },
+  "betInterval": 10000,
+  "allInAfterWins": 5,
+  "iframeIdentifier": "https://aviator-next.spribegaming.com/",
+  "selectors": {
+      "aviatorGameGrid": "body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img",
+      "playNowButton": "button.au-m-btn.positive"
+  }
+}

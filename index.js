@@ -1,180 +1,211 @@
-const puppeteer = require('puppeteer');
-const mysql = require('mysql');
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+const nodemailer = require('nodemailer');
+const fs = require('fs');
+const path = require('path');
+const { performance } = require('perf_hooks');
 
-// const connection = mysql.createConnection({
-//   host: 'localhost',
-//   user: 'root',
-//   password: '',
-//   database: 'aviatorBot'
-// });
+// Enable Puppeteer stealth mode to bypass detection
+puppeteer.use(StealthPlugin());
 
-// connection.connect((err) => {
-//   if (err) {
-//     console.error('Error connecting to database:', err);
-//     return;
-//   }
+// Configuration file setup
+const configPath = path.join(__dirname, 'config.json');
+if (!fs.existsSync(configPath)) throw new Error('Configuration file missing.');
+const config = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
 
-//   console.log('Connected to database!');
-// });
+// Logging setup
+const log = (message) => {
+    const timestamp = new Date().toISOString();
+    const logMessage = `[${timestamp}] ${message}`;
+    console.log(logMessage);
+    fs.appendFileSync(config.logFile, logMessage + '\n');
+};
 
-let previousBubbleValue = null;
+// Email notification setup
+const sendEmailNotification = async (subject, text) => {
+    const transporter = nodemailer.createTransport(config.email);
+    const mailOptions = {
+        from: config.email.from,
+        to: config.email.to,
+        subject,
+        text,
+    };
 
-// const saveToDatabase = (appBubbleValue) => {
-//   if (appBubbleValue !== previousBubbleValue) {
-//     const query = `INSERT INTO bubble_data (value) VALUES (${appBubbleValue})`;
-  
-//     connection.query(query, (err, result) => {
-//       if (err) {
-//         console.error('Error saving data to database:', err);
-//         return;
-//       }
-  
-//       console.log('Data saved to database!');
-//     });
-  
-//     previousBubbleValue = appBubbleValue;
-//   } else {
-//     console.log('Loading changes...');
-//   }
-// };
-
-
-
-(async () => {
-  const browser = await puppeteer.launch({ headless: false });
-  const page = await browser.newPage();
-
-  // Increase the default navigation timeout
-  page.setDefaultNavigationTimeout(60000); // 60 seconds
-
-  await page.goto('https://spribe.co/welcome');
-
-  await page.waitForSelector('.accordion-body.shadow');
-  await page.click('.accordion-body.shadow');
-
-  await page.waitForSelector('.btn.btn-primary.btn-lg.px-5.btn-demo.btn-danger');
-  await page.click('.btn.btn-primary.btn-lg.px-5.btn-demo.btn-danger');
-
-  await page.waitForSelector('.btn.btn-md.btn-primary.btn-age');
-  await page.click('.btn.btn-md.btn-primary.btn-age');
-
-  // Listen for the targetcreated event to detect when a new tab is opened
-  browser.on('targetcreated', async target => {
-    if (target.type() === 'page') {
-      const newPage = await target.page();
-      console.log('success');
-
-      // Log the new page's URL if newPage is not null
-      if (newPage) {
-        await newPage.waitForNavigation();
-          console.log(await newPage.url());
-
-          //TEST MODE
-          async function waitForSelectorInFrames(page, selector, timeout = 30000) {
-            const startTime = new Date().getTime();
-            let currentFrame = null;
-            let frameFound = false;
-    
-            while (new Date().getTime() - startTime < timeout) {
-                for (const frame of page.frames()) {
-                    try {
-                        await frame.waitForSelector(selector, { timeout: 1000 });
-                        currentFrame = frame;
-                        frameFound = true;
-                        break;
-                    } catch (error) {
-                        // Ignore the error and continue searching
-                    }
-                }
-    
-                if (frameFound) break;
-    
-                await new Promise(resolve => setTimeout(resolve, 1000));
-            }
-    
-            if (!frameFound) {
-                throw new Error(`Selector "${selector}" not found in any frame.`);
-            }
-    
-            return currentFrame;
-        }
-    
-    
-    
-            let previousAppBubbleValue = null;
-            let shouldBet = false;
-            
-            const logLatestAppBubbleValue = async () => {
-              try {
-                const frame = await waitForSelectorInFrames(newPage, '.payouts-wrapper .bubble-multiplier');
-            
-                const appBubbleValue = await frame.evaluate(() => {
-                    const bubbleMultipliers = document.querySelectorAll('.payouts-wrapper .bubble-multiplier');
-                    const latestBubbleMultiplier = bubbleMultipliers[0];
-                    const value = latestBubbleMultiplier ? latestBubbleMultiplier.textContent.trim() : null;
-                    return value ? parseFloat(value.slice(0, -1)) : null;
-                });
-                  
-                const myBalance = await frame.evaluate(() => {
-                    const balanceElement = document.querySelector('.balance .amount');
-                    const balanceText = balanceElement ? balanceElement.textContent.trim() : null;
-                    return balanceText ? parseFloat(balanceText) : null;
-                  });
-                  
-                  console.log('Latest data win :?', appBubbleValue);
-                  console.log('Latest Balance is :?', myBalance);
-
-                  //saveToDatabase(appBubbleValue);
-
-
-                if (appBubbleValue < 1.50 && (previousAppBubbleValue === null || appBubbleValue !== previousAppBubbleValue)) {
-                  shouldBet = true;
-                } else {
-                  shouldBet = false;
-                }
-            
-                  if (shouldBet) {
-                    
-                  console.log('sudoMode::>>isBetting.');
-            
-                  const betButtonFrame = await waitForSelectorInFrames(newPage, 'div.buttons-block > button.btn.btn-success.bet.ng-star-inserted', 60000);
-            
-                  await betButtonFrame.evaluate(() => {
-                    const betButton = document.querySelector('div.buttons-block > button.btn.btn-success.bet.ng-star-inserted');
-                    if (betButton) {
-                      const buttonText = betButton.textContent.trim().toLowerCase();
-                      console.log('Button text:', buttonText);
-            
-                      if (buttonText !== 'cancel') {
-                        betButton.click();
-                        console.log('isBetting > Clicked !');
-                      } else {
-                        console.log('Bet In');
-                      }
-                    }
-                  });
-                } else {
-                  console.log('Latest > 1.50, isWaiting.');
-                }
-            
-                previousAppBubbleValue = appBubbleValue;
-            
-                await newPage.mainFrame();
-              } catch (error) {
-                console.error('Error while trying to log latest app bubble value:', error.message);
-              }
-            };
-            
-            setInterval(logLatestAppBubbleValue, 4000);     
-
-      } else {
-        console.log('newPage is null');
-      }
+    try {
+        await transporter.sendMail(mailOptions);
+        log(`Email sent: ${subject}`);
+    } catch (error) {
+        log(`Failed to send email: ${error.message}`);
     }
-  });
+};
 
-  // Close the browser after 24 hours
-  setTimeout(async () => {
-    await browser.close();
-  }, 24 * 60 * 60 * 1000); // 24 hours in milliseconds
+// Graceful shutdown function
+const shutdown = async (browser) => {
+    log('Shutting down...');
+    if (browser) await browser.close();
+    process.exit(0);
+};
+
+// Performance monitoring setup
+let lastEventLoopDelay = 0;
+const observeEventLoopDelay = async () => {
+    const start = performance.now();
+    await new Promise((resolve) => setImmediate(resolve));
+    const delay = performance.now() - start;
+    lastEventLoopDelay = delay;
+};
+
+const logSystemPerformance = () => {
+    const memoryUsage = process.memoryUsage();
+    log(
+        `Memory Usage - RSS: ${(memoryUsage.rss / 1024 / 1024).toFixed(2)} MB, Heap Used: ${(memoryUsage.heapUsed / 1024 / 1024).toFixed(
+            2
+        )} MB, Event Loop Delay: ${lastEventLoopDelay.toFixed(2)} ms`
+    );
+};
+
+setInterval(() => {
+    observeEventLoopDelay();
+    logSystemPerformance();
+}, config.performanceLogInterval || 10000);
+
+let browser;
+let winCount = 0;
+let betInProgress = false;
+
+// Strategy calculation logic
+const calculateBetAmount = (currentBalance) => {
+    const strategy = Math.random() < config.strategyWeights.exponential ? 'exponential' : 'fibonacci';
+
+    if (strategy === 'exponential') {
+        const bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
+        log(`Exponential strategy chosen. Bet amount: ${bet}`);
+        return bet;
+    } else {
+        const fibIndex = winCount % config.fibonacciSequence.length;
+        const bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
+        log(`Fibonacci strategy chosen. Bet amount: ${bet}`);
+        return bet;
+    }
+};
+
+// Improved iframe handler
+const getIframe = async (page) => {
+    let retries = 30;
+    while (retries > 0) {
+        const frame = await page.$('iframe.grid-100');
+        if (frame) {
+            const frameContent = await frame.contentFrame();
+            if (frameContent) {
+                log('Iframe found and content accessed.');
+
+                // Ensure iframe is fully loaded
+                await frameContent.waitForSelector('button.btn.btn-success.bet.ng-star-inserted', { timeout: 15000 });
+                return frameContent;
+            }
+        }
+        log('Iframe not found, retrying...');
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+        retries--;
+    }
+    throw new Error('Iframe not found after multiple attempts.');
+};
+
+// Safe element interaction
+const safeClick = async (frame, selector) => {
+    try {
+        const element = await frame.$(selector);
+        if (!element) throw new Error(`Element "${selector}" not found.`);
+        await frame.evaluate((el) => el.click(), element);
+        log(`Clicked on: ${selector}`);
+    } catch (error) {
+        log(`Error clicking element: ${error.message}`);
+        throw error;
+    }
+};
+
+// Main script logic
+(async () => {
+    try {
+        const browserWSEndpoint = fs.readFileSync('wsEndpoint.txt', 'utf-8');
+        browser = await puppeteer.connect({ browserWSEndpoint });
+        const page = (await browser.pages())[0];
+        page.setDefaultNavigationTimeout(60000);
+
+        log('Attached to existing browser session.');
+
+        // Wait for iframe and switch to it
+        const iframe = await getIframe(page);
+        log('Successfully switched to the Aviator game iframe.');
+
+        const placeBet = async () => {
+            if (betInProgress) return;
+            betInProgress = true;
+
+            try {
+                const balanceText = await iframe.evaluate((selector) => {
+                    const el = document.querySelector(selector);
+                    return el ? el.innerText.trim() : null;
+                }, 'span.amount.font-weight-bold');
+
+                const balance = parseFloat(balanceText.replace(/[^0-9.]/g, ''));
+                log(`Current balance: ${balance}`);
+
+                if (balance < config.minBetAmount) throw new Error('Insufficient balance.');
+
+                const betAmount = calculateBetAmount(balance);
+
+                // Input bet amount
+                await iframe.evaluate(
+                    (selector, value) => {
+                        const input = document.querySelector(selector);
+                        if (input) {
+                            input.value = value;
+                            input.dispatchEvent(new Event('input', { bubbles: true }));
+                        }
+                    },
+                    'input.font-weight-bold',
+                    betAmount.toString()
+                );
+                log(`Entered bet amount: ${betAmount}`);
+
+                // Click bet button
+                await safeClick(iframe, 'button.btn.btn-success.bet.ng-star-inserted');
+
+                // Wait before cashing out
+                const delay = Math.random() * (5000 - 2000) + 2000;
+                log(`Waiting ${delay.toFixed(0)} ms before cashing out...`);
+                await new Promise((resolve) => setTimeout(resolve, delay));
+
+                // Click cashout button
+                await safeClick(iframe, 'button.btn.btn-warning.cashout.ng-star-inserted');
+
+                log('Cashed out successfully.');
+                winCount++;
+
+                if (winCount >= config.allInAfterWins) {
+                    await sendEmailNotification('All-In Triggered', `You have ${winCount} consecutive wins.`);
+                    winCount = 0;
+                }
+            } catch (error) {
+                log(`Betting error: ${error.message}`);
+                winCount = 0;
+            } finally {
+                betInProgress = false;
+            }
+        };
+
+        // Periodically place bets
+        setInterval(async () => {
+            try {
+                await placeBet();
+            } catch (error) {
+                log(`Interval error: ${error.message}`);
+            }
+        }, config.betInterval);
+
+    } catch (error) {
+        log(`Script error: ${error.message}`);
+        if (browser) await shutdown(browser);
+    }
 })();

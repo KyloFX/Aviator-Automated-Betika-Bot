@@ -1,0 +1,340 @@
+[2024-11-19T13:46:51.231Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T13:46:51.233Z] [ERROR] Game page could not be found.
+[2024-11-19T13:46:51.234Z] [ERROR] Startup error: shutdown is not defined
+[2024-11-19T13:46:53.124Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df568easm653035866b.73 - gsmtp
+[2024-11-19T13:48:37.220Z] [ERROR] Reconnection failed: Game page not found.
+[2024-11-19T13:48:37.222Z] [ERROR] Game page could not be found.
+[2024-11-19T13:48:37.222Z] [ERROR] Startup error: shutdown is not defined
+[2024-11-19T13:48:39.313Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5cfac228815sm3448316a12.66 - gsmtp
+[2024-11-20T08:44:26.019Z] Connected to an existing page with URL: chrome://new-tab-page/
+[2024-11-20T08:44:40.038Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:44:42.018Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20dffd798sm745387566b.93 - gsmtp
+[2024-11-20T08:44:52.053Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:44:53.837Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e043e75sm742187466b.153 - gsmtp
+[2024-11-20T08:45:04.081Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:45:05.931Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df267f4sm742372166b.36 - gsmtp
+[2024-11-20T08:45:16.100Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:45:17.834Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e0869b2sm742365866b.193 - gsmtp
+[2024-11-20T08:45:28.111Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:45:29.864Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df568f5sm746534366b.70 - gsmtp
+[2024-11-20T08:45:40.128Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:45:42.623Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5cff44de5easm566435a12.11 - gsmtp
+[2024-11-20T08:45:56.133Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:45:57.823Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5cff44de583sm569641a12.14 - gsmtp
+[2024-11-20T08:46:08.162Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:46:09.887Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df1b604sm759998966b.22 - gsmtp
+[2024-11-20T08:46:20.202Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:46:21.990Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20dffd78dsm743345466b.115 - gsmtp
+[2024-11-20T08:46:32.215Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:46:34.124Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5cff453e34asm567454a12.57 - gsmtp
+[2024-11-20T08:46:44.231Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:46:45.928Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20dffd7e7sm741167166b.119 - gsmtp
+[2024-11-20T08:46:56.240Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:46:58.096Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e0468c0sm735734266b.168 - gsmtp
+[2024-11-20T08:47:08.257Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:47:09.982Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df568f5sm746697866b.70 - gsmtp
+[2024-11-20T08:47:20.283Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:47:22.048Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df26a69sm746142366b.34 - gsmtp
+[2024-11-20T08:47:32.311Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:47:34.079Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df7f49dsm742889266b.91 - gsmtp
+[2024-11-20T08:47:44.341Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:47:46.133Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e0812aesm738923266b.176 - gsmtp
+[2024-11-20T08:47:56.375Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:47:58.147Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5cff4501a2dsm572277a12.50 - gsmtp
+[2024-11-20T08:48:08.400Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:48:10.161Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e045143sm748548766b.136 - gsmtp
+[2024-11-20T08:48:20.434Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:48:22.249Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e04676csm744053166b.157 - gsmtp
+[2024-11-20T08:48:32.443Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:48:36.305Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df50041sm740747066b.43 - gsmtp
+[2024-11-20T08:48:48.462Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:48:50.256Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa4dc1e1df6sm71840466b.139 - gsmtp
+[2024-11-20T08:49:00.472Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:49:02.242Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df26acasm757500166b.21 - gsmtp
+[2024-11-20T08:49:12.510Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:49:15.804Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df26d4dsm757310766b.20 - gsmtp
+[2024-11-20T08:49:34.943Z] Connected to an existing page with URL: chrome://new-tab-page/
+[2024-11-20T08:49:48.964Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:49:51.064Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-5cff44de583sm572528a12.14 - gsmtp
+[2024-11-20T08:50:04.995Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:50:06.808Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20df51653sm741728566b.48 - gsmtp
+[2024-11-20T08:50:17.013Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:50:18.698Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e08624fsm756458066b.183 - gsmtp
+[2024-11-20T08:50:29.045Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:50:40.642Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T08:50:54.651Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:50:56.618Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e046cbfsm736570966b.162 - gsmtp
+[2024-11-20T08:51:06.653Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:51:08.361Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e043b84sm745066666b.137 - gsmtp
+[2024-11-20T08:51:18.654Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:51:20.323Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e0016b3sm752467566b.103 - gsmtp
+[2024-11-20T08:51:30.682Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:51:33.001Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20dfffc10sm741723666b.131 - gsmtp
+[2024-11-20T08:51:46.731Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:51:48.448Z] [ERROR] Failed to send email: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-aa20e003fe6sm752058166b.102 - gsmtp
+[2024-11-20T08:51:58.419Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T08:52:12.452Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T08:52:35.995Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T08:52:50.023Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:17:26.024Z] Connected to an existing page with URL: devtools://devtools/bundled/devtools_app.html?remoteBase=https://chrome-devtools-frontend.appspot.com/serve_file/@92b6e81c7548ac424b567279d200a3f79b50e4bc/&targetType=tab&can_dock=true
+[2024-11-20T09:17:35.097Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Protocol error (Runtime.callFunctionOn): Target closed
+[2024-11-20T09:18:00.083Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:18:14.119Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:29:14.879Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:29:28.902Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:31:21.766Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:31:40.788Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:33:59.175Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:34:18.198Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:34:34.195Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:34:50.219Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:35:06.258Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:35:22.279Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:35:38.322Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:35:54.350Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:36:10.395Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:36:26.433Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:36:42.462Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:36:58.495Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:37:14.529Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:37:30.566Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:37:46.587Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:38:02.622Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:38:18.659Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:38:34.682Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:38:50.707Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:39:06.733Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:39:22.772Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:39:39.943Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:39:58.970Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:40:15.003Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:40:31.038Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:40:47.069Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:41:03.108Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:41:19.128Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:41:35.136Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:41:51.176Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:42:07.191Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:42:23.191Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:42:39.207Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:42:55.240Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:43:11.278Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:43:27.298Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:43:43.325Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:43:59.376Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:44:15.399Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:44:31.418Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:44:47.460Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:45:03.476Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:45:19.503Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:45:35.520Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:45:51.577Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:46:07.583Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:46:23.623Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:46:39.653Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:46:55.676Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T09:47:04.525Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:47:18.554Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:47:30.568Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:47:42.573Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:47:54.582Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:48:06.616Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:48:20.203Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:48:34.224Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:48:46.249Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:48:58.262Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:49:10.267Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:49:22.278Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:49:34.297Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:49:46.318Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:49:58.364Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:50:10.360Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:50:22.376Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:50:34.396Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:50:46.397Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:50:58.409Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:51:10.442Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:51:22.466Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:51:34.474Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:51:46.488Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:51:58.518Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:52:10.550Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:52:22.576Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:52:34.605Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:52:46.621Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:52:58.633Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:53:10.651Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:53:22.681Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:53:34.704Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:53:46.727Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:53:58.751Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:54:10.760Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:54:22.791Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:54:34.794Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:54:46.799Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:54:58.810Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:55:10.830Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:55:22.851Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:55:34.879Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:55:46.895Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:55:58.922Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:56:10.938Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:56:22.957Z] Bubble multiplier not found, using default value of 1.0
+[2024-11-20T09:56:36.182Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T09:56:50.204Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:57:02.233Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:57:14.246Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:57:26.280Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:57:38.313Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:57:50.344Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:58:02.369Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:58:14.382Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:58:26.402Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:58:38.433Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:58:50.428Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:59:02.451Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:59:14.471Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:59:26.484Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:59:38.489Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T09:59:50.504Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:00:02.537Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:00:14.554Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:00:26.573Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:00:38.591Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:00:50.605Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:01:02.639Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:01:14.657Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:01:26.672Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 10000ms exceeded
+[2024-11-20T10:02:01.933Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T10:02:20.959Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:02:36.977Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:02:53.056Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:03:09.025Z] [ERROR] Monitoring error: Waiting for selector `body.bubble-multiplier.font-weight-bold.` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:03:25.068Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T10:03:44.096Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:04:00.140Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:04:16.160Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:04:32.188Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:04:48.220Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:05:04.257Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:05:20.277Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:05:36.316Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:05:52.354Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:06:08.391Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:06:24.416Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:06:40.437Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:06:56.480Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:07:12.498Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:07:28.535Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:07:44.573Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:08:00.605Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:08:16.624Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:08:32.645Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:08:48.683Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:09:04.699Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:09:20.730Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:09:36.755Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:09:52.798Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:10:08.818Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:10:24.847Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:10:40.856Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:10:56.882Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:11:12.905Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:11:28.925Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:11:44.952Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:12:00.986Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:12:17.015Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:12:33.070Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:12:49.091Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:13:05.130Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:13:21.175Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:13:37.192Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:13:53.200Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:14:09.228Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:14:25.242Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:14:41.268Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:14:57.318Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:15:13.332Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:15:29.357Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:15:45.379Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:16:01.416Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:16:17.444Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:16:33.469Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:16:49.542Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:17:05.561Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:17:21.590Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:17:37.618Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:17:53.666Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:18:09.690Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:18:25.729Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:18:41.777Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:18:57.796Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:19:13.815Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:19:29.845Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:19:45.884Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:20:01.920Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:20:17.927Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:20:33.965Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:20:49.994Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:21:06.005Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:21:22.004Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:21:38.040Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:21:54.060Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:22:10.091Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:22:26.104Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:22:42.113Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:22:58.137Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:23:14.154Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:23:30.165Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:23:46.205Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:24:02.212Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:24:18.228Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:24:34.251Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:24:50.262Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:25:06.278Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:25:22.311Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:25:35.251Z] Connected to an existing page with URL: https://betting.co.zw/virtual/fast-games/aviator
+[2024-11-20T10:25:55.271Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:26:10.296Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:26:25.314Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:26:40.319Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:26:55.362Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:27:10.398Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:27:25.418Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:27:40.443Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:27:55.464Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:28:10.499Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded
+[2024-11-20T10:28:25.524Z] [ERROR] Monitoring error: Waiting for selector `div.bubble-multiplier.font-weight-bold` failed: Waiting failed: 15000ms exceeded

@@ -24,6 +24,10 @@ To get started, clone the repository and install the required dependencies:
     ```bash
     npm install
     ```
+3. Install more dependencies if not already installed
+```bash
+npm install puppeteer-extra puppeteer-extra-plugin-stealth nodemailer fs path dotenv winston
+```
 
 ## How to Run
 The bot can be executed in different modes depending on your use case:
@@ -45,6 +49,11 @@ The bot can be executed in different modes depending on your use case:
     ```bash
     python predict.py
     ```
+
+5. Open chrome in debugging mode 
+```bash
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
+```
 
 ## How It Works
 The bot operates in a series of steps as outlined below:
