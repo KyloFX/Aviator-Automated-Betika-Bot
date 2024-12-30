@@ -27,12 +27,12 @@ const config = {
         betButton: 'button.btn.btn-success.bet.ng-star-inserted',
         cashoutButton: 'button.btn.btn-warning.cashout.ng-star-inserted',
     },
-    minBetAmount: 0.0001,
-    maxBetAmount: 0.000015, 
-    betPercentage: 0.0005,
+    minBetAmount: 0.1,
+    maxBetAmount: 0.15, 
+    betPercentage: 0.5,
     growthFactor: 1.5,
-    fibonacciSequence: [0.0002, 0.0003, 0.005, 0.0008, 0.000013],
-    strategyWeights: { exponential: 0.7, fibonacci: 0.3 },
+    fibonacciSequence: [0.2, 0.3, 0.5, 0.8, 1.3],
+    strategyWeights: { exponential: 0.4, fibonacci: 0.3 },
     allInAfterWins: 4,
 };
 
@@ -75,30 +75,33 @@ const switchToIframe = async (page, iframeSelector) => {
     return iframe;
 };
 
+// Adjusted calculateBetAmount with target multiplier calculation
 const calculateBetAmount = (currentBalance, winCount) => {
     const strategy = Math.random() < config.strategyWeights.exponential
         ? 'exponential'
         : 'fibonacci';
     
-    let bet;
+    let bet, targetMultiplier;
 
     if (strategy === 'exponential') {
         bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
-        log(`Exponential strategy chosen. Bet amount: ${bet}`);
-        return bet;
+        targetMultiplier = config.growthFactor + 1.0; // Example: Increase base multiplier
+        log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else {
         const fibIndex = winCount % config.fibonacciSequence.length;
         bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-        log(`Fibonacci strategy chosen. Bet amount: ${bet}`);
+        targetMultiplier = 1.5 + (fibIndex * 0.5); // Fibonacci scaling for multiplier
+        log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     }
 
     // Apply the max bet limit
     bet = Math.min(bet, config.maxBetAmount).toFixed(2);
     log(`Final Bet Amount (after max limit applied): ${bet}`);
  
-    return bet;
+    return { bet, targetMultiplier };
 };
 
+// Updated placeBet function
 const placeBet = async (iframe, winCount) => {
     const balanceText = await retry(() =>
         iframe.$eval(config.selectors.balance, el => el.innerText.trim())
@@ -110,22 +113,52 @@ const placeBet = async (iframe, winCount) => {
         return;
     }
 
-    const betAmount = calculateBetAmount(currentBalance, winCount);
+    const { bet, targetMultiplier } = calculateBetAmount(currentBalance, winCount);
 
     // Enter bet amount
-    await iframe.type(config.selectors.betInput, betAmount, { delay: 1000 });
-    log(`Bet amount entered: ${betAmount}`);
+    await iframe.type(config.selectors.betInput, bet, { delay: 100 });
+    log(`Bet amount entered: ${bet}`);
 
     // Place bet
     await retry(() => iframe.click(config.selectors.betButton));
     log('Bet placed.');
 
-    // Cashout logic
-    const cashoutDelay = Math.random() * (7000 - 2000) + 2333;
-    await sleep(cashoutDelay);
+    // Monitor for cashout
+    try {
+        await tryCashout(iframe, targetMultiplier);
+    } catch (error) {
+        log(`Error during cashout process: ${error.message}`);
+    }
+};
 
-    await retry(() => iframe.click(config.selectors.cashoutButton));
-    log('Cashed out successfully.');
+// Refined tryCashout function
+const tryCashout = async (iframe, targetMultiplier, retries = 50, checkInterval = 1000) => {
+    let attempt = 0;
+    while (attempt < retries) {
+        try {
+            const multiplierText = await iframe.$eval('label.amount', el => el.innerText.trim());
+            const currentMultiplier = parseFloat(multiplierText);
+
+            if (!isNaN(currentMultiplier)) {
+                log(`Current multiplier: ${currentMultiplier}`);
+
+                if (currentMultiplier >= targetMultiplier) {
+                    log(`Target multiplier ${targetMultiplier} reached. Attempting to cash out.`);
+                    await iframe.click(config.selectors.cashoutButton);
+                    log('Cashed out successfully.');
+                    return; // Exit after success
+                }
+            }
+        } catch (error) {
+            log(`Attempt ${attempt + 1}: Error fetching multiplier - ${error.message}`);
+        }
+
+        // Increment attempt counter and wait before retrying
+        attempt++;
+        if (attempt < retries) await sleep(checkInterval);
+    }
+
+    throw new Error(`Failed to cash out after ${retries} attempts.`);
 };
 
 (async () => {
@@ -182,7 +215,7 @@ const placeBet = async (iframe, winCount) => {
                 let multiplier = 'Unknown';
                 await retry(async () => {
                     multiplier = await iframe.evaluate(() => {
-                        const multiplierElement = document.querySelector('.multiplier'); // Replace with the actual selector
+                        const multiplierElement = document.querySelector('.'); // Replace with the actual selector
                         return multiplierElement ? multiplierElement.innerText.trim() : 'Unknown';
                     });
                     if (multiplier === 'Unknown') throw new Error('Multiplier not available yet.');
