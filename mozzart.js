@@ -113,7 +113,7 @@ const placeBet = async (iframe, winCount) => {
     const betAmount = calculateBetAmount(currentBalance, winCount);
 
     // Enter bet amount
-    await iframe.type(config.selectors.betInput, betAmount, { delay: 100 });
+    await iframe.type(config.selectors.betInput, betAmount, { delay: 1000 });
     log(`Bet amount entered: ${betAmount}`);
 
     // Place bet
@@ -121,7 +121,7 @@ const placeBet = async (iframe, winCount) => {
     log('Bet placed.');
 
     // Cashout logic
-    const cashoutDelay = Math.random() * (5000 - 2000) + 2000;
+    const cashoutDelay = Math.random() * (7000 - 2000) + 2333;
     await sleep(cashoutDelay);
 
     await retry(() => iframe.click(config.selectors.cashoutButton));
