@@ -27,12 +27,12 @@ const config = {
         betButton: 'button.btn.btn-success.bet.ng-star-inserted',
         cashoutButton: 'button.btn.btn-warning.cashout.ng-star-inserted',
     },
-    minBetAmount: 0.1,
-    maxBetAmount: 0.15, 
-    betPercentage: 0.5,
-    growthFactor: 1.5,
-    fibonacciSequence: [0.2, 0.3, 0.5, 0.8, 1.3],
-    strategyWeights: { exponential: 0.4, fibonacci: 0.3 },
+    minBetAmount: 0.00015,
+    maxBetAmount: 0.00015, 
+    betPercentage: 0.005,
+    growthFactor: 0.15,
+    fibonacciSequence: [0.20, 0.3, 0.5, 0.8, 1.3],
+    strategyWeights: { exponential: 0.4, fibonacci: 0.1 },
     allInAfterWins: 4,
 };
 
@@ -85,12 +85,12 @@ const calculateBetAmount = (currentBalance, winCount) => {
 
     if (strategy === 'exponential') {
         bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
-        targetMultiplier = config.growthFactor + 1.0; // Example: Increase base multiplier
+        targetMultiplier = config.growthFactor * Math.random() + .09; // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else {
         const fibIndex = winCount % config.fibonacciSequence.length;
-        bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-        targetMultiplier = 1.5 + (fibIndex * 0.5); // Fibonacci scaling for multiplier
+        bet = (currentBalance * 0.1 * config.fibonacciSequence[fibIndex]).toFixed(2);
+        targetMultiplier = (fibIndex * 0.1); // Fibonacci scaling for multiplier
         log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     }
 
