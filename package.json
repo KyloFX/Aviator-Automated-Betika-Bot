@@ -1,6 +1,6 @@
 {
-  "name": "aviatorbot",
-  "version": "1.5.0",
+  "name": "aviator",
+  "version": "1.5.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -10,12 +10,10 @@
   "keywords": [
     "betting",
     "betika",
-    "aviatorbot",
-    "automation",
-    "bettingbot",
-    "bettingautomation"
+    "aviator",
+    "betting"
   ],
-  "author": "raccoon",
+  "author": "endzzn",
   "license": "ISC",
   "dependencies": {
     "@tensorflow/tfjs": "^4.4.0",

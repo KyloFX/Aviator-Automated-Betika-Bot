@@ -75,12 +75,104 @@ const switchToIframe = async (page, iframeSelector) => {
     return iframe;
 };
 
+const puppeteer = require('puppeteer');
+
+(async () => {
+  const browser = await puppeteer.launch({ headless: false });
+  const page = await browser.newPage();
+
+  // Navigate to the game page
+  await page.goto('https://example-game.com'); // Replace with actual URL
+
+  // Monitor WebSocket and API traffic
+  page.on('response', async (response) => {
+    const url = response.url();
+    if (url.includes('aviator-next.spribegaming.com')) {
+      try {
+        const data = await response.json();
+        console.log(`API Response from ${url}:`, data);
+
+        // Example: Log multiplier or position from API
+        if (data.multiplier) {
+          console.log(`Multiplier: ${data.multiplier}`);
+        }
+      } catch (err) {
+        console.error(`Error parsing response from ${url}:`, err.message);
+      }
+    }
+  });
+
+  page.on('request', (request) => {
+    const url = request.url();
+    if (url.includes('aviator-next.spribegaming.com')) {
+      console.log(`Intercepted Request: ${url}`);
+    }
+  });
+
+  // Monitor WebSocket Frames
+  const cdpSession = await page.target().createCDPSession();
+  await cdpSession.send('Network.enable');
+  await cdpSession.send('Network.setWebSocketFrameHandler', {
+    enable: true,
+  });
+
+  cdpSession.on('Network.webSocketFrameReceived', (event) => {
+    const { requestId, timestamp, response } = event;
+    const data = response.payloadData;
+
+    try {
+      const parsedData = JSON.parse(data);
+      console.log(`WebSocket Data:`, parsedData);
+
+      // Example: Extract relevant information (e.g., multiplier or plane state)
+      if (parsedData.multiplier) {
+        console.log(`Multiplier Update: ${parsedData.multiplier}`);
+      }
+    } catch (err) {
+      console.error(`Non-JSON WebSocket Frame: ${data}`);
+    }
+  });
+
+  // Wait for the SVG element controlling the plane
+  const planeSelector = 'svg #plane'; // Replace with the actual SVG selector
+  await page.waitForSelector(planeSelector);
+
+  console.log("SVG plane detected.");
+
+  // Function to fetch plane's SVG transform attribute
+  const getPlaneTransform = async () => {
+    return await page.$eval(planeSelector, (plane) => {
+      // Get the transform attribute or any relevant property
+      const transform = plane.getAttribute('transform');
+      return { transform };
+    });
+  };
+
+  // Monitor the plane's animation and correlate with network traffic
+  let isFlying = true;
+  while (isFlying) {
+    const { transform } = await getPlaneTransform();
+    console.log(`Plane Transform: ${transform}`);
+
+    // Determine stop condition (e.g., when animation ends or transform is null)
+    if (!transform || transform.includes('scale(0)')) {
+      console.log("Plane animation has ended or flown away.");
+      isFlying = false;
+    }
+
+    // Sleep for a short duration
+    await new Promise((resolve) => setTimeout(resolve, 100));
+  }
+
+  await browser.close();
+}
+
 // Adjusted calculateBetAmount with target multiplier calculation
-const calculateBetAmount = (currentBalance, winCount) => {
+function calculateBetAmount(currentBalance, winCount) {
     const strategy = Math.random() < config.strategyWeights.exponential
         ? 'exponential'
         : 'fibonacci';
-    
+
     let bet, targetMultiplier;
 
     if (strategy === 'exponential') {
@@ -97,9 +189,9 @@ const calculateBetAmount = (currentBalance, winCount) => {
     // Apply the max bet limit
     bet = Math.min(bet, config.maxBetAmount).toFixed(2);
     log(`Final Bet Amount (after max limit applied): ${bet}`);
- 
+
     return { bet, targetMultiplier };
-};
+}
 
 // Updated placeBet function
 const placeBet = async (iframe, winCount) => {
