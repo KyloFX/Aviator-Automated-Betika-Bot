@@ -27,9 +27,9 @@ const config = {
         betButton: 'button.btn.btn-success.bet.ng-star-inserted',
         cashoutButton: 'button.btn.btn-warning.cashout.ng-star-inserted',
     },
-    minBetAmount: 0.00015,
-    maxBetAmount: 0.00015, 
-    betPercentage: 0.005,
+    minBetAmount: 0.0015,
+    maxBetAmount: 0.015, 
+    betPercentage: 0.05,
     growthFactor: 0.15,
     fibonacciSequence: [0.20, 0.3, 0.5, 0.8, 1.3],
     strategyWeights: { exponential: 0.4, fibonacci: 0.1 },
@@ -74,8 +74,6 @@ const switchToIframe = async (page, iframeSelector) => {
     if (!iframe) throw new Error('Failed to access iframe content.');
     return iframe;
 };
-
-const puppeteer = require('puppeteer');
 
 (async () => {
   const browser = await puppeteer.launch({ headless: false });
@@ -165,7 +163,104 @@ const puppeteer = require('puppeteer');
   }
 
   await browser.close();
-}
+})
+
+//WebSocket Monitoring Setup
+const monitorWebSocket = async (page) => {
+    const cdpSession = await page.target().createCDPSession();
+    await cdpSession.send('Network.enable');
+    await cdpSession.send('Network.setWebSocketFrameHandler', { enable: true });
+
+    cdpSession.on('Network.webSocketFrameReceived', (event) => {
+        const { response } = event;
+        const data = response.payloadData;
+
+        try {
+            const parsedData = JSON.parse(data);
+            log(`WebSocket Frame Received: ${JSON.stringify(parsedData, null, 2)}`);
+
+            // Example: React to specific game events
+            if (parsedData.multiplier && parsedData.multiplier >= 2.0) {
+                log(`High multiplier detected: ${parsedData.multiplier}`);
+            }
+        } catch (err) {
+            log(`Non-JSON WebSocket Frame: ${data}`);
+        }
+    });
+};
+
+//API Monitoring Setup
+const monitorAPI = async (page) => {
+    page.on('response', async (response) => {
+        const url = response.url();
+
+        // Monitor specific game-related API
+        if (url.includes('aviator-next.spribegaming.com')) {
+            try {
+                const jsonResponse = await response.json();
+                log(`API Response from ${url}: ${JSON.stringify(jsonResponse, null, 2)}`);
+
+                // Example: Log and act on multiplier updates
+                if (jsonResponse.multiplier) {
+                    log(`Multiplier Update: ${jsonResponse.multiplier}`);
+                }
+            } catch (err) {
+                log(`Error processing API response from ${url}: ${err.message}`);
+            }
+        }
+    });
+
+    page.on('request', (request) => {
+        const url = request.url();
+        if (url.includes('aviator-next.spribegaming.com')) {
+            log(`API Request Intercepted: ${url}`);
+        }
+    });
+};
+
+(async () => {
+    const browser = await puppeteer.launch({
+        headless: false,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-blink-features=AutomationControlled'],
+    });
+
+    const page = await browser.newPage();
+    const userAgent = new UserAgent().toString();
+    await page.setUserAgent(userAgent);
+
+    // Login Workflow
+    await navigateWithRetry(config.loginUrl, page);
+    await page.type(config.selectors.usernameInput, process.env.MOZZARTUSERNAME);
+    await page.type(config.selectors.passwordInput, process.env.MOZZARTPASSWORD);
+    await page.click(config.selectors.submitButton);
+    await page.waitForNavigation({ waitUntil: 'networkidle2' });
+
+    // Navigate to the Aviator game
+    await navigateWithRetry(config.url, page);
+
+    // Switch to the game iframe
+    const iframe = await switchToIframe(page, config.iframeSelector);
+
+    // Start WebSocket and API monitoring
+    await monitorWebSocket(page);
+    await monitorAPI(page);
+
+    let winCount = 0;
+
+    // Betting Loop
+    while (true) {
+        try {
+            await placeBet(iframe, winCount);
+            winCount++; // Increment win count upon success
+        } catch (err) {
+            log(`Betting error: ${err.message}`);
+            break; // Exit the loop on critical errors
+        }
+
+        // Add a short delay between bets
+        await sleep(10000);
+    }
+})
 
 // Adjusted calculateBetAmount with target multiplier calculation
 function calculateBetAmount(currentBalance, winCount) {
@@ -177,11 +272,11 @@ function calculateBetAmount(currentBalance, winCount) {
 
     if (strategy === 'exponential') {
         bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
-        targetMultiplier = config.growthFactor * Math.random() + .09; // Example: Increase base multiplier
+        targetMultiplier = config.growthFactor * Math.random(); // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else {
         const fibIndex = winCount % config.fibonacciSequence.length;
-        bet = (currentBalance * 0.1 * config.fibonacciSequence[fibIndex]).toFixed(2);
+        bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
         targetMultiplier = (fibIndex * 0.1); // Fibonacci scaling for multiplier
         log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     }
@@ -191,35 +286,53 @@ function calculateBetAmount(currentBalance, winCount) {
     log(`Final Bet Amount (after max limit applied): ${bet}`);
 
     return { bet, targetMultiplier };
-}
+};
 
-// Updated placeBet function
 const placeBet = async (iframe, winCount) => {
-    const balanceText = await retry(() =>
-        iframe.$eval(config.selectors.balance, el => el.innerText.trim())
-    );
-    const currentBalance = parseFloat(balanceText.replace(/[^0-9.]/g, ''));
-
-    if (currentBalance < config.minBetAmount) {
-        log('Insufficient balance to place a bet.');
-        return;
-    }
-
-    const { bet, targetMultiplier } = calculateBetAmount(currentBalance, winCount);
-
-    // Enter bet amount
-    await iframe.type(config.selectors.betInput, bet, { delay: 100 });
-    log(`Bet amount entered: ${bet}`);
-
-    // Place bet
-    await retry(() => iframe.click(config.selectors.betButton));
-    log('Bet placed.');
-
-    // Monitor for cashout
     try {
-        await tryCashout(iframe, targetMultiplier);
+        // Retrieve current balance
+        const balanceText = await retry(() =>
+            iframe.$eval(config.selectors.balance, el => el.innerText.trim())
+        );
+        const currentBalance = parseFloat(balanceText.replace(/[^0-9.]/g, ''));
+
+        if (currentBalance < config.minBetAmount) {
+            log('Insufficient balance to place a bet.');
+            return;
+        }
+
+        const { bet, targetMultiplier } = calculateBetAmount(currentBalance, winCount);
+
+        // Focus on the bet input field
+        const betInputElement = await iframe.$(config.selectors.betInput);
+        if (!betInputElement) throw new Error('Bet input field not found');
+
+        await betInputElement.click();
+
+        // Clear the input field (simulate backspaces)
+        await iframe.evaluate(input => {
+            input.value = ''; // Directly clear the value of the input field
+        }, betInputElement);
+
+        // Enter bet amount
+        await betInputElement.type(bet.toString(), { delay: 100 });
+        log(`Bet amount entered: ${bet}`);
+
+        // Place the bet
+        const betButtonElement = await iframe.$(config.selectors.betButton);
+        if (!betButtonElement) throw new Error('Bet button not found');
+
+        await retry(() => betButtonElement.click());
+        log('Bet placed.');
+
+        // Monitor for cashout
+        try {
+            await tryCashout(iframe, targetMultiplier);
+        } catch (error) {
+            log(`Error during cashout process: ${error.message}`);
+        }
     } catch (error) {
-        log(`Error during cashout process: ${error.message}`);
+        log(`Error during betting process: ${error.message}`);
     }
 };
 
@@ -350,4 +463,8 @@ const tryCashout = async (iframe, targetMultiplier, retries = 50, checkInterval 
             log(`Error during betting process: ${error.message}`);
         }
     }
+
+    // Close the browser
+    
+    await browser.close();
 })();
