@@ -1,5 +1,5 @@
 from mitmproxy import http, ctx
-import json
+import json, logging
 
 
 # HTTP Response Interception
@@ -44,3 +44,16 @@ def websocket_message(flow) -> None:
 # Optional: Handle TLS handshake errors
 def tls_failed(flow: http.HTTPFlow):
     ctx.log.error(f"TLS handshake failed for {flow.server_conn.address}: {flow.error}")
+
+# File-based logging for intercepted data
+import logging
+
+# Configure logging
+logging.basicConfig(filename="intercepted_data.log", level=logging.INFO, format="%(asctime)s - %(message)s")
+
+# Replace ctx.log.info with logging
+def response(flow: http.HTTPFlow) -> None:
+    if "aviator-next.spribegaming.com" in flow.request.host:
+        logging.info(f"HTTP Request to {flow.request.url}")
+        # Additional processing here...
+
