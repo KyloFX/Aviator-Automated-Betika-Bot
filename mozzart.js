@@ -26,13 +26,14 @@ const config = {
         betInput: 'input.font-weight-bold',
         betButton: 'button.btn.btn-success.bet.ng-star-inserted',
         cashoutButton: 'button.btn.btn-warning.cashout.ng-star-inserted',
+        multiplierHistory: 'div.payouts-block',
     },
-    minBetAmount: 0.0015,
-    maxBetAmount: 0.015, 
-    betPercentage: 0.05,
-    growthFactor: 0.15,
-    fibonacciSequence: [0.20, 0.3, 0.5, 0.8, 1.3],
-    strategyWeights: { exponential: 0.4, fibonacci: 0.1 },
+    minBetAmount: 0.10,
+    maxBetAmount: 0.25, 
+    betPercentage: 0.2,  // Percentage of balance to bet,
+    growthFactor: 1.5, // Exponential growth factor
+    fibonacciSequence: [0.1, 0.2, 0.3, 0.5, 0.8, 1.3, 2.1, 3.4, 5.5, 8.9], // Fibonacci sequence for bet calculation
+    strategyWeights: { exponential: 0.5, fibonacci: 0.1 },
     allInAfterWins: 4,
 };
 
@@ -247,6 +248,111 @@ const monitorAPI = async (page) => {
 
     let winCount = 0;
 
+    const fs = require('fs');
+
+    // Function to extract game history from iframe
+    async function getGameHistory(frame) {
+        try {
+            // Locate the result-history container inside the iframe
+            const historyData = await frame.evaluate(() => {
+                const historyElement = document.querySelector('.result-history');
+                if (!historyElement) {
+                    return [];
+                }
+                // Extract text content
+                const rawText = historyElement.textContent || '';
+                // Split into lines and filter out non-numeric lines
+                const lines = rawText.split('\n').map(line => line.trim());
+                return lines
+                    .filter(line => /^[0-9]+(\.[0-9]+)?x$/.test(line)) // Keep only lines like "1.20x"
+                    .map(line => parseFloat(line.replace('x', ''))); // Convert to float
+            });
+    
+            console.log('Extracted Game History:', historyData);
+            return historyData;
+        } catch (error) {
+            console.error('Error extracting game history:', error);
+            return [];
+        }
+    }
+    
+    (async () => {
+        const browser = await puppeteer.launch({ headless: false });
+        const page = await browser.newPage();
+    
+        // Navigate to the game page
+        await page.goto('https://aviator-next.spribegaming.com/');
+        await page.waitForSelector('iframe', { timeout: 10000 });
+    
+        // Select the iframe
+        const iframeElement = await page.$('iframe');
+        const frame = await iframeElement.contentFrame();
+    
+        if (!frame) {
+            console.error('Failed to locate iframe.');
+            await browser.close();
+            return;
+        }
+    
+        // Wait for the game history container inside the iframe
+        await frame.waitForSelector('.result-history', { timeout: 10000 });
+    
+        // Extract multipliers from the game history
+        const multipliers = await frame.evaluate(() => {
+            const historyElement = document.querySelector('.result-history');
+            if (!historyElement) return [];
+            return Array.from(historyElement.innerText.split('\n'))
+                .map(item => item.trim())
+                .filter(item => item.endsWith('x'));
+        });
+    
+        console.log('Extracted Multipliers:', multipliers);
+    
+        // Write the multipliers to a text file
+        fs.writeFileSync('./multipliers.txt', multipliers.join('\n'), 'utf-8');
+        console.log('Multipliers saved to multipliers.txt');
+    
+        // Extract game history
+        const gameHistory = await getGameHistory(frame);
+    
+        console.log('Game History:', gameHistory);
+    })
+
+// Adjusted calculateBetAmount with target multiplier calculation
+function calculateBetAmount(currentBalance, winCount) {
+    const strategy = Math.random() < config.strategyWeights.exponential
+        ? 'exponential'
+        : 'fibonacci';
+
+    let bet, targetMultiplier;
+
+    if (strategy === 'exponential') {
+        bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
+        targetMultiplier = (0.25 * ((1 + Math.random()) * (1.5**Math.random()))); // Example: Increase base multiplier
+        log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
+    } else {
+        const fibIndex = 0.1 * winCount % config.fibonacciSequence.length;
+        bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
+        targetMultiplier = (bet * 0.15 * (1.4**(1%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
+        log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
+    }
+
+    // Apply the max bet limit
+    bet = Math.min(bet, config.maxBetAmount).toFixed(2);
+    log(`Final Bet Amount (after max limit applied): ${bet}`);
+
+    return { bet, targetMultiplier };
+};
+
+// Example: Extract multiplier history
+const multipliersExtracted = await frame.$$eval(config.selectors.multiplierHistory, elements =>
+    elements.map(el => parseFloat(el.textContent.trim()))
+);
+
+// Save to a JSON or CSV file
+fs.writeFileSync('game_data.json', JSON.stringify(multipliers, null, 2));
+
+
     // Betting Loop
     while (true) {
         try {
@@ -262,6 +368,57 @@ const monitorAPI = async (page) => {
     }
 })
 
+// Function to extract game history
+async function getGameHistory(iframe) {
+    try {
+      // Locate the result-history container
+      const historyData = await page.evaluate(() => {
+        const historyElement = document.querySelector('div.payout-block');
+        if (!historyElement) {
+          return [];
+        }
+        // Extract text content
+        const rawText = historyElement.textContent || '';
+        // Split into lines and filter out non-numeric lines
+        const lines = rawText.split('\n').map(line => line.trim());
+        return lines
+          .filter(line => /^[0-9]+(\.[0-9]+)?x$/.test(line)) // Keep only lines like "1.20x"
+          .map(line => parseFloat(line.replace('x', ''))); // Convert to float
+      });
+  
+      console.log('Extracted Game History:', historyData);
+      return historyData;
+    } catch (error) {
+      console.error('Error extracting game history:', error);
+      return [];
+    }
+  }
+  
+//const puppeteer = require('puppeteer');
+//const fs = require('fs');
+
+//const puppeteer = require('puppeteer');
+//const fs = require('fs');
+async function extractMultipliers() {
+
+    const multipliers = await page.evaluate(() => {
+        const historyElement = document.querySelector('.payouts-block');
+        if (!historyElement) return [];
+        return Array.from(historyElement.innerText.split('\n')).map(item => item.trim()).filter(item => item.endsWith('x'));
+    });
+
+    console.log('Extracted Multipliers:', multipliers);
+
+    // Write the multipliers to a text file
+    fs.writeFileSync('./multipliers.txt', multipliers.join('\n'), 'utf-8');
+    console.log('Multipliers saved to multipliers.txt');
+
+    // Extract game history
+    const gameHistory = await getGameHistory(iframe);
+
+    console.log('Game History:', gameHistory);
+}
+
 // Adjusted calculateBetAmount with target multiplier calculation
 function calculateBetAmount(currentBalance, winCount) {
     const strategy = Math.random() < config.strategyWeights.exponential
@@ -272,12 +429,12 @@ function calculateBetAmount(currentBalance, winCount) {
 
     if (strategy === 'exponential') {
         bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
-        targetMultiplier = config.growthFactor * Math.random(); // Example: Increase base multiplier
+        targetMultiplier = (0.25 * ((1 + Math.random()) * (1.5**Math.random()))); // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else {
-        const fibIndex = winCount % config.fibonacciSequence.length;
+        const fibIndex = 0.1 * winCount % config.fibonacciSequence.length;
         bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-        targetMultiplier = (fibIndex * 0.1); // Fibonacci scaling for multiplier
+        targetMultiplier = (bet * 0.10 * (1.4**(1%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
         log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     }
 
@@ -286,7 +443,7 @@ function calculateBetAmount(currentBalance, winCount) {
     log(`Final Bet Amount (after max limit applied): ${bet}`);
 
     return { bet, targetMultiplier };
-};
+}
 
 const placeBet = async (iframe, winCount) => {
     try {
@@ -313,10 +470,12 @@ const placeBet = async (iframe, winCount) => {
         await iframe.evaluate(input => {
             input.value = ''; // Directly clear the value of the input field
         }, betInputElement);
+        await sleep(200);
 
         // Enter bet amount
         await betInputElement.type(bet.toString(), { delay: 100 });
         log(`Bet amount entered: ${bet}`);
+        await sleep(100);
 
         // Place the bet
         const betButtonElement = await iframe.$(config.selectors.betButton);
@@ -337,7 +496,7 @@ const placeBet = async (iframe, winCount) => {
 };
 
 // Refined tryCashout function
-const tryCashout = async (iframe, targetMultiplier, retries = 50, checkInterval = 1000) => {
+const tryCashout = async (iframe, targetMultiplier, retries = 50, checkInterval = 900) => {
     let attempt = 0;
     while (attempt < retries) {
         try {
@@ -345,7 +504,7 @@ const tryCashout = async (iframe, targetMultiplier, retries = 50, checkInterval 
             const currentMultiplier = parseFloat(multiplierText);
 
             if (!isNaN(currentMultiplier)) {
-                log(`Current multiplier: ${currentMultiplier}`);
+                log(`Current multiplier: ${currentMultiplier}, ${targetMultiplier} > currentMultiplier ? 'waiting' : 'cashing out'}`);
 
                 if (currentMultiplier >= targetMultiplier) {
                     log(`Target multiplier ${targetMultiplier} reached. Attempting to cash out.`);
