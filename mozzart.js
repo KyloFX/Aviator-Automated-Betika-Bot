@@ -33,7 +33,7 @@ const config = {
     betPercentage: 0.2,  // Percentage of balance to bet,
     growthFactor: 1.5, // Exponential growth factor
     fibonacciSequence: [0.1, 0.2, 0.3, 0.5, 0.8, 1.3, 2.1, 3.4, 5.5, 8.9], // Fibonacci sequence for bet calculation
-    strategyWeights: { exponential: 0.5, fibonacci: 0.1 },
+    strategyWeights: { exponential: 0.5, fibonacci: 0.1, meanCashout: 0.2, medianCashout: 0.4}, // Strategy weights
     allInAfterWins: 4,
 };
 
@@ -219,6 +219,75 @@ const monitorAPI = async (page) => {
     });
 };
 
+const { spawn } = require('child_process');
+//const fs = require('fs');
+
+// Path to your Python script
+const pythonScriptPath = './game_data_handler.py';
+
+// Function to start the Python script
+function startPythonScript() {
+    console.log('Starting Python script...');
+    
+    const pythonProcess = spawn('python', [pythonScriptPath]);
+
+    pythonProcess.stdout.on('data', (data) => {
+        console.log(`Python Output: ${data}`);
+    });
+
+    pythonProcess.stderr.on('data', (data) => {
+        console.error(`Python Error: ${data}`);
+    });
+
+    pythonProcess.on('close', (code) => {
+        console.log(`Python script exited with code ${code}`);
+    });
+
+    return pythonProcess;
+}
+
+// Function to read cashout points
+function getCashoutPoints() {
+    try {
+        const cashoutData = fs.readFileSync('./cashout_points.txt', 'utf-8');
+        const [meanLine, medianLine] = cashoutData.split('\n');
+        const meanCashout = parseFloat(meanLine.split(':')[1].trim());
+        const medianCashout = parseFloat(medianLine.split(':')[1].trim());
+
+        console.log(`Mean Cashout: ${meanCashout}, Median Cashout: ${medianCashout}`);
+        return { meanCashout, medianCashout };
+    } catch (error) {
+        console.error('Error reading cashout points:', error);
+        return { meanCashout: null, medianCashout: null };
+    }
+}
+
+// Start the Python script
+const pythonProcess = startPythonScript();
+
+// Periodically read cashout points
+setInterval(() => {
+    const { meanCashout, medianCashout } = getCashoutPoints();
+
+    if (meanCashout && medianCashout) {
+        console.log('Using Cashout Strategies:');
+        console.log(`Mean Strategy: ${meanCashout}`);
+        console.log(`Median Strategy: ${medianCashout}`);
+        
+        // Add your logic to place bets based on mean and median cashout strategies
+        // Example:
+        // placeBet(meanCashout, "mean");
+        // placeBet(medianCashout, "median");
+    }
+}, 10000); // Check every 10 seconds
+
+// Graceful shutdown
+process.on('SIGINT', () => {
+    console.log('Shutting down...');
+    pythonProcess.kill('SIGINT'); // Kill the Python process
+    process.exit();
+});
+
 (async () => {
     const browser = await puppeteer.launch({
         headless: false,
@@ -248,7 +317,7 @@ const monitorAPI = async (page) => {
 
     let winCount = 0;
 
-    const fs = require('fs');
+   // const fs = require('fs');
 
     // Function to extract game history from iframe
     async function getGameHistory(frame) {
@@ -282,7 +351,7 @@ const monitorAPI = async (page) => {
     
         // Navigate to the game page
         await page.goto('https://aviator-next.spribegaming.com/');
-        await page.waitForSelector('iframe', { timeout: 10000 });
+        await page.waitForSelector('iframe', { timeout: 500 });
     
         // Select the iframe
         const iframeElement = await page.$('iframe');
@@ -320,9 +389,18 @@ const monitorAPI = async (page) => {
 
 // Adjusted calculateBetAmount with target multiplier calculation
 function calculateBetAmount(currentBalance, winCount) {
-    const strategy = Math.random() < config.strategyWeights.exponential
-        ? 'exponential'
-        : 'fibonacci';
+    const randomValue = Math.random();
+    let strategy;
+
+    if (randomValue < config.strategyWeights.exponential) {
+        strategy = 'exponential';
+    } else if (randomValue < config.strategyWeights.exponential + config.strategyWeights.meanCashout) {
+        strategy = 'meanCashout';
+    } else if (randomValue < config.strategyWeights.exponential + config.strategyWeights.meanCashout + config.strategyWeights.medianCashout) {
+        strategy = 'medianCashout';
+    } else {
+        strategy = 'fibonacci';
+    }
 
     let bet, targetMultiplier;
 
@@ -330,6 +408,14 @@ function calculateBetAmount(currentBalance, winCount) {
         bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
         targetMultiplier = (0.25 * ((1 + Math.random()) * (1.5**Math.random()))); // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
+    } else if (strategy === 'meanCashout') {
+        bet = 1.00;
+        targetMultiplier = meanCashout;         
+        log(`meanCashout strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
+    } else if (strategy === 'median') {
+        bet = 1.00;
+        targetMultiplier = medianCashout;         
+        log(`medianCashout strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else {
         const fibIndex = 0.1 * winCount % config.fibonacciSequence.length;
         bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
@@ -421,9 +507,18 @@ async function extractMultipliers() {
 
 // Adjusted calculateBetAmount with target multiplier calculation
 function calculateBetAmount(currentBalance, winCount) {
-    const strategy = Math.random() < config.strategyWeights.exponential
-        ? 'exponential'
-        : 'fibonacci';
+    const randomValue = Math.random();
+    let strategy;
+
+    if (randomValue < config.strategyWeights.exponential) {
+        strategy = 'exponential';
+    } else if (randomValue < config.strategyWeights.exponential + config.strategyWeights.meanCashout) {
+        strategy = 'meanCashout';
+    } else if (randomValue < config.strategyWeights.exponential + config.strategyWeights.meanCashout + config.strategyWeights.medianCashout) {
+        strategy = 'medianCashout';
+    } else {
+        strategy = 'fibonacci';
+    }
 
     let bet, targetMultiplier;
 

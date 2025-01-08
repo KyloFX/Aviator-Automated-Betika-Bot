@@ -13,11 +13,11 @@
   "email": {
       "service": "gmail",
       "auth": {
-          "user": "k2me2016@gmail.com",
-          "pass": "klick@2016#"
+          "user": "",
+          "pass": ""
       },
-      "from": "k2me2016@gmail.com",
-      "to": "k2me2016@gmail.com"
+      "from": "",
+      "to": ""
   },
   "minBetAmount": 0.00015,
   "betPercentage": 0.00005,
