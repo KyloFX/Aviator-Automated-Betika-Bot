@@ -29,11 +29,11 @@ const config = {
         multiplierHistory: 'div.payouts-block',
     },
     minBetAmount: 0.10,
-    maxBetAmount: 0.25, 
-    betPercentage: 0.2,  // Percentage of balance to bet,
-    growthFactor: 1.5, // Exponential growth factor
+    maxBetAmount: 0.10, 
+    betPercentage: 0.4,  // Percentage of balance to bet,
+    growthFactor: 0.3, // Exponential growth factor
     fibonacciSequence: [0.1, 0.2, 0.3, 0.5, 0.8, 1.3, 2.1, 3.4, 5.5, 8.9], // Fibonacci sequence for bet calculation
-    strategyWeights: { exponential: 0.5, fibonacci: 0.1 },
+    strategyWeights: { exponential: 0.3, fibonacci: 0.1, bob: 0.6 }, // Strategy selection weights
     allInAfterWins: 4,
 };
 
@@ -322,19 +322,27 @@ const monitorAPI = async (page) => {
 function calculateBetAmount(currentBalance, winCount) {
     const strategy = Math.random() < config.strategyWeights.exponential
         ? 'exponential'
-        : 'fibonacci';
+        : Math.random() < config.strategyWeights.fibonacci
+        ? 'fibonacci'
+        : 'bob';
 
     let bet, targetMultiplier;
 
     if (strategy === 'exponential') {
         bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
-        targetMultiplier = (0.25 * ((1 + Math.random()) * (1.5**Math.random()))); // Example: Increase base multiplier
+        targetMultiplier = (bet * ((1 + Math.random()) * (2.5**Math.random()))); // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
-    } else {
+    } else if (strategy === 'fibonacci') {
         const fibIndex = 0.1 * winCount % config.fibonacciSequence.length;
         bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-        targetMultiplier = (bet * 0.15 * (1.4**(1%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
+        targetMultiplier = (bet * 1.15 * (1.4**(2%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
         log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
+    } else {
+        // Bob strategy
+        const { betAmount, targetMultiplier: bobTargetMultiplier } = playBobStrategy(currentBalance, winCount);
+        bet = betAmount.toFixed(2);
+        targetMultiplier = bobTargetMultiplier.toFixed(2);
+        log(`Bob strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     }
 
     // Apply the max bet limit
@@ -342,7 +350,34 @@ function calculateBetAmount(currentBalance, winCount) {
     log(`Final Bet Amount (after max limit applied): ${bet}`);
 
     return { bet, targetMultiplier };
+}
+
+// Bob strategy function
+const playBobStrategy = (balance, winCount) => {
+    const rounds = 23; // 23-round cycle
+    let currentRound = winCount % rounds + 1;
+
+    let betAmount, targetMultiplier;
+
+    if (currentRound % rounds === 0) {
+        // High-risk phase
+        betAmount = 0.30 ; //
+        targetMultiplier = 1.7 * betAmount;
+    } else if ((currentRound % rounds) <= 4) {
+        // Low-risk phase
+        betAmount = 0.30; //
+        targetMultiplier = betAmount * getRandomInRange(1.10, 1.45);
+    } else {
+        // Medium-risk phase
+        betAmount = 0.30; //
+        targetMultiplier = betAmount * getRandomInRange(1.9, 2.5);  // Adjusted multiplier range
+    }
+
+    return { betAmount, targetMultiplier };
 };
+
+// Helper Functions
+const getRandomInRange = (min, max) => Math.random() * (min, max) + min;
 
 // Example: Extract multiplier history
 const multipliersExtracted = await frame.$$eval(config.selectors.multiplierHistory, elements =>
@@ -423,19 +458,27 @@ async function extractMultipliers() {
 function calculateBetAmount(currentBalance, winCount) {
     const strategy = Math.random() < config.strategyWeights.exponential
         ? 'exponential'
-        : 'fibonacci';
+        : Math.random() < config.strategyWeights.fibonacci
+        ? 'fibonacci'
+        : 'bob';
 
     let bet, targetMultiplier;
 
     if (strategy === 'exponential') {
         bet = (currentBalance * config.betPercentage * config.growthFactor).toFixed(2);
-        targetMultiplier = (0.25 * ((1 + Math.random()) * (1.5**Math.random()))); // Example: Increase base multiplier
+        targetMultiplier = (bet * ((1 + Math.random()) * (2.5**Math.random()))); // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
-    } else {
+    } else if (strategy === 'fibonacci') {
         const fibIndex = 0.1 * winCount % config.fibonacciSequence.length;
         bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-        targetMultiplier = (bet * 0.10 * (1.4**(1%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
+        targetMultiplier = (bet * 1.15 * (1.4**(2%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
         log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
+    } else {
+        // Bob strategy
+        const { betAmount, targetMultiplier: bobTargetMultiplier } = playBobStrategy(currentBalance, winCount);
+        bet = betAmount.toFixed(2);
+        targetMultiplier = bobTargetMultiplier.toFixed(2);
+        log(`Bob strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     }
 
     // Apply the max bet limit
@@ -444,6 +487,68 @@ function calculateBetAmount(currentBalance, winCount) {
 
     return { bet, targetMultiplier };
 }
+
+/// Bob strategy function
+const playBobStrategy = (balance, winCount) => {
+    const rounds = 23; // 23-round cycle
+    let currentRound = winCount % rounds + 1;
+
+    let betAmount, targetMultiplier;
+
+    if (currentRound % rounds === 0) {
+        // High-risk phase
+        betAmount = 0.50 ; //  
+        targetMultiplier = 1.45 * betAmount;
+    } else if ((currentRound % rounds) <= 4) {
+        // Low-risk phase
+        betAmount = 0.5; // 
+        targetMultiplier = betAmount * getRandomInRange(1.13, 1.35);
+    } else {
+        // Medium-risk phase
+        betAmount = 0.3; //
+        targetMultiplier = betAmount * getRandomInRange(2, 2.5);
+    }
+
+    return { betAmount, targetMultiplier };
+};
+
+// Helper Functions
+const getRandomInRange = (min, max) => Math.random() * (max - min) + min;
+
+const playRound = async (page) => {
+    try {
+      // Step 1: Fetch balance and calculate bet amount
+      const balance = await getBalance(page);
+      const betAmount = calculateBetAmount(balance); // Based on your strategy
+      const targetMultiplier = getTargetMultiplier(); // From your "Bob" strategy
+  
+      console.log(`Placing bet: ${betAmount}, Target Multiplier: ${targetMultiplier}`);
+  
+      // Step 2: Place the bet
+      await placeBet(page, betAmount, targetMultiplier);
+  
+      // Step 3: Monitor the round and multiplier
+      const roundStatus = await monitorMultiplier(page);
+  
+      // Step 4: Handle round end
+      if (roundStatus === "round-ended") {
+        console.log("Round ended. Evaluating outcome...");
+  
+        const updatedBalance = await getBalance(page);
+  
+        if (updatedBalance > balance) {
+          console.log("Bet WON! New balance:", updatedBalance);
+        } else {
+          console.log("Bet LOST. New balance:", updatedBalance);
+        }
+      }
+  
+      // Step 5: Delay and prepare for the next round
+      await sleep(5000); // Adjust as necessary to mimic human timing
+    } catch (error) {
+      console.error("Error during round:", error);
+    }
+  };
 
 const placeBet = async (iframe, winCount) => {
     try {
@@ -477,13 +582,50 @@ const placeBet = async (iframe, winCount) => {
         log(`Bet amount entered: ${bet}`);
         await sleep(100);
 
-        // Place the bet
+         // Place the bet
         const betButtonElement = await iframe.$(config.selectors.betButton);
         if (!betButtonElement) throw new Error('Bet button not found');
 
         await retry(() => betButtonElement.click());
         log('Bet placed.');
-
+        
+        const monitorMultiplier = async (page) => {
+            let lastMultiplier = 0;
+            let stableCounter = 0;
+          
+            while (true) {
+              // Fetch the current multiplier
+              const currentMultiplier = await getCurrentMultiplier(page);
+          
+              if (currentMultiplier > lastMultiplier) {
+                // Multiplier is increasing
+                lastMultiplier = currentMultiplier;
+                stableCounter = 0; // Reset the counter
+              } else if (currentMultiplier === lastMultiplier) {
+                // Multiplier is stable
+                stableCounter++;
+          
+                if (stableCounter > 3) { // Example: Adjust this threshold based on game behavior
+                  console.log("Multiplier has stopped increasing. Round likely ended.");
+                  return "round-ended";
+                }
+              } else {
+                // Multiplier decreased abruptly
+                console.log("Round abruptly ended. Bet lost or game stopped.");
+                return "round-ended";
+              }
+          
+              await sleep(500); // Small delay between checks
+            }
+          };
+          
+          const getCurrentMultiplier = async (page) => {
+            return await page.evaluate(() => {
+              const multiplierElement = document.querySelector('.multiplier-selector'); // Replace with actual selector
+              return multiplierElement ? parseFloat(multiplierElement.innerText) : 0;
+            });
+          };
+        
         // Monitor for cashout
         try {
             await tryCashout(iframe, targetMultiplier);

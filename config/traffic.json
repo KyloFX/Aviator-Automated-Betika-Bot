@@ -1,0 +1,27 @@
+[
+    {
+      "type": "websocket",
+      "time": 0,
+      "data": {
+        "event": "game_state",
+        "payload": {
+          "round_id": 12345,
+          "multiplier": 1.5,
+          "status": "active"
+        }
+      }
+    },
+    {
+      "type": "websocket",
+      "time": 1000,
+      "data": {
+        "event": "game_state",
+        "payload": {
+          "round_id": 12345,
+          "multiplier": 3.0,
+          "status": "complete"
+        }
+      }
+    }
+  ]
+  

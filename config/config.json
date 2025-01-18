@@ -1,0 +1,7 @@
+{
+    "replaySpeed": 2.0,
+    "websocketEndpoint": "wss://af-1-south-game1.spribegaming.com/BlueBox/websocket",
+    "logFile": "./logs/replay.log",
+    "sandboxURL": "https://yourgame.com"
+  }
+  

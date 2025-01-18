@@ -1,71 +1,107 @@
-from mitmproxy import http, ctx
 import json
+import logging
+import os
+import base64
+from threading import Timer
+from mitmproxy import http
+
+# Configure logging for debugging
+logging.basicConfig(
+    filename="websocket_debug.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+
+# Specify the WebSocket endpoint
+TARGET_ENDPOINT = "af-south-1-game1.spribegaming.com/BlueBox/websocket"
+
+# List to store WebSocket traffic
+filtered_traffic = []
+
+# File to save WebSocket traffic
+TRAFFIC_FILE = "traffic.json"
+
+# Save interval (in seconds)
+SAVE_INTERVAL = 10
 
 
-# HTTP Response Interception
-def response(flow: http.HTTPFlow) -> None:
-    if "af-south-1-game1.spribegaming.com/BlueBox/websocket" in flow.request.host:
-        ctx.log.info(f"HTTP Request to {flow.request.url}")
-        if "rounds" in flow.request.url or "results" in flow.request.url:
+def save_traffic_periodically():
+    """
+    Saves the filtered traffic to a JSON file periodically.
+    """
+    try:
+        with open(TRAFFIC_FILE, "w") as f:
+            json.dump(filtered_traffic, f, indent=4)
+        logging.info(f"Traffic saved periodically to {TRAFFIC_FILE}")
+    except Exception as e:
+        logging.error(f"Error saving traffic: {e}")
+    # Schedule the next save
+    Timer(SAVE_INTERVAL, save_traffic_periodically).start()
+
+
+def detect_message_type(content):
+    """
+    Detect and decode WebSocket message types.
+    """
+    try:
+        # Check for JSON
+        return json.loads(content), "json"
+    except json.JSONDecodeError:
+        pass
+
+    # Check for base64-encoded data
+    try:
+        decoded_data = base64.b64decode(content).decode("utf-8")
+        return decoded_data, "base64"
+    except Exception:
+        pass
+
+    # Check for hexadecimal
+    try:
+        decoded_hex = bytes.fromhex(content).decode("utf-8")
+        return decoded_hex, "hex"
+    except ValueError:
+        pass
+
+    # If all else fails, return raw content
+    return content, "raw"
+
+
+def websocket_message(flow: http.HTTPFlow):
+    """
+    Handles WebSocket messages within an HTTP flow.
+    """
+    if flow.websocket and TARGET_ENDPOINT in flow.request.url:
+        for message in flow.websocket.messages:
+            direction = "client_to_server" if message.from_client else "server_to_client"
             try:
-                # Process the response data
-                data = json.loads(flow.response.text)
-                ctx.log.info(f"Intercepted data: {json.dumps(data, indent=2)}")
-
-                # Example: Log server seed and multiplier if available
-                if "seed" in data:
-                    server_seed = data.get("seed")
-                    ctx.log.info(f"Server Seed: {server_seed}")
-                if "result" in data:
-                    result = data.get("result")
-                    ctx.log.info(f"Server Seed: {result}")
-                if "multiplier" in data:
-                    multiplier = data.get("multiplier")
-                    ctx.log.info(f"Multiplier: {multiplier}")
-            except json.JSONDecodeError:
-                ctx.log.error("Failed to decode JSON response.")
+                # Decode and identify message type
+                content, content_type = detect_message_type(message.content.decode("utf-8", errors="ignore"))
+                filtered_traffic.append({
+                    "type": "websocket",
+                    "direction": direction,
+                    "time": message.timestamp,
+                    "content_type": content_type,
+                    "data": content,
+                })
+                logging.info(f"Captured {content_type} message: {content}")
+            except Exception as e:
+                logging.error(f"Error processing message: {e}")
 
 
-# WebSocket Message Interception
-def websocket_message(flow) -> None:
-    if "af-south-1-game1.spribegaming.com/BlueBox/websocket" in flow.request.host:
-        for message in flow.messages:
-            if message.from_server:  # Check if the message is from the server
-                try:
-                    # Decode the WebSocket message content
-                    data = json.loads(message.content)
-                    ctx.log.info(f"WebSocket Message: {json.dumps(data, indent=2)}")
-
-                    # Log multiplier or other relevant fields
-                    if "result" in data:
-                        result = data["result"]
-                        ctx.log.info(f"Result: {result}")
-                    if "multiplier" in data:
-                        multiplier = data["multiplier"]
-                        ctx.log.info(f"Multiplier: {multiplier}")
-                    if "result" in data:
-                        result = data["result"]
-                        ctx.log.info(f"Result: {result}")
-                    if "decimal" in data:
-                        decimal = data["decimal"]
-                        ctx.log.info(f"Decimal: {decimal}")
-                    if "hex" in data:
-                        hex = data["hex"]
-                        ctx.log.info(f"Hex: {hex}")
-                    if "round" in data:
-                        round = data["round"]
-                        ctx.log.info(f"Round: {round}") 
-                    if "end" in data:
-                        end = data["end"]
-                        ctx.log.info(f"Multiplier: {end}")
-                    if "seed" in data:
-                        seed = data["seed"]
-                        ctx.log.info(f"Seed: {seed}")            
-                except json.JSONDecodeError:
-                    ctx.log.error("Failed to parse WebSocket message.")
+def websocket_end(flow: http.HTTPFlow):
+    """
+    Handles the end of a WebSocket connection.
+    """
+    if flow.websocket and TARGET_ENDPOINT in flow.request.url:
+        logging.info(f"WebSocket connection to {flow.request.url} closed.")
+        try:
+            with open(TRAFFIC_FILE, "w") as f:
+                json.dump(filtered_traffic, f, indent=4)
+            logging.info(f"Final traffic saved to {TRAFFIC_FILE}")
+        except Exception as e:
+            logging.error(f"Error saving final traffic: {e}")
 
 
-# Optional: Handle TLS handshake errors
-def tls_failed(flow: http.HTTPFlow):
-    ctx.log.error(f"TLS handshake failed for {flow.server_conn.address}: {flow.error}")
-
+# Start the periodic save process
+save_traffic_periodically()
