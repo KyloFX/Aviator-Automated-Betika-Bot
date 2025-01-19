@@ -1,0 +1,4 @@
+[2025-01-18T15:33:46.908Z] Starting traffic replay...
+[2025-01-18T15:33:46.922Z] Received message: {"event":"game_state","payload":{"round_id":12345,"multiplier":1.5,"status":"active"}}
+[2025-01-18T15:33:47.438Z] Received message: {"event":"game_state","payload":{"round_id":12345,"multiplier":3,"status":"complete"}}
+[2025-01-18T15:33:47.439Z] Traffic replay complete.

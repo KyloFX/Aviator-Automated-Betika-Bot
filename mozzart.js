@@ -5,6 +5,7 @@ const path = require('path');
 const UserAgent = require('user-agents');
 const { performance } = require('perf_hooks');
 const nodemailer = require('nodemailer');
+const { math } = require('@tensorflow/tfjs');
 const formatToUSD = (amount) => parseFloat(amount).toFixed(2);
 
 puppeteer.use(StealthPlugin());
@@ -29,11 +30,11 @@ const config = {
         multiplierHistory: 'div.payouts-block',
     },
     minBetAmount: 0.10,
-    maxBetAmount: 0.10, 
+    maxBetAmount: 0.15, 
     betPercentage: 0.4,  // Percentage of balance to bet,
     growthFactor: 0.3, // Exponential growth factor
     fibonacciSequence: [0.1, 0.2, 0.3, 0.5, 0.8, 1.3, 2.1, 3.4, 5.5, 8.9], // Fibonacci sequence for bet calculation
-    strategyWeights: { exponential: 0.3, fibonacci: 0.1, bob: 0.6 }, // Strategy selection weights
+    strategyWeights: { exponential: 0.12, fibonacci: 0.1, bob: 0.9 }, // Strategy selection weights
     allInAfterWins: 4,
 };
 
@@ -333,9 +334,9 @@ function calculateBetAmount(currentBalance, winCount) {
         targetMultiplier = (bet * ((1 + Math.random()) * (2.5**Math.random()))); // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else if (strategy === 'fibonacci') {
-        const fibIndex = 0.1 * winCount % config.fibonacciSequence.length;
+        const fibIndex = winCount % config.fibonacciSequence.length;
         bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-        targetMultiplier = (bet * 1.15 * (1.4**(2%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
+        targetMultiplier = (bet* (2.5**(2%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
         log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else {
         // Bob strategy
@@ -354,23 +355,23 @@ function calculateBetAmount(currentBalance, winCount) {
 
 // Bob strategy function
 const playBobStrategy = (balance, winCount) => {
-    const rounds = 23; // 23-round cycle
+    const rounds = 99; // 99-round cycle
     let currentRound = winCount % rounds + 1;
 
     let betAmount, targetMultiplier;
 
     if (currentRound % rounds === 0) {
         // High-risk phase
-        betAmount = 0.30 ; //
+        betAmount = 0.15 ; //
         targetMultiplier = 1.7 * betAmount;
-    } else if ((currentRound % rounds) <= 4) {
+    } else if ((currentRound % rounds) <= 99) {
         // Low-risk phase
-        betAmount = 0.30; //
+        betAmount = 0.15; //
         targetMultiplier = betAmount * getRandomInRange(1.10, 1.45);
     } else {
         // Medium-risk phase
-        betAmount = 0.30; //
-        targetMultiplier = betAmount * getRandomInRange(1.9, 2.5);  // Adjusted multiplier range
+        betAmount = 0.15; //
+        targetMultiplier = betAmount * getRandomInRange(1.5, 1.9);  // Adjusted multiplier range
     }
 
     return { betAmount, targetMultiplier };
@@ -469,9 +470,9 @@ function calculateBetAmount(currentBalance, winCount) {
         targetMultiplier = (bet * ((1 + Math.random()) * (2.5**Math.random()))); // Example: Increase base multiplier
         log(`Exponential strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else if (strategy === 'fibonacci') {
-        const fibIndex = 0.1 * winCount % config.fibonacciSequence.length;
+        const fibIndex = winCount % config.fibonacciSequence.length;
         bet = (currentBalance * config.fibonacciSequence[fibIndex]).toFixed(2);
-        targetMultiplier = (bet * 1.15 * (1.4**(2%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
+        targetMultiplier = (bet * (2.5**(2%fibIndex))).toFixed(2); // Fibonacci scaling for multiplier
         log(`Fibonacci strategy chosen. Bet amount: ${bet}, Target multiplier: ${targetMultiplier}`);
     } else {
         // Bob strategy
@@ -490,22 +491,22 @@ function calculateBetAmount(currentBalance, winCount) {
 
 /// Bob strategy function
 const playBobStrategy = (balance, winCount) => {
-    const rounds = 23; // 23-round cycle
+    const rounds = 99; // 99-round cycle
     let currentRound = winCount % rounds + 1;
 
     let betAmount, targetMultiplier;
 
     if (currentRound % rounds === 0) {
         // High-risk phase
-        betAmount = 0.50 ; //  
+        betAmount = 0.15 ; //  
         targetMultiplier = 1.45 * betAmount;
-    } else if ((currentRound % rounds) <= 4) {
+    } else if ((currentRound % rounds) <= 99) {
         // Low-risk phase
-        betAmount = 0.5; // 
+        betAmount = 0.15; // 
         targetMultiplier = betAmount * getRandomInRange(1.13, 1.35);
     } else {
         // Medium-risk phase
-        betAmount = 0.3; //
+        betAmount = 0.15; //
         targetMultiplier = betAmount * getRandomInRange(2, 2.5);
     }
 
