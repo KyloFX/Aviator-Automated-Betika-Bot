@@ -18,6 +18,7 @@
   "dependencies": {
     "@tensorflow/tfjs": "^4.4.0",
     "arima": "^0.2.5",
+    "axios": "^1.7.9",
     "chart.js": "^4.2.1",
     "chartjs-adapter-date-fns": "^3.0.0",
     "debug": "^4.3.7",
@@ -30,12 +31,15 @@
     "nodemailer": "^6.9.16",
     "path": "^0.12.7",
     "process": "^0.11.10",
+    "punycode": "^2.3.1",
+    "punycode.js": "^2.3.1",
     "puppeteer": "^23.8.0",
+    "puppeteer-cluster": "^0.24.0",
     "puppeteer-core": "^22.3.0",
     "puppeteer-extra": "^3.3.6",
     "puppeteer-extra-plugin-stealth": "^2.11.2",
     "python-shell": "^5.0.0",
-    "socket.io": "^4.6.1",
+    "socket.io": "^4.8.1",
     "user-agents": "^1.1.368",
     "winston": "^3.17.0"
   }

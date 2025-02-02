@@ -25,7 +25,7 @@ def save_to_file(filename, data):
 
 # HTTP Response Interception
 def response(flow: http.HTTPFlow) -> None:
-    if "af-south-1-game1.spribegaming.com" in flow.request.host:
+    if "af-south-1-game1.spribegaming.com:443/BlueBox/websocket" in flow.request.host:
         ctx.log.info(f"HTTP Request to {flow.request.url}")
         try:
             data = json.loads(flow.response.text)
@@ -39,7 +39,7 @@ def response(flow: http.HTTPFlow) -> None:
 
 # WebSocket Message Interception
 def websocket_message(flow: http.HTTPFlow) -> None:
-    if "af-south-1-game1.spribegaming.com" in flow.request.host:
+    if "af-south-1-game1.spribegaming.com:443/BlueBox/websocket" in flow.request.host:
         for message in flow.websocket.messages:
             origin = "server" if message.from_state == "server" else "client"
             try:

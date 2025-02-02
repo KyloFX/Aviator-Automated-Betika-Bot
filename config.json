@@ -10,6 +10,12 @@
   "betButtonSelector": "button.btn.btn-success.bet.ng-star-inserted",
   "cashoutButtonSelector": "button.btn.btn-warning.cashout.ng-star-inserted",
   "logFile": "./logs/activity.log",
+  "gameUrl":"https://betting.co.zw/virtual/fast-games/aviator",
+  "loginUrl":"https://betting.co.zw/authentication/login",
+  "replaySpeed": 2.0,
+  "websocketEndpoint": "wss://af-1-south-game1.spribegaming.com/BlueBox/websocket",
+  "logFile": "./logs/replay.log",
+  "sandboxURL": "https://127.0.0.1:3000/mozzart",
   "email": {
       "service": "gmail",
       "auth": {

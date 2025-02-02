@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 
 # Specify the WebSocket endpoint
-TARGET_ENDPOINT = "af-south-1-game1.spribegaming.com/BlueBox/websocket"
+TARGET_ENDPOINT = "af-south-1-game1.spribegaming.com:443/BlueBox/websocket"
 
 # List to store WebSocket traffic
 filtered_traffic = []

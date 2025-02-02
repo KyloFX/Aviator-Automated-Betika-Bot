@@ -1,2 +1,6 @@
-fs
-jsdom
+Round ID : span.text-uppercase.ng-tns.c29-22
+App Bubble Value : div.bubble-multiplier.font-weight-bold
+Time: div.header-info-time.ng-tns-c29-22
+Result : span.ng-tns.c29-22
+Please note that the selector for Result can change especially the latter part from c29-22 to c29-23 or c29-24 or c29-25 etc.
+
