@@ -30,7 +30,7 @@ const config = {
         multiplierHistory: 'div.payouts-block',
     },
     minBetAmount: 0.10,
-    maxBetAmount: 0.15, 
+    maxBetAmount: 1.00, 
     betPercentage: 0.4,  // Percentage of balance to bet,
     growthFactor: 0.3, // Exponential growth factor
     fibonacciSequence: [0.1, 0.2, 0.3, 0.5, 0.8, 1.3, 2.1, 3.4, 5.5, 8.9], // Fibonacci sequence for bet calculation
@@ -364,14 +364,14 @@ const playBobStrategy = (balance, winCount) => {
         // High-risk phase
         betAmount = 0.15 ; //
         targetMultiplier = 1.7 * betAmount;
-    } else if ((currentRound % rounds) <= 99) {
+    } else if ((currentRound % rounds) <= 11) {
         // Low-risk phase
         betAmount = 0.15; //
         targetMultiplier = betAmount * getRandomInRange(1.10, 1.45);
     } else {
         // Medium-risk phase
         betAmount = 0.15; //
-        targetMultiplier = betAmount * getRandomInRange(1.5, 1.9);  // Adjusted multiplier range
+        targetMultiplier = betAmount * getRandomInRange(1.5, 1.7);  // Adjusted multiplier range
     }
 
     return { betAmount, targetMultiplier };
@@ -500,14 +500,14 @@ const playBobStrategy = (balance, winCount) => {
         // High-risk phase
         betAmount = 0.15 ; //  
         targetMultiplier = 1.45 * betAmount;
-    } else if ((currentRound % rounds) <= 99) {
+    } else if ((currentRound % rounds) <= 11) {
         // Low-risk phase
         betAmount = 0.15; // 
-        targetMultiplier = betAmount * getRandomInRange(1.13, 1.35);
+        targetMultiplier = betAmount * getRandomInRange(1.15, 1.35);
     } else {
         // Medium-risk phase
         betAmount = 0.15; //
-        targetMultiplier = betAmount * getRandomInRange(2, 2.5);
+        targetMultiplier = betAmount * getRandomInRange(1.4, 1.7);
     }
 
     return { betAmount, targetMultiplier };
