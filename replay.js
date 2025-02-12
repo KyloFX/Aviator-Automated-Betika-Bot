@@ -1,9 +1,78 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const axios = require('axios');
-const config = require('./config.json'); // Load config settings
+//const config = require('./config.json'); // Load config settings
 
 puppeteer.use(StealthPlugin());
+
+// Configuration
+const config = {
+    url: 'https://betting.co.zw/virtual/fast-games',
+    loginUrl: 'https://betting.co.zw/authentication/login',
+    logFile: './logs/activity.log',
+    iframeSelector: 'iframe.grid-100',
+    selectors: {
+        loginButton: '#user-menu-login',
+        usernameInput: 'input#phoneInput',
+        passwordInput: 'input#password',
+        submitButton: 'span#buttonLoginSubmitLabel',
+        aviatorGameGrid: 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img',
+        playNowButton: 'button.au-m-btn.positive',
+        balance: 'span.amount.font-weight-bold',
+        betInput: 'input.font-weight-bold',
+        betButton: 'button.btn.btn-success.bet.ng-star-inserted',
+        cashoutButton: 'button.btn.btn-warning.cashout.ng-star-inserted',
+        multiplierHistory: 'div.payouts-block',
+    },
+    minBetAmount: 0.10,
+    maxBetAmount: 0.25, 
+    betPercentage: 0.2,  // Percentage of balance to bet,
+    growthFactor: 1.5, // Exponential growth factor
+};
+
+(async () => {
+    const browser = await puppeteer.launch({
+        headless: false,
+        args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--disable-accelerated-2d-canvas',
+            '--no-first-run',
+            '--no-zygote',
+            '--disable-gpu',
+        ],
+    });
+
+    const page = await browser.newPage();
+
+    // Missing navigateWithRetry function
+const navigateWithRetry = async (url, page, retries = 3) => {
+    await retry(async () => {
+        await page.goto(url, { waitUntil: 'networkidle2' });
+        log(`Navigated to ${url}`);
+    }, retries);
+};
+
+    // ✅ Login Workflow
+    // Login
+    await navigateWithRetry(config.loginUrl, page);
+    await page.type(config.selectors.usernameInput, process.env.MOZZARTUSERNAME);
+    await page.type(config.selectors.passwordInput, process.env.MOZZARTPASSWORD);
+    await page.click(config.selectors.submitButton);
+    await page.waitForNavigation({ waitUntil: 'domcontentloaded' });
+    log('Logged in successfully.');
+
+    // Navigate to Aviator game
+    await navigateWithRetry(config.url, page);
+    await page.waitForSelector(config.selectors.aviatorGameGrid, { visible: true });
+    await retry(() => page.click(config.selectors.aviatorGameGrid, { clickCount: 2 }));
+    await page.waitForSelector(config.selectors.playNowButton, { visible: true });
+    await page.click(config.selectors.playNowButton);
+    log('Aviator game loaded.');
+
+    // Switch to game iframe
+    const iframe = await switchToIframe(page, config.iframeSelector);
 
 /**
  * Retry a function multiple times before failing
@@ -11,7 +80,7 @@ puppeteer.use(StealthPlugin());
  * @param {Number} retries - Number of retries
  * @param {Number} delay - Delay between retries in ms
  */
-async function retry(fn, retries = 5, delay = 3000) {
+async function retry(fn, retries = 5, delay = 10000) {
     let lastError = null; // Capture the last error for proper logging
     for (let i = 0; i < retries; i++) {
         try {
@@ -54,6 +123,19 @@ function log(message) {
     console.log(`[${new Date().toISOString()}] ${message}`);
 }
 
+page.on('websocket', ws => {
+    ws.on('message', data => {
+        try {
+            let parsedData = JSON.parse(data);
+            if (parsedData.round_id) {
+                console.log("Captured ROUND ID:", parsedData.round_id);
+            }
+        } catch (error) {
+            console.log("WebSocket message received, but not JSON:", data);
+        }
+    });
+});
+
 /**
  * Scrape dynamic game data
  * @param {Object} aviatorFrame - Puppeteer Frame instance
@@ -62,7 +144,7 @@ const scrapeGameData = async (aviatorFrame) => {
     try {
         // Dynamically find round ID selector
         const roundIdSelector = await aviatorFrame.evaluate(() => {
-            let elements = Array.from(document.querySelectorAll("span.text-uppercase"));
+            let elements = Array.from(document.querySelectorAll("span.text-uppercase.ng-tns-c29-3"));
             return elements.length > 0 ? elements[0].className : null;
         });
 
@@ -105,7 +187,7 @@ const scrapeGameData = async (aviatorFrame) => {
 const sendToBettingLogic = async (data) => {
     try {
         log('📤 Sending data to betting logic...');
-        await axios.post('http://localhost:3000/betting_logic.py', data, {
+        await axios.post('http://localhost:3000/game-data.json', data, {
             headers: { 'Content-Type': 'application/json' },
         });
         log("✅ Data sent successfully.");
@@ -113,51 +195,6 @@ const sendToBettingLogic = async (data) => {
         console.error('❌ Error sending data to betting logic:', error);
     }
 };
-
-(async () => {
-    const browser = await puppeteer.launch({
-        headless: false,
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-            '--disable-dev-shm-usage',
-            '--disable-accelerated-2d-canvas',
-            '--no-first-run',
-            '--no-zygote',
-            '--disable-gpu',
-        ],
-    });
-
-    const page = await browser.newPage();
-
-    // ✅ Login Workflow
-    await retry(async () => {
-        const loginUrl = config.loginUrl; // Ensure this URL is properly set in config
-        if (!loginUrl) throw new Error("Login URL is missing in config.");
-        
-        await page.goto(loginUrl, { waitUntil: 'networkidle2' });  // Wait until network is idle
-        await page.type(config.selectors.usernameInput, process.env.MOZZARTUSERNAME);
-        await page.type(config.selectors.passwordInput, process.env.MOZZARTPASSWORD);
-        await page.click(config.selectors.submitButton);
-        await page.waitForNavigation({ waitUntil: 'networkidle2' });
-    }, 5, 3000);
-
-    log("✅ Logged in successfully.");
-
-    // ✅ Navigate to Aviator game
-    await retry(async () => {
-        const gameUrl = config.url; // Ensure this URL is valid
-        if (!gameUrl) throw new Error("Game URL is missing in config.");
-
-        await page.goto(gameUrl);
-        await page.waitForSelector(config.selectors.aviatorGameGrid, { visible: true, timeout: 15000 });  // Increased timeout
-        await page.click(config.selectors.aviatorGameGrid, { clickCount: 2 });
-        await page.waitForSelector(config.selectors.playNowButton, { visible: true });
-        await page.click(config.selectors.playNowButton);
-    }, 5, 3000);
-
-    log("🎮 Aviator game loaded.");
-
     // ✅ Step 1: Detect and Switch to Iframe
     const aviatorFrame = await switchToIframe(page, "aviator");
     if (!aviatorFrame) {

@@ -1,1 +1,33 @@
-[]
+[]GET /BlueBox/websocket HTTP/1.1
+Host: af-south-1-game1.spribegaming.com
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Upgrade: websocket
+Origin: https://aviator-next.spribegaming.com
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Sec-WebSocket-Key: fsSVs9Mv3ElgBA2T4lsUdw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+content-length: 0
+
+
+
+HTTP/1.1 101 
+Connection: upgrade
+Date: Mon, 10 Feb 2025 17:23:07 GMT
+Upgrade: websocket
+Sec-WebSocket-Accept: QZru1vADcaHSpaIiA0ZClfobaWU=
+Sec-WebSocket-Extensions: permessage-deflate;client_max_window_bits=15
+X-Cache: Miss from cloudfront
+Via: 1.1 457123b46297b2878de5b87c0fb16090.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JNB50-C1
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: hvZnFzWRNjrYo3Adkj8TM7xKiTQzVPAfzMXJOfxljL6_VQrxgKBd9g==
+content-length: 0
+
+
+
+[OUTGOING] \x80
