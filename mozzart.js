@@ -20,9 +20,9 @@ const config = {
         usernameInput: 'input#phoneInput',
         passwordInput: 'input#password',
         submitButton: 'span#buttonLoginSubmitLabel',
-        aviatorGameGrid: 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(9) > img',
+        aviatorGameGrid: 'body > app-root > div > div.au-l-main > ng-component > div.grid-100.idb-gam-virtual > div > div.grid-100.idb-gam-wrapper-games > div.au-m-thn > div:nth-child(14) > img',
         playNowButton: 'button.au-m-btn.positive',
-        balance: 'span.amount.font-weight-bold',
+        balance: 'span.balance-amount',
         betInput: 'input.font-weight-bold',
         betButton: 'button.btn.btn-success.bet.ng-star-inserted',
         cashoutButton: 'button.btn.btn-warning.cashout.ng-star-inserted',
@@ -121,11 +121,7 @@ const placeBet = async (iframe, winCount) => {
     log('Bet placed.');
 
     // Cashout logic
-<<<<<<< Updated upstream
-    const tryCashout = async (iframe, retries = 13, baseDelay = 3777) => {
-=======
     const tryCashout = async (iframe, retries = 13, baseDelay = 1799) => {
->>>>>>> Stashed changes
         let attempt = 0;
         while (attempt < retries) {
             try {
@@ -138,11 +134,7 @@ const placeBet = async (iframe, winCount) => {
                 attempt++;
                 if (attempt < retries) {
                     // Add randomness to the delay between retries
-<<<<<<< Updated upstream
                     const randomDelay = baseDelay - Math.random() * 999; // Adjust range as needed
-=======
-                    const randomDelay = baseDelay + Math.random() * 793; // Adjust range as needed
->>>>>>> Stashed changes
                     await sleep(randomDelay); // Wait before retrying
                 }
             }

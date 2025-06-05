@@ -43396,3 +43396,483 @@
 [2024-12-06T10:46:16.849Z] Insufficient balance to place a bet.
 [2024-12-06T10:46:16.858Z] Insufficient balance to place a bet.
 >>>>>>> Stashed changes
+[2025-06-05T16:53:27.277Z] Navigated to https://betting.co.zw/authentication/login
+[2025-06-05T16:53:40.137Z] Logged in successfully.
+[2025-06-05T16:53:44.577Z] Navigated to https://betting.co.zw/virtual/fast-games
+[2025-06-05T16:53:44.741Z] Aviator game loaded.
+[2025-06-05T16:53:46.471Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:53:49.492Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:53:52.554Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:53:52.555Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:53:52.560Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:54:41.356Z] Navigated to https://betting.co.zw/authentication/login
+[2025-06-05T16:54:43.161Z] Logged in successfully.
+[2025-06-05T16:54:47.907Z] Navigated to https://betting.co.zw/virtual/fast-games
+[2025-06-05T16:54:48.072Z] Aviator game loaded.
+[2025-06-05T16:54:49.466Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:54:52.535Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:55:55.561Z] Navigated to https://betting.co.zw/authentication/login
+[2025-06-05T16:55:57.564Z] Logged in successfully.
+[2025-06-05T16:56:02.310Z] Navigated to https://betting.co.zw/virtual/fast-games
+[2025-06-05T16:56:02.467Z] Aviator game loaded.
+[2025-06-05T16:56:03.896Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:06.937Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:09.946Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:09.949Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:09.958Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:12.964Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:15.967Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:15.967Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:15.970Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:18.973Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:21.978Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:21.978Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:21.981Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:24.986Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:28.013Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:28.014Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:28.027Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:31.033Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:34.038Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:34.039Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:34.045Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:37.050Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:40.062Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:40.063Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:40.067Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:43.082Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:46.100Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:46.101Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:46.105Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:49.115Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:52.134Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:52.137Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:52.152Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:55.163Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:58.193Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:56:58.195Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:56:58.206Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:01.217Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:04.222Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:04.223Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:04.233Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:07.249Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:10.256Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:10.258Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:10.268Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:13.297Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:16.316Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:16.317Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:16.321Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:19.339Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:22.352Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:22.353Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:22.356Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:25.370Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:28.383Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:28.383Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:28.386Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:31.399Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:34.425Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:34.428Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:34.436Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:37.449Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:40.512Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:40.514Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:40.527Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:43.536Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:46.551Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:46.552Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:46.558Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:49.565Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:52.583Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:52.584Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:52.588Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:55.591Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:58.603Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:57:58.604Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:57:58.607Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:01.620Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:04.637Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:04.638Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:58:04.644Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:07.666Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:10.670Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:10.671Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:58:10.676Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:13.687Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:16.701Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:16.702Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:58:16.706Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:19.720Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:22.738Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:22.740Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:58:22.755Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:25.761Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:28.783Z] [Retry 3] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:28.784Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:58:28.787Z] [Retry 1] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:31.795Z] [Retry 2] Error: Error: failed to find element matching selector "span.amount.font-weight-bold"
+[2025-06-05T16:58:42.441Z] Navigated to https://betting.co.zw/authentication/login
+[2025-06-05T16:58:44.355Z] Logged in successfully.
+[2025-06-05T16:58:49.215Z] Navigated to https://betting.co.zw/virtual/fast-games
+[2025-06-05T16:58:49.356Z] Aviator game loaded.
+[2025-06-05T16:58:50.880Z] [Retry 1] Error: Error: failed to find element matching selector "span.balance-amount"
+[2025-06-05T16:58:53.921Z] [Retry 2] Error: Error: failed to find element matching selector "span.balance-amount"
+[2025-06-05T16:58:56.929Z] [Retry 3] Error: Error: failed to find element matching selector "span.balance-amount"
+[2025-06-05T16:58:56.932Z] Error during betting process: Failed after maximum retries.
+[2025-06-05T16:58:56.940Z] [Retry 1] Error: Error: failed to find element matching selector "span.balance-amount"
+[2025-06-05T16:58:59.959Z] Exponential strategy chosen. Bet amount: 0.00
+[2025-06-05T16:59:00.007Z] Bet placed.
+[2025-06-05T16:59:00.009Z] Cashout attempt 1...
+[2025-06-05T16:59:00.017Z] Cashout attempt 1 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:00.944Z] Cashout attempt 2...
+[2025-06-05T16:59:00.948Z] Cashout attempt 2 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:01.819Z] Cashout attempt 3...
+[2025-06-05T16:59:01.823Z] Cashout attempt 3 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:03.189Z] Cashout attempt 4...
+[2025-06-05T16:59:03.196Z] Cashout attempt 4 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:04.033Z] Cashout attempt 5...
+[2025-06-05T16:59:04.039Z] Cashout attempt 5 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:04.992Z] Cashout attempt 6...
+[2025-06-05T16:59:05.001Z] Cashout attempt 6 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:06.047Z] Cashout attempt 7...
+[2025-06-05T16:59:06.055Z] Cashout attempt 7 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:07.815Z] Cashout attempt 8...
+[2025-06-05T16:59:07.825Z] Cashout attempt 8 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:09.237Z] Cashout attempt 9...
+[2025-06-05T16:59:09.244Z] Cashout attempt 9 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:10.568Z] Cashout attempt 10...
+[2025-06-05T16:59:10.577Z] Cashout attempt 10 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:12.352Z] Cashout attempt 11...
+[2025-06-05T16:59:12.355Z] Cashout attempt 11 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:14.032Z] Cashout attempt 12...
+[2025-06-05T16:59:14.037Z] Cashout attempt 12 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:15.012Z] Cashout attempt 13...
+[2025-06-05T16:59:15.018Z] Cashout attempt 13 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:15.019Z] Error during cashout process: Failed to cash out after 13 attempts.
+[2025-06-05T16:59:15.030Z] Exponential strategy chosen. Bet amount: 0.00
+[2025-06-05T16:59:15.087Z] Bet placed.
+[2025-06-05T16:59:15.090Z] Cashout attempt 1...
+[2025-06-05T16:59:15.093Z] Cashout attempt 1 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:16.722Z] Cashout attempt 2...
+[2025-06-05T16:59:16.728Z] Cashout attempt 2 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:18.299Z] Cashout attempt 3...
+[2025-06-05T16:59:18.303Z] Cashout attempt 3 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:19.263Z] Cashout attempt 4...
+[2025-06-05T16:59:19.291Z] Cashout attempt 4 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:20.739Z] Cashout attempt 5...
+[2025-06-05T16:59:20.743Z] Cashout attempt 5 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:22.157Z] Cashout attempt 6...
+[2025-06-05T16:59:22.160Z] Cashout attempt 6 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:23.349Z] Cashout attempt 7...
+[2025-06-05T16:59:23.382Z] Cashout attempt 7 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:24.299Z] Cashout attempt 8...
+[2025-06-05T16:59:24.303Z] Cashout attempt 8 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:25.575Z] Cashout attempt 9...
+[2025-06-05T16:59:25.579Z] Cashout attempt 9 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:26.728Z] Cashout attempt 10...
+[2025-06-05T16:59:26.734Z] Cashout attempt 10 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
+[2025-06-05T16:59:28.478Z] Cashout attempt 11...
+[2025-06-05T16:59:28.596Z] Cashed out successfully.
+[2025-06-05T16:59:28.608Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.616Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.626Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.637Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.643Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.655Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.660Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.671Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.676Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.688Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.693Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.704Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.709Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.721Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.727Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.738Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.744Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.756Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.762Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.772Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.778Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.789Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.794Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.805Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.811Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.822Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.827Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.838Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.844Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.857Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.862Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.873Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.878Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.891Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.896Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.908Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.913Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.924Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.929Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.941Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.946Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.957Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.962Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.973Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.979Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.990Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:28.995Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.009Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.022Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.027Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.039Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.044Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.055Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.060Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.074Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.082Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.091Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.096Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.107Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.113Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.124Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.131Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.141Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.146Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.158Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.163Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.174Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.182Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.192Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.203Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.209Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.221Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.227Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.238Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.244Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.255Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.260Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.272Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.277Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.288Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.293Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.304Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.310Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.322Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.327Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.338Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.344Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.355Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.360Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.371Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.376Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.406Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.419Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.427Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.437Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.442Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.447Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.455Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.460Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.469Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.474Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.478Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.487Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.491Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.496Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.505Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.510Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.518Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.524Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.528Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.536Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.543Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.553Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.558Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.562Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.573Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.577Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.587Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.592Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.596Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.608Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.612Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.623Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.627Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.639Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.645Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.656Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.660Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.671Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.675Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.681Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.690Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.694Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.704Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.709Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.714Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.724Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.728Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.739Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.743Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.749Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.758Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.762Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.773Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.778Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.788Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.793Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.803Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.807Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.811Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.822Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.827Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.836Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.841Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.845Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.856Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.860Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.870Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.875Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.884Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.890Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.894Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.902Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.907Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.911Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.920Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.925Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.929Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.938Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.942Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.951Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.957Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.961Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.970Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.974Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.978Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.987Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.992Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:29.996Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.005Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.009Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.019Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.024Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.028Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.037Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.042Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.045Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.055Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.059Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.064Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.072Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.077Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.087Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.091Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.096Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.104Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.108Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.113Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.122Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.127Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.136Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.141Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.144Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.154Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.158Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.162Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.170Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.174Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.178Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.186Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.190Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.194Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.203Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.208Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.212Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.220Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.226Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.237Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.242Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.248Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.255Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.260Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.268Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.273Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.278Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.287Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.292Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.298Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.305Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.310Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.318Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.323Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.327Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.336Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.341Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.345Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.353Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.358Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.362Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.372Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.384Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.389Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.394Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.403Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.408Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.412Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.422Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.427Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.436Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.441Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.445Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.456Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.460Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.471Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.475Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.479Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.490Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.503Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.508Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.512Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.522Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.527Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.534Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.541Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.546Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.555Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.560Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.567Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.573Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.577Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.586Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.591Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.595Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.604Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.608Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.612Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.621Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.625Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.629Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.638Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.642Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.646Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.655Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.659Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.663Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.672Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.676Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.684Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.689Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.693Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.698Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.706Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.710Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.719Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.723Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.729Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.738Z] Insufficient balance to place a bet.
+[2025-06-05T16:59:30.760Z] Exponential strategy chosen. Bet amount: 0.00
+[2025-06-05T16:59:30.822Z] Bet placed.
+[2025-06-05T16:59:30.832Z] Cashout attempt 1...
+[2025-06-05T16:59:30.837Z] Cashout attempt 1 failed: No element found for selector: button.btn.btn-warning.cashout.ng-star-inserted
